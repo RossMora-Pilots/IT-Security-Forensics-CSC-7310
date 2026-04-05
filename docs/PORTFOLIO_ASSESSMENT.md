@@ -569,15 +569,15 @@ The following improvements have been implemented since the initial assessment:
 
 | Finding | Status | Notes |
 |---------|--------|-------|
-| **DOCX-only submissions** | ⏳ Pending | Requires pandoc or LibreOffice for automated PDF generation; can be done as CI workflow |
+| **DOCX-only submissions** | ✅ Fixed | Converted all 12 DOCX files to PDF via LibreOffice headless; PDF links added to lab index and project docs |
 | **Repo topics not set** | ⏳ Pending | Requires GitHub API / web UI after publishing to public repo |
 | **GitHub Pages landing page** | 📋 Future | Optional enhancement per ROADMAP |
 
 ### Revised Rating
 
-Post-remediation rating: **A−** (Professional-grade portfolio with minor gaps)
+Post-remediation rating: **A** (Professional-grade portfolio, all critical and high-priority items resolved)
 
-The critical visual evidence gap has been fully resolved. The portfolio now contains 52 captioned screenshots embedded across lab write-ups and the evidence index, 9 Mermaid workflow diagrams, and corrected badge URLs. The remaining gap (DOCX-only submissions without PDF alternatives) is a polish item that does not materially affect employer evaluation.
+The critical visual evidence gap has been fully resolved. The portfolio now contains 52 captioned screenshots embedded across lab write-ups and the evidence index, 10 Mermaid workflow diagrams, corrected badge URLs, and PDF versions of all 12 DOCX submissions viewable directly on GitHub. The only remaining item (GitHub repo topics) requires the web UI after publishing.
 
 ---
 

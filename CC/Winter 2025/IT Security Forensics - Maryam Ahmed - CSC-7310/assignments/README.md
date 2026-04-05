@@ -3,19 +3,19 @@
 Seven NDG Forensics v2 labs completed over Winter 2025. Each lab pairs:
 
 - **NDG Instructions** (PDF) — the lab curriculum from Network Development Group
-- **Submission** (DOCX) — the student's completed lab write-up with screenshots, answers, and analysis
+- **Submission** (DOCX + PDF) — the student's completed lab write-up with screenshots, answers, and analysis
 
 | # | Lab | Week | Topic | Lab PDF | Submission |
 |---|---|---|---|---|---|
-| 1 | Lab 21 | Week 2 | Chain of Custody | [PDF](Lab-21-Chain-of-Custody-NDG-Instructions.pdf) | [DOCX](Lab-21-Chain-of-Custody-Submission.docx) |
-| 2 | Lab 01 | Week 4 | Creating a Forensic Image | [PDF](Lab-01-Creating-Forensic-Image-NDG-Instructions.pdf) | [DOCX](Lab-01-Creating-Forensic-Image-Submission.docx) |
-| 3 | Lab 10 | Week 6 | Steganography | [PDF](Lab-10-Steganography-NDG-Instructions.pdf) | [DOCX](Lab-10-Steganography-Submission.docx) |
-| 4 | Lab 09 | Week 7 | Recycle Bin Forensics | [PDF](Lab-09-Recycle-Bin-Forensics-NDG-Instructions.pdf) | [DOCX](Lab-09-Recycle-Bin-Forensics-Submission.docx) |
-| 5 | Lab 04 | Week 9 | Windows Registry Forensics | [PDF](Lab-04-Registry-Forensics-NDG-Instructions.pdf) | [DOCX](Lab-04-Registry-Forensics-Submission.docx) |
-| 6 | Lab 16 | Week 10 | Mobile Forensics | [PDF](Lab-16-Mobile-Forensics-NDG-Instructions.pdf) | [DOCX](Lab-16-Mobile-Forensics-Submission.docx) |
-| 7 | Lab 17 | Week 12 | Log Capturing & Interpretation | [PDF](Lab-17-Log-Capturing-NDG-Instructions.pdf) | [DOCX](Lab-17-Log-Capturing-Submission.docx) |
+| 1 | Lab 21 | Week 2 | Chain of Custody | [PDF](Lab-21-Chain-of-Custody-NDG-Instructions.pdf) | [DOCX](Lab-21-Chain-of-Custody-Submission.docx) · [PDF](pdf/Lab-21-Chain-of-Custody-Submission.pdf) |
+| 2 | Lab 01 | Week 4 | Creating a Forensic Image | [PDF](Lab-01-Creating-Forensic-Image-NDG-Instructions.pdf) | [DOCX](Lab-01-Creating-Forensic-Image-Submission.docx) · [PDF](pdf/Lab-01-Creating-Forensic-Image-Submission.pdf) |
+| 3 | Lab 10 | Week 6 | Steganography | [PDF](Lab-10-Steganography-NDG-Instructions.pdf) | [DOCX](Lab-10-Steganography-Submission.docx) · [PDF](pdf/Lab-10-Steganography-Submission.pdf) |
+| 4 | Lab 09 | Week 7 | Recycle Bin Forensics | [PDF](Lab-09-Recycle-Bin-Forensics-NDG-Instructions.pdf) | [DOCX](Lab-09-Recycle-Bin-Forensics-Submission.docx) · [PDF](pdf/Lab-09-Recycle-Bin-Forensics-Submission.pdf) |
+| 5 | Lab 04 | Week 9 | Windows Registry Forensics | [PDF](Lab-04-Registry-Forensics-NDG-Instructions.pdf) | [DOCX](Lab-04-Registry-Forensics-Submission.docx) · [PDF](pdf/Lab-04-Registry-Forensics-Submission.pdf) |
+| 6 | Lab 16 | Week 10 | Mobile Forensics | [PDF](Lab-16-Mobile-Forensics-NDG-Instructions.pdf) | [DOCX](Lab-16-Mobile-Forensics-Submission.docx) · [PDF](pdf/Lab-16-Mobile-Forensics-Submission.pdf) |
+| 7 | Lab 17 | Week 12 | Log Capturing & Interpretation | [PDF](Lab-17-Log-Capturing-NDG-Instructions.pdf) | [DOCX](Lab-17-Log-Capturing-Submission.docx) · [PDF](pdf/Lab-17-Log-Capturing-Submission.pdf) |
 
-> **Note on DOCX files:** Student submissions are retained as DOCX via Git LFS. Convert to PDF via the optional `docx-to-pdf` workflow for viewing directly on GitHub.
+> **Viewing submissions:** PDF versions are provided for direct viewing on GitHub. Original DOCX files (with full formatting and embedded images) are retained via Git LFS.
 
 ---
 

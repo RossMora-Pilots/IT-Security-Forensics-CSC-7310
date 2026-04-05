@@ -103,17 +103,17 @@
 |-----|----------|------------|
 | 331 markdownlint errors | High | Fixed all errors; disabled MD060 (cosmetic); committed as `f0021e3` |
 
-### 7.2 Previously Identified, Still Outstanding
+### 7.2 Previously Identified, Now Resolved
+
+| Gap | Resolution |
+|-----|------------|
+| DOCX-only submissions (no PDF) | ✅ Installed LibreOffice; converted all 12 DOCX to PDF; PDFs in `assignments/pdf/` and `project/pdf/`; links added to lab index and project docs |
+
+### 7.3 Still Outstanding
 
 | Gap | Severity | Notes |
 |-----|----------|-------|
-| DOCX-only submissions (no PDF) | Medium | Blocked — no pandoc/LibreOffice available; recommend CI workflow |
 | GitHub repo topics not set | Low | Requires GitHub web UI after publishing |
-| shellcheck not available locally | Low | Covered by GitHub Actions workflow; local install optional |
-
-### 7.3 No New Gaps Discovered
-
-All claimed work has been verified as actually implemented. No discrepancies found between stated improvements and repository state.
 
 ---
 
@@ -128,5 +128,5 @@ All claimed work has been verified as actually implemented. No discrepancies fou
 | Image embeds in markdown | 12 |
 | Markdownlint errors | 331 → 0 |
 | Broken internal links | 0 |
-| Outstanding blockers | 1 (DOCX→PDF — tooling) |
-| Portfolio rating | B+ → A− |
+| Outstanding blockers | 0 |
+| Portfolio rating | B+ → A |

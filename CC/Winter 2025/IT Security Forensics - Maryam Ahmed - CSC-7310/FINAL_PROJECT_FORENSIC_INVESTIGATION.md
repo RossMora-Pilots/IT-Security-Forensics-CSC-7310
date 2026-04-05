@@ -185,11 +185,11 @@ Located in [`project/`](project/):
 
 | File | Purpose |
 |---|---|
-| [Project-Part-1-Rubric.docx](project/Project-Part-1-Rubric.docx) | Grading criteria from instructor |
-| [Project-Plan.docx](project/Project-Plan.docx) | Student investigation plan |
-| [Project-Requirements.docx](project/Project-Requirements.docx) | Deliverable requirements checklist |
-| [Project-Solution-1.docx](project/Project-Solution-1.docx) | Initial analysis draft |
-| [Project-Solution-2.docx](project/Project-Solution-2.docx) | Refined analysis / final approach |
+| [Project-Part-1-Rubric.docx](project/Project-Part-1-Rubric.docx) · [PDF](project/pdf/Project-Part-1-Rubric.pdf) | Grading criteria from instructor |
+| [Project-Plan.docx](project/Project-Plan.docx) · [PDF](project/pdf/Project-Plan.pdf) | Student investigation plan |
+| [Project-Requirements.docx](project/Project-Requirements.docx) · [PDF](project/pdf/Project-Requirements.pdf) | Deliverable requirements checklist |
+| [Project-Solution-1.docx](project/Project-Solution-1.docx) · [PDF](project/pdf/Project-Solution-1.pdf) | Initial analysis draft |
+| [Project-Solution-2.docx](project/Project-Solution-2.docx) · [PDF](project/pdf/Project-Solution-2.pdf) | Refined analysis / final approach |
 
 ---
 
