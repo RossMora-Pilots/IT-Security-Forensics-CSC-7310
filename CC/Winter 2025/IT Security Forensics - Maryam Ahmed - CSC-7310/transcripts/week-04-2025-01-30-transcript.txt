@@ -1,0 +1,1158 @@
+[maryam.ahmed@cambriancollege.ca] 09:42:56
+Good afternoon, everyone. Why is the class empty today?
+
+[obinna osuala] 09:43:07
+I think we were struggling to get in with the previous link you sent to us.
+
+[KAZEEM OGUNTADE] 09:43:12
+Maybe she's talking about physical class.
+
+[obinna osuala] 09:43:15
+Oh, okay. Okay, I'm sorry.
+
+[maryam.ahmed@cambriancollege.ca] 09:43:16
+Yeah, exactly. The physical. I mean, it was really scary. Then they later thought maybe you might be struggling with the zoom link So that's why I had to… I mean, I was expecting messages to Azra Possibly if you were struggling with the link, I could have received
+
+[maryam.ahmed@cambriancollege.ca] 09:43:33
+An email. I checked my mail there was nothing
+
+[obinna osuala] 09:43:38
+We were actually chatting among ourselves to see ourselves After getting.
+
+[maryam.ahmed@cambriancollege.ca] 09:43:43
+All right. But everything is okay, right? Because I was really scared. I mean, I was worried.
+
+[obinna osuala] 09:43:44
+Yeah. Thank you. Yeah, it's fine.
+
+[maryam.ahmed@cambriancollege.ca] 09:43:49
+Especially the class is really empty like no one the physical class.
+
+[KAZEEM OGUNTADE] 09:44:03
+Online classes win it.
+
+[maryam.ahmed@cambriancollege.ca] 09:44:08
+Yeah, and I'm also expecting this or that same hours to take care of the
+
+[maryam.ahmed@cambriancollege.ca] 09:44:18
+Of the survey. Or possibly, did you guys receive any email regarding the survey?
+
+[KAZEEM OGUNTADE] 09:44:30
+I don't think so.
+
+[maryam.ahmed@cambriancollege.ca] 09:44:36
+I thought there would be shares to carry out the survey but let's
+
+[maryam.ahmed@cambriancollege.ca] 09:45:11
+Here.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:23
+So good morning once again and well welcome to another class.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:28
+I246, digital, four, and six. Finally, some music. You're welcome.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:39
+So the objectives for today's class are to describe certification requirements for computer 4A6 labs.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:46
+Least physical requirements for a crypto forensic lab. Explain the criteria for selecting a visit forensic workstation. Describe components used to build a business case for developing a forensic lab.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:58
+So basically we want to look at the methods and labs of digital forensic so that's What we really want to look into.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:08
+Understanding forensics lab certification requirements
+
+[maryam.ahmed@cambriancollege.ca] 09:46:14
+In our previous class, we talked about the importance of having a dedicated computer foreclub.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:21
+For conducting investigation and also for storing our evidence. So the role for the American Society of Crime Laboratory Directors These are the people, the body that provides guidelines for managing the lab.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:38
+Acquiring an official certification and auditing lab functions and procedures. So they look at the managing of the lab. It has to be well-defined procedures, processes for evidence handling.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:53
+Data preservation and analysis. Then acquiring an official certification, they assure that the forensic lab can pursue certification from organizations Like the ACOD to demonstrate their adherence to industry standards and best practices.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:09
+And then the auditing lab functions and procedures they carry out regular audits to ensure that a forensic club operates efficiently effectively and in compliance with the established protocols.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:25
+So there are key responsibilities for the lab manager and the stuff so the lab manager has his own dedicated duties and the other staff staff members also have their duties.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:39
+That's how well split it so for the mob manager duties is his duty to set up the processes for managing the cases.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:48
+So they're responsible for developing and implementing efficient case management processes.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:55
+They have to be the one to define the protocols for evidence intake, the assignments of cases to investigators.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:03
+Tracking case progress, how far are they going on each cases and ensure timely completion of investigations. As much as we might not be able to determine how soon an investigation is going to be concluded but I mean, they are able to manage it through the whole process and possibly suggest
+
+[maryam.ahmed@cambriancollege.ca] 09:48:25
+Is scheduled for the progress then the promote group processes in decision making they collaborate with other team members in the forensic club while making decisions So communication is very important as a leader you know you just don't make a decision directly. Lots of importance of having a consensus.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:48
+It motivates your followers to also be part of the process when they are part of the decision making rather than you make a decision you just tell them do this But if they understand the why of the why of what they are doing, then it motivates them better. They understand the risk involved they understand the litigation that might come up if
+
+[maryam.ahmed@cambriancollege.ca] 09:49:09
+Things are not done properly. Then enforce ethical standards among lab staff members. So after decision making and we've all decided these are the ethical standards that needs to be followed. Then it's also the duty of the lab manager to enforce the statutical standards
+
+[maryam.ahmed@cambriancollege.ca] 09:49:27
+Plan updates for the lab, establish and promote quality assurance processes and a set reasonable production schedules estimates how many cases an investigator can handle.
+
+[maryam.ahmed@cambriancollege.ca] 09:49:47
+Dame. We've already talked about you know the understanding process and they understand the progress how you should so they know what is the expected time or they could estimate the expected time you know plus and minuses it will not be very exact but at least
+
+[maryam.ahmed@cambriancollege.ca] 09:50:04
+It gives an approximate an expectation so create and monitor lab policies for staff so they create the lab policies and they also monitor these policies and provide a safe and secure workplace for staff and the evidence.
+
+[maryam.ahmed@cambriancollege.ca] 09:50:23
+The safety of the employees is also crucial.
+
+[maryam.ahmed@cambriancollege.ca] 09:50:29
+In forensic lab and of course the safety of the everyday students very important. And for the staff members their duties basically is knowledge and training They have to have the basic knowledge they're expected to have a strong foundation of knowledge and training in different areas
+
+[maryam.ahmed@cambriancollege.ca] 09:50:53
+Including the hardware soft tray, and forensic investigation. They should be very familiar with different operating system and that is why you know in any forensic class, we always have to talk about different operating systems because in the real world.
+
+[maryam.ahmed@cambriancollege.ca] 09:51:08
+You'll be dealing with different operating systems. So forensic in windows forensic and willy knox For instance, in Mac OS, in mobile phones.
+
+[maryam.ahmed@cambriancollege.ca] 09:51:18
+In web environments with emails you know anything that's goes through the traffic, communication traffic then we should expect that our forensic might have to take place.
+
+[maryam.ahmed@cambriancollege.ca] 09:51:30
+So we need to understand different operating systems, the file types and how they work.
+
+[maryam.ahmed@cambriancollege.ca] 09:51:35
+Inductive reasoning because that's where the analysis comes in So they have to have the general knowledge of deductive reasoning, how you are able to bring out some logical points from your analysis so you might be able to see certain things though most of the deductive reasoning usually comes from experience.
+
+[maryam.ahmed@cambriancollege.ca] 09:51:57
+You know, someone who, I mean, the more experience you have the more you collaborate with other people who have better experience, the more you are involved in workshops it would always help in deductive reasoning.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:15
+Then technical training. Is also very pertinent technical training in the soft trade the forensic tools What tools do you need to use at the particular time the data recovery tool, the different evidence analysis tools that could be used.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:31
+So these are part of what the staff members need to equip themselves with. Then investigative skills they need to possess investigative skills to effectively conduct forensic examination and foremost bring out conclusions that are meaningful.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:52
+Talked about deductive reasoning so the work is reviewed regularly by the lab manager
+
+[maryam.ahmed@cambriancollege.ca] 09:53:06
+Love Budget Planning.
+
+[maryam.ahmed@cambriancollege.ca] 09:53:10
+Who should be in charge of this lab budget?
+
+[maryam.ahmed@cambriancollege.ca] 09:53:20
+It's tough. Oh, the love of my nature.
+
+[maryam.ahmed@cambriancollege.ca] 09:53:30
+The lab manager so the lab manager should be in charge of the lab budgets planning anything that has to do with planning the management the love manager is a challenge. So they break down the cost down into daily, quarterly and
+
+[maryam.ahmed@cambriancollege.ca] 09:53:45
+Anal expresses the cost of these you have to consider would include the hardware the software facility trainees, you know, trainees very pertinent because things change you know when it comes to it Things are changing. You need to learn. You need to collaborate with other people
+
+[maryam.ahmed@cambriancollege.ca] 09:54:04
+You know so know what is going on.
+
+[maryam.ahmed@cambriancollege.ca] 09:54:10
+And estimate the number of computer cases your lab experts to determine, to examine, identify the types of computers you are likely to are examining.
+
+[maryam.ahmed@cambriancollege.ca] 09:54:20
+So based on your past experiences based on the historical data and the caseload traits.
+
+[maryam.ahmed@cambriancollege.ca] 09:54:27
+So you know what are the expected number of cases are likely to receive possibly within the year. So if possibly you've always had at a time you've always had maybe maximum of three cases their wide by 10 computers, 10 forensic club right but if possibly in the previous year you've had cases of you having uh
+
+[maryam.ahmed@cambriancollege.ca] 09:54:53
+10 pieces and you only have five forensic computers at a time right so definitely in your next budget you might have to look into it that you need to get in more computer then take into account the changes in technology this is also very pertinent technology keeps changing we can't help that
+
+[maryam.ahmed@cambriancollege.ca] 09:55:12
+So that would also determine the type of computers you need to buy or the type of resources you need to get, the type of software each day we keep getting new softwares, right?
+
+[maryam.ahmed@cambriancollege.ca] 09:55:27
+No thanks to AI. Ai has been implemented in almost everything now so just even when it comes to forensic There are now AI tools.
+
+[maryam.ahmed@cambriancollege.ca] 09:55:38
+That could better do the job than the normal software tools that we were using. So you have to keep looking at the trend and see how far AI has also influenced whatever you are doing and wherever field you find yourself.
+
+[maryam.ahmed@cambriancollege.ca] 09:55:54
+So use statistics to determine what kind of computer crimes are more likely to occur. So where do you get your statistics from?
+
+[maryam.ahmed@cambriancollege.ca] 09:56:08
+So you can look at it online. There are some websites that could easily help and understand what are the trends then I can't emphasize this enough, collaboration news from other organizations, other forensic organizations so they have some of them are able to publish their yearly news
+
+[maryam.ahmed@cambriancollege.ca] 09:56:32
+You know they might not give details into the cases but at least it would let you have an insight into the type of cases that is more prevalent in your environment.
+
+[maryam.ahmed@cambriancollege.ca] 09:56:44
+Bing. Use this information to plan ahead your complimentary parameter and cost.
+
+[maryam.ahmed@cambriancollege.ca] 09:56:52
+So another place we could check our statistics is from this website As for the every eye.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:00
+Check statistics from the Uniform Crime Report. So I need to fight the crimes that are commonly committed using specialized software.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:10
+So… we're setting up the lab for a very coupling you need to check the hardware and software inventory of that organization what kind of software do you have what type of Android do you use in that organization Because most likely that would help you let you know the kind of computer you would
+
+[maryam.ahmed@cambriancollege.ca] 09:57:29
+You'll be looking into problems reported last year, future development in computer technology.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:36
+And yes, in whatever thing you're doing time management is key. You know.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:44
+People are waiting for you to get the results people wonder conclusion after analysis we are not interested in in how the process went and how many people you have to talk to but yeah are you sure you've not finalized you know
+
+[maryam.ahmed@cambriancollege.ca] 09:58:02
+This investigation they just want to just So sign language is a critical factor and you have to look at the software and hardware that would make things easy for you and you know make the whole process faster.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:24
+Here's an example of the uniform Crime Report Statistics.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:35
+How we see the contents of this?
+
+[maryam.ahmed@cambriancollege.ca] 09:58:41
+If we can.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:46
+Can we look at it and tell what crime do you think is most common in this particular period
+
+[Daniel Nii Boi Quartey] 09:59:23
+Marcine theft.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:25
+Lastly, tips. So lastly tipped. And the list we have here is
+
+[maryam.ahmed@cambriancollege.ca] 09:59:39
+What is the least
+
+[Daniel Nii Boi Quartey] 09:59:42
+The least is hidden up in the dash.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:46
+I always say that about every environment
+
+[Daniel Nii Boi Quartey] 09:59:50
+No.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:55
+If we look at it, I mean… And that is why you would say that what is actually prevalent in one environment might not be prevalent in another place.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:05
+If kidnapping and abduction is just suitcases you know during this period. We know some places this might be one of the
+
+[maryam.ahmed@cambriancollege.ca] 10:00:18
+Highest crime that has been committed right in fact it might be more than the motor vehicle theft whatever I, you know, type fun and all this but In this particular place, in this particular location this statistics would actually help
+
+[maryam.ahmed@cambriancollege.ca] 10:00:36
+In knowing where the needle puts in their resources more. So we can't actually use, why I want to draw out here is We can't use the statistics of a particular location to determine what is prevalent in another location so this can only be used for
+
+[maryam.ahmed@cambriancollege.ca] 10:00:53
+The United States.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:02
+Acquiring certification and training. Yeah, we've always been asking what certification can we go for when it comes to digital forensic.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:19
+With certification and of course training it helps us to stay updated with the necessary skills and knowledge in the field of computer investigations.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:29
+And we have International Association of Capitol Investigative Specialists It's an organization that offers certification and training opportunities for individuals involved in computer investigation.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:43
+So share the two… certifications that they have they have the certified electronic evidence collection specialist and certified forestic compulatory examiners.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:57
+Yes, some of these certifications are not open for you and I when it comes to forensics. They are more for the police officers.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:07
+Okay, so this is actually created by police officers who wanted to formalize credentials in competing investigations.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:18
+So if they could go for things like this. Some you might be able to go for the exam But… you might not have the certification.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:30
+So you might have passed the exam of certified forensic because you don't have that police experience
+
+[maryam.ahmed@cambriancollege.ca] 10:02:44
+Then we have the iTech Crime Network, HTCN.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:00
+What's strange.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:06
+So shall I get two certifications are offered by this body certified computer crime investigator basic and advanced level So basic requests, three years of experience and 10 cases so we also have the certified computer forensic technician basic and advanced level.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:31
+So for the other one is designed to validate the skills and knowledge of professionals in the field of computer crime investigation so So at the basic level, then individuals are typically required to have at least three years of relevant experience and
+
+[maryam.ahmed@cambriancollege.ca] 10:03:50
+They must have worked in a minimum of 10 computer crime cases.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:58
+So at the end of this most of these would always ask for and experience.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:04
+So these are the ones we can do. Without the police experience.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:10
+So these other certifications are available without police experience so we have the NKAS certified examiner.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:18
+Certification where we have access that are certified examiner certification and other training and certifications that like AI technology crime investigation.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:30
+We also have the science. Caesar had made her network security institute they also have some certifications under this body the encryption technology investigators network new technology southeast cybercrime institute in federal law enforcement training center national white scholar Prime Center.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:53
+For people, if I'm going to… advise anyone. The ones I know that are well acceptable for people without certification and now you go for this ace the access that are certified examiner certification then for people that of this police experience.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:12
+They can go for the cf CE, Certified Forensic computer examiner.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:27
+Cybersecurity forensic and analyst certification offered by Steve Harley's company in Washington, Houston.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:35
+Focus on computer cybersecurity forensic analysis And it was the education and analysis of digital evidence.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:45
+Willie Title save our crime and security incidents. So this is actually very practical It's not just writing an exam.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:56
+So 70% of the grade is based on practical exam you will be given a case and you are giving three days to complete that case.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:08
+So… they would expect you to present all your investigations your analysis after this case so during this time candidates are giving a case to investigate they have to complete the necessary steps Such as evidence accusation, analysis, reporting within this particular time frame so it simulates the time sensitive nature of real world forensic investigation because it also infer in the real life scenario too there are cases that you will be given time limits. You need to work with time.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:49
+Okay, so this is actually bringing out that experience that if you are able to complete I mean, a case within… Within three days, then it's a good sign.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:05
+So if you have enough experience, this is also a very good one.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:13
+Yeah, I already talked about this, that yes, the things I would recommend, the access data certified examiner. It's one I would recommend for people without experience.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:25
+People without the police experience, then if you have the police experience that you can go for CSFA.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:38
+Ocsfe.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:44
+So that is about this certification now let's look at the physical requirements for computer forensics lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:57
+So the lab is What?
+
+[maryam.ahmed@cambriancollege.ca] 10:08:07
+Who's this.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:12
+So the lab is a primary location where investigations are conducted and it is essential to ensure that this lab is secure to prevent any loss, corruption or destruction of every day.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:30
+So a secure environment is very important to maintain the integrity of our evidence and that to ensure proper chain of custody procedure at least now we know what the chain of custody looks like and we know how to prepare the chain of custody
+
+[maryam.ahmed@cambriancollege.ca] 10:08:52
+So most of our investigations will always be done in the lab And basically, we just want to ensure that The place is kept safe enough I want to ensure the safety the security, the inventory control, who goes in, who comes out, right? You want to keep track of
+
+[maryam.ahmed@cambriancollege.ca] 10:09:12
+Is not just an open place. That anybody could go in and out.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:17
+So keep inventory control of your assets know when to order for more supplies.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:25
+Preserve the integrity of preserve the integrity of evidence data. That's one of the major needs What we need with our forensic lab And the minimum requirement here is to have a small room We drew floor to ceiling.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:44
+Was just in a small room and a door access with a locking mechanism and you need a secure container for your evidence and you need to keep a log or your visitor who comes in at each time so if anyone comes in at a particular time
+
+[maryam.ahmed@cambriancollege.ca] 10:10:01
+You know they fill in the blog book then go out to fill in the love book so you know who comes in if anything gets missing at a time you can easily you can easily be trapped.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:12
+So people working together should have same access level. So people who are working together should have the same access level it will help you to maintain consistency in the security protocols.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:29
+And it would prevent any vulnerabilities that can come up with varying access level.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:37
+So it is also important to regularly brief the staff about the lab security policy forget about the fact that they know is not enough that they know. We have to keep reminding These are the policies. Remember, you need to lock this. Remember, have you done this? So, I mean, the reindeer is always beautiful. Conducting high-risk investigations. Of course, with high-risk investigations calls for more security
+
+[maryam.ahmed@cambriancollege.ca] 10:11:15
+And we want to provide confidentiality of information you want to prevent eavesdropping right i mean you want to maintain the confidentiality of the information you want to prevent eavesdropping So, I… So ensure that you have one of the safest environment you could use what you call the tempest facilities
+
+[maryam.ahmed@cambriancollege.ca] 10:11:39
+So the tempest facilities are designed to be electromagnetically shielded prevented the emission of electromagnetic radiation.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:48
+That could potentially be intercepted and used to gather information so Basically, it is EMR.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:58
+So it is important for you to know that Tempest facilities can be quite expensive So you might not be able to use it for all In all cases, you would have to use it when you are conducting high-risk investigations and of course you had looked at your budget and
+
+[maryam.ahmed@cambriancollege.ca] 10:12:19
+You think, I mean, it's worth it so as an alternative you can use a low emanation workstations So these workstations are designed to minimize the emulation of electromagnetic signals, reducing the risk of eavesdropping so it doesn't provide the same level of security as Tempest facilities
+
+[maryam.ahmed@cambriancollege.ca] 10:12:45
+However, they provide a more cost-effective solution for mitigating such risk.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:56
+Using evidence containers, very important. In your lab you have to have the evidence containers So this evidence continues are also known as the evidence lockers.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:09
+To securely stop and protect your evidence during investigations.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:15
+To serve as your secure storage as a secure storage unit for preserving the integrity of the evidence and assuring that only authorized him with the individuals can access it.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:31
+So to maintain the security of the evidence. We have to ensure that you locate the evidence container in a restricted area.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:42
+Your container has to be in a restricted area so they should be placed in a place that is only accessible to authorized personnel. It's not open to everyone.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:54
+So they can be in a secured room or a separate section within a larger facility then limit number of authorized people to access the container.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:06
+Only very limited people should have access to the evidence container and it will help us to limit the risk of unauthorized individuals our temporary width or compromising the evidence.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:20
+Then maintain records on who is authorized to.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:26
+Access each container so that's the log we have to have a log you know record of who has it who has access to heat the chain of custody and all that would help us to keep track of this and containers should remain locked
+
+[maryam.ahmed@cambriancollege.ca] 10:14:44
+When not in use the only time your container is not a place to keep going No, I just want to see the evidence. Is it still there? So we only go there when we when we want to use it.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:58
+So it adds an extra layer of security to
+
+[maryam.ahmed@cambriancollege.ca] 10:15:07
+So if a combination logging system is used.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:13
+You have to provide the same level of security for the combination as for the containers content.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:21
+What do we mean by this? If you're using a combination of of luck.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:31
+Okay every log should be given the same level of security for example if i have it's just like having this room and something is being kept in the room.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:42
+I'm trying to protect that thing in the room What about the key to this room?
+
+[maryam.ahmed@cambriancollege.ca] 10:15:49
+Okay, so the key itself is just as important as What I'm trying to protect. So I have to provide the same level of security for the combination of the containers content with the locking system so the locking system is just as important as what you are protecting itself
+
+[maryam.ahmed@cambriancollege.ca] 10:16:09
+So destroy any previous combinations after setting up a new combination if you're using an old key you got a new one destroy the old one.
+
+[maryam.ahmed@cambriancollege.ca] 10:16:19
+Multi-use allow only authorized personnel to change lock combinations. And there has to be a process. You can't just wake up and change the combination of logs.
+
+[maryam.ahmed@cambriancollege.ca] 10:16:31
+Right. So you should be limited to authorized individuals who have the proper authority and training to handle evidence and meeting the security of the container.
+
+[maryam.ahmed@cambriancollege.ca] 10:16:42
+Then change the combination every six months or when required. Don't use the same key for your lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:16:53
+The same key you've been using five years ago is what you are using people who had left the organization who have changed their departments who have you know they still have the key somehow So it has to keep changing.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:07
+So you keep changing the combination.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:13
+So if you are using a keyed padlock you have to appoint a key custodian.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:22
+A trusted individual. Should be the key custodian who is responsible for managing the keys to the evidence container then stamp sequential numbers on each duplicate key you have to assign a unique sequential number to each duplicate key and ensure that it is clearly stamped.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:45
+Or marked on the key so it will help us in tracking and identifying each key individually.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:54
+Then maintain a registry listing which key is assigned to which authorized person.
+
+[maryam.ahmed@cambriancollege.ca] 10:18:01
+So each of the keys has to be assigned to a person and there has to be a registry that keeps track of who is in charge of each of the keys. Conduct a monthly audit Take an inventory of all keys.
+
+[maryam.ahmed@cambriancollege.ca] 10:18:20
+Place keys in a lockable container. Maintain the same level of security for kids just as for the evidence containers. We've talked about that.
+
+[maryam.ahmed@cambriancollege.ca] 10:18:30
+Change logs and keys annoying. So don't use a master key for several looks your forensic lab is not a place to use a master key for yeah makes this easy. In our office, we use the master key for everything. Use it for everything, but not your forensic lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:18:51
+So if you've got, I mean, some labs are different from others So if forexic laborers the confidentiality is is at the high level.
+
+[maryam.ahmed@cambriancollege.ca] 10:19:02
+And it has to be treated that way. So the container should be made of steel should be made up still with an internal cabinet or external padlock and if possible acquire a media safe.
+
+[maryam.ahmed@cambriancollege.ca] 10:19:22
+Protect the evidence from fire damage and you need to build an evidence storage room in your lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:19:30
+So within the lab you can have an evidence storage room or maybe a locker.
+
+[maryam.ahmed@cambriancollege.ca] 10:19:37
+In the lab. So keep an evidence log update it every time And evidence container is operated and closed.
+
+[maryam.ahmed@cambriancollege.ca] 10:19:47
+So they should be locked just like there is a log for the room They should also be a log 40 days.
+
+[maryam.ahmed@cambriancollege.ca] 10:19:55
+So… I'll be stopping here for now and we'll go for 10 minutes break and after that we'll come back to complete the class.
+
+[maryam.ahmed@cambriancollege.ca] 10:20:04
+Any question before we go on break?
+
+[maryam.ahmed@cambriancollege.ca] 10:20:17
+You'll see you every 10 minutes.
+
+[maryam.ahmed@cambriancollege.ca] 10:21:28
+No, you're not serious. That doesn't look like our data at all.
+
+[Daniel Nii Boi Quartey] 10:21:36
+High levels of team therapy
+
+[maryam.ahmed@cambriancollege.ca] 10:21:39
+If you see that of Niger, you will see most of these things as zero.
+
+[Daniel Nii Boi Quartey] 10:21:50
+I actually think it was the joke because I was wondering why it had to do with in U.S.
+
+[maryam.ahmed@cambriancollege.ca] 10:21:59
+Why should we put Nigeria data?
+
+[Sa'id] 10:22:06
+Maybe it's a good way for daniel to know that these statistics can be very funny in US as well.
+
+[Daniel Nii Boi Quartey] 10:22:13
+No, but like clearly where we are, we know that the statistics look like it Because high levels of kidnapping, high levels of they're asking.
+
+[Daniel Nii Boi Quartey] 10:22:27
+My mind went straight to Niger. I was like, is this computer related
+
+[maryam.ahmed@cambriancollege.ca] 10:22:32
+Okay, your mind go to Nigeria where you have your own country You have your whole country. It's like, you will forget you have your own country.
+
+[Feyi] 10:22:34
+The audacity for me. What about your own country?
+
+[Daniel Nii Boi Quartey] 10:22:41
+Oh, no, we would have said statistics. It's highly impossible.
+
+[maryam.ahmed@cambriancollege.ca] 10:22:49
+But it's okay. Don't worry. We can accept you.
+
+[Och Michael] 10:22:50
+Okay. Then I talk about your country, please.
+
+[Daniel Nii Boi Quartey] 10:22:54
+Oh.
+
+[Feyi] 10:22:56
+If you talk about this country.
+
+[Och Michael] 10:23:02
+Almighty Nigeria.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:23
+Right.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:37
+All right, so to continue with our class and once we are done we have to… look into the survey. I'll share the slide for the survey and everything then we do it within take 10 minutes.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:54
+Hopefully don't shine.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:59
+So using evidence containers.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:08
+That's where we stopped.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:19
+What do you mean? And thank you for your message. So sorry I forgot to respond.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:30
+Last week was it so nice for me.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:37
+Overseeing facility maintenance.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:44
+So what are those things that we need to do in maintaining our forensic club, immediately repair physical damages we don't wait until more things are damaged or more fixed.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:58
+Are in the lab facility so frontal repair what is damaged.
+
+[maryam.ahmed@cambriancollege.ca] 10:41:05
+Escorts cleaning crews as the work. Zero trust.
+
+[maryam.ahmed@cambriancollege.ca] 10:41:11
+So the forensic club, yes, has to be cleaned But wing cleaning then you have to escort them, accompany them as as the work so One is you want to be sure that if the cleaning is done properly you want to assure that you want to
+
+[maryam.ahmed@cambriancollege.ca] 10:41:32
+The confidentiality of your evidence you know you don't want to compromise that so minimize the risk of static electricity and how do we minimize the risk by using the anti-static But… Because this static electricity could easily damage our digital
+
+[maryam.ahmed@cambriancollege.ca] 10:41:54
+Device so we need to protect it from static electricity and uh We use this anti-static parts and ensure proper grounding.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:08
+So clean floor and carpets. So all this would help to avoid static electricity.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:14
+Maintain two separate trash containers.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:22
+To manage our waste. It is recommended to have two separate trash containers one for materials that are unrelated to an investigation and another one for sextative.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:36
+Materials so we do not put sensitive material and irrelevant material in the same place.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:42
+So for sensitive material there has to be a procedure to dispose those items.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:48
+So when possible you have to hire specialized companies for disposing sensitive material.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:55
+And because it does also come very cheap you won't want to also dispose your unrelated material together with it.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:03
+So does the sensitive material should go with the couplet. Considering fiscal security needs.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:16
+It creates a security policy. Establish a comprehensive security policy to outline the rules and procedures for maintaining physical security within the forensic lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:29
+And creating the policy is not enough. You have to enforce those policies.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:36
+Signing log for visitors is one way to enforce the policies anyone that is not assigned to the lab is a visitor. So if this is not your official place of work.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:48
+There you are regarded as a ghost. So even in a way the management a visitor to the forensic lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:59
+Because that is not their proper place of work. So it's called home visitors all the time.
+
+[maryam.ahmed@cambriancollege.ca] 10:44:06
+You go with them you don't have to leave them oh no i mean he's my boss so Why should I go with him? No. As long as it is not their place of work, then they are We got it to be visitors. Use visible or audible indicators that a visitor is
+
+[maryam.ahmed@cambriancollege.ca] 10:44:22
+Inside your premises. There should be a badge. That you used to indicate that this is not, I mean, or possibly this is a visitor in our premise is told an attrition alert system.
+
+[maryam.ahmed@cambriancollege.ca] 10:44:39
+That monitors we plug into, who goes out there should be an indicator of you know that gives you a notification.
+
+[maryam.ahmed@cambriancollege.ca] 10:44:49
+That someone is in or someone is out and hire a guard force for your collab.
+
+[maryam.ahmed@cambriancollege.ca] 10:44:55
+Physical security is always very important irrespective of the logical security that we put in place.
+
+[maryam.ahmed@cambriancollege.ca] 10:45:02
+Fiscal security has to be good as well.
+
+[maryam.ahmed@cambriancollege.ca] 10:45:14
+Auditing a computer forensics lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:45:19
+So to audit auditing ensures proper enforcing of policies When he conducts regular audits, it helps to assess the effectiveness of your security policies and procedures within the computer for ASIC lab. Then, audit should include inspecting the ceiling, floor, roof.
+
+[maryam.ahmed@cambriancollege.ca] 10:45:39
+Exterior walls of the lab uh the doors the door locks the visitor looks evidence container logs and are at the end of each one day you have to secure any evidence that is not being processed.
+
+[maryam.ahmed@cambriancollege.ca] 10:45:54
+In a forest city car. Workstation.
+
+[maryam.ahmed@cambriancollege.ca] 10:46:00
+So you have to look at the floor plan. Are you sure there are no leakages? Are you sure there's anything i mean someone playing funny around look at your walls as Sil does, it's my saus.
+
+[maryam.ahmed@cambriancollege.ca] 10:46:14
+You know, you could also try to see how you know our information put how much information could travel how from the forensic club So you keep checking if anything has changed Or possibly there's someone who is using maybe a repeater or something that could transfer information out of the lab. So all these are part of what you keep monitoring auditing is part of auditing.
+
+[maryam.ahmed@cambriancollege.ca] 10:46:52
+Selecting a forensic labs. Workstation.
+
+[maryam.ahmed@cambriancollege.ca] 10:46:59
+So it all depends on how much you have. And also the need. So budget and needs plays a big role when it comes to are choosing your forensic workstation.
+
+[maryam.ahmed@cambriancollege.ca] 10:47:14
+Type of work you want to do would determine if I mean, how much you are ready to invest in the investigation.
+
+[maryam.ahmed@cambriancollege.ca] 10:47:23
+And here's the workstation and also how much you could also afford because there are all these alternatives the alternatives might not be as effective as what you really want but it would still give you it will still lead you to where you're going. So you have to look at it
+
+[maryam.ahmed@cambriancollege.ca] 10:47:42
+Based on your projects and needs. Use less powerful workstations for modern tasks.
+
+[maryam.ahmed@cambriancollege.ca] 10:47:47
+For everyday tasks okay and your dedicated workstation to what dedicated workstation will be for the main forensic process.
+
+[maryam.ahmed@cambriancollege.ca] 10:47:57
+So use multipurpose workstations for high end analysis task.
+
+[maryam.ahmed@cambriancollege.ca] 10:48:06
+So… Select two workstations for police labs.
+
+[maryam.ahmed@cambriancollege.ca] 10:48:13
+Actually, one of the most common places where forensics is being done or is being used is within the police department, the police office or police servers So… I mean a strong workstation in the police lab is also very potent.
+
+[maryam.ahmed@cambriancollege.ca] 10:48:32
+These special interest groups. Si juice are helpful to investigate whole systems like your cpm Commodore.
+
+[maryam.ahmed@cambriancollege.ca] 10:48:42
+So we need to choose the best workstations For this report, the SIG, these people are, the police lab can have cases involving outdated computer systems or technologies. So this SIG focused on systems on the older systems and that they can come
+
+[maryam.ahmed@cambriancollege.ca] 10:49:02
+Give you valuable expertise and resources to assist in the investigation of the investigation any older system.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:12
+So the general rule. In the police department especially is they have one investigator for every 250,000 people in a region.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:27
+So if you have maybe what's the population of Anyone has an idea.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:40
+I went to see how many investigators were likely to have.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:49
+The workload of investigators could vary based on the population size and the number of cases in that particular region. But this general rule is one investigator for every 250,000 people in the region.
+
+[maryam.ahmed@cambriancollege.ca] 10:50:07
+And one multipurpose forensic workstation and one general purpose workstation.
+
+[maryam.ahmed@cambriancollege.ca] 10:50:16
+So to effectively handle the range of investigation in the police lab, it is always recommended to have a combination of workstations, the multipurpose and general purpose workstation so at least in a small police office, you would expect to have at least one multipurpose forestry workstation and one general
+
+[maryam.ahmed@cambriancollege.ca] 10:50:40
+Purpose workstation.
+
+[maryam.ahmed@cambriancollege.ca] 10:50:45
+So selecting workstations for private and corporate slabs.
+
+[maryam.ahmed@cambriancollege.ca] 10:50:51
+Shared the requirements are quite easy too. Determined because you can specialize.
+
+[maryam.ahmed@cambriancollege.ca] 10:50:58
+It's not like the case of the police labs In police labs they have different needs.
+
+[maryam.ahmed@cambriancollege.ca] 10:51:06
+Okay, they have different cases each day. Cases keep… coming up every day but in the case of private and corporate.
+
+[maryam.ahmed@cambriancollege.ca] 10:51:15
+You already have like the type of people you are working with you have workstation inventory you know so the people, I mean, at which you you might want to work with are already kind of limited So that makes it easy to determine.
+
+[maryam.ahmed@cambriancollege.ca] 10:51:31
+The requirements to identify the environment you deal with you have to look at the inventory of of that organization the hardware platform You have to look at the soft trade that they have the type of operating system they are using and all these
+
+[maryam.ahmed@cambriancollege.ca] 10:51:49
+So now that I chose to work on these specified environment based on the information collected.
+
+[maryam.ahmed@cambriancollege.ca] 10:51:58
+Stocking adware peripherals. Certain things you would expect of any lab even when we have our own labs ID cables.
+
+[maryam.ahmed@cambriancollege.ca] 10:52:10
+Used to connect your ID devices like your hard disk drives, your optical drives and other storage devices then ribbon cables for plug floppy disk. As old as floppy this is.
+
+[maryam.ahmed@cambriancollege.ca] 10:52:26
+We might have some investigations that still requires a floppy disk in today's world. So in places like the police department, they still have systems Let's use the floppy disk.
+
+[maryam.ahmed@cambriancollege.ca] 10:52:39
+Because, I mean, any investigation might come up and delete the old system. Then we have the SASI cards.
+
+[maryam.ahmed@cambriancollege.ca] 10:52:50
+So these are the smart computer small system interface cuts used to connect your SESI devices as like your SSI hard drives the tape drives and connect it to the interpreter system.
+
+[maryam.ahmed@cambriancollege.ca] 10:53:05
+Then we have the graphic cards puts your PC high and AGP.
+
+[maryam.ahmed@cambriancollege.ca] 10:53:11
+Now, most of these are just attached to the system. They are all integrated into our system now.
+
+[maryam.ahmed@cambriancollege.ca] 10:53:19
+Then power cords. They have this drives at least 2.5 inch notebook id hard drives.
+
+[maryam.ahmed@cambriancollege.ca] 10:53:27
+Standard ID, eta sata adapter and proprietor had tools So computer and tools like your screwdrivers your pliers your cable testers You know, all these are also very pertinent when you need to possibly hydrate maintenance repairs and troubleshooting why do you need
+
+[maryam.ahmed@cambriancollege.ca] 10:53:52
+All these i mean for hardware maintenance troubleshooting Your computer forensic is not something you easily want to take out too.
+
+[maryam.ahmed@cambriancollege.ca] 10:54:02
+Is stranger. You know, for repairs so little repairs should be done within the organization, you should be able to do some little troubleshooting.
+
+[maryam.ahmed@cambriancollege.ca] 10:54:22
+Maintain licensed copies. Of your soft trade like the microsoft office Quaking.
+
+[maryam.ahmed@cambriancollege.ca] 10:54:32
+Quicken is a popular personal finance management software. Then we have the programming languages depending on the nature of your investigation, you have to maintain a range of programming languages that could be beneficial, like your Python.
+
+[maryam.ahmed@cambriancollege.ca] 10:54:47
+C++, Java, Pearl, the specialized viewers. So these are software tools designed to open and interpret specific file formats.
+
+[maryam.ahmed@cambriancollege.ca] 10:55:00
+The Emperor of his suit that's also common star office and open office peach tree accounting applications so all these are different types of applications the pitch tree is also an accounting application widely used by businesses. So all these need to be updated.
+
+[maryam.ahmed@cambriancollege.ca] 10:55:19
+Keep regular backups.
+
+[maryam.ahmed@cambriancollege.ca] 10:55:25
+Regularly back up your workstation. And your investigation files.
+
+[maryam.ahmed@cambriancollege.ca] 10:55:31
+To protect against data loss. Remember, we've already talked about the bits by bits copying which is what we are going to do in our lab today. Today we'll be creating image of of our evidence.
+
+[maryam.ahmed@cambriancollege.ca] 10:55:46
+So aside from the image, have a regular backup of your system of your workstation So store backups off-site.
+
+[maryam.ahmed@cambriancollege.ca] 10:55:56
+But securely do not store your backup on the same computer do not store your backup on the same network You know, your backup should be stored separately physically and logically from the main system. So be able to restore your workstation and investigation files to their original condition
+
+[maryam.ahmed@cambriancollege.ca] 10:56:20
+We recover from catastrophic situations, virus contamination and reconfigurations. The configuration management keep track of software updates.
+
+[maryam.ahmed@cambriancollege.ca] 10:56:33
+To your workstation.
+
+[maryam.ahmed@cambriancollege.ca] 10:56:38
+Planning for requirement upgrades. Risk management.
+
+[maryam.ahmed@cambriancollege.ca] 10:56:49
+We know what we do when it comes to risk management.
+
+[maryam.ahmed@cambriancollege.ca] 10:56:53
+Analyze our risk. To know how much risk is acceptable for any process or operation.
+
+[maryam.ahmed@cambriancollege.ca] 10:57:00
+So identify equipments your lab depends on so it can be periodically replaced.
+
+[maryam.ahmed@cambriancollege.ca] 10:57:06
+So we try to analyze to see what are the most functional parts of the system.
+
+[maryam.ahmed@cambriancollege.ca] 10:57:13
+And most functional part of the of the lab so that we can always give this the highest priority And just five kilomet you can replace when it fails.
+
+[maryam.ahmed@cambriancollege.ca] 10:57:25
+Meantime to failure, this is when all that comes in. In the meantime to recover, meantime to failure.
+
+[maryam.ahmed@cambriancollege.ca] 10:57:31
+So we have to know what I mean, how that affects our lab and plan with that so if meantime before failure is possibly 18 months.
+
+[maryam.ahmed@cambriancollege.ca] 10:57:44
+Know that between one failure and the other is… maybe your system has a lifetime of about 18 months.
+
+[maryam.ahmed@cambriancollege.ca] 10:57:52
+Then, before 18 months or maybe by 12 months you should be getting prepared to get another system where you back up, right?
+
+[maryam.ahmed@cambriancollege.ca] 10:58:01
+Then compete last 1866 but under normal condition so you should schedule upgrades at least every 18 months And preferably, you don't wait for that 18 months.
+
+[maryam.ahmed@cambriancollege.ca] 10:58:13
+Should be within the 12 months.
+
+[maryam.ahmed@cambriancollege.ca] 10:58:19
+Using laptop forensic workstations creates a lightweight mobile forensic workstation using a laptop PC, firewire port.
+
+[maryam.ahmed@cambriancollege.ca] 10:58:29
+A USB port, PCMCIE. Such a hard disk the laptops are still limited as far as the stations.
+
+[maryam.ahmed@cambriancollege.ca] 10:58:39
+Because to build a strong They are always like a dedicated system so usually it's better you use something like a desktop Just like we hardly use a laptop as our server. So the same thing for dedicated forensic workstation we use the desktop.
+
+[maryam.ahmed@cambriancollege.ca] 10:59:03
+Building a business case. For developing a forensic lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:59:18
+Yes. It can be a problem. Project Broly.
+
+[maryam.ahmed@cambriancollege.ca] 10:59:24
+Because remember, it's just building a budget for forensic in the business is just something, by the way, it's not the main business right if you have a business and somebody is asking you to spend about $10,000 You know, for a sake
+
+[maryam.ahmed@cambriancollege.ca] 10:59:42
+The question will be how much can they still within the business So whereas we have some organizations that are ready to spend as much as $100,000 on their forensic lab right so It's all the points It all depends on how much
+
+[maryam.ahmed@cambriancollege.ca] 11:00:03
+We are looking at here in the business. So when you're planning for a business case.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:08
+Budgeting is always a problem to determine how much you're ready to spend for your on your forensic lab.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:16
+They must treat how the lab will help your organization to save money and increase profits.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:22
+Compare the cost of an investigation with the cost of a lawsuit.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:26
+And that protect intellectual property. Tread secretes and future business plans.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:36
+When preparing a business case for a computer forensic lab.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:43
+The first thing is justification. Justify the need for computer forensic cloud.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:51
+Like I said, it's not the main business. It's just something that wants to save the business.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:58
+So you have to justify, is there any need for building a computer forensic lab. So identify the challenges or the gaps in the organization's current forensic capabilities and are explaining how having a dedicated lab can address those issues.
+
+[maryam.ahmed@cambriancollege.ca] 11:01:16
+So just creation should focus on the potential benefits like improved efficiency increased investigative capacity and enhanced our data security. Then budget development. So you have to look at the facility cost
+
+[maryam.ahmed@cambriancollege.ca] 11:01:36
+The address requirements, the software licenses. And other expenses so it is always important to gather accurate cost estimates from different vendors, suppliers and different sources approval and accusation.
+
+[maryam.ahmed@cambriancollege.ca] 11:01:53
+After you have… After you have all your costs that you have to look into.
+
+[maryam.ahmed@cambriancollege.ca] 11:02:03
+Approval.
+
+[maryam.ahmed@cambriancollege.ca] 11:02:08
+So you have to look into approval. The manic made executives they have to look into the funding, into your budgets and see compare the return on investment they are right and see if this is a necessary expenses that they should go ahead.
+
+[maryam.ahmed@cambriancollege.ca] 11:02:32
+With and once it is approved, the next step would be to implement.
+
+[maryam.ahmed@cambriancollege.ca] 11:02:47
+So accept us tested. So after the business case is approved and the necessary resources are necessary.
+
+[maryam.ahmed@cambriancollege.ca] 11:02:56
+Acquired, you know. More like the implementation stage have started so we have to test and verify that all the components of the computer forensic lab such as the hardware, the soft tray, and the infrastructure are all functioning as intended.
+
+[maryam.ahmed@cambriancollege.ca] 11:03:12
+And they are meeting the defined requirements. Then correction for acceptance. In the process of testing, of acceptance testing, you might have come across different challenges or different faces so this correction for acceptance is… is the period to do the front and back correct anything that needs
+
+[maryam.ahmed@cambriancollege.ca] 11:03:38
+And to be corrected adjust anything that needs to be adjusted and before taking it to the production stage so once the acceptance testing is successfully completed and all necessary corrections are made.
+
+[maryam.ahmed@cambriancollege.ca] 11:03:52
+Then the computer forensic lab is ready for production. That means the lab is fully operational.
+
+[maryam.ahmed@cambriancollege.ca] 11:04:00
+And ready to move on.
+
+[maryam.ahmed@cambriancollege.ca] 11:04:07
+Software and operating system for digital forensics. These are some of the… sub trays that we use during the forensic process We have the entries we have access data ftq we have x-rays and so many other forensic tools That's how I used. So for the egg case it is widely used software suits
+
+[maryam.ahmed@cambriancollege.ca] 11:04:34
+That provides a range of features for data acquisition, analysis, and reporting.
+
+[maryam.ahmed@cambriancollege.ca] 11:04:41
+And it could be used with different file systems that can handle different digital devices and storage media. For Access Data FTK, forensic toolkit this is another very comprehensive forensic software it's has powerful capabilities for acquiring, analyzing digital evidence.
+
+[maryam.ahmed@cambriancollege.ca] 11:05:01
+Similar to what we have in the encase and that the Access Data FTK includes features like the keyword searching file carving and timeline analysis and the x-rays forensic is known for its speed and efficiency in forensic analysis.
+
+[maryam.ahmed@cambriancollege.ca] 11:05:21
+For the operating system For forensic analysis.
+
+[maryam.ahmed@cambriancollege.ca] 11:05:25
+Aside from the soft drink, we have some specific operating systems that are designed for conducting digital forensic investigations under the provide is secure and isolated environment for forensic analysis.
+
+[maryam.ahmed@cambriancollege.ca] 11:05:41
+So we have operating systems like the SIFT, SANS, Investigative Forensic Toolkit. We have the depth digital evidence and forensic Toolkit at CAE.
+
+[maryam.ahmed@cambriancollege.ca] 11:05:50
+Computer eject investigative. Environment.
+
+[maryam.ahmed@cambriancollege.ca] 11:05:55
+So with this, we've come to the end of today's class.
+
+[maryam.ahmed@cambriancollege.ca] 11:06:00
+But before we move on to the lab would have to fill up our survey now.
+
+[maryam.ahmed@cambriancollege.ca] 11:06:07
+Within the next 10 minutes 10 to 15 minutes.
+
+[maryam.ahmed@cambriancollege.ca] 11:06:13
+Hopefully you win the $100. And after that, we move on to our nature for the map.
+
+[maryam.ahmed@cambriancollege.ca] 11:06:41
+Have received an email. Please check your email. You must have received an email on this particular survey.
+
+[maryam.ahmed@cambriancollege.ca] 11:06:53
+And I think you could also find it on your My Cambrian
+
+[maryam.ahmed@cambriancollege.ca] 11:07:11
+You can go to my cambrian and click on a link called Ontario College Student Experience Survey.
+
+[maryam.ahmed@cambriancollege.ca] 11:07:30
+Can we all find that?
+
+[maryam.ahmed@cambriancollege.ca] 11:08:16
+Financially came in.
+
+[maryam.ahmed@cambriancollege.ca] 11:08:26
+What? You should give you the association.
+
+[maryam.ahmed@cambriancollege.ca] 11:08:35
+I don't have it in my drawer I think you should find it some way, shape.
+
+[maryam.ahmed@cambriancollege.ca] 11:08:42
+So on the important note.
+
+[maryam.ahmed@cambriancollege.ca] 11:08:57
+Great student Karen has received it. So please let 10 minutes to fill the survey.
+
+[maryam.ahmed@cambriancollege.ca] 11:09:03
+They will continue.
+
+[maryam.ahmed@cambriancollege.ca] 11:24:03
+Currently yes i would say yes to that question. Does the coastal count has work integrated lately.
+
+[maryam.ahmed@cambriancollege.ca] 11:24:13
+Yes. Is like a placement box news.
+
+[maryam.ahmed@cambriancollege.ca] 11:24:33
+So here is the lab we'll be looking into for this lab.
+
+[maryam.ahmed@cambriancollege.ca] 11:24:38
+Into this.
+
+[maryam.ahmed@cambriancollege.ca] 11:24:44
+So we are looking at lab horn. Which is creating a forensic image.
+
+[maryam.ahmed@cambriancollege.ca] 11:25:05
+So first, we want to get familiar with FTK2 because FTK is usually what we use for our history club.
+
+[maryam.ahmed@cambriancollege.ca] 11:25:15
+So our biasik toolkits does the ftk so It's a very common one and I will get you know as we use it every week, we'll get used to the environment So it creates a physical forexic image create a logical forensic image to verify the image content by viewing the image report.
+
+[maryam.ahmed@cambriancollege.ca] 11:25:35
+And verify the image context by opening the image in FDK Imager. So the two things we need to take the picture in this case is just four and five.
+
+[maryam.ahmed@cambriancollege.ca] 11:25:43
+Which is verification of the image content by reviewing the image reports and also i want to see the image content by opening day, image in FTK in Major.
+
+[maryam.ahmed@cambriancollege.ca] 11:26:01
+So…
+
+[maryam.ahmed@cambriancollege.ca] 11:26:06
+I just get too familiar with name. Ftk majors. So here I just… Last two things I want to see.
+
+[maryam.ahmed@cambriancollege.ca] 11:26:18
+All visa steps. Straightforward stoops.
+
+[maryam.ahmed@cambriancollege.ca] 11:26:24
+Creating the logical image
+
+[maryam.ahmed@cambriancollege.ca] 11:26:29
+Here is to verify, which is step three So I want to see this created by the access data FTK major.
+
+[maryam.ahmed@cambriancollege.ca] 11:26:38
+And all this information.
+
+[maryam.ahmed@cambriancollege.ca] 11:26:43
+The other one will be there. Verify the content using the FTK imager so Here is that content which is step six.
+
+[maryam.ahmed@cambriancollege.ca] 11:26:57
+So these are the two straight shirts I would like to see.
+
+[maryam.ahmed@cambriancollege.ca] 11:27:01
+For this lab then we will be having a quiz next week that quiz is meant to be an in-class quiz.
+
+[maryam.ahmed@cambriancollege.ca] 11:27:12
+For next week but i've tried to put some little flexibilities i don't know forward but i extended it until 5 p.m.
+
+[maryam.ahmed@cambriancollege.ca] 11:27:21
+Next week. So the quiz would cover from chapter one to three to chapter three and uh chapter three I also want to open a lab quiz.
+
+[maryam.ahmed@cambriancollege.ca] 11:27:36
+That lab quiz is meant to be after this lab.
+
+[maryam.ahmed@cambriancollege.ca] 11:27:45
+So that's my three in the class for next week. So you need to be present in class.
+
+[maryam.ahmed@cambriancollege.ca] 11:27:52
+No, you can be present. To be a loose.
+
+[maryam.ahmed@cambriancollege.ca] 11:27:59
+There's going to be a crease but there's going to increase it will be asking you some questions related to what you have done in the lab.
+
+[maryam.ahmed@cambriancollege.ca] 11:28:07
+You know… not a question of Did you click on this? Did you click on that snow?
+
+[maryam.ahmed@cambriancollege.ca] 11:28:16
+What did you use this for?
+
+[maryam.ahmed@cambriancollege.ca] 11:28:21
+Great. At least in the first lab, you did something on chain of course study right evidence for Why do you use those rules for, right?
+
+[maryam.ahmed@cambriancollege.ca] 11:28:31
+Likewise, there will be some things we'll be doing in today's lab too that's a part of the lab quiz
+
+[maryam.ahmed@cambriancollege.ca] 11:28:41
+We are going to be doing Islam. Please.
+
+[maryam.ahmed@cambriancollege.ca] 11:28:47
+You know, being APT questions?
+
+[maryam.ahmed@cambriancollege.ca] 11:28:55
+Is not physically on the Palo Alto but is trying to ask you to ask you to ask you to ask you to ask you not what was explained in the class but part of what you have done in the lab.
+
+[maryam.ahmed@cambriancollege.ca] 11:29:08
+Or do you want to do the lab quiz now? So you can have an idea of what it looks like.
+
+[maryam.ahmed@cambriancollege.ca] 11:29:16
+However, I didn't speak.
+
+[maryam.ahmed@cambriancollege.ca] 11:29:54
+Yeah, the sections I want for the screenshot is on modal.
+
+[maryam.ahmed@cambriancollege.ca] 11:29:59
+If you go check on model where you need to upload them you'll find them there
+
+[maryam.ahmed@cambriancollege.ca] 11:30:10
+So happy to take a screenshot of the following. Number four, step three and number five, step six.
+
+[maryam.ahmed@cambriancollege.ca] 11:30:20
+So these are the verification parts.
+
+[maryam.ahmed@cambriancollege.ca] 11:30:27
+But this number five step six this I'm done.
+
+[maryam.ahmed@cambriancollege.ca] 11:30:35
+For step three is this long information.
+
+[maryam.ahmed@cambriancollege.ca] 11:30:43
+So for number three i wanted i mean you might not be able to use one screenshot you might need up to three straight shots because you need to i need to see the case number the evidence number the unique description examiner
+
+[maryam.ahmed@cambriancollege.ca] 11:31:00
+The notes then the notes These are physical evidentiary item source information then image information.
+
+[maryam.ahmed@cambriancollege.ca] 11:31:12
+It has his image reputation results.
+
+[maryam.ahmed@cambriancollege.ca] 11:36:22
+Just when perceived.
+
+[maryam.ahmed@cambriancollege.ca] 11:36:29
+Others want to do their lab later. One street later, okay.
+

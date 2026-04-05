@@ -1,0 +1,702 @@
+[maryam.ahmed@cambriancollege.ca] 09:36:04
+So good afternoon, everyone, and welcome to another class on digital forensics.
+
+[maryam.ahmed@cambriancollege.ca] 09:36:12
+So for today's class is quite similar to what we had last week, which is the methods, labs.
+
+[maryam.ahmed@cambriancollege.ca] 09:36:19
+For forensic so last week we're able to look into the results And we look at the certifications needed forensic experts.
+
+[maryam.ahmed@cambriancollege.ca] 09:36:29
+Post with the police program withholds a really tight background.
+
+[maryam.ahmed@cambriancollege.ca] 09:36:35
+And we looked at what is expected of the lab of the system of a forensic system.
+
+[maryam.ahmed@cambriancollege.ca] 09:36:42
+So today we want to look at collective season and protecting the everydays.
+
+[maryam.ahmed@cambriancollege.ca] 09:36:49
+The learning objective for today's class is to align the proper approach to collecting, seizing and protecting evidence.
+
+[maryam.ahmed@cambriancollege.ca] 09:36:56
+And the key concept you want to link into here is proper forensic procedure.
+
+[maryam.ahmed@cambriancollege.ca] 09:37:01
+If it is handling storage frameworks forensically imaginative rate hacking issues.
+
+[maryam.ahmed@cambriancollege.ca] 09:37:13
+So here is a proper procedure when it comes to digital forensic The first thing is when you are called to decide.
+
+[maryam.ahmed@cambriancollege.ca] 09:37:22
+You need to perform a forensic triage on site. Shutting down the system.
+
+[maryam.ahmed@cambriancollege.ca] 09:37:29
+Taking a snapshot of the system so these are all part of the first four and six triage you need to take at that particular site then we transport the computer to a secure location which is your forensic lab.
+
+[maryam.ahmed@cambriancollege.ca] 09:37:42
+So when you get to the computer or the device the forensic device at the network device you want to make frenzy call then you prepare the system and then it documents the hardware configuration of the system My colleague also educate kids data on all the storage devices. So to look at these steps one after the order started from
+
+[maryam.ahmed@cambriancollege.ca] 09:38:05
+Performing day for a sector agent site. So on the very sites of the incident. One of the first things you would like to do is… to shut down the computer.
+
+[maryam.ahmed@cambriancollege.ca] 09:38:22
+You need to before shutting down you need to do a triage and what is a triage you need to look at the processes running on the computer system and in windows to do that you used to use a task manager
+
+[maryam.ahmed@cambriancollege.ca] 09:38:36
+So usually we could use the control alt deletes key to take us to the task manager So with the task manager it tells us what the process is going on and then If you need to shut down your process but at least take a picture
+
+[maryam.ahmed@cambriancollege.ca] 09:38:55
+Of what is going on at that particular time then you also try to check for live connections to the system using any of these comments you could use a net stats show you all day.
+
+[maryam.ahmed@cambriancollege.ca] 09:39:10
+Connections, all the possible statistic connections the night sessions to show you the sessions that are ongoing within the system if the computer is possibly remotely connected to another system you'll be able to see through the next sessions then open files
+
+[maryam.ahmed@cambriancollege.ca] 09:39:29
+Would also help you to see if there's any felt that is opened in another remote system from, I mean, possibly the system is connected to a remote computer and if a file is opened within the computer is open on another system so it's just to let you know what is going on
+
+[maryam.ahmed@cambriancollege.ca] 09:39:48
+At the moment within the system, either currently on the system using the task manager or possibly remotely We share is a screenshot of what we have where we use the task manager. So it tells us the process is running
+
+[maryam.ahmed@cambriancollege.ca] 09:40:04
+The applications and if you go to performance, it tells you what performance but basically want to see the processes going on, the background processes the applications so it's important to take a screenshot of all these processes as it is.
+
+[maryam.ahmed@cambriancollege.ca] 09:40:21
+That's the corpus tragedy. Then when you use the command net start Nice stats would also tell you all the connections But within the system, currently, for example, in this particular, we would see that what we are seeing is a process going on within the system itself.
+
+[maryam.ahmed@cambriancollege.ca] 09:40:43
+Only a connection to the server there's just one connection to the server every other thing is the loopback address and different processes going on within the system.
+
+[maryam.ahmed@cambriancollege.ca] 09:40:56
+Then for the next sessions, there are no entries in this list. It shows that there are no connections or possibly a session going on.
+
+[maryam.ahmed@cambriancollege.ca] 09:41:06
+With this computer then open files would also enables to see the files that are opened remotely on this system so obviously there are no shared open files that are found in this so this is and the output of what we should expect.
+
+[maryam.ahmed@cambriancollege.ca] 09:41:26
+So, we could also check the system memory using OS forensics. Os Forensics is also a tool is one of the tools that is used in digital forensic. So this would also help us to see what is ongoing within the system.
+
+[maryam.ahmed@cambriancollege.ca] 09:41:45
+So after the triage the next thing is after you've taken the screenshots then you can now shut down the system now you have like a list of what is going on within the system They use transport the computer to a safe studio forensic lab. So keep the evidence in possession or control at all times.
+
+[maryam.ahmed@cambriancollege.ca] 09:42:07
+So during the period of transportation, ensure that you are in control of the evidence and documents the movement of evidence between the investigators.
+
+[maryam.ahmed@cambriancollege.ca] 09:42:18
+And how do you document this movement of evidence? Using which documents?
+
+[maryam.ahmed@cambriancollege.ca] 09:42:24
+What's the name of the documentary you used?
+
+[maryam.ahmed@cambriancollege.ca] 09:42:30
+To document the movement of evidence between investigators.
+
+[maryam.ahmed@cambriancollege.ca] 09:42:36
+Chain of custody. So with the chain of custody it shows who is in charge of the evidence at each particular time then secure evidence appropriately so it can be tampered with or corrupted so we talked about last week on how we could secure our evidence
+
+[maryam.ahmed@cambriancollege.ca] 09:42:56
+God, we remember, you know, the ways we could secure our evidence.
+
+[maryam.ahmed@cambriancollege.ca] 09:43:14
+What?
+
+[maryam.ahmed@cambriancollege.ca] 09:43:21
+What's his word?
+
+[maryam.ahmed@cambriancollege.ca] 09:43:27
+Bye.
+
+[maryam.ahmed@cambriancollege.ca] 09:43:34
+Very useful, like…
+
+[maryam.ahmed@cambriancollege.ca] 09:43:39
+Exactly. They should be separate space for the foresee club okay there should be a lock. Exactly. There should be a private lock. The lock should be given equal safety measures just as the evidence itself Then it should be kept in an anti-static bag, very important because easily digital devices can easily get corrupted.
+
+[maryam.ahmed@cambriancollege.ca] 09:44:07
+So you have to use like an anti-static bag so that it does it loser, I mean, it doesn't get corrupted or tampered with Then there should also be a kind of a roster that keeps track of who comes in or who are in
+
+[maryam.ahmed@cambriancollege.ca] 09:44:25
+And who comes out of that forensic lab in securing the evidence.
+
+[maryam.ahmed@cambriancollege.ca] 09:44:31
+So, or possibly who handles it and would all have access to that box itself so it should be locked in the vehicle and drive the vehicle directly to the lab The evidence itself should be kept as secured as possible.
+
+[maryam.ahmed@cambriancollege.ca] 09:44:52
+During the course of transportation.
+
+[maryam.ahmed@cambriancollege.ca] 09:44:58
+And drive directions to the lab you don't need to look from the lab you don't i mean from The point of collection straight to the lab you don't need to start branching and So preparing the system for suspects computers remove the drives.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:17
+And create an evidence form and a chain of custody so from the mobile devices you need to remove the SIM card if necessary. Some devices now could let you dock the phone.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:30
+Even without removing the same so at times we might need to remove the same at times not But for the suspect computers we need to remove the drive because that's the major thing that we need.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:41
+Then we create an evidence form and possibly a chain of custody So we've seen what a single evidence form looks like.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:53
+So where we have a page where we have a for one single evidence and we also have the multiple uh multi evidence firm.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:03
+Where we could have a record of multiple evidences on one page.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:13
+We've been able to prepare the chain of custody in one of our labs So she is also having something of a chain of custody first. So that just keep track of the investigators handling the documents I mean, the evidence at each
+
+[maryam.ahmed@cambriancollege.ca] 09:46:37
+Documenting the hardware configuration of the system. So aside from the internal processes and everything that is going on in the system.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:48
+We also need to take of a record.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:54
+Of the hardware of the system. So before dismantling the system you need to take a picture of all sites.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:04
+For record focus so you can take the picture of computer from all angles then it records the virus system time and date in the chain of custody.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:16
+In fact, usually when you even go to collect the everyday some people always advise that Right from that point you need to take a picture of the environment.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:28
+Okay, so take pictures of the environment take pictures of the computer everything around the computer then record the biosystem the time and date in the train of custody form.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:40
+So after restoring power to the device you eject all the removable media and fill out different chain of custody for each evidence.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:53
+So one evidence has one chain of custody. They might be for the same case but each evidence has to have country of Costa Rifa.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:04
+Then mathematically authenticating data on all storage devices. How do we authenticate data on all storage devices?
+
+[maryam.ahmed@cambriancollege.ca] 09:48:15
+My agent.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:19
+Yeah, my school did.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:28
+I should have… Okay, you've seen it there. By generating the ash values, right? Exactly.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:39
+So to authenticate that's authenticate There are no changes no changes have been done.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:45
+To that particular evidence so we need to take the algorithm i mean the hash value of before the original document and the corporate document because remember also from the last uh class we mentioned that you do not carry out forensic on the original copy
+
+[maryam.ahmed@cambriancollege.ca] 09:49:06
+So one of the first thing you will do after collecting the device and removing the hard drive and everything is to make a copy.
+
+[maryam.ahmed@cambriancollege.ca] 09:49:15
+So while you want to make a copy you make before you even make a copy generate the hash values first.
+
+[maryam.ahmed@cambriancollege.ca] 09:49:23
+Then of that drive then for the other drive to you need to generates the after you make a copy then you need to generate ashes So what you want to do is you want to compare the two ashes if you have the exact same copy
+
+[maryam.ahmed@cambriancollege.ca] 09:49:41
+Then, the gases should be the same so if they do not match even if something i mean just one thing doesn't match. It shows that something has been altered.
+
+[maryam.ahmed@cambriancollege.ca] 09:49:53
+So if anything is altered in the document it could be just one thing the ashes definitely wouldn't match. So we want to have the same matches for the original copy and D.
+
+[maryam.ahmed@cambriancollege.ca] 09:50:07
+The backup copy that would be carrying out the forest account then you document the action algorithm that was used and also the results.
+
+[maryam.ahmed@cambriancollege.ca] 09:50:21
+And lean heaviness. The digital forensics specialist is responsible for finding, preserving, and also preparing the evidence.
+
+[maryam.ahmed@cambriancollege.ca] 09:50:32
+So in this case, they have to be the one to prepare the document. They have to be the one to collect the data.
+
+[maryam.ahmed@cambriancollege.ca] 09:50:37
+It documents the file names. The dates, the times, identify any file program or storage anomalies.
+
+[maryam.ahmed@cambriancollege.ca] 09:50:45
+Gather the evidence so in short the forensic experts or the forensic specialist would be the one to fill in the evidence for So they would be the one to collect all the necessary information, document the file names, dates, and time.
+
+[maryam.ahmed@cambriancollege.ca] 09:51:04
+And also identify any of the file program or possibly something that is that doesn't look right in the file in the program or possibly in the storage Then you gather the evidence.
+
+[maryam.ahmed@cambriancollege.ca] 09:51:19
+So part of what they have to do is collecting the data.
+
+[maryam.ahmed@cambriancollege.ca] 09:51:23
+In collecting the data, there are three primary types of data that a forensic investigator has to take one is a volatile data that could easily be lost.
+
+[maryam.ahmed@cambriancollege.ca] 09:51:36
+Is on the ram and it's on the ram easily be lost that we have the temporary data also very similar to what we have in the volatile data so It's just what it is. It's also temporary that could also be easily lost so
+
+[maryam.ahmed@cambriancollege.ca] 09:51:54
+These are white, I mean, the reasons why we have to take a screenshot of what is going on.
+
+[maryam.ahmed@cambriancollege.ca] 09:51:59
+This is why we need the task manager to see what is going on how these are volatile information that could be easily lost We are working on your computer and this is not yet saved you know these are temporary data that could be easily lost then we have the persistence which is something you have on your hard drive these are saved documents
+
+[maryam.ahmed@cambriancollege.ca] 09:52:21
+Or saved files only. On your disc.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:26
+So documenting the file names the dates and times.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:33
+Paul names the creation date and the last modified dates and times could be very, really advanced to our evidence.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:41
+When it happened, how it happened you know anything around the evidence if a picture of the computer could be could be taken then we should know that the time the creation date the final creation dates and all that all this information are important to the evidence so you need to catalog all allocated and erased
+
+[maryam.ahmed@cambriancollege.ca] 09:53:05
+House. So you sort the files based on it could be based on the sizes based on the dates based on the content you know you sort it based on that sorting would help you uh to find a way to easily accessible
+
+[maryam.ahmed@cambriancollege.ca] 09:53:22
+They needed information. Then identifying the file program and storage anomalies.
+
+[maryam.ahmed@cambriancollege.ca] 09:53:34
+So text search. Might not be able to identify our data that are stored in binary formats.
+
+[maryam.ahmed@cambriancollege.ca] 09:53:43
+So when you search maybe using a text search you might not be able to find binary documents. So you need to search for those ones manually.
+
+[maryam.ahmed@cambriancollege.ca] 09:53:54
+You have to do manual evaluation so also there might be some hidden partitions that's hide within the system. Actually, there are tools that we use to identify or possibly to scan through a system.
+
+[maryam.ahmed@cambriancollege.ca] 09:54:11
+To know if there are hidden files So you use these tools to actually check to know when there is a hidden file it could be that a file has been hidden possibly through steganography or possibly through an encryption means or something so
+
+[maryam.ahmed@cambriancollege.ca] 09:54:31
+But using these tools would actually help you to identify that there's an hidden message in a particular file so in windows you also need to evaluate files in the recycle bin.
+
+[maryam.ahmed@cambriancollege.ca] 09:54:49
+The evidence gathering measures.
+
+[maryam.ahmed@cambriancollege.ca] 09:54:55
+Avoid changing evidence.
+
+[maryam.ahmed@cambriancollege.ca] 09:55:01
+Determine when the evidence was created. And you need to search throughout the device determine information about encrypted just like you mentioned encrypted and staggonized files So you need to know if an information or if possibly if something that's been eating in any way and presents your evidence well
+
+[maryam.ahmed@cambriancollege.ca] 09:55:26
+Presentation also matter how do you present your everydays.
+
+[maryam.ahmed@cambriancollege.ca] 09:55:36
+So physical and logical analysis. We talked about last week we talked about different types of copy
+
+[maryam.ahmed@cambriancollege.ca] 09:55:53
+Yeah, if you were to copy your evidence if you want to make a copy of your evidence
+
+[maryam.ahmed@cambriancollege.ca] 09:56:21
+So there are physical and a logical analyses. So we have the bit by bit copy and usually this is actually what we advance when it comes to forensic you don't make the general copy and paste You make a bit by bit copy we actually use certain tools to make bit by bit copy.
+
+[maryam.ahmed@cambriancollege.ca] 09:56:44
+So and then so for the fiscal analysis you look at the bit by bit copy the damaged sectors then that side that are outside the partitions We know that there are some hidden partitions in all our in all our drives and this is where deleted items actually go to so when you delete an item so it goes to
+
+[maryam.ahmed@cambriancollege.ca] 09:57:07
+These unpartitioned sections So let's how that outside these partitions we want to look at the logical analysis, we look at the files and filmmaker that have information about this house okay the day they were created the file size so all these are part of what
+
+[maryam.ahmed@cambriancollege.ca] 09:57:28
+We need to gather information on.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:37
+Like creating a timeline.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:42
+Why do we need our… to have information like the time.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:50
+The time the evidence was collected, the time this file was created.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:54
+You know you're trying to take it back to an event.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:00
+You are trying to reconstruct the events that led to corruption of the system.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:06
+So you try to create a timeline okay possibly an event happened on let's assume an event happened on the 20th.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:19
+Then you found out that there was a hidden file.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:25
+On the 21st. Would you think they are actually related?
+
+[maryam.ahmed@cambriancollege.ca] 09:58:31
+If an event had happened on the 20th and Somehow, there was an eating foul.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:38
+On the 21st. It could be related.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:43
+Right? So somehow it would help you actually link help you to create a timeline that okay this was when this event happened this was when this other fire was created you know maybe another pseudo fire was created or maybe it was hidden on the 20th another pseudophile that looks like the original file
+
+[maryam.ahmed@cambriancollege.ca] 09:59:02
+Was created on the 21st. To make you feel, oh, this is the original file.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:08
+Okay, so you'll be able to create like okay reconstruct that timeline and are challenges with computers the clock drift so you do not change the timeline that is on the system.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:25
+That's another thing let every fall the device let it still maintain let the system still maintain its own timeline.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:33
+Its own time zone. Do not change the time zones because immediately you trained in time zone, then you might not be having the right timelines okay so delayed reporting So never change clock on a social system and I record the clock drift.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:52
+And type zone so instantly take a record of what is the time on the computer and what is the time in the actual time in the real world.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:03
+So if there's any clogged drift you would always remember to take it from the document as you move on through the investigation So the storage from words.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:20
+You have the magnetic media which is like a normal hard drive then the ssd which is the solid state drives and digital audio tape as that drives There's a difference.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:37
+Formatted devices we could use for. Storage the digital linear tape and super dlt then we have the optical media and we have the usb usb drive so they the most common one at the magnetic and solid state usb then optical media
+
+[maryam.ahmed@cambriancollege.ca] 10:00:57
+So. So we know the magnetic and solid state which is like our normal drives So the host protected area or vendor specific dry space Then we have the master boot report where the empty drive sectors remaining as an MBR.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:18
+Then we have the volume slack. The unallocated space this is usually where we have the deleted items so to go through this all unlocated space the good blocks mapped as bad.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:33
+And foul slack.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:41
+So the file formats depending on the type of bit by bit or image copy that you have done your file formats could come in any of this you could have it as EFF, the adverse forensic format If you have used an encase
+
+[maryam.ahmed@cambriancollege.ca] 10:02:00
+So you could have the NKYS file format. Then we also have the generic forensic zip. Then we have the IXL image imager
+
+[maryam.ahmed@cambriancollege.ca] 10:02:21
+Forensic imaging, that's an exact bit by bit copy of the list.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:27
+And it is used for evidence collection without evidence without altering or changing anything in the original copy.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:38
+You can set up an image with GD and NetCard. So you can forecally wipe your drive when you want to create a copy before it's going to wipe the drive using this command if zero slash dev zero then you use net sketch to set up the forestic server to listen.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:01
+So you're setting up your server to listening state And we use it for this law from the inside and out.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:10
+No common problems. Okay, hold on. So you use the dd command to read the first partition.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:22
+We want to drive.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:28
+That's the drive we are trying to copy to. Do you guys if you want to copy to a new drive, right? So you are trying to make a copy
+
+[maryam.ahmed@cambriancollege.ca] 10:03:44
+Then you could also image using the encase if you want to do it using another tool called a case So, you make these level images and they mount them for analysis. Preview mode allows investigator to use the non-modal cable or Ethernet connection to view data on the subject's machine safely.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:04
+So this doesn't alter your release. Image of his kids.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:11
+Is more… user friendly is through GUI. So you have an interface like this and It creates a case and… annuities and try to create the image.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:29
+So he shares imaging width in case.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:34
+But another tool that we we are used and will keep using in our pharmacy club is the ftq crazy toolkits so this could also be used for imaging and it also helps you to take a snapshot of the entire disk.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:55
+So it could also be used for the level copy does it bit by bits for analysis.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:03
+And your FTK is inexpensive it's like a free tool anyone could use it. You can download it. It's easy to use and put all in one forestic tool FTK has so many forensic functions withinography. You can use your FTK for
+
+[maryam.ahmed@cambriancollege.ca] 10:05:22
+Creating a copy you can use ftk so so many analysis could be done on your fct So if it offers registry viewing, in-depth login, standalone disk imaging, direct email, and zip file analysis.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:40
+So here's imaging with FT King Access Data FTK major.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:47
+You had your evidence selected. And it takes you to this page select the source if it's from a physical drive
+
+[maryam.ahmed@cambriancollege.ca] 10:06:01
+We'll use something that is not fresh. Exactly.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:09
+So you already created the copy in the last So imaging width was forensics.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:19
+Here's also another tool that could help to create an image And also multi-mage is created with other tools
+
+[maryam.ahmed@cambriancollege.ca] 10:06:30
+Imaging with OS forensics here is that. Then rate accusations.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:40
+Ridge generally is used to create a copy Or you've done desi, right? It's like redundancy. So basically… it's beyond that array of independent disks that is our rate and we have the rate 0134561 plus 0 so Read one prayer can acquire it one disc separately so when we look at these different range method uh some of it is not actually to create a real copy some is just to make your disk more efficient okay
+
+[maryam.ahmed@cambriancollege.ca] 10:07:21
+So rate one is like the real copy image creating another image like a backup you know when you have the backup so that is like rate one but re0345 and six They actually use data striping across multiple disks. So it is not really like making another copy but it is making your disk more efficient
+
+[maryam.ahmed@cambriancollege.ca] 10:07:49
+You know, he's like just dividing your data over multiple disc so it's make a forensic image of the entire read array So, RAID 0 distributes data across multiple disks. It's actually divided data across multiple disks and it helps to improve data retrieval. So instead of having like 500 gig of data
+
+[maryam.ahmed@cambriancollege.ca] 10:08:17
+On one disk. It always takes time to retrieve data from such a big file right so if you have that 500 gig divided by maybe five five disk one two three you know so it's easy for you to for each of them to
+
+[maryam.ahmed@cambriancollege.ca] 10:08:36
+Access information okay so it has a way of breaking the bias exactly so it has a way of And that's why you would say that some people would decide, oh, I want to have instead of having just one big 500 gig, I want to have two 250 gigs
+
+[maryam.ahmed@cambriancollege.ca] 10:08:56
+Three cases so it's just to improve data retrieval and the efficiency of the machine but rain one actually mirrors the disk it copies a identical copy is an identical copy of the drive then range three or four. It combines three or more disks for fault tolerance. So it's also a kind of a distributes data across multiple disks.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:24
+But it also creates more disk for fault tolerance so then we have the five or six that combines three or more disks and also distributed parity also using the concept of rate zero which is distributed parity and same with uh
+
+[maryam.ahmed@cambriancollege.ca] 10:09:45
+Range six but for a modest for disparity and that it protects against loss of data on any two disks.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:03
+This we've come to the end of today's lecture. Any question?
+
+[maryam.ahmed@cambriancollege.ca] 10:10:10
+Before we move on to the lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:32
+All right. We can look for how many minutes break.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:41
+Ghost in there. Okay maybe we even have our quiz now.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:52
+We can have the quiz plus break.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:56
+12.30.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:08
+Well, you've not said they didn't know.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:22
+Yes, most likely we'll be having our exams in person In person, yeah, in April.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:32
+Not all of our persons, depending on the lecturer. Yes. No, not online. You have to be plus. International students have to… For those who are not possible, yes, they have to go to a pro talk.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:59
+You have to use a prototype. What? Brooklynabis. Yeah. What's his demand? 50. 50 for this bus.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:13
+No, I'm just saying. No. Not 50. I think it's about 20.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:28
+They told you that this class is synchronous. And we know those that are staying in suffering and those that are not.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:45
+For those that are trying to clean they are not sobering. We love them.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:54
+Amen.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:32
+All right, so the lab quiz one is on.
+
+[Feyi] 10:36:47
+Hi, Prof.
+
+[maryam.ahmed@cambriancollege.ca] 10:36:51
+Hello. Ma'am, you…
+
+[Feyi] 10:36:55
+Good afternoon. Please, I see two quizzes. I was supposed to do the two.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:03
+Two quizzes. That's if you've not done the first one
+
+[Feyi] 10:37:04
+I don't know.
+
+[Feyi] 10:37:09
+So I see lab one. And then I see quiz one covering chapter one to three So is it okay if I do just
+
+[maryam.ahmed@cambriancollege.ca] 10:37:17
+Yes. Chapters one through three has been opened since last week.
+
+[KAZEEM OGUNTADE] 10:37:23
+Ah. There was no opponent.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:24
+Well, you can go down. Oh, really?
+
+[Feyi] 10:37:24
+Okay, so we're supposed to do the two
+
+[KAZEEM OGUNTADE] 10:37:30
+Yep.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:30
+Okay. Yeah, it was open at the same time.
+
+[Feyi] 10:37:31
+It was just open the same time like just
+
+[maryam.ahmed@cambriancollege.ca] 10:37:40
+Yeah, so you are meant to do the two. You can do this later. You still have some time for…
+
+[maryam.ahmed@cambriancollege.ca] 10:37:54
+You know, I'm on till 5 p.m. No, for chapters 1 to 3.
+
+[KAZEEM OGUNTADE] 10:37:58
+For both?
+
+[maryam.ahmed@cambriancollege.ca] 10:38:04
+For the lab quiz you have until 1 p.m. In another 20 minutes you should be done.
+
+[maryam.ahmed@cambriancollege.ca] 10:38:12
+Sixteen.
+
+[maryam.ahmed@cambriancollege.ca] 10:38:19
+Almost everybody I've done is.
+
+[maryam.ahmed@cambriancollege.ca] 10:38:29
+Funny enough. It is my people that have not even heard. Laura, where are you?
+
+[Chukwuemeka Nwankwo] 10:38:30
+Which one is the lab quiz?
+
+[maryam.ahmed@cambriancollege.ca] 10:38:35
+You should not take class? Daniel.
+
+[maryam.ahmed@cambriancollege.ca] 10:38:47
+No, sir.
+
+[Chukwuemeka Nwankwo] 10:39:01
+Lab, please. The lab quiz which one is the lab quiz
+
+[maryam.ahmed@cambriancollege.ca] 10:39:04
+What?
+
+[maryam.ahmed@cambriancollege.ca] 10:39:11
+The love quiz. When did you even join this class? I thought you were in the other class.
+
+[Chukwuemeka Nwankwo] 10:39:13
+Yeah.
+
+[Chukwuemeka Nwankwo] 10:39:19
+And then I moved to this class. Yeah, move back to this class.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:21
+What?
+
+[maryam.ahmed@cambriancollege.ca] 10:39:27
+Y'all move to this class.
+
+[Chukwuemeka Nwankwo] 10:39:29
+Yeah, they changed back.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:31
+I'll call my can't see your name.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:41
+Because we might still be seeing their servant on the other class.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:46
+So maybe that's why you had no serious. We also open for the other question.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:14
+One opened on Model.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:57
+And I think we taught the quizzes, maybe we shouldn't have a lab today.
+
+[maryam.ahmed@cambriancollege.ca] 10:41:04
+Thank you. Thank you. So this is where you react.
+
+[maryam.ahmed@cambriancollege.ca] 10:41:11
+Well, for practice Yes.
+
+[maryam.ahmed@cambriancollege.ca] 10:41:18
+For practice, we should try to practice this lab two and three.
+
+[maryam.ahmed@cambriancollege.ca] 10:41:23
+Life accusation. That's more like forensic on the ramp. Yes.
+
+[maryam.ahmed@cambriancollege.ca] 10:41:34
+And if you want some of these tools, if you want it on your own personal system so you can actually do the forensic or your personal sister please let me know.
+
+[maryam.ahmed@cambriancollege.ca] 10:41:44
+Like I give you the link to the magnets forensics. I can give you the link to some of these tools the ftk and all that yeah so you can always practice
+
+[Och Michael] 10:41:53
+Okay, we need it though. I need it to.
+
+[maryam.ahmed@cambriancollege.ca] 10:41:58
+Who is that? My kid.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:02
+Look, Julia of specialization.
+
+[Och Michael] 10:42:10
+We'll break some things.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:17
+Is for land all use only.
+
+[Chukwuemeka Nwankwo] 10:42:21
+I also like to have two people.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:24
+All right, sure. For Michael Bloom.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:33
+Yeah, sure, Rosa. I'm going to forward it to you.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:14
+And nothing else, but we could just try to practice the lab two and three.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:24
+We are done for today. After the quiz you could just practice doing that two and three for the remaining part of the class.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:33
+And if you have any question in the next 15 minutes, I'll still be in the class.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:40
+Then I've sent a link for the FTP. You can download the FTK. For the magnet axiom.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:48
+You could have access to the access Free trial.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:54
+For some time. Let me see if I could just send that link.
+
+[maryam.ahmed@cambriancollege.ca] 10:50:03
+No, very powerful tools. For forensic cases.
+
+[maryam.ahmed@cambriancollege.ca] 10:50:09
+But I will still try to get you a link to get the full access for the magnet at Zoom.
+
+[maryam.ahmed@cambriancollege.ca] 10:50:50
+Exactly. Please watch how you use the tools. If possible, you could create a virtual machine and put them on the virtual machine instead.
+
+[maryam.ahmed@cambriancollege.ca] 10:51:03
+So that virtual machine will just be what you use for your forensic Love.
+
+[maryam.ahmed@cambriancollege.ca] 10:53:56
+Lapturry is the one on the… on the creating images, right?
+
+[maryam.ahmed@cambriancollege.ca] 10:54:03
+Yes. So Lab 2 is due today but we do not have any lab to submit No, GR.
+
+[maryam.ahmed@cambriancollege.ca] 10:54:11
+Yes, yes. So exactly. Labourne was chain of custody and evidence firm.
+
+[maryam.ahmed@cambriancollege.ca] 10:54:17
+Right? So lab two, which is now lab one on next lab, yes, is the Printing images.
+
+[maryam.ahmed@cambriancollege.ca] 10:54:25
+Image copies so that is due today Folks, we do not have any lab for today.
+
+[maryam.ahmed@cambriancollege.ca] 10:54:34
+Because that was a lap for last week. Juke's deep.
+

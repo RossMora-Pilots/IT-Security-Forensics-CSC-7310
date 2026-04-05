@@ -1,0 +1,891 @@
+[maryam.ahmed@cambriancollege.ca] 09:35:04
+Good morning, everyone. Welcome to today's class. Today's class will be practically and asynchronous class. Asynchronous it says that it's a recorded lecture.
+
+[maryam.ahmed@cambriancollege.ca] 09:35:17
+However, I'll be in the class and um That will be right here to take the questions and pause if we need any further explanation. So I've uploaded the recording and I'll also be playing it right here so that i mean
+
+[maryam.ahmed@cambriancollege.ca] 09:35:34
+So that's why I said partly because partly because it's recruiters because i am here and i am here as a kernels, we have access to the recorded version and been uploaded.
+
+[maryam.ahmed@cambriancollege.ca] 09:36:56
+Good afternoon, everyone, and you're welcome back after the long It's semester break.
+
+[maryam.ahmed@cambriancollege.ca] 09:37:05
+I guess we've read $10,000. For this to drain us.
+
+[maryam.ahmed@cambriancollege.ca] 09:37:10
+Yep. So today we want to look at we are still currently on our digital forensic class and we're looking at Windows 4 and 6.
+
+[maryam.ahmed@cambriancollege.ca] 09:37:23
+The main objectives here is to understand the incentions of the Windows operating system just like every other topic on our digital forensic, we have to look into the topic first.
+
+[maryam.ahmed@cambriancollege.ca] 09:37:33
+You know we have to look at and that next week it will be on linux so This week we want to understand the Windows operating system, then we should be able to extract the forensic data from the Windows system the registry and why is this registry potent so this is a part of what we'd also be looking into in the lab
+
+[maryam.ahmed@cambriancollege.ca] 09:37:53
+So the key concept, we have the Windows details, we have evidence in volatile data window swap file windows logs and directories in windows registry
+
+[maryam.ahmed@cambriancollege.ca] 09:38:08
+History of windows. It all started with the this operating system windows 3 And then… it wasn't… so much of the user interface that's i mean the gui the graphical user interface that we have now you know it was more of the command prompt thing
+
+[maryam.ahmed@cambriancollege.ca] 09:38:30
+And then from Windows 9580, we started having the GU And let's continue to improve and we had the windows 98 And all this during the period, I think we've talked about the file system before where we i mean the older systems were using the flat 16 fert
+
+[maryam.ahmed@cambriancollege.ca] 09:38:50
+It takes a true health system. The file allocation table.
+
+[maryam.ahmed@cambriancollege.ca] 09:38:54
+Well, the new version from the 2000 xp vista Windows 10, Windows 11, the server 2016 that we have now you know all these are now using 2020 and all the They're all using NTFS file system.
+
+[maryam.ahmed@cambriancollege.ca] 09:39:16
+So, yeah. Then came some other help assistance.
+
+[maryam.ahmed@cambriancollege.ca] 09:39:25
+You know the some other applications came with this windows like the cortana edge browser, the universal hub so all these have come like an additional features that we have that comes with our windows 10 the court turner has really helped with scheduling you know keeping you track of your schedules and all that
+
+[maryam.ahmed@cambriancollege.ca] 09:39:45
+And yeah, some people now prefer that i think a good number of people now prefer the edge browser over the prone and other applications that comes with our Windows 10. So the issues that are pertinent to forensics
+
+[maryam.ahmed@cambriancollege.ca] 09:40:04
+One, we need to know the version of Windows that is being used.
+
+[maryam.ahmed@cambriancollege.ca] 09:40:09
+Right. Because Windows come in different versions you know different operating system yeah it's still same windows very similar more advanced than the other or possibly some features are changed in the newer version then is bits locker in use? Why do we need to be
+
+[maryam.ahmed@cambriancollege.ca] 09:40:28
+Concerned about the beat locker that's the encryption tool, right?
+
+[maryam.ahmed@cambriancollege.ca] 09:40:34
+So if you have used a bit locker in your windows i mean luniforensic it could mean that it's not just that you want to have access to the file you need to also know how to decrypt then the observation of windows supports the
+
+[maryam.ahmed@cambriancollege.ca] 09:40:50
+Efa is the encrypted file system also have similar issue with the bitlaker using the encryption system.
+
+[maryam.ahmed@cambriancollege.ca] 09:40:59
+So the windows details now we have the Windows 32 bit and we also have the 64 bit So for 32 bits it addresses up to four Billion.
+
+[maryam.ahmed@cambriancollege.ca] 09:41:17
+294, 966, 7,000 and 385, yeah. So that's limited to four gig.
+
+[maryam.ahmed@cambriancollege.ca] 09:41:30
+Insurance of fraud and it's referred to the it's a sixth generation so 64 bit addresses up to
+
+[maryam.ahmed@cambriancollege.ca] 09:41:43
+Is it terabytes or something? Yeah, so this number of bytes and this is referred to as are 64.
+
+[maryam.ahmed@cambriancollege.ca] 09:41:53
+So the boot process Another important part The boot process of windows it all started with a post and what is the meaning of the post the power on self test so it actually tests the the inner parts, the inner features the inner tools the inner hardware of the
+
+[maryam.ahmed@cambriancollege.ca] 09:42:17
+Of the system so that's what the power on self test is that is more like the booting process what we call the booting process So during this period, it checks the bios, he checks the hardware to hardware components of the windows to ensure that everything is
+
+[maryam.ahmed@cambriancollege.ca] 09:42:34
+Working properly, then it reads the mbr which is the master boots record so it's read this and MBR and it loads it into the bootloader so it's load the AT loader and switches to either the 32 or possibly the 64 bits depending on what window versions we are using
+
+[maryam.ahmed@cambriancollege.ca] 09:42:57
+So some of the boot files that we have here is the mean drivers we have the boots.ini we have the NTU purchases tape canoe.
+
+[maryam.ahmed@cambriancollege.ca] 09:43:10
+The woods fell. Also you include the hull.dl and the windows registry which plays a bigger role in the foreseeing then the canal loads and it goes on to the window subsystem Windows 2 subsistence start.
+
+[maryam.ahmed@cambriancollege.ca] 09:43:30
+So some of the important files that we need to know the location we have the anti-detect.
+
+[maryam.ahmed@cambriancollege.ca] 09:43:38
+We have today anti-bootdis.cs We have the operating system panel.exe. We have the whole.dll.
+
+[maryam.ahmed@cambriancollege.ca] 09:43:48
+It says the exact win logo So all these files we need to be able to locate them within the windows that gives us more information about why do we need to locate them for example some of them would help us to know what is going on behind the operating system
+
+[maryam.ahmed@cambriancollege.ca] 09:44:15
+Some of these files would tell us about the logout process as any system been able to log in either remotely or with the system and it keeps track of what is going on within the system.
+
+[maryam.ahmed@cambriancollege.ca] 09:44:36
+Yeah, the volatile memory. The system has both volatile and non-volatile memory So…
+
+[maryam.ahmed@cambriancollege.ca] 09:45:21
+To be able to have collected that memory i mean you have to track the memory you have to keep it somewhere And then computes the hash.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:30
+Then you perform an analysis in an isolated environment so here you can put the hash just follow the normal procedure we do When we are performing any forensic on any storage computes the ash first to be sure that yes this particular
+
+[maryam.ahmed@cambriancollege.ca] 09:45:49
+Information is not tampered with and after doing that you make a copy of that of what has been copied or was that what has been collected they the foresee could now be done on the copied her memory dump.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:07
+So this forensics should not be done on the same system because it could interact with the process going on. So it has to be done in an isolated environment that's in the forensic lab.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:19
+And in the previous class, we've talked about how do you transport what are those things we need to do when you're transporting disturbed information to the forensic what should our forensic lab look like and what are the properties of this forensic lab? How do we ensure that
+
+[maryam.ahmed@cambriancollege.ca] 09:46:36
+The forensic lab itself is secured.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:43
+So the offline data analysis which is more like the non-volatile versus the volatile data So for non-volatile data, which is the offline data the audit is the same thing then isolation is relatively easy for experienced specialists.
+
+[Och Michael] 09:46:59
+I approve.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:02
+Because this is for non-volatile it's more like is already in the position of rest data at rest.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:05
+Yes.
+
+[Och Michael] 09:47:08
+I don't know if I'm the only one saying it. There is something covering the… Slide.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:15
+Is it okay now?
+
+[Och Michael] 09:47:17
+Stick covering.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:22
+Like quotes.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:31
+The whole slide.
+
+[Och Michael] 09:47:32
+No, not your slide, like… It was covering the middle. Now it's at the top
+
+[maryam.ahmed@cambriancollege.ca] 09:47:45
+I think it's just the bar. Now it's in the middle.
+
+[Och Michael] 09:47:50
+Yes.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:50
+Yeah, how would I put it?
+
+[Och Michael] 09:47:56
+Zumba, okay. Okay.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:58
+Okay.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:12
+Okay, now sooner.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:18
+I think there's any way I could adjust. The one by this side.
+
+[Och Michael] 09:48:28
+You can drag it down.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:32
+Okay.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:43
+I usually don't cover anything down later. Let me see.
+
+[Och Michael] 09:48:49
+That's what I don't know.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:55
+Oh, pleading. Let's see.
+
+[maryam.ahmed@cambriancollege.ca] 09:50:14
+Right. It has i mean you can decide to work on it now you can decide to work on it later But…
+
+[maryam.ahmed@cambriancollege.ca] 09:50:43
+So, but in case of Vuleta, you can capture it later because it's already in a resting stage then it is repeatable you can always repeatable always go back to heat and heat You're volatile.
+
+[maryam.ahmed@cambriancollege.ca] 09:51:14
+Then you can now repeat data analysis on it but as a volatile data analysis there's no way you can repeat i mean forensic or that it has to be captured first then You can now repeat once it is captured.
+
+[maryam.ahmed@cambriancollege.ca] 09:51:29
+Start at ape. So the volatile memory could be arranged in different firm when it comes to how it's how it's the memory is the memory at times we look at it from how the database is arranged Right?
+
+[maryam.ahmed@cambriancollege.ca] 09:52:17
+The most dynamic of the primary process it is changeable it is easy to changeable more flexible than the heap that i can exist between function calls So you could have like series of information it doesn't have to be the last one taking the top one first no you could randomly
+
+[maryam.ahmed@cambriancollege.ca] 09:52:40
+Peak data from in between. So that is the way these memories work the stack and the heap.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:49
+Yeah, so the forensic tools that we have, we have the PS list processes we have the peers info which is operating system tells us information about the operating system Then we have the list DLLs that tells us about the loaded dlls we have ps locked
+
+[maryam.ahmed@cambriancollege.ca] 09:53:07
+On which tells us the login information the log out and all that more like keeping the session information then we have the next start that has the network connections
+
+[maryam.ahmed@cambriancollege.ca] 09:53:23
+So here is for a screenshot of using the tool PS list.
+
+[maryam.ahmed@cambriancollege.ca] 09:53:30
+So it shows us all the processes processes information that is on this particular system so this is for Chuck's laptop
+
+[maryam.ahmed@cambriancollege.ca] 09:53:44
+And ps info
+
+[maryam.ahmed@cambriancollege.ca] 09:53:50
+So PSA gives us more detailed information are adults about the processes you know the uptime about the system information anyway the uptime the kernel version the product type the product version service pack an abuse number registered organization so it tells it gives us more information about the system
+
+[maryam.ahmed@cambriancollege.ca] 09:54:19
+Because these are also information you might be needing when you want to do the forensic you want to know what version of Windows are you using?
+
+[maryam.ahmed@cambriancollege.ca] 09:54:28
+Not because, I mean, this is because this is the thing you are looking for But this information could lead you to determine another kind of tool that might you might need.
+
+[maryam.ahmed@cambriancollege.ca] 09:54:41
+So once you have the type of canal you have the type of printing system that is being used you have all this information. It could give you a direction on how to even access other information within the system.
+
+[maryam.ahmed@cambriancollege.ca] 09:54:58
+And i share the DLLs. Using the PS list.
+
+[maryam.ahmed@cambriancollege.ca] 09:55:07
+Then we have the appears logged on.
+
+[maryam.ahmed@cambriancollege.ca] 09:55:12
+That tells you the login information This shows that there was a logon which is locally That means it turns into a remote slogan. It was within the i mean directly to the system around this time.
+
+[maryam.ahmed@cambriancollege.ca] 09:55:31
+So then the next stat tells you about the network connections what are the network connections that are within there that are connected to the system so here would see that uh physically it's in the listening state that meaning it is
+
+[maryam.ahmed@cambriancollege.ca] 09:55:49
+It is open for connection however it's just no active connection that's within this system so other life forensics too so we have the f ports that help us to view all the open tcp udp ports And it's map the sports to specific processes. We have the user dump.
+
+[maryam.ahmed@cambriancollege.ca] 09:56:13
+That extracts the memory dumps of running processes we have the pt finder that enumerates processes and traits in the memory dump
+
+[maryam.ahmed@cambriancollege.ca] 09:56:33
+The Windows swap file
+
+[maryam.ahmed@cambriancollege.ca] 09:56:40
+So the window swap fell is a place on our hard disk where items from our memory a temporary stored for first retrieval remember that i mean everything on this memory are it's a volatile tool right so it is actually temporarily stored
+
+[maryam.ahmed@cambriancollege.ca] 09:57:01
+On this hard disk so that it can be quickly retrieved. So it's used to hand in a .swp extension so and from the period of windows xp Windows 2000 uh windows uh 2010 and all that we have the we have it called the pagefile.cs
+
+[maryam.ahmed@cambriancollege.ca] 09:57:24
+So this is always found in the root directory. And it's referred to as the virtual memory.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:34
+Then we have the Windows log files. So here it gives you the information about the events other activities that occur in windows the login details So the event viewer is used to view the log files where you go to the event viewer, it helps to view the log files.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:58
+So. Part of the information would have in our log files like we have For security reasons, yeah, it keeps track of your lofa would keep information about security related logs.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:15
+Security related logs are informations that could lead to compromising system or the network compromise then it also keeps information about the application, the use of application. So there's application log So the application log files tells you when last was this application used. Even on our Windows, when you have a file, for example, you would see it last opened, last used.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:43
+You know so these are keeping track these are information part of the information we'd find on our log files So it keeps the application logs. Then we have the system logs that also tells us about the system use but not close to because i mean or not
+
+[maryam.ahmed@cambriancollege.ca] 09:59:04
+Directly related to the security but it's just on general use of the system then forwarded events and applications and services So all these are different types of log files that we have on Windows.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:20
+So here's our event viewer And from the event where we can we can look at the window logs, the applications and services logs the saved logs So.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:41
+We are quite familiar with this. The directories and folders we would find on our windows So we know mostly now what we have here is just documents This Windows document and settings we just have seed and document they see users program files and program files. Now we have these users username document and we also have user
+
+[maryam.ahmed@cambriancollege.ca] 10:00:07
+Username downloads right so all these are part of different directories that we do have So user assist is also another tool on its own that could help us give us some information about the log in details as well.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:26
+So this would also tell you about the application used application used under at work time the last time focus counts.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:38
+So it gives us information about the session and all that for each application
+
+[maryam.ahmed@cambriancollege.ca] 10:00:49
+Like in when we were talking about recovering.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:56
+We're covering the… recycle bin and all that we talked about allocated space and uh unallocated space.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:07
+Where we have our deleted items being saved are Okay, so this is just explaining that if we have a startup file At this point and here is the physical end of file it doesn't really mean that the file is occupying the whole space.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:28
+So logically, that means logically the size of the of the file exactly could be this size so this a little space is left behind which is more like the file slack so they allocated data itself is just for example if i have a data of
+
+[maryam.ahmed@cambriancollege.ca] 10:01:51
+Five gig. What would be allocated physically for that data itself could be seven gig okay so I mean, the whole file itself could write 7 gig or the logical end of that foul 8 in 5 gig.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:12
+So that between the five gig and that the 7 gig is what we have as the file slack
+
+[maryam.ahmed@cambriancollege.ca] 10:02:24
+An ADS. Also, we mentioned this ADS in our last, was it the last lab or upper one I think it was the one on recycle bin too
+
+[maryam.ahmed@cambriancollege.ca] 10:02:38
+So they alternate data streams. That's the method of attaching one file to another file using there.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:46
+Anti-fs file system remember the ntfs file system is this uh file system that We started using new technology file system That's the full meaning. And this came into use after the Windows 2000 xp So we changed from the FAT state 16 and 32 to
+
+[maryam.ahmed@cambriancollege.ca] 10:03:09
+Ntfs file system. So the ads works with this interface for system for attaching one file to another file so it's a feature of interface that contains metadata for locating a specific file.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:28
+Using different titles. I mean, using different features it helps us to such you know the concept of just setting and putting in the name the title and it brings out what you're looking for so That's just… we are able to do that because of our new file system which is the ncfs
+
+[maryam.ahmed@cambriancollege.ca] 10:03:53
+So the index. It's no longer in hedge what's it's was used by IE.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:01
+The Microsoft Internet Explorer then and it helps to store the web addresses it search queries under queries Recently opened files.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:15
+Here is the Internet Explorer history also keeping looks keeping information on what size all these are part of what I mean, if you want to do forensic in your on windows you might need to get information now all we need to do for Chrome 2, you need to know how to get to the set to history
+
+[maryam.ahmed@cambriancollege.ca] 10:04:39
+From the east tree the website that has been visited At wartime and… The URLs of those websites.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:53
+Files and permissions. Another thing we need to understand in windows is the files of permissions and how it works.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:04
+In windows where we copy and paste and when we cut and paste, is it the same thing?
+
+[maryam.ahmed@cambriancollege.ca] 10:05:12
+When we copy and paste if you copy from a folder to another folder.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:22
+Right. So usually it's the first two meetings where it is the fail is there Right. So what you're copying is you're copying
+
+[maryam.ahmed@cambriancollege.ca] 10:05:39
+The file you're copying the new file to another folder now if this particular um what is it called if this particular file comes with some attribute or if it has some attributes Like, for example.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:56
+The original attributes in that of that folder of the parent folder of the original parent folder okay if the original attribute says you can only read but cannot write.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:10
+On this particular file. If you copy this file to a new folder.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:17
+Okay, so let's call the new folder the new folder okay so this new folder has the attributes of it can read and it can write.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:28
+The new file is going to inherit the right of the folder of the new folder.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:35
+So that means this new file will be able to you will be able to read and rights. The parent folder says what you can only read you can't write That means I can only see this folder, but I cannot edit it.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:53
+But with the new folder it says I can read i can write, I can read and i can edit i got i mean i can change anything it is modifiable.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:04
+Okay, so the new folder would be the new parents.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:10
+And this particular one would hold on to the new period. It will adopt the new parent like okay fine i'm adopting your permissions when you cut and paste that is you're moving the file it's like you are moving it in its entirety
+
+[maryam.ahmed@cambriancollege.ca] 10:07:30
+So you are moving it with his attributes. It goes with everything.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:36
+So if you take it with a read-only permit. And you put it in a new folder that has read and write.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:46
+It goes with his own read-only permit.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:53
+I hope it is clear. So it all depends on what exactly do you want to do so at times if you We need to know that Topene only copies the file without the permissions and attributes So the permissions and attributes will be taken from the new folder
+
+[maryam.ahmed@cambriancollege.ca] 10:08:14
+Well cutting and paste goes with everything. It goes with his own permissions and everything.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:22
+To the new folder so it doesn't adopt a new parent if they are on the same partition.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:33
+So the Windows files and permissions Mark.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:42
+Let's refresh two. Three critical properties of the windows the file modified file accessed well created okay so the windows permission, we've talked about the read-only. Like I said, you can access then you can modify right so the third one is
+
+[maryam.ahmed@cambriancollege.ca] 10:09:04
+The file creation. If the if you have the right to create the file You can have rights to access you can have rights to modify. So all these are the three attributes that a folder would have so could have the rights to either create a new file
+
+[maryam.ahmed@cambriancollege.ca] 10:09:25
+Or possibly indeed an existing file or read only an existing file.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:39
+Any questions so far?
+
+[maryam.ahmed@cambriancollege.ca] 10:09:50
+So the Windows registry another very important part which is what we'll be working on in the lab is getting a Windows registry being able to access our Windows registry So the computer hardware configuration it gives us information these are the information we would get from our windows registry
+
+[maryam.ahmed@cambriancollege.ca] 10:10:10
+The information about the computer hardware multiple users and preferences The program shortcuts and properties sheets and remote administration through nature so this is what our registry looks like we have different registries, HK plus is root. We have HKE current user
+
+[maryam.ahmed@cambriancollege.ca] 10:10:31
+Who is the current user then local machine was the local machine and each key users And then what is the current configuration so all this tells us information about what is going on with the system also within time you know it gives you with a time and when it happened and all that. So we'll be working on this more on this
+
+[maryam.ahmed@cambriancollege.ca] 10:10:56
+Into this lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:02
+So we have the H, you see her. Preaches the class's root the current user the local machine the HKU, the HKU and the current configuration
+
+[maryam.ahmed@cambriancollege.ca] 10:11:18
+Yeah. So the importance of examining Windows registry which i think is my last question for the lab Like, why do you think we need that Windows registry?
+
+[maryam.ahmed@cambriancollege.ca] 10:11:32
+It gives us information about the activities that have been going on in the on the Windows system. So it tells us more information about what is going on usb is connected that's telling you about the uh the local machine, the hardware that has been attached to the system
+
+[maryam.ahmed@cambriancollege.ca] 10:11:56
+Wireless network to watch documents malware uninstalled soft ray passwords shield bag.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:04
+Preface so all these are part of information we could get from that registry.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:15
+Venom shadow copy. That keeps a record or copy of state changes It stores them in blocks of data that are compared daily Change two blocks are copied to the volume shadow and volume shadow copy service rules first party yeah so would move on
+
+[maryam.ahmed@cambriancollege.ca] 10:12:37
+Very soon to the lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:44
+So for memory forensics Memory forensics, we know it is volatile right So the first thing, what's the first thing we do to our volatile We want to do volatile frenzy.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:01
+If you want to do…
+
+[maryam.ahmed@cambriancollege.ca] 10:13:07
+If we want to do forensic on volatile data What's the first…
+
+[maryam.ahmed@cambriancollege.ca] 10:13:36
+I'll use the volatile data different from non-volta? We've mentioned it today. We've talked about it today.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:08
+Do we have our nurses? I mean… The other side is about discreet.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:17
+If you want to take forensic over memory
+
+[maryam.ahmed@cambriancollege.ca] 10:14:23
+What do you need to do first?
+
+[maryam.ahmed@cambriancollege.ca] 10:14:55
+So normally… The memory forensic it's i mean first thing is to capture the memory from the life machine And part of what we could use to do that is use tools like dump it ramp capturer from broker soft os 46
+
+[maryam.ahmed@cambriancollege.ca] 10:15:14
+And some other tools that could be used to capture the volatile memory.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:21
+Then analyze the captured memory. You can only analyze, you can only do forensic on what has been captured on what has received.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:31
+So you analyze the captured memory So in analyzing you can use volatility ps list ps3 ps scan a CVC scan and other tools.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:46
+So. This is what we have for us for today.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:51
+Questions.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:56
+Any question?
+
+[maryam.ahmed@cambriancollege.ca] 10:16:03
+Any questions?
+
+[maryam.ahmed@cambriancollege.ca] 10:16:22
+In the absence of none, we can go for. Break and after that we'll come back for the lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:31:44
+Welcome back. So we'll be looking into the lab now
+
+[maryam.ahmed@cambriancollege.ca] 10:32:16
+Right. So in the absence of questions, we could just have about five minutes break and after that we go to the lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:32:34
+Yeah. So just like our previous labs, our focus is to fulfill these objectives.
+
+[maryam.ahmed@cambriancollege.ca] 10:32:41
+Identify the location of the common registry files learn what type of data each one stores.
+
+[maryam.ahmed@cambriancollege.ca] 10:32:48
+Learn how to press dip understand how to preparate findings in the registry with files on the source device. So as we move on through the lab, of course, I will be pointing out where we fulfilled the objectives and um
+
+[maryam.ahmed@cambriancollege.ca] 10:33:02
+Yeah, if we have…
+
+[maryam.ahmed@cambriancollege.ca] 10:33:07
+And the issues with identifying at what point because I really want us to understand okay what exactly are we doing in the lab not just our following the routine and you know just doing it you know why are we doing it? First, we want to locate uh
+
+[maryam.ahmed@cambriancollege.ca] 10:33:23
+The most common registry files and then what type of data are stored in each of this registry we want to see them. So that means we would open those registry files and look into them.
+
+[maryam.ahmed@cambriancollege.ca] 10:33:35
+And then how do we pass this registry files and how to corroborate our findings in the registry which files on the source device.
+
+[maryam.ahmed@cambriancollege.ca] 10:33:57
+First, we just log into our windows system then we go to our frequent tool that we've been using and then like we've seen in this on the slide we can use any of these other tools the os 486 to the ftk imager we could use any of this for the analysis
+
+[maryam.ahmed@cambriancollege.ca] 10:35:58
+So it shows our access data FTK image that we'll be using for the lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:36:35
+So from a previous lab, we are quite familiar with using the ftk imager and hiding resources adding evidence item and all that so we had dreamed similar theme and reselecting an image file they click next.
+
+[maryam.ahmed@cambriancollege.ca] 10:36:55
+Then we pick the image file we are using. Which is the c drive e01.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:16
+See?
+
+[maryam.ahmed@cambriancollege.ca] 10:37:26
+Image fell.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:31
+Ribose.
+
+[maryam.ahmed@cambriancollege.ca] 10:38:19
+If everything is done rightly, then we should have this And which I expect us to have, sure.
+
+[maryam.ahmed@cambriancollege.ca] 10:38:26
+So here it is.
+
+[maryam.ahmed@cambriancollege.ca] 10:38:32
+Here is our drive. The image file we want to look into
+
+[maryam.ahmed@cambriancollege.ca] 10:38:54
+The next is to see the contents of this uh image file we want to view the context so we click the same product just to expand it
+
+[maryam.ahmed@cambriancollege.ca] 10:39:17
+Thus it shows the details. Expanding.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:28
+So we know that this root directory Shea is like is the main C drive.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:38
+In the windows file explorer so the first file registry we locate is the anti-user.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:00
+Want to capture all the registry files that are available in here.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:06
+And that's an unlimited interface we have the document settings And the hi user.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:26
+Yeah, so the document asset is now we just have it as users now since Windows XP.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:47
+So expanding the document and settings would see the list of user folders that means different users that's how using the system so associated to the user the anti-user file we have to installed in the root of the IE user folder.
+
+[maryam.ahmed@cambriancollege.ca] 10:41:08
+So to access it to click the i use a folder
+
+[maryam.ahmed@cambriancollege.ca] 10:41:17
+To do that, let's just go back to our screen. All we need to do is expand, expand.
+
+[maryam.ahmed@cambriancollege.ca] 10:41:24
+Okay, so we are looking at the roots Because that's the major one and we are looking at documents and settings So once we are in document as settings we could see all these but like we said what we are really looking for is in IE user.
+
+[maryam.ahmed@cambriancollege.ca] 10:41:44
+So what we are really looking for is within this IE users So we could already see it's here the anti-user dot that.
+
+[maryam.ahmed@cambriancollege.ca] 10:41:55
+So this is part of the registry we want to Okay, it's had this point and we could see other registries Two.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:12
+So the other ones we have the log files so and they've all saved in this ie
+
+[maryam.ahmed@cambriancollege.ca] 10:42:28
+So if we have the incisions and do that. We have other words talking about the logs.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:36
+This is the log file this is also the log file slack So these are date log files.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:48
+So if we really want to see it the content would have to export the at user.file and any other .dat dot log files to ensure you have the most complete data set So to exports you alight them.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:11
+Either by using the control key and the left clicking on each of them you know just at times also i think shift also works and just pick everything that you want to Highlights.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:32
+Okay. Right click and choose export files.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:50
+The graphs for folder window you could put make new folder Once into create a new folder where you want to export them to And we are going to name that folder also under the evidence response We'll be naming it for lab four
+
+[maryam.ahmed@cambriancollege.ca] 10:44:08
+For lab 004.
+
+[maryam.ahmed@cambriancollege.ca] 10:44:18
+And we make another new folder
+
+[maryam.ahmed@cambriancollege.ca] 10:44:23
+For the registry files.
+
+[maryam.ahmed@cambriancollege.ca] 10:44:28
+That means insight that for lab 004 we are making it another one by clicking on make new folder and click on new folder So that's so…
+
+[maryam.ahmed@cambriancollege.ca] 10:44:43
+Now that we have exported
+
+[maryam.ahmed@cambriancollege.ca] 10:44:48
+Click the OK button.
+
+[maryam.ahmed@cambriancollege.ca] 10:44:55
+Like I said, I'm not always too specific on Okay, this is what I am expecting.
+
+[maryam.ahmed@cambriancollege.ca] 10:45:03
+However, any answer that shows me the registry, how you are able to access the registry files is the correct answer.
+
+[maryam.ahmed@cambriancollege.ca] 10:45:14
+For the first objective. If you show me a screenshot of just even the IE and under the IE, I'm able to see the registry files the log files then Yeah, I've in the scroll for the first objective And if you come further to show me what you have exported okay i've exported the registry files and everything. I know that before you could export, you must have located it
+
+[maryam.ahmed@cambriancollege.ca] 10:45:40
+You are still getting your full score for that
+
+[maryam.ahmed@cambriancollege.ca] 10:45:51
+Okay, so let's just do what we have seen so far.
+
+[maryam.ahmed@cambriancollege.ca] 10:45:59
+So what they spent we want this anti-user
+
+[maryam.ahmed@cambriancollege.ca] 10:46:33
+I want to do it on this. If it is rip a c tree.
+
+[maryam.ahmed@cambriancollege.ca] 10:46:40
+Create a new make a new folder And we are naming heats.
+
+[maryam.ahmed@cambriancollege.ca] 10:46:48
+Four.
+
+[maryam.ahmed@cambriancollege.ca] 10:46:53
+Love.
+
+[maryam.ahmed@cambriancollege.ca] 10:47:00
+And that is we are making a new folder. Let me need to registry.
+
+[maryam.ahmed@cambriancollege.ca] 10:47:28
+Exported.
+
+[maryam.ahmed@cambriancollege.ca] 10:47:39
+So the next user another register another registry file that we want to look at after the end user that is the user class That's file. And this file contains the show bags which are a set of registry keys that store configuration settings for the Windows File Explorer.
+
+[maryam.ahmed@cambriancollege.ca] 10:48:04
+So it… Here we have the information about the size and positions of file explorer windows and it can determine different folders that a user navigated and provide dates and times that they were accessed.
+
+[maryam.ahmed@cambriancollege.ca] 10:48:19
+So we also want to access this
+
+[maryam.ahmed@cambriancollege.ca] 10:48:27
+So to get this particular one we'll go to the document as settings like we said in our new Windows version would have just gone to the user then would see the users that are there and everything so we are still going to the IE user.
+
+[maryam.ahmed@cambriancollege.ca] 10:48:44
+But now under the ie user we have a folder which is the local then from there we move on to the application that Microsoft Windows
+
+[maryam.ahmed@cambriancollege.ca] 10:49:10
+We have this looker settings.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:19
+Location data microsoft, the windows Yeah, so here at the user class but that's.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:29
+We also want to show so once you show this Oops, my time is almost up. Request more time.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:41
+Once we are able to show this When it shows that at least we know how to get to Or… the registry files.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:59
+Similarly, it's a similar thing Okay, one. And first and the third one only
+
+[maryam.ahmed@cambriancollege.ca] 10:50:16
+It highlights them and also exports Just like we did.
+
+[maryam.ahmed@cambriancollege.ca] 10:50:24
+And this time we have our folder which is
+
+[maryam.ahmed@cambriancollege.ca] 10:50:33
+Those who make a new folder. And now we are naming the folder user class.
+
+[maryam.ahmed@cambriancollege.ca] 10:50:44
+And we click OK.
+
+[maryam.ahmed@cambriancollege.ca] 10:51:16
+So it's two, fill up four. What's me, can you?
+
+[maryam.ahmed@cambriancollege.ca] 10:51:22
+Folder so name it's user class.
+
+[maryam.ahmed@cambriancollege.ca] 10:51:38
+So we're export seed so they use it less. So false.
+
+[maryam.ahmed@cambriancollege.ca] 10:51:45
+Has been exported.
+
+[maryam.ahmed@cambriancollege.ca] 10:51:59
+Because in the windows, which is the operating system And it also has many files and folders with the dates.
+
+[maryam.ahmed@cambriancollege.ca] 10:52:11
+You could also see the config so basically on that you config two we scroll on to see are the other registry on the registry files.
+
+[maryam.ahmed@cambriancollege.ca] 10:52:25
+That we have here. So we have about eight of them here and we do the same thing.
+
+[maryam.ahmed@cambriancollege.ca] 10:52:30
+I don't want to repeat the same thing but yeah we just export once we export so to select the specific one that you want you just need to use a control key and click on the specific ones that we have here.
+
+[maryam.ahmed@cambriancollege.ca] 10:52:44
+So once you select the registry files
+
+[maryam.ahmed@cambriancollege.ca] 10:52:52
+Make the folder and That's yes.
+
+[maryam.ahmed@cambriancollege.ca] 10:52:57
+Okay, so that's the last part of exploring the the configuration registry files now.
+
+[maryam.ahmed@cambriancollege.ca] 10:53:06
+So anyway, let's do it. Those are hurts.
+
+[maryam.ahmed@cambriancollege.ca] 10:53:10
+So we're looking at the config
+
+[maryam.ahmed@cambriancollege.ca] 10:53:18
+From the winders.
+
+[maryam.ahmed@cambriancollege.ca] 10:53:41
+That should be… Yeah, let me share is the config.
+
+[maryam.ahmed@cambriancollege.ca] 10:54:51
+Okay, system 32. Under systems, SEC2.
+
+[maryam.ahmed@cambriancollege.ca] 10:54:56
+From windows is the two daily proceed.
+
+[maryam.ahmed@cambriancollege.ca] 10:55:05
+Yeah.
+
+[maryam.ahmed@cambriancollege.ca] 10:55:12
+So we could. Access Chief.
+
+[maryam.ahmed@cambriancollege.ca] 10:55:24
+Some other files which we could see here you can see dot log it will say some dot events So, yeah.
+
+[maryam.ahmed@cambriancollege.ca] 10:55:36
+The ones we weren't a copy.
+
+[maryam.ahmed@cambriancollege.ca] 10:55:50
+Sam.log. Security security.log Softwaresoft train.log system system.log.
+
+[maryam.ahmed@cambriancollege.ca] 10:56:00
+Same security system. So true.
+
+[maryam.ahmed@cambriancollege.ca] 10:56:14
+We need this. And we need to send the plug.
+
+[maryam.ahmed@cambriancollege.ca] 10:56:22
+We need the security. Security.lug.
+
+[maryam.ahmed@cambriancollege.ca] 10:56:29
+I need the software. So redo its log.
+
+[maryam.ahmed@cambriancollege.ca] 10:56:38
+We did the system. And we have the system.log.
+
+[maryam.ahmed@cambriancollege.ca] 10:56:48
+Still same.
+
+[maryam.ahmed@cambriancollege.ca] 10:56:56
+So. I need to make new folder.
+
+[maryam.ahmed@cambriancollege.ca] 10:57:03
+It's… Let's see.
+
+[maryam.ahmed@cambriancollege.ca] 10:57:09
+Configuration files
+
+[maryam.ahmed@cambriancollege.ca] 10:57:17
+Experts in some configuration files. Okay.
+
+[maryam.ahmed@cambriancollege.ca] 10:57:43
+To windows folder. Tree and locates the six common registry hives. There are more registry files like Why I am not i mean i am not We have lots of registry files depending on what exactly you're looking for and you could get almost similar information on two or more files so yeah
+
+[maryam.ahmed@cambriancollege.ca] 10:58:05
+You could always… go to check.
+
+[maryam.ahmed@cambriancollege.ca] 10:58:08
+Now we've seen how to navigate these. We will now move over to the next exercise which is exercise which And… We are closing the FTK image here.
+
+[maryam.ahmed@cambriancollege.ca] 10:58:20
+And then any of the open windows.
+
+[maryam.ahmed@cambriancollege.ca] 10:58:41
+So now we want to learn how to export them from a live system. We just need to follow this uh these instructions
+
+[maryam.ahmed@cambriancollege.ca] 10:59:00
+Go to obtain protected uh files.
+
+[maryam.ahmed@cambriancollege.ca] 10:59:06
+Then it gives the user the ability to export files that are normally locked by the operating system and to get all the registry files except the is a class dot that.
+
+[maryam.ahmed@cambriancollege.ca] 10:59:19
+Click the radio button beside the password recovery and all the registry files are selected.
+
+[maryam.ahmed@cambriancollege.ca] 10:59:46
+We can now close our FTK once we are done with that.
+
+[maryam.ahmed@cambriancollege.ca] 10:59:56
+Let me just do the last one before we close it.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:01
+Just going to obtain protected from This is what we just wrenched into.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:12
+So now we are done with our If it's the key.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:29
+Any questions so far?
+
+[maryam.ahmed@cambriancollege.ca] 11:00:39
+There are no questions. I believe there are no questions the other parts of the lab should be itch-free. At least I'm 32 pages bound which is 50% of the lab So if we do have any question on the remaining parts.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:54
+Are busy available. For the next 30 minutes.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:59
+So if we have any question you could always ask so you can continue with the other part of the lab.
+
+[maryam.ahmed@cambriancollege.ca] 11:01:06
+And I will definitely be online. Take our questions.
+
+[maryam.ahmed@cambriancollege.ca] 11:01:22
+The video is uploaded it's already there model
+
+[Adebola Oluseyi] 11:01:35
+Good afternoon, Prof. Just a quick word concerning the project sort of we know that we are doing the right thing.
+
+[maryam.ahmed@cambriancollege.ca] 11:01:37
+Good afternoon.
+
+[Adebola Oluseyi] 11:01:47
+I don't know, is it possible to like do a review
+
+[Adebola Oluseyi] 11:01:54
+Not this lab, the project itself. The midterm project itself.
+
+[maryam.ahmed@cambriancollege.ca] 11:01:59
+Okay, what kind of review do you want to do? Like if you have any question regarding the project maybe we see a solution or something that you could always yeah maybe send a message.
+
+[maryam.ahmed@cambriancollege.ca] 11:02:16
+At least I've been receiving messages on the project and yeah, I've been responding
+
+[Adebola Oluseyi] 11:02:23
+Okay.
+
+[maryam.ahmed@cambriancollege.ca] 11:02:55
+We can continue with the lab I'll be here for… It'd be unheard.
+
+[maryam.ahmed@cambriancollege.ca] 11:03:03
+If anyone has any questions
+
+[Adebola Oluseyi] 11:03:45
+Just to reconfirm, sorry. For this current lab, we just need screenshots that vitally points to the questions asked, right? Like, for example.
+
+[maryam.ahmed@cambriancollege.ca] 11:03:57
+Exactly. Yes.
+
+[Adebola Oluseyi] 11:03:57
+Okay, okay.
+

@@ -1,0 +1,1221 @@
+[maryam.ahmed@cambriancollege.ca] 09:42:35
+All right. I'm not sure we can have more than this.
+
+[maryam.ahmed@cambriancollege.ca] 09:42:44
+So good afternoon everyone and You're welcome to another class of digital frenzy.
+
+[maryam.ahmed@cambriancollege.ca] 09:42:54
+Possibly her last lecture class. I already sent an information on model so possibly this might be the last lecture but The other two classes would be for presentation and we'll be presenting The lab booted.
+
+[maryam.ahmed@cambriancollege.ca] 09:43:13
+Or the assignments. The assignments we did actually So I find this quite interesting and I think it's something that I would like to share from Paul how we did it and uh What actually did redo so for today's class, I will try to cover the last two topics because uh
+
+[maryam.ahmed@cambriancollege.ca] 09:43:38
+This has a lab for the other topic which is incident response.
+
+[maryam.ahmed@cambriancollege.ca] 09:43:41
+Is something we could finish in 30 minutes because we have a whole course that I've discussed that in the previous session. So I'll be taking these two Last two slides for today.
+
+[maryam.ahmed@cambriancollege.ca] 09:44:00
+Hold on, let me close the door.
+
+[maryam.ahmed@cambriancollege.ca] 09:44:28
+Yeah, so for the first one is all about network analysis, performing network analysis. So in this slide, we'd also look into what networking is And I would understand the fundamentals of all network function which of course I also believe you covered
+
+[maryam.ahmed@cambriancollege.ca] 09:44:46
+A good part of that introduction to fundamentals of networking. I don't know what name was given to you. Then explain how to perform in-network analysis.
+
+[maryam.ahmed@cambriancollege.ca] 09:44:59
+The key concept we're looking at today. Network packet analysis basics.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:05
+Traffic analysis or auto forensics crown wall forensics.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:17
+So here is the structure. Of a packet. This is what the structure of a packet looks like. And this particular structure shows the structure of a TCP packet actually And how do we know this is a TSP packet?
+
+[maryam.ahmed@cambriancollege.ca] 09:45:39
+What are the indications that this is a specific packet?
+
+[maryam.ahmed@cambriancollege.ca] 09:45:49
+What?
+
+[Chukwuemeka Nwankwo] 09:45:56
+Okay.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:56
+The source spot and destination port. Yeah, it shows that those shows that it is yeah for transport layer Or possibly I should reframe what shows that this is a TCP packet and not a UDP packet.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:32
+So hack number and every other thing that comes around here belongs to ATCP. For a UDP package you only have like for things that you do i mean For options, we only have the source port number the destination So for TCP, because it's a reliable uh
+
+[maryam.ahmed@cambriancollege.ca] 09:46:56
+Protocol so it actually has the sequence number the acknowledgement number the data offset they reserved the flags. We have six flags actually. We have the urgent we have the… we have uh we have push we have reset we have finished so all these flags will tell us what type of packet we've received
+
+[maryam.ahmed@cambriancollege.ca] 09:47:21
+Then the window that shows the window size that the checksum for error code.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:26
+Corrections, then audit pointer, which is also hardly used it is only used when one of these flags which is object if it is on then we can have our urgent pointer then options and padding options and padding are usually for where you don't have less than required
+
+[maryam.ahmed@cambriancollege.ca] 09:47:44
+Okay there's a certain size that is expected of a TCP head at between 32 between 20 to 60 bytes so if you do not have up to that then you have to add options at padding and that is just hardy zero zero zero
+
+[maryam.ahmed@cambriancollege.ca] 09:48:02
+So at least it will be able to be saved because if if it doesn't really fit into those conditions then that packet can be dropped then we have the payload which is the main data so here is the packet structure, the source port we've talked about, the destination port.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:23
+The secret's number Okay, so these are major cities then the sequence number would determine what the acknowledgement number would be. So they go hand in hand the synchronous and acknowledgement number then we have the data offset.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:40
+Then reserved 3-bit I reserved.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:44
+Then check. Error checks on and that we have these six flags from the object urgent acknowledgement push reset synchronization then finish the window size for JetPrinter if OJT is set.
+
+[maryam.ahmed@cambriancollege.ca] 09:49:00
+And we have the ushers
+
+[maryam.ahmed@cambriancollege.ca] 09:49:05
+So now this is just like you said that, okay, because we have the port numbers so it shows that this is a header at the transport layer Right? So at the network layer we do not have the port stumbler right so at this point we the
+
+[maryam.ahmed@cambriancollege.ca] 09:49:24
+Package uses the IP address for the source and destination address. It uses the IP address. So this is what the ip header looks like in this case.
+
+[maryam.ahmed@cambriancollege.ca] 09:49:34
+It starts with the version number, which is either version 4 or version 6.
+
+[maryam.ahmed@cambriancollege.ca] 09:49:39
+Then header length this is the header length the DSCP, the ECN, the total length of the packet, the identification also we have the flags the fragment of sate fragment offset would tell you the position of the fragment, whether when it tells you if the fragment or the packet is fragmented
+
+[maryam.ahmed@cambriancollege.ca] 09:50:00
+Because for bigger packets, it has to be fragmented broken and then if this frag packet is fragmented, it also tells you how to reassemble The fragment HubSet will let you know how to reassemble at the receiver's end so you don't pick the last, I mean the system does not pick the last
+
+[maryam.ahmed@cambriancollege.ca] 09:50:20
+Fragment as the first. So there's an identity of how to know if this is the first fragment or if this is the last fragment and if this comes after which so this is the purpose of the fragment of said that time to leave
+
+[maryam.ahmed@cambriancollege.ca] 09:50:36
+Tells you how many hopes of. The packet needs to travel before the packet could be discarded.
+
+[maryam.ahmed@cambriancollege.ca] 09:50:44
+Then the protocol, they have a checksum also for error detection then source and destination IP address. And of course, in this case we have 32 bits for our source IP and 62 bit for the destination IP address
+
+[maryam.ahmed@cambriancollege.ca] 09:51:04
+So now coming to the ethernetes. At the internet level that is at this level that's a link layer on the data link layer you we use the mac addresses So here we focus more on the source and destination mark address so here we have six oxides for destination and six objects for
+
+[maryam.ahmed@cambriancollege.ca] 09:51:26
+Mac address so here are the five bits here but they're actually uh six We also have the push PSH. So this is urgent It's max day and traffic has been audit so here it is really used but it could be sometimes used to prioritize
+
+[maryam.ahmed@cambriancollege.ca] 09:51:48
+This particular bit is for prioritizing the packet then arc actions that this particular packet that is received is an acknowledgement of is synchronized communication and that's what i said this scene and act actually goes together so where you said is seen when the
+
+[maryam.ahmed@cambriancollege.ca] 09:52:09
+And usually is the client that initiates that communication. The client would send a sync to the server and the server would return with an acknowledgement and also a synchronization trying to synchronize the communication between the two so you this These factors would only come in during specific communication. In UDP communication, there's nothing like three-way authentication. We call it three-way authentication, where it goes in first
+
+[maryam.ahmed@cambriancollege.ca] 09:52:37
+To send his own sin then it responds again with the acknowledgement and also with his own sin. And the client would also respond acknowledging the synchronization number of the server so Well, the sequest number of day, Sarah.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:55
+This actually beats that comes up during our two separate communication then arresting resets the connection which could happen as a result of anything there might have been a communication and a party's ready to hand the communication and the other party feels no
+
+[maryam.ahmed@cambriancollege.ca] 09:53:12
+There is more to say and I reset that communication. And for Finn, Finn is Finnish.
+
+[maryam.ahmed@cambriancollege.ca] 09:53:21
+Indicates that there is no more data from the sender. So this is the three-way handshake.
+
+[maryam.ahmed@cambriancollege.ca] 09:53:28
+That begins the TCP communication. Before TCP can communicate. I always call it the polite way of communication you know you just don't go to somebody i need this hello starting with the hello Hi, how are you?
+
+[maryam.ahmed@cambriancollege.ca] 09:53:48
+Good so you can now bring your request this is a tcp3 we had chip.
+
+[maryam.ahmed@cambriancollege.ca] 09:53:54
+But in the case of UDP, it takes away all this protocol, all these respect or whatever in you know and these are the things that gives TCP the reliability So there is this three-way and shake the scene the sin and acknowledgement and the host would also acknowledge that yes i am perceived
+
+[maryam.ahmed@cambriancollege.ca] 09:54:15
+The sequence number of the server. Tcp connection termination just the same way we have the three-week check.
+
+[maryam.ahmed@cambriancollege.ca] 09:54:26
+At the beginning the same way after the whole communication the main data has been sent and everything There's also a polite way of ending the conversation. You just don't leave anticipi.
+
+[maryam.ahmed@cambriancollege.ca] 09:54:40
+Okay, so thank you. It was nice talking to you. Thank you too.
+
+[maryam.ahmed@cambriancollege.ca] 09:54:45
+Nice talking to you too. And you acknowledge so this is like a very polite way of ending conversation but In UDP again, we don't have all this.
+
+[maryam.ahmed@cambriancollege.ca] 09:54:59
+Okay, so this is like where we use the feed okay the host would initiate acknowledging the last sent message and at the same time Saying that, this is the last message from me, acknowledging that this is the last message from me. Then the server would also acknowledge receiving the fee
+
+[maryam.ahmed@cambriancollege.ca] 09:55:20
+At the same time, the server also need to confirm else we would say that it is only half closed.
+
+[maryam.ahmed@cambriancollege.ca] 09:55:28
+It is possible that the host has finished communication, but Sarah is yet to finish so the real the full closure of that communication happens when both actually says the fin fiend Okay, so the server needs to also acknowledge and also say finish and the host would
+
+[maryam.ahmed@cambriancollege.ca] 09:55:49
+Acknowledge the finished message of the server.
+
+[maryam.ahmed@cambriancollege.ca] 09:55:56
+So remember what happens
+
+[maryam.ahmed@cambriancollege.ca] 09:56:02
+When one says the host now says, I'm done. Okay but there was no response from the server so in this case, just like I mentioned, this is one of the cases where we have half closed. In this case, the server could still send message
+
+[maryam.ahmed@cambriancollege.ca] 09:56:18
+So the communication link is not totally cut off. So there could still be a communication even after the host already sends a phone message
+
+[maryam.ahmed@cambriancollege.ca] 09:56:34
+Then the christmas trees can here we have a fin All joint, then push the PSH that was not added to the Last slide. So the PSH basically is forwarding the message, pushing the message. So normal messages normal messages like the data
+
+[maryam.ahmed@cambriancollege.ca] 09:56:55
+I mean, the real communication that is being sent carries the PSH.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:02
+Flag so the PSH flag would always be one where you are sending the normal communication but when you're sending things like synchronization and all that, it is zero because it's not something that needs to be sent forward to any other person. It's just synchronizing.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:18
+Message between the host and the server so here we have a finished indecent then that push and in this case the server is responding but it is responding with a reset or like recite the communication and a null scar.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:42
+Okay, all flags are zeros. The Six Flags are zero. It is not urgent. It is not push it is not anything okay so the server in this case is receipts.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:55
+It seems something is wrong with your So what exactly, I mean, because the flag would actually determine what should be done to the message.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:10
+The payload is the main message itself all these fain, termination, sin, act.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:17
+These are not messages. I mean, these are just like addresses. These are just something you know they are not the main conversation. So the real body of information the main content is the payload. So that's the actual content that the packet is delivering to.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:36
+The destination. So if the packet is fixed length, the payload may be padded with blank information so for payloads to there's always a specific uh a specific amount or a minimum less you know so when we have less than the minimum length which i think is about 40 bytes
+
+[maryam.ahmed@cambriancollege.ca] 09:58:59
+So if we have a data that is less than that, then what we need to do is we need to pad it.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:06
+By hand in zeros. You know, blank.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:11
+Only specific pattern to make it dirt or else right size the trailer that's for error checking
+
+[maryam.ahmed@cambriancollege.ca] 09:59:21
+That's for error checking trailer is all this for error checking it to detect errors that occur during transmission so and it could be a part of the estimate where at what layer do we use the ethanates
+
+[maryam.ahmed@cambriancollege.ca] 10:00:13
+So the internet is actually used at layer two and same with the point-to-point protocol frame also you will see frame usually the word frame is on the frame is fantasy layer 2 protocol. When we talk about packets packet usually, I mean, it's just now that they use it for at layer four as well. It's usually used for layer three
+
+[maryam.ahmed@cambriancollege.ca] 10:00:39
+Which is the natural layer. At layer four, we used to use based on Cisco recommendation is segments.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:47
+So we use segments for layer four. Yeah, anything that bulbs becomes a data because now we are looking at the main message when you look at presentation which is more of the encryption, encrypting the message and all that. The application layer delivering the message to the end user
+
+[maryam.ahmed@cambriancollege.ca] 10:01:09
+So at this point it becomes the full data. So the CRC the CRC is for the error check. That's the trailer So here we have the preamble, destination address, the source address, the type of data itself, which is the main message.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:30
+Then we have the CRC. So why do you think CRC comes at the hand?
+
+[maryam.ahmed@cambriancollege.ca] 10:01:53
+Because if CRC is found, if an error is found, the frame is instantly discarded. So that means every other thing will not be processed.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:03
+But in this case, we need everybody the header and everything to be processed before processing the CRC.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:15
+So pots. We've always been… At this point, we know what parks numbers are.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:25
+It's that number that identifies a channel in which communication can occur and it's usually also gives us anint on the type of application that is being used.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:39
+So knowing what potty packet was designed for or coming from it tells you what protocol it was using and we know that we have some default numbers for certain protocols for example the ftp the file transfer protocol uses 3D for data 31 for control
+
+[maryam.ahmed@cambriancollege.ca] 10:02:59
+Then the secure shell has the secure shell that's the secured remote access uses street two telnet, which is the unsecured remote access uses that Treaty 3. The simple mail transfer protocol, SMTP, that's for sending emails I use three to five. We have the domain name service
+
+[maryam.ahmed@cambriancollege.ca] 10:03:21
+Dnas that would need it while using our HTTP and our we have the HTML, HTTP using port 80. Then 110 which is the post office protocol version 3. So this is also used for sending emails Donald Dig, these are like our…
+
+[maryam.ahmed@cambriancollege.ca] 10:03:51
+Intruder ports these are not her normal ports these are more like intruders and why we need to know this if you see any of these numbers it really shows that there is what, and this is like an IOC, an indicator of compromise. If you receive a packet coming from this particular port number, then you need to be careful. You need to know something is just
+
+[maryam.ahmed@cambriancollege.ca] 10:04:13
+Likely to be wrong somewhere.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:20
+Denial of service attacks.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:29
+So for denial of service you know it's all about Denying. Bye.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:36
+An authorized person from accessing the network. When an authorized user is being He's being blocked, you know, and in most cases these attacks and attacks So it could be targeted at As a giver and a giver.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:00
+By sending, this could be, by sending lots of packets to the extent we were shorting that particular server, flooding the package with unnecessary unnecessary traffic so at a point The network cannot handle those packets anymore and it could short the system so it could just be even phcps i mean
+
+[maryam.ahmed@cambriancollege.ca] 10:05:27
+Pinks it could be pinks It's going to be ICMP's packets that have been set, ICMB flooding. So attacker would usually flood the network with malicious packets.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:40
+Preventing legitimate network traffic from passing and that the using of this approach that limiting the Tajet's machine's ability to operate or overflows the target machine with OPPO connections at the same time or it uses the bandwidth to the Tajet machine so any of those what they are just trying to do is preventing legitimate users from having access
+
+[maryam.ahmed@cambriancollege.ca] 10:06:11
+Ping of death attack which is also a type of
+
+[maryam.ahmed@cambriancollege.ca] 10:06:17
+It could also be a type of a DOS. So here we have the IP header which is 20 bytes which is like the normal uh between 20 to 60 is acceptable. Then for ICMP EDR, it's pipes.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:32
+Is greater than 65,507. And for all our datas, it should be less than 65507. If your data is greater than this, then that data needs to be fragmented before it travels through the network.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:50
+So, of course, your network would automatically fragment it but You could also use your fragment offset to say do not fragment. There's a bit that says that do not fragment. So if this is on, that means this thing that is greater than 65,507.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:10
+Is too big for to be to be processed by the network so this could lead to what we call the ping of death attack.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:22
+Then another very common one type of DOS is the ICMP flooding, pink flood.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:30
+Okay, so I did a lot of ICIP packet to broadcast address you know sending so many ICMP unnecessary packets just to keep that the system visit, the network busy.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:45
+Teardrop attack. So here the attackers sent fragments of packets with bad values in them.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:57
+And in this case, it's caused the Taja system to crash when it tries to reassemble the fragment. Similar to what we have in the ping of death attack where the data here is greater than 65,507 so here too it could be that a particular
+
+[maryam.ahmed@cambriancollege.ca] 10:08:18
+What is it called value in the in the package is wrong.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:24
+It has reset to a bad value. A bad value is an unacceptable value and this Because the court system is not able to process that could crash the system.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:37
+The same flawed attack. So while we know that synchronization needs to be done to be able to establish communication. So once you say the same And it's seen that acknowledgement has been sent.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:54
+Then what you are expecting is just an acknowledgment to acknowledge that oh i have also received your secret number but the attacker decided to send another scene and keep sending a scene and sin and sin and sin and sin. So this could also help it could also
+
+[maryam.ahmed@cambriancollege.ca] 10:09:11
+Shut down the server. Or possibly prevent authorized users from coming in.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:20
+So land attack attacker sent a fake 2CP scene.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:26
+Package with the same source and destination IP addresses and port as the target computer.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:33
+Okay, so here the source and destination is the same Okay, the soft spot the destination ports the source IP, the destination ip so And these addresses are the address of the Tajet computer. So the victim computer will be tricked to think it is sending itself a message.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:55
+More like a new back so because the packet is coming from Whereas a packet is coming from an outsider computer so this is like a land attack.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:05
+Then we have the smorf attack. So here is also the attacker that is going through the network but here trying to amplify that means more like a boat network okay so using one like a both knight to attack that victim
+
+[maryam.ahmed@cambriancollege.ca] 10:10:28
+The fragile attack which is also similar to a small it uses the spoofed use a telegram protocol which is the UDP instead of the icmp haircut replies So… This can easily bypass a firewall.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:46
+Then, packets mistreating. These apples were in a compromised router mishandles pockets.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:00
+And here again we can have congestion in the network. So… What is the difference between network monitoring and network analysis?
+
+[maryam.ahmed@cambriancollege.ca] 10:11:24
+Do you think there's any difference between the two?
+
+[Chukwuemeka Nwankwo] 10:11:35
+I think they're almost the same deal. Like the monitoring is just like an overview seeing what's going on.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:44
+What?
+
+[Chukwuemeka Nwankwo] 10:11:54
+Why the analysis is actually trying to So what is really happening?
+
+[Chukwuemeka Nwankwo] 10:11:59
+And those things will be found.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:00
+Exactly. So network monitoring is being able to capture capture the packets, monitor what is going on and capture it.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:13
+Where you do not capture, of course, you can do the analysis Now, network analysis is After capturing.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:21
+What does it tell us what is the information you know being able to extract the importance the importance of that's the captured packets so that is the analysis
+
+[maryam.ahmed@cambriancollege.ca] 10:12:42
+So here we could use, I'm sure you've also used a lot of tools when it comes to network capturing network monitoring and capturing What are some of the tools that you've used?
+
+[maryam.ahmed@cambriancollege.ca] 10:12:56
+For monitoring and capturing.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:13
+Most common tool or the easiest tool
+
+[maryam.ahmed@cambriancollege.ca] 10:13:20
+Is the wear shop. Yeah, thank you.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:26
+Is a wire shock that's like… then I know that's old.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:32
+Do you know of any of that tool?
+
+[obinna osuala] 10:13:55
+We have promo code. Pokemon.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:57
+What?
+
+[obinna osuala] 10:14:01
+Pokemon.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:03
+Okay.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:09
+About our seam.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:15
+The SIEM.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:30
+There's also another tool called security audio Have we used that?
+
+[maryam.ahmed@cambriancollege.ca] 10:14:51
+I don't know if PC bag
+
+[maryam.ahmed@cambriancollege.ca] 10:14:59
+So there are actually a lot of big and also small tools Done. I… tools as small as these are soft tools GCP dump wind dump So they help us too.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:16
+What's a sniffer? Sniffer a software or hardware that can intercept and lock traffic passing over a digital network and that these extract the packet and perform a statistical analysis on the dumped information.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:32
+So you can use things like the TCP dump wind dump Boom.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:40
+This recipe dump is also a type of sleep for Unix platforms and the wind up is used on Windows.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:47
+So both of them they extract the network packet and perform statistical analysis on dopt information.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:55
+And our very good friend Ryashak that works into network protocol analyzer. It captures ethernet PPHDLC, ATM, USB token ring frame relay and it analyzes real time and saved data you can actually still open your i mean your captured packets with Wireshark and you can still analyze them so it runs on Windows, Linux oas solaris
+
+[maryam.ahmed@cambriancollege.ca] 10:16:24
+Free MBSDSD, and others. And it goes with IPv64, IPv6, allows rise over IP analysis and the best part freely available.
+
+[maryam.ahmed@cambriancollege.ca] 10:16:41
+So here's return looks like and once you click on any of these packets it shows you the information right here So with this, at least we could we could see This is from 40 and it has 95 bytes on the frame which is
+
+[maryam.ahmed@cambriancollege.ca] 10:17:03
+On the MAC address so the ethernet gives you more information on the source destiny source mark and destination mark The IP ratio 6 shows us it is using v6 this communication was v6 And you see that the source and destination address is different from the 192.168.20.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:24
+You know, because it's always in. In hexadecimal.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:31
+Then this is actually a udp packets. So it has the source port of this and it destination shop holds of 5355 so add another thing Once you see information about the port numbers to you can see it can give you a sense of is this communication
+
+[maryam.ahmed@cambriancollege.ca] 10:17:55
+Going from client to the server or from the server to declined okay so when you have very big numbers like this it's mostly for the clients Okay, so the first part is this which is likely to be declined and the destination is
+
+[maryam.ahmed@cambriancollege.ca] 10:18:16
+Then link local multicast the resolution, which is a query It can also give you in binary i mean or in hexadecimal all this information could be shared and shared because we have hypertext transfer protocol http it shows that this is a HTTP packet
+
+[maryam.ahmed@cambriancollege.ca] 10:18:37
+And then we have the frame Then the Ethernet the internet protocol this is Russia 4 now so would have something familiar to us which is in our four states 172.16.245.org type.
+
+[maryam.ahmed@cambriancollege.ca] 10:18:54
+So another tool is the HTTP CFI.
+
+[maryam.ahmed@cambriancollege.ca] 10:19:08
+So here, very similar to It's capturing HTTP packets And you would see the HTP request header the gates Okay, gets shows that it is requesting for an image And in this format, the version number is 1.1.
+
+[maryam.ahmed@cambriancollege.ca] 10:19:36
+So the version number is 1.1 accept referral This is a website that is making requests then the language that is accepted So is, I guess, China or sort of say Chinese?
+
+[maryam.ahmed@cambriancollege.ca] 10:19:52
+Then a coding for the flight user agent is this the agent you can use your Mozilla and it's also compatible with other ones so the old disease and when you come to response the response center tells you 200 which is
+
+[maryam.ahmed@cambriancollege.ca] 10:20:09
+Success you know for http So for 200, it tells you that it's a success rate. That means the request was successful.
+
+[maryam.ahmed@cambriancollege.ca] 10:20:25
+On this particular date and the server is Apache so apache tells us too that it's likely to be what kind of server
+
+[maryam.ahmed@cambriancollege.ca] 10:20:35
+In Windows or Linux server.
+
+[maryam.ahmed@cambriancollege.ca] 10:21:05
+So…
+
+[maryam.ahmed@cambriancollege.ca] 10:21:11
+To get the HTTP commands we have the get which requests to read a web page the head request to read just the edge section of your web page that puts is a request to write a web page or upload, in other words.
+
+[maryam.ahmed@cambriancollege.ca] 10:21:25
+Post request to append. To attach to a web page the delete is remove the web page link connect to existing resources and only is breaks an existing connection between two resources.
+
+[maryam.ahmed@cambriancollege.ca] 10:21:39
+So here is what the response messages what they stand for when you have under it is just informational it's giving The server is giving your brothers some information then 200 is successful.
+
+[maryam.ahmed@cambriancollege.ca] 10:21:55
+Meaning that the request was fixed successfully.
+
+[Adetola Abayomi] 10:21:57
+I like when you shot on.
+
+[maryam.ahmed@cambriancollege.ca] 10:22:01
+Then 300 is redirect, telling the browser to go to another URL Well, 400 says it's the client error and 500 is server-side error.
+
+[maryam.ahmed@cambriancollege.ca] 10:22:15
+The other type of tools that we could use in capturing that packet, we have nmap.
+
+[maryam.ahmed@cambriancollege.ca] 10:22:23
+Then we have snorts. So SMART is an open source intrusion detection system and it could function as a robust packet sniffer.
+
+[maryam.ahmed@cambriancollege.ca] 10:22:35
+Lots of configuration options.
+
+[maryam.ahmed@cambriancollege.ca] 10:22:42
+Then we have RSA Net Witness. So, this is a protocol analyzer and also help with trade analysis. It captures raw packets from both wired and wireless inter and it could analyze real data throughout the seven layers.
+
+[maryam.ahmed@cambriancollege.ca] 10:23:01
+So it filters them. The MAC address, IP address
+
+[maryam.ahmed@cambriancollege.ca] 10:23:14
+User and So it's also freely available.
+
+[maryam.ahmed@cambriancollege.ca] 10:23:18
+And straight analysis So network traffic analysis why do we need network traffic analysis?
+
+[maryam.ahmed@cambriancollege.ca] 10:23:26
+It can let us know when there are threats when there are vulnerabilities, weaknesses in the system, when there is probing, like someone keeps sending an ICMP request or something to you.
+
+[maryam.ahmed@cambriancollege.ca] 10:23:38
+Then you know that something is going on. It could also reveal itself a good time denial of service attacks okay when so many packets are coming from the same IP or from such a set of IPs They… you know that this is like DOS on the way. User to root attacks
+
+[maryam.ahmed@cambriancollege.ca] 10:24:04
+And remote to local attacks. So whether a user is trying to an illegitimate user now.
+
+[maryam.ahmed@cambriancollege.ca] 10:24:12
+Trying to get into the root by escalating their privileges or something through network traffic analysis, you can see this.
+
+[maryam.ahmed@cambriancollege.ca] 10:24:20
+Remotes to local, the same thing if we have remote users trying to connect into the local network, then all these are types of attacks that could be analyzed from a network analysis.
+
+[maryam.ahmed@cambriancollege.ca] 10:24:37
+Then the log files are source of evidence. Now we are shifting to shifting our forensics evidence.
+
+[maryam.ahmed@cambriancollege.ca] 10:24:48
+So, yes, they could always be used as a primary source of evidence.
+
+[maryam.ahmed@cambriancollege.ca] 10:24:58
+They can tell us the nature of attack, when it happened, the source ways that coming from especially which of course we'll still talk about in our next slide when there's an incident when there is a compromise in the network.
+
+[maryam.ahmed@cambriancollege.ca] 10:25:14
+The log files would be the next thing. I mean, after we have actually secured contain… The incident, we've eradicated, then we'll be thinking of analyzing our log files.
+
+[maryam.ahmed@cambriancollege.ca] 10:25:30
+So specific user account of events that are related to illicit activities.
+
+[maryam.ahmed@cambriancollege.ca] 10:25:34
+The types of looks have the authentication.
+
+[maryam.ahmed@cambriancollege.ca] 10:25:40
+That shows you when people someone is trying to connect username password you know keeping track of that So when someone has tried putting in the wrong username up to three times.
+
+[maryam.ahmed@cambriancollege.ca] 10:25:52
+You know, all these you would see from your authentication logs the application what application is being used, what type of, you know, all these are application logs, then operating system events This has to do with the operating system itself that the network devices or your routers, your switches
+
+[maryam.ahmed@cambriancollege.ca] 10:26:14
+Then the security event that has to do with your ideas your firewall. Firewall itself has its own log. So what are the challenges when using logs?
+
+[maryam.ahmed@cambriancollege.ca] 10:26:29
+We've talked about the volatile That's it. In our forensic class, we've talked about the volatile data and our logs are very very volatile So they can easily be lost.
+
+[maryam.ahmed@cambriancollege.ca] 10:26:45
+They can easily change. Over time so it's not something that is constant if you do not capture it if you do not have it somewhere you know so that is why we have to capture first then before you analyze
+
+[maryam.ahmed@cambriancollege.ca] 10:26:59
+And of course, get a permission to also connect everydays from certain sources like our ISPs could also be challenges.
+
+[maryam.ahmed@cambriancollege.ca] 10:27:08
+And it's going to be challenging. And hackers can easily alter logs Yes. So at times you might you might have the deluxe but the integrity of that logs itself is lost.
+
+[maryam.ahmed@cambriancollege.ca] 10:27:23
+So…
+
+[maryam.ahmed@cambriancollege.ca] 10:27:29
+Wireless networking. So we have the 802.118, 802.11b g n and so we have many different and it ranges from what it covers, the range, the indoor range, the bandwidth and how they operate. So these are the major difference between all these are
+
+[maryam.ahmed@cambriancollege.ca] 10:27:54
+Different specifications.
+
+[maryam.ahmed@cambriancollege.ca] 10:28:03
+Then still on wireless networking, different types of attack we have the war driving.
+
+[maryam.ahmed@cambriancollege.ca] 10:28:10
+The world driving is trying to drive around while impressed during the brachial scans for insecure. I used to say, I mean, any vulnerable network around while driving so that's just while driving then warflying very similar to road driving but this time it is
+
+[maryam.ahmed@cambriancollege.ca] 10:28:31
+Flying and are using a radio controlled airplane
+
+[maryam.ahmed@cambriancollege.ca] 10:28:42
+We do have some concerns when it comes to our wireless.
+
+[maryam.ahmed@cambriancollege.ca] 10:28:48
+As much as we want to get the perpetrator, we want to get the attacker, attackers have always been, I mean.
+
+[maryam.ahmed@cambriancollege.ca] 10:28:57
+They've been using this wireless network as a kind of a hidden entry okay so an attacker could use a wireless network.
+
+[maryam.ahmed@cambriancollege.ca] 10:29:13
+For an attack. Okay just to erase been traced and usually they might even use a public one So they know that once they leave you know once they leave the place, then the IP is lost.
+
+[maryam.ahmed@cambriancollege.ca] 10:29:29
+So you have to know that if possibility Sataka is using a third-party wireless network like the hotel or sport to conceal their identity.
+
+[maryam.ahmed@cambriancollege.ca] 10:29:45
+Wireless storage devices. I have different storage devices, digital and video cameras printers with storage capacity, network attached storage devices.
+
+[maryam.ahmed@cambriancollege.ca] 10:29:57
+Tablet or smartphones wellness digital video recorders ILS game consoles.
+
+[maryam.ahmed@cambriancollege.ca] 10:30:07
+And the discovery tools wireless network discovery tools that could help and of course also attackers use this to discover wireless network so they have the Nets Tumblr we have the Mac Tumblr, we have the iStumbler. And as the name goes this is usually for windows
+
+[maryam.ahmed@cambriancollege.ca] 10:30:29
+Format systems and… for iOS.
+
+[maryam.ahmed@cambriancollege.ca] 10:30:39
+We're also forensics.
+
+[maryam.ahmed@cambriancollege.ca] 10:30:56
+Well, Shadri, let's go for 10 minutes break and after the break we'll look into Route 46.
+
+[maryam.ahmed@cambriancollege.ca] 10:31:02
+Any questions before we go break?
+
+[maryam.ahmed@cambriancollege.ca] 10:41:45
+First, please try again. You can refresh them.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:17
+All right, let's continue with the class because I have some information for us as well.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:34
+Is anybody able to fill the Excel sheet?
+
+[Joseph Christian Nouaze] 10:42:44
+No. We're still viewing mode.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:54
+I have changed it. Maybe it's yet to synchronize.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:13
+Okay, let me try because i i did it on the desktop so i'll try to
+
+[maryam.ahmed@cambriancollege.ca] 10:45:04
+Refresh us, try. Refresh our triangle pulley.
+
+[maryam.ahmed@cambriancollege.ca] 10:47:50
+Still same. You know, enough to introduce later.
+
+[Joseph Christian Nouaze] 10:47:58
+Same professor i think you see you need to resend the link
+
+[maryam.ahmed@cambriancollege.ca] 10:48:03
+Okay, possibly that spikes be it.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:57
+Peach Works.
+
+[maryam.ahmed@cambriancollege.ca] 10:50:10
+No, you're not choosing night out of the lab. You are using the project the project that was submitted
+
+[maryam.ahmed@cambriancollege.ca] 10:50:25
+So please, did you receive the updated announcements on moodoo.
+
+[maryam.ahmed@cambriancollege.ca] 10:50:49
+I know it takes some time to receive the announcement.
+
+[maryam.ahmed@cambriancollege.ca] 10:50:55
+Great. I'm going to check back after this particular slide. Let's finish this.
+
+[maryam.ahmed@cambriancollege.ca] 10:50:59
+So before we start the second one, I'll check back on that.
+
+[maryam.ahmed@cambriancollege.ca] 10:51:04
+So the world of forensics, the router is the hardware software device that affords that's a package across the network to a destination network.
+
+[maryam.ahmed@cambriancollege.ca] 10:51:13
+And yeah usually our walk our arm works like a real system So it also has the room, it has the ram the non-letter random access memory and containing collaboration information.
+
+[maryam.ahmed@cambriancollege.ca] 10:51:26
+And just the volatile run. And contains the routing tables and log information so what's the difference between the NVRAM and the ram the envy realm it's more like saved your configuration informations are saved, though it can be edited and then for the volatile run it keeps changing. Your router table keeps changing if no if new host or maybe new route comes in
+
+[maryam.ahmed@cambriancollege.ca] 10:51:54
+Your routing table is updated and that information is recent across the network. So your log information as well something that changes all the time.
+
+[maryam.ahmed@cambriancollege.ca] 10:52:04
+So the basic network devices, we have the network card, also called our NIC. So that enables your computer to be connected to the network we have the usually have this rg45 as the NIC interface then the hub so that connects your computers to an ethernet LAN and it sends any packet it receives out every
+
+[maryam.ahmed@cambriancollege.ca] 10:52:29
+Ports.
+
+[maryam.ahmed@cambriancollege.ca] 10:52:36
+Then we have the switch and the router. So for the switch that relies on the MAC address while your router uses the IP address for direction. So the switch is usually used within the same network.
+
+[maryam.ahmed@cambriancollege.ca] 10:52:51
+Within the same network and it helps to sense message across the same network What is your runtime is 4 divided network. It's since… packet across two different networks.
+
+[maryam.ahmed@cambriancollege.ca] 10:53:07
+So it connects logical networks or subnets and it enables traffic destined for the networks on the other side of the router to pass through.
+
+[maryam.ahmed@cambriancollege.ca] 10:53:21
+So your also will determine where to send the information from one computer. That's why in networking, we look at the router as an intelligent device that makes a smart decision based on the type of protocol that is being used to determine which routes you know to determine the best route
+
+[maryam.ahmed@cambriancollege.ca] 10:53:42
+So there are different routes to a destination and uh What the router does is, depending on the type of protocol, it determines which is the best route.
+
+[maryam.ahmed@cambriancollege.ca] 10:53:55
+One of the easiest way I explained this is traveling, you know, if I want to travel back to my home country for example I might want to make decisions based on anything. It could be based on the fees.
+
+[maryam.ahmed@cambriancollege.ca] 10:54:10
+It could be on the cost of the flight it could be based on the stopovers because yeah most of the time i travel with kids i only want minimum, I mean, just a stopover is okay you know some other people would want to look at the shortest distance
+
+[maryam.ahmed@cambriancollege.ca] 10:54:29
+So based on all these factors. You can all i mean the router would always make a decision at times for protocols like the rip version 2 would always look at the hop cart Okay, so it's based on the number of hops
+
+[maryam.ahmed@cambriancollege.ca] 10:54:44
+It makes that. Best decision uh ospf would make a decision based on shortest path.
+
+[maryam.ahmed@cambriancollege.ca] 10:54:53
+Or push your test pads first and if the shortest path could be a path that is available now while you're sending your package that part might not be available again then the router would update update its part And that is why it's a volatile information so it's maintaining a route it's able to keep track of the route and some routes are programmed manually
+
+[maryam.ahmed@cambriancollege.ca] 10:55:19
+Yeah, we have the manually linked rooms. That is those ones that are coffee got using our IP rules command Then the router attacks.
+
+[maryam.ahmed@cambriancollege.ca] 10:55:32
+Just like every other thing in our network. The router could be a tagged.
+
+[maryam.ahmed@cambriancollege.ca] 10:55:37
+So we could have router table poisoning putting the wrong route incorrect router table entries could result in congestion, artificial congestion, making it seems like a particular route is congested and you know diverting that practice. The routes are becoming overwhelmed and it could also give you a contestant
+
+[maryam.ahmed@cambriancollege.ca] 10:56:03
+Pass like it is open it is free and the router decides to send and the router becomes overwhelmed an attacker being allowed access to data in the compromised network
+
+[maryam.ahmed@cambriancollege.ca] 10:56:18
+So because it is also having the volatile you don't shut down your router if you need to cut back from forensics on on the router
+
+[maryam.ahmed@cambriancollege.ca] 10:56:36
+So don't alter anything. Document your process connect with the router to run static governance.
+
+[maryam.ahmed@cambriancollege.ca] 10:56:44
+So recording weight hyper terminal this is one way you could record what is going on on your router using the hyper terminal so we have the capture text to capture the information and here are some of the router definitely has so many comments
+
+[maryam.ahmed@cambriancollege.ca] 10:57:03
+So here are some of the comments that tells us information about the configuration, about the routes, the login, the interfaces, show virtual tells you about the version of the router you are using, show running configuration tells you about the running the current configuration show startup configuration tells you the initial configuration Well, started the system, show IP route tells you the routes
+
+[maryam.ahmed@cambriancollege.ca] 10:57:31
+So different paths and showing surfaces also tells you the status of the router interfaces name show login tells you the login details of Under alter.
+
+[maryam.ahmed@cambriancollege.ca] 10:57:47
+Firewall. Yeah. Security infrastructure, we talked about firewall So that's how a network traffic control device looks more like a CVindust device.
+
+[maryam.ahmed@cambriancollege.ca] 10:58:01
+You know, it allows the goods traffic in and stops the bad traffic. So it forces a network security policy and thereby protecting the network against external attackers.
+
+[maryam.ahmed@cambriancollege.ca] 10:58:18
+Then it establishes a control over network traffic. It prevents connections from unauthorized sources to protected network systems, services, and resources.
+
+[maryam.ahmed@cambriancollege.ca] 10:58:30
+Yeah, this is their own best way of describing a firewall.
+
+[maryam.ahmed@cambriancollege.ca] 10:58:35
+So more like someone trying to stop people from coming in based on certain uh information that has been given.
+
+[maryam.ahmed@cambriancollege.ca] 10:58:48
+So the network-based firewalls works around the whole network. So here is the internet which is the vulnerable nature and here is the the network, the internal network you're trying to protect so your firewall should be between these two. So it filters
+
+[maryam.ahmed@cambriancollege.ca] 10:59:10
+All traffic that is passing in and outside your network segments.
+
+[maryam.ahmed@cambriancollege.ca] 10:59:17
+But we all we have different categories of firewall but these two are The most common which are the packet filter and the stateful packet inspection So for the package filter, it's permit and denies incoming packets based on rules.
+
+[maryam.ahmed@cambriancollege.ca] 10:59:38
+You know so that's the screened firewall. And for the stateful packet inspection, that would examine all packets Okay, so usually the packet filter might want to look at The IP address and and the source IP, the rules that have been set okay
+
+[maryam.ahmed@cambriancollege.ca] 11:00:01
+But in the case of the state's fault. Once your connection is established.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:07
+Okay so it considers your preview packet when permitting and denying if it has actually permitted traffic from source A. So it believes everything coming from source A is as long as it's still the same session, everything can come in. But in the case of packet filter, though it is coming from source A, and I know source A is a good person, I still have to filter based on certain rules.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:34
+It could be certain applications are not allowed by certain people or anything so how packet filter works.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:45
+Then collecting data. So all the traffic going through a firewall is part of a connection and that a connection would consist of two ip addresses The source and destination and also two part numbers, the source and destination port numbers.
+
+[maryam.ahmed@cambriancollege.ca] 11:01:03
+So we have the well-known pots which is 021023. But most of the time when you look at the port numbers and it falls within this range.
+
+[maryam.ahmed@cambriancollege.ca] 11:01:13
+In fact, up to this range, they are likely for this service and anything between the dynamic port is usually for declines.
+
+[maryam.ahmed@cambriancollege.ca] 11:01:25
+So the clients are usually within this dynamic port. So the well-known part had some of the ones you have mentioned, the FTP 2021, we use 22 Full.
+
+[maryam.ahmed@cambriancollege.ca] 11:01:40
+For SSH23, Telnet, DNS53, AT, HTTP, I don't know, it goes on So at times on same set of parts from many different internet sources are usually due to And we need to carefully check how firewall logs for any sort of connections
+
+[maryam.ahmed@cambriancollege.ca] 11:02:02
+Or attempted connections on any of the spots. And we use our protocol analysis, network analysis to determine who the attacker is.
+
+[maryam.ahmed@cambriancollege.ca] 11:02:14
+So, and with this we've come to the end of the this particular part of the lecture so if you want to learn more about networking you could look at some of these optional slides but I know, I mean, most of these have been treated in
+
+[maryam.ahmed@cambriancollege.ca] 11:02:33
+Fundamentals of networking. So the TCP, IP networking, OSI model And then explaining each of these why do we need to analyze data packets?
+
+[maryam.ahmed@cambriancollege.ca] 11:02:46
+Natural problem, bottlenecks, taxi truck. It truly shows that data network statistics.
+
+[maryam.ahmed@cambriancollege.ca] 11:02:53
+So I missed those. So any question on this?
+
+[maryam.ahmed@cambriancollege.ca] 11:03:01
+And for these i think we have a lab is it lab 17 or so Let me confirm the lap number.
+
+[maryam.ahmed@cambriancollege.ca] 11:03:48
+Yeah, lap 17, log capturing and interpretation.
+
+[maryam.ahmed@cambriancollege.ca] 11:04:07
+But before we go into that, I would prefer to finish the or that lecture which is on That should take me less than 30 minutes.
+
+[maryam.ahmed@cambriancollege.ca] 11:04:20
+It's a very familiar topic incidents and intrusion response. Then we could now use their mini type to discuss and also look at the lab.
+
+[maryam.ahmed@cambriancollege.ca] 11:05:25
+Yeah, so today is our last topic. For this course.
+
+[maryam.ahmed@cambriancollege.ca] 11:05:40
+And that is incident and nutrition response.
+
+[maryam.ahmed@cambriancollege.ca] 11:05:49
+So the learning objective here is to describe each incident and attrition response to understand how to forestically respond to intrusions.
+
+[maryam.ahmed@cambriancollege.ca] 11:06:10
+And the key concepts.
+
+[maryam.ahmed@cambriancollege.ca] 11:06:15
+Our disaster recovery, evidence preservation, how to integrate forensics to incident response.
+
+[maryam.ahmed@cambriancollege.ca] 11:06:26
+Yeah, so when we look at the concept of forensics, we usually look at it from possibly, you know, we might need forensic for something outside IT, you know, outside IT. When IT is used When technology is used as a tool to achieve
+
+[maryam.ahmed@cambriancollege.ca] 11:06:43
+I mean, the crime or the attack Then, we might need for a seat. At the same time, we could also use forensic for when we have an attack or possibly when we have an incident when there's when there's an unexpected system shutdown.
+
+[maryam.ahmed@cambriancollege.ca] 11:07:03
+So we could also need forensic industry. So disaster recovery Should I throw Chris Rosie? What is the difference between incident response and disaster recovery?
+
+[maryam.ahmed@cambriancollege.ca] 11:07:21
+Some textbooks would actually tell me they are the same. But in most cases, when the initial thing that you have is an incident, when an unexpected event happens.
+
+[maryam.ahmed@cambriancollege.ca] 11:07:33
+You call that an incident. You weren't expecting something and it just happened, right? And what you need to do at that point is to look into your incident response plan. The CSIRT, the incident response team would have to start to work.
+
+[maryam.ahmed@cambriancollege.ca] 11:07:55
+Okay so many incidents goes on in so many organizations. Without causing a shutdown or maybe tampering with the system.
+
+[maryam.ahmed@cambriancollege.ca] 11:08:06
+For example, the IT department Okay.
+
+[maryam.ahmed@cambriancollege.ca] 11:08:15
+Is this person in the class I want to use him as an example.
+
+[maryam.ahmed@cambriancollege.ca] 11:08:20
+What happened to him last semester was an incident the IT department I mean, noticed.
+
+[maryam.ahmed@cambriancollege.ca] 11:08:30
+They noticed someone was in the system trying to do something funny, that was an incident.
+
+[maryam.ahmed@cambriancollege.ca] 11:08:35
+It did not shut down our system. And yes, they had to follow their incident response and do the need for Thank you.
+
+[maryam.ahmed@cambriancollege.ca] 11:08:45
+But when it leads to when operations are shut down for a certain amount of time, that is no more just an incident but it is becoming a disaster. And, you know, the operations need to get back to where it is so that is more like disaster recovery so
+
+[maryam.ahmed@cambriancollege.ca] 11:09:07
+What is disaster recovery? These are the steps that are taken after an information technology related disaster to restore operations. So that means the operation stopped at some point and you need to restore.
+
+[maryam.ahmed@cambriancollege.ca] 11:09:18
+And forensic techniques is not to restore. We don't use forensic to restore operations back.
+
+[maryam.ahmed@cambriancollege.ca] 11:09:28
+We use forensic to determine what is the cause. Why did this happen and why do we want to know why it happened to avoid it In a nearest future. So forensic process begins once an incident has been discovered.
+
+[maryam.ahmed@cambriancollege.ca] 11:09:44
+And why do we begin once it is discovered what can you do When we say forensic begins, not that you start doing forensic in full as soon as you find out that there's an incident all you could do at that point is to take notes
+
+[maryam.ahmed@cambriancollege.ca] 11:10:01
+To get information as much as possible but the real forensic cannot start when an incident has been discovered because it is not of priority the priority at that time is to rescue the system is to contain that particular incident, to stop it, to eradicate the incident. So forensic would now come after that okay but
+
+[maryam.ahmed@cambriancollege.ca] 11:10:23
+We can also see that the process has just begun just to gather information.
+
+[maryam.ahmed@cambriancollege.ca] 11:10:28
+So incident response plan, he pleased to respond to it could be a fire flood hurricane tornado these are natural ones now we have the android failure, the network outage then these are hard drive issues that malware infection that at deletion then intrusion.
+
+[maryam.ahmed@cambriancollege.ca] 11:10:50
+So all these are things that could call for incident response.
+
+[maryam.ahmed@cambriancollege.ca] 11:10:57
+Business continuity, incident response, and disaster recovery. How are these related?
+
+[maryam.ahmed@cambriancollege.ca] 11:11:08
+Business continuity. Why do we need business continuity?
+
+[maryam.ahmed@cambriancollege.ca] 11:11:14
+So that is ensuring that the organization keeps functioning.
+
+[maryam.ahmed@cambriancollege.ca] 11:11:21
+You know until a full recovery is made. Business continuity is we've not recovered from the incident, but how do we continue working Incident responses we want to recover from that particular incident how do we respond immediately response Disaster recovery is there's a shutdown that we now want to
+
+[maryam.ahmed@cambriancollege.ca] 11:11:45
+Go back to the normal operations full operations disaster recovery. One of the easiest way for me to explain this is using COVID.
+
+[maryam.ahmed@cambriancollege.ca] 11:11:54
+Because it's one incident that it's It's still very fresh with us and everyone could relate with.
+
+[maryam.ahmed@cambriancollege.ca] 11:12:02
+When COVID happened when businesses, organizations, countries.
+
+[maryam.ahmed@cambriancollege.ca] 11:12:11
+Thought of business continuity how can we keep or can we ensure that business keeps going. I mean, money keeps going and that is actually what brought about me being the only person in the class today with an empty class okay so we started with business continuity let's start the online class
+
+[maryam.ahmed@cambriancollege.ca] 11:12:37
+Online classroom starter, we don't want to stop anymore. It is all good. Incident response.
+
+[maryam.ahmed@cambriancollege.ca] 11:12:45
+Isn't that transposed during COVID worse? They should be locked down.
+
+[maryam.ahmed@cambriancollege.ca] 11:12:51
+Lockdown doesn't help business continuity, right? But what we were trying to do was to contain the incident.
+
+[maryam.ahmed@cambriancollege.ca] 11:13:01
+To eradicate by taking vaccines. Okay so these are what incident response Disaster recovery.
+
+[maryam.ahmed@cambriancollege.ca] 11:13:07
+I don't know when we would say that we are fully back.
+
+[maryam.ahmed@cambriancollege.ca] 11:13:10
+To the normal operations from the way it used to be. I look forward to that day. I would find students in class just as it used to be, you know, before COVID.
+
+[maryam.ahmed@cambriancollege.ca] 11:13:22
+Yeah, so that is… where we can say that what yes we are fully recovered you know yes some organizations have fully recovered. Some is like we don't even want to get out of that loop Because we are now finding that business continuity strategy to be kind of more comfortable. So all these are part of what would need in digital forensics.
+
+[maryam.ahmed@cambriancollege.ca] 11:13:46
+So, types of plans. I've explained this business continuity is keeping an organization functioning as well as possible until a full recovery can be made.
+
+[maryam.ahmed@cambriancollege.ca] 11:13:57
+Any strategy put in place just to keep operations going until we have full recovery is business continuity.
+
+[maryam.ahmed@cambriancollege.ca] 11:14:05
+Disaster Recovery Plat. Focuses on executing a full recovery to normal operations like nothing ever happened.
+
+[maryam.ahmed@cambriancollege.ca] 11:14:16
+Assist disaster recovery. And this is sometimes referred to as an incident response. But like I said, there's a big difference between the two. Incident response is usually the first thing you need to do.
+
+[maryam.ahmed@cambriancollege.ca] 11:14:28
+When you find out there is an incidents. So, in other words, BCP, business continuity is concerned with maintaining minimum operations.
+
+[maryam.ahmed@cambriancollege.ca] 11:14:42
+Minimal operations until the organization can be returned to full functionality while DRP is working on how do we return back to class.
+
+[maryam.ahmed@cambriancollege.ca] 11:14:54
+So the federal standards for BCPs, we have the ISO 27001 needs 834 NFPA 1600. And I think it was last week I mentioned about our park meetings So in the industry right now, there's so much more emphasis on the ISO 27001. So we can pay more attention to this for those of us interested in JRC.
+
+[maryam.ahmed@cambriancollege.ca] 11:15:24
+So we have all the iso and another nest. I should treat several
+
+[maryam.ahmed@cambriancollege.ca] 11:15:35
+Then, business impact analysis, BIA. That's the story that identifies the effects a disaster would have on business.
+
+[maryam.ahmed@cambriancollege.ca] 11:15:48
+And IT fox shows. Okay.
+
+[maryam.ahmed@cambriancollege.ca] 11:15:53
+This looks at what is the effect the impact of certain disaster on certain functionalities in this system and how do we make this business impact analysis It could be through interviews, surveys meetings, observation you know so so being able to analyze
+
+[maryam.ahmed@cambriancollege.ca] 11:16:20
+What the impact of certain disasters or certain events on our businesses.
+
+[maryam.ahmed@cambriancollege.ca] 11:16:26
+So it helps us to identify what should be prioritized. You know the most critical part of the system and then we look at the maximum tolerable downtime And what is an MTD?
+
+[maryam.ahmed@cambriancollege.ca] 11:16:40
+That is how long the system can be done before it is impossible for the organization to recover. How long can we stay down you know during the lockdowns during covet some places were like, no, we can't take this lockdown anymore
+
+[maryam.ahmed@cambriancollege.ca] 11:16:56
+Is like we would survive it. If we continue to be locked down. And as a result of the lockdown, we have some organizations that never recovered.
+
+[maryam.ahmed@cambriancollege.ca] 11:17:07
+Because we have exceeded their MTD. While some could stay for as long as possible for their mtd subdt just losing businesses for a week is like, how do we recover from this loss?
+
+[maryam.ahmed@cambriancollege.ca] 11:17:23
+So every organizations need to do their bia right and know their entity the maximum tolerable downtime and then We also need to know our MTC heart which is the average time it takes to repair an item and MTTF or MTBF at times we call the meantime
+
+[maryam.ahmed@cambriancollege.ca] 11:17:45
+Between failures. So that's the amount of time before a given device is likely to fail.
+
+[maryam.ahmed@cambriancollege.ca] 11:17:52
+Through normal use.
+
+[maryam.ahmed@cambriancollege.ca] 11:17:56
+The recovery plan.
+
+[maryam.ahmed@cambriancollege.ca] 11:18:03
+In all… when it comes to recovery, we need all this. We need our BCP.
+
+[maryam.ahmed@cambriancollege.ca] 11:18:10
+Business continuity, you need to have a disaster recovery. We need to have a business impact analysis.
+
+[maryam.ahmed@cambriancollege.ca] 11:18:17
+Which of business impacts analysis you would know how to design your continuity plan like okay how do I ensure that they prioritize the critical systems a hope you know so the business can keep going and as part of recovery
+
+[maryam.ahmed@cambriancollege.ca] 11:18:35
+This is just for business continuity while this you know majorly to recover we need our DRP.
+
+[maryam.ahmed@cambriancollege.ca] 11:18:45
+So for the recovery plan. In which of course is part of BCP. So you have to look at the alternate equipment identified.
+
+[maryam.ahmed@cambriancollege.ca] 11:18:57
+And this user would have talk about the hot sides the cold sides the warm side Is there any alternate facilities?
+
+[maryam.ahmed@cambriancollege.ca] 11:19:06
+You know that we can move to mechanism in place for contacting all affected parties employees, vendors, customers and contractors okay if the primary means of communications are down.
+
+[maryam.ahmed@cambriancollege.ca] 11:19:22
+Just last month, was it last month, we had almost a total shutdown of um Rainbow screws network not even with their emails you know they needed to fall back on alternative way of con over contacting those all parents all parties you know so i mean they start sending it
+
+[maryam.ahmed@cambriancollege.ca] 11:19:47
+Messages and possibly through the social medias and everything to let you know that something is ongoing. So there should always be an alternative way if the primary means of communication are down, then the off-site backup I can't emphasize this thing.
+
+[maryam.ahmed@cambriancollege.ca] 11:20:06
+Enough knowing that I mean, I've experienced a firsthand case of people having a backup on on the same sites.
+
+[maryam.ahmed@cambriancollege.ca] 11:20:16
+So that is not a backup. It's something else. So your off-site backup is just very potent.
+
+[maryam.ahmed@cambriancollege.ca] 11:20:25
+Outside backup of the data then can backup be readily retrieved and restored that's another thing okay you have a backup but it's not reachable So backup should be something that is readily retrieved and restored to you, but that doesn't mean you should keep it on the same site.
+
+[maryam.ahmed@cambriancollege.ca] 11:20:44
+That doesn't mean you should keep it on the same network.
+
+[maryam.ahmed@cambriancollege.ca] 11:20:47
+Okay. So types of backups We have the full backup we have differential backup we have incremental backup and we have a very cool storage management So full backup that's it's it backs up everything you know everything on the system, everything on your hardware on your
+
+[maryam.ahmed@cambriancollege.ca] 11:21:10
+At this backing everything up that is full backup refresher backup is all changes since the last full backup Okay, so zoom in i had a full backup on Sunday.
+
+[maryam.ahmed@cambriancollege.ca] 11:21:25
+All on the 21st. Or possibly the last day of every month. We always have a full backup. So I had my last full backup on 28th. Let me choose 28th of February.
+
+[maryam.ahmed@cambriancollege.ca] 11:21:42
+Then I need to have another backup. Today which happens to be on a thursday right on a random day reaching the 7th of march so this is just a differential backup because i'm changing everything since the last backup since the 28th of february i want to pack everything up so that is a differential backup
+
+[maryam.ahmed@cambriancollege.ca] 11:22:05
+However, after the backup I had on the 28th I still do my weekly backup every Friday.
+
+[maryam.ahmed@cambriancollege.ca] 11:22:15
+Okay i do my weekly backup every Friday. So I still had a backup last week, Friday, which was on 21st.
+
+[maryam.ahmed@cambriancollege.ca] 11:22:23
+Of March. So if I'm having a backup today If this backup is coming from 28th of February, then this is a differential backup.
+
+[maryam.ahmed@cambriancollege.ca] 11:22:36
+If this backup is coming from last week, Friday, that I had my last backup where this is an incremental backup so an incremental backup is all changes since the last backup of any time. It doesn't really matter if it was
+
+[maryam.ahmed@cambriancollege.ca] 11:22:54
+You fool or partial or anything weekly or anything but you had a backup okay from the last backup i want to make a new backup that is incremental Then we have the hierarchical storage management which is continuous back up. So this continuous backup is more like a synchronous thing.
+
+[maryam.ahmed@cambriancollege.ca] 11:23:15
+As you're working, the backup is also synchronizing somewhere else.
+
+[maryam.ahmed@cambriancollege.ca] 11:23:23
+Yeah. This is where our forensic.
+
+[maryam.ahmed@cambriancollege.ca] 11:23:27
+Wants to come in
+
+[maryam.ahmed@cambriancollege.ca] 11:23:32
+The post-recovery follow-up. Aar.
+
+[maryam.ahmed@cambriancollege.ca] 11:23:37
+What is our AAR?
+
+[maryam.ahmed@cambriancollege.ca] 11:23:46
+Versus AAR.
+
+[maryam.ahmed@cambriancollege.ca] 11:24:31
+Yeah, our abstract review. Thank you. Yeah, we're right. Review.
+
+[maryam.ahmed@cambriancollege.ca] 11:24:38
+So the outside action review so that's that review that gives us what happened how did it happen and this is where first it comes in you know I mean, what went wrong?
+
+[maryam.ahmed@cambriancollege.ca] 11:24:52
+Is its linkages very individual? Is it a gap in the policy? Is it an intentional act?
+
+[maryam.ahmed@cambriancollege.ca] 11:24:57
+Is an all-nutritional. Attack so these are part of it. Well, in an incident response usually it starts with identification identifying an incident then The next will be the containment trying to segment you know separate the affected area Then we have the, there was a name we were calling that in covid too
+
+[maryam.ahmed@cambriancollege.ca] 11:25:26
+The people who have it we put them in quarantine right so so yeah they were quarantined then eradication is getting that help their recovery process, then the follow-up which is really displaces where we really need our forensic. However, we need to start taking notes.
+
+[maryam.ahmed@cambriancollege.ca] 11:25:46
+From the identification, you know, trying to see what is going on.
+
+[maryam.ahmed@cambriancollege.ca] 11:25:51
+So in the containment, we want to limit the incident, the spread of it. Like I said, you can train the system, quarantine the people, prevent it from affecting more systems.
+
+[maryam.ahmed@cambriancollege.ca] 11:26:03
+Then eradication that is fixing the vulnerabilities. Remove the mug rig.
+
+[maryam.ahmed@cambriancollege.ca] 11:26:10
+Perform comprehensive examination of watercord and alpha it reached. So you could also say that forensic begins at this stage but like we said not in full until everything is gone so at the point of eradication that you are sure that yes
+
+[maryam.ahmed@cambriancollege.ca] 11:26:27
+Scenes are done you know they are completed ensure that the whole fixes are done then you can start your metaphoric. So recovery process involving returning the affected systems to normal status And if you have malware, ensure the system is back in full working order with no process of malware.
+
+[maryam.ahmed@cambriancollege.ca] 11:26:53
+Yeah, they follow Hawk. In the follow hop in our after action review we really need forensics.
+
+[maryam.ahmed@cambriancollege.ca] 11:27:00
+Grandfather really plays a big role So the team would determine how the incident occurred and what is the biggest or most important data we need at this point?
+
+[maryam.ahmed@cambriancollege.ca] 11:27:19
+What is the pretend data that we need? During this follow-up.
+
+[maryam.ahmed@cambriancollege.ca] 11:27:57
+So that's the looks our lung is very potent at this point.
+
+[maryam.ahmed@cambriancollege.ca] 11:28:02
+To determine how the incident occurred, what steps can be taken to prevent the incident from occurring.
+
+[maryam.ahmed@cambriancollege.ca] 11:28:10
+Usually the log is one big one that plays a big role in our after action review.
+
+[maryam.ahmed@cambriancollege.ca] 11:28:16
+To preserve your evidence. So an event is anything any observable currents within a system or network It could be network activities like when a user assesses the file in the server, when the firewall blocks network. But when we have an address
+
+[maryam.ahmed@cambriancollege.ca] 11:28:36
+Events. These are events that could lead to negative results or negative consequences.
+
+[maryam.ahmed@cambriancollege.ca] 11:28:44
+Example is an attack chronic system. Well, computer security incident, we have denial of service attacks which we've explained in the previous slide, malicious code, unauthorized access.
+
+[maryam.ahmed@cambriancollege.ca] 11:28:57
+In the same way blocking unauthorized pregnancy we could have an unauthorized person having access into the system, then inappropriate usage. This is one common thing when it comes to corporate forensic, right?
+
+[maryam.ahmed@cambriancollege.ca] 11:29:11
+So we've also talked about these inappropriate usage of email, email abuse and all that. So this is one reason that go for forensic in organizations
+
+[maryam.ahmed@cambriancollege.ca] 11:29:28
+So, recovery, you know, recovery you know In forensic, we were patient with eradication, we were patient with containment.
+
+[maryam.ahmed@cambriancollege.ca] 11:29:37
+Should we be patient for recovery as well? What do you think? Which should we give preference for i mean forensic or recovery.
+
+[maryam.ahmed@cambriancollege.ca] 11:29:49
+And do you think one affects the other?
+
+[maryam.ahmed@cambriancollege.ca] 11:30:28
+Recovery first. So do you think your recovery can affect your forensics?
+
+[maryam.ahmed@cambriancollege.ca] 11:30:37
+How do you preserve the information? Because when you recover your system you are setting it back to how it should be right
+
+[maryam.ahmed@cambriancollege.ca] 11:30:55
+So at times there's always this yeah reality what is fight between this recovery and forensic Because in forensic, you want to preserve the evidence. You want to make sure you get the evidence why recovery is like, see, I need to restore the system back to how it used to be.
+
+[maryam.ahmed@cambriancollege.ca] 11:31:15
+However, failure to preserve the forensic information would prevent the IT team from effectively evaluating the cause of incident.
+
+[maryam.ahmed@cambriancollege.ca] 11:31:24
+If you recover the system, yes, it is good but don't expect that outperform forensic only recovered system.
+
+[maryam.ahmed@cambriancollege.ca] 11:31:33
+I don't have the information that evidence is lost. So at least allow for capturing of that information before the system is recovered.
+
+[maryam.ahmed@cambriancollege.ca] 11:31:42
+Okay so it makes it difficult to modify company policies because there are no evidences that you could show that we need to modify the company policies and how to reduce the risk.
+
+[maryam.ahmed@cambriancollege.ca] 11:31:54
+The forensic data is key to preventing future incidents.
+
+[maryam.ahmed@cambriancollege.ca] 11:32:02
+Yes. The way to go is to go We need to have forensics to our incident response. Let us integrate forensics into incident response.
+
+[maryam.ahmed@cambriancollege.ca] 11:32:16
+So we need to identify forensic resources the organization can use in case of the incident.
+
+[maryam.ahmed@cambriancollege.ca] 11:32:22
+Then identify an outside party that can respond So incidents with forensically trained personnel.
+
+[maryam.ahmed@cambriancollege.ca] 11:32:29
+So it's always good to have the two teams on ground. So while the recovery team are doing their work like the forensic team also keep doing their work. So provide appropriate training to staff for preserving evidences.
+
+[maryam.ahmed@cambriancollege.ca] 11:32:44
+This we are done. It's digital forensics.
+
+[maryam.ahmed@cambriancollege.ca] 11:32:54
+Yeah, delivered. Don't go to that word.
+
+[maryam.ahmed@cambriancollege.ca] 11:33:05
+All right.
+
+[maryam.ahmed@cambriancollege.ca] 11:33:14
+So you can see we are filling up the filling up
+
+[maryam.ahmed@cambriancollege.ca] 11:33:28
+The spreadsheet let's keep doing that Well, look into the lab.
+
+[maryam.ahmed@cambriancollege.ca] 11:33:35
+So we have our last lab. I'll just give us majorly information now.
+
+[maryam.ahmed@cambriancollege.ca] 11:33:42
+So our last lab would be the lab 17 on our next lab.
+
+[maryam.ahmed@cambriancollege.ca] 11:33:48
+Which is look capturing and interpretation and as usual we look at how do we get Although we fulfill the objectives of this Lab.
+
+[maryam.ahmed@cambriancollege.ca] 11:34:11
+Then I would be opening up
+
+[maryam.ahmed@cambriancollege.ca] 11:34:20
+Some quizzes let me see. I want to make sure my shell is the same width.
+
+[maryam.ahmed@cambriancollege.ca] 11:34:37
+So I'll be opening up quiz four now and close its way today.
+
+[maryam.ahmed@cambriancollege.ca] 11:34:59
+So
+

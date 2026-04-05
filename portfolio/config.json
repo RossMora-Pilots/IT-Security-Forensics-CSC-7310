@@ -1,0 +1,53 @@
+{
+  "course_path": "CC/Winter 2025/IT Security Forensics - Maryam Ahmed - CSC-7310",
+  "course_code": "CSC-7310",
+  "course_title": "IT Security Forensics",
+  "instructor": "Dr. Maryam Ahmed",
+  "term": "Winter 2025",
+  "institution": "Cambrian College, Sudbury, Ontario",
+  "program": "Postgraduate Cybersecurity Certificate",
+  "metrics": {
+    "weeks_completed": 11,
+    "labs_completed": 7,
+    "projects_completed": 1,
+    "lectures_attended": 8,
+    "transcripts_archived": 8,
+    "total_submission_size_mb": 68
+  },
+  "evidence": {
+    "screenshots": 0,
+    "scripts": 0,
+    "assignments_pdf": 7,
+    "transcripts": 8
+  },
+  "skills": [
+    "Digital Forensics Fundamentals",
+    "Chain of Custody & Evidence Handling",
+    "Forensic Image Acquisition (FTK Imager, dd)",
+    "Hash Verification (MD5, SHA-1, SHA-256)",
+    "File System Analysis (FAT, NTFS, ext3/4)",
+    "Windows Registry Forensics",
+    "Steganography Detection",
+    "Recycle Bin & Deleted File Recovery",
+    "Email Header Analysis",
+    "Mobile Device Forensics",
+    "Network Packet Analysis (PCAP)",
+    "Log Analysis & Timeline Reconstruction",
+    "Incident Response Procedures",
+    "Legal Framework (4th Amendment, Section 8)"
+  ],
+  "tools": [
+    "FTK Imager 4.7.3 (Exterro)",
+    "Magnet AXIOM",
+    "Autopsy / Sleuth Kit",
+    "Volatility Framework",
+    "Wireshark",
+    "NDG Online Cybersecurity Labs"
+  ],
+  "references": [
+    { "title": "NDG Forensics v2 Lab Curriculum", "url": "https://www.netdevgroup.com/online/labs/nisgtc-forensics/" },
+    { "title": "Exterro FTK Imager", "url": "https://www.exterro.com/ftk-product-downloads/ftk-imager-4-7-3-81" },
+    { "title": "Magnet AXIOM", "url": "https://www.magnetforensics.com/products/magnet-axiom/" },
+    { "title": "Cambrian College Cybersecurity Certificate", "url": "https://cambriancollege.ca/programs/cybersecurity/" }
+  ]
+}

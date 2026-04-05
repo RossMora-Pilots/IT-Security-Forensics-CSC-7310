@@ -1,0 +1,13 @@
+{
+  // CLI2 config: extend markdownlint defaults and ignore generated folders
+  "config": {
+    "MD013": false,
+    "MD033": false
+  },
+  "ignores": [
+    "artifacts/**",
+    "sessions/**",
+    "**/node_modules/**",
+    "**/transcripts/**"
+  ]
+}

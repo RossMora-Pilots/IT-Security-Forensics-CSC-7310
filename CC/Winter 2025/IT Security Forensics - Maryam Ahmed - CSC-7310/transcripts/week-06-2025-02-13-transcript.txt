@@ -1,0 +1,480 @@
+[maryam.ahmed@cambriancollege.ca] 09:57:36
+In Linux, just like we have the FAT16, FAT3 we have the ext3.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:44
+And then for in it NTFS, we have the EXT4.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:51
+So storing a file in Linux In Linux, the files are stored in contagious blocks.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:01
+So whereas in Windows, we're talking about clusters, clusters, clusters So now in Linux we are talking about the files are in blocks and the blocks sometimes need to be extended you might need to extend the block.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:17
+So the exact size of blocks would depend on the parameters used with the commander creates the partition.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:27
+And it uses in notes and soft links.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:33
+You could also delete a file in Linux. I know it had lake is integral.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:41
+It leaks directly to a specific file and the operator system keeps account of references to a disk or hard link.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:52
+Then when reference counts reaches zero. So it will be deleted.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:59
+Okay, so there's always like a reference counts That keeps track of everything. And when this refers called reaches zero then if I would be deleted.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:18
+So recovering a file in Linux like we know, unlike all the beautiful tools we've been using in in windows very interactive and quite easy When we come to Linux, they're quite easy. It is still easy, but we have to use commands.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:36
+Okay, so you move the system to single user mode with init1 command then you use grip so grip to search for.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:47
+And recover files so here is an example
+
+[Och Michael] 09:59:49
+Co-op president.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:55
+So here's an example we have the grip. Inos I minus A.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:01
+Be one repeated. Minus 800 for a six and the the what is it called?
+
+[maryam.ahmed@cambriancollege.ca] 10:00:12
+The path will be given. To the file name dot text.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:20
+So we also have another one. So here is using grip.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:27
+Scrap would help you to search for and also recover the files.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:32
+So… Well, Xtune deletes.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:36
+Exton Delete works with the different types of file systems that we have on Linux, the XT3, and EXT4.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:45
+And same is also use a shell commands. So maintenance is all about the commands and to restore all deleted files from STE, you use the command x to delete then comes to the path.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:00
+Where the file is contained and First of all.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:08
+So we also have scubville that works with the Linux and mac os Is it possible to compile source code to work also in windows so to use a scuba you'll need to install And of course, you could use also your commands to install
+
+[maryam.ahmed@cambriancollege.ca] 10:01:27
+And the verify output directory is empty they did the config.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:33
+File and run scow bale comment.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:41
+So you install as the first one then in the configuration file, we know how to get to the configuration file nano that you go to the past.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:51
+Etc is capital disease so you need to accommodate the specific fall for march you want to recover.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:59
+Then you run the following command after editing
+
+[maryam.ahmed@cambriancollege.ca] 10:02:15
+So for Macintosh OS. Now we've talked about the Windows operating system and uh Linux operating system so for the macintosh we have the eggs and later versions which are based on the free BSD.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:30
+I'm sure you are familiar with the free BSD. It's also very much like Linux is a Unix clone.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:38
+And there is no way we want to talk about even the history of Linux we won't go back to We won't go back to Unix.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:47
+Right. So they are almost all like, okay. Something similar the mac os is very similar with the Linux
+
+[maryam.ahmed@cambriancollege.ca] 10:03:07
+So the Mac OS X uses the macro x interface plus which is the hierarchical five system plus first system So like we have in like we have in In Windows, we have older file system which is called the FAT16 or FAT32
+
+[maryam.ahmed@cambriancollege.ca] 10:03:26
+The newer file system is the NTFS. In Linux, we have extrx three or four. And in Mac OS, we have hfs plus And in the earlier version of the earlier version Macintosh, we have the HFS.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:46
+So the tools that work with market touch we have the Mark Keeper. Mark Keeper helps to recover files in market touch It recovers deleted files on Macintosh computer fully functional tray of rationale available. We could also try our hands on that
+
+[maryam.ahmed@cambriancollege.ca] 10:04:06
+So it's open files recovery tool. Then select which volume.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:12
+You want to possibly work on and select on delete.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:22
+Yeah. Recovering data from deleted better at times better at times might look easier than recovery from damaged media okay depending on the extent of damage.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:39
+On the media. So when you want to recover information from the damaged media, you remove the drive to a test system.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:49
+Why do we want to take it to a test system?
+
+[maryam.ahmed@cambriancollege.ca] 10:04:52
+Because of course, maybe the home system of that particular drive might it could be that is even the problem.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:59
+Right so first you want to get the drive itself.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:06
+Then you boost your test system does the one you want to use to test it and you copy the files all the files from your drive Today, test cysteine.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:16
+And you remove the drive that has been starting again. Remove the drive.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:22
+From the test from the original system or maybe from the home system or from the host system to the test system, then you now boost your test system then drive notes recognized you need to repair.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:38
+Okay so once you repay then you have access to the image drive content.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:45
+To attempting local repair. It could mean that it needs a replacement of the Sycute print board.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:56
+And it could also need a replacement of the read-write head assembly.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:02
+So, and you could transfer the disk patterns to Held Drive.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:09
+So it's all depends on where exactly the problem is If the problem is not, like I said, depending on the extent of damage will determine the type of recovery we want to do.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:22
+So if it's something that is not just If it's something that is transferable, then the best is you need to transfer it from the system from the whole system you remove it Remove the add disk ticket to another trusted system which is a test system
+
+[maryam.ahmed@cambriancollege.ca] 10:06:42
+And this is where you try to do digital recovery. Recovering after logical damage.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:52
+So the logical damage might prevent the host machine the host operating system from mounting or using the file system And it could cause system crashes and data loss.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:05
+So what could lead to even the that this could happen that means the host machine not even able to access or not able to communicate because normally we know that our appraisal system is communicating with the file system right so
+
+[maryam.ahmed@cambriancollege.ca] 10:07:22
+With the files on the hard disk. So if the operating system is not able to access the file disk then we need to recover.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:32
+And this might be caused, this lack of communication could be as a result of power outages Well, maybe someone turned off.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:40
+The computer while it is booting or possibly while it is shut down and that is why we see this notification Please do not shut down your system.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:51
+Okay, so it could happen that they were shuts down or maybe someone shut it down while it was still booting or while it was still shutting now.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:05
+So for Microsoft Windows, we use check disk. In recovering. For Linux, we can use fs check And Mac operating system will use disk utility then dilutes the test disk
+
+[maryam.ahmed@cambriancollege.ca] 10:08:29
+Preventing logical damages.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:37
+But how do you prevent illogical damage journaling frail systems.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:44
+Bacos. Backups since we know that a sudden change in power supply could damage our hard disk.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:52
+Then we need to have a backup battery And I use a consistency checker.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:04
+Consistency checking. So that involves scanning a disk logical structure to ensure that it is consistent with it's specification. So we have to use consistency checking that we said helps here.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:21
+In preventing logical damage. That's scanning your disk logical structure to ensure that it is consistent with its specification.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:34
+So he verifies that what it does and dot dots. Entries point to the correct directories.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:44
+And checkers include the checkers we use We use check disk for which operating system.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:01
+Check disk is what?
+
+[maryam.ahmed@cambriancollege.ca] 10:10:05
+Windows. Thank you. So we use a check disk for windows and the If it's check for.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:12
+Linux okay so check this for Windows and FS check is Linux Thank you.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:21
+Yeah. Yes. At the beginning when I started talking about recovery on damaged.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:31
+I said it all depends on the extent of damage so even with consistency check-in.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:39
+This can still feel if… The file system is highly damaged.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:45
+So check disk utility might delete files that are hard of place or unexplaining but this is another risk.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:53
+That we take where we are using the check disk. We may think we want to save the disk but at the end of the day it's actually deleting files That's true.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:07
+The out of place or possibly unexplainable.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:14
+Zero knowledge analysis.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:21
+So. With zero knowledge of your file system of your file on the system so the best you try to scan the drive.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:33
+And you should look for a link between what you have on the drive and match it with the specifications.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:42
+With zero knowledge of the content or possibly the state of the file system so all you need to do is do a general scan of the drive and you match the results to Yeah, specifications.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:59
+Follow curving. File carving is also used full data recovery from a disk where some For me, this that has been damaged or where the file itself is corrupt.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:17
+So it looks for file headers And or possibly the footers and then it pull out B, the data in between. It's like trying to check for the beginning of the data and the end of the data.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:34
+So what is in between is what he tries to recover. And one popular file carving tool is this cab bill, which we've mentioned earlier. So focal carbon is also like Another method.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:49
+Of… of retrieving or recovering data.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:54
+And it works on any file system. So that's Zita Bold.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:01
+On deleting data and recovering information from damaged drives.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:09
+Any question?
+
+[maryam.ahmed@cambriancollege.ca] 10:13:42
+So the absence of any cholesterol we could go and break then i'm going to show us the two labs that would need to do and submit So we can have about how many minutes break do you need?
+
+[maryam.ahmed@cambriancollege.ca] 10:13:56
+Five minutes, 10 minutes, 10 minutes break. After that.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:02
+We look into the lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:30:58
+I could be working alone.
+
+[maryam.ahmed@cambriancollege.ca] 10:31:03
+That's one thing for me.
+
+[maryam.ahmed@cambriancollege.ca] 10:31:08
+That's great.
+
+[maryam.ahmed@cambriancollege.ca] 10:31:31
+Those are church.
+
+[maryam.ahmed@cambriancollege.ca] 10:31:44
+Able to regain your GPS. Just crazy he didn't close.
+
+[maryam.ahmed@cambriancollege.ca] 10:31:51
+Depending on you, if you decide to do anyone first.
+
+[maryam.ahmed@cambriancollege.ca] 10:32:08
+Again, over a paperwork shorts and Tuesday over that. I think they will also
+
+[maryam.ahmed@cambriancollege.ca] 10:32:17
+We have, well, like… Almost all as LLC.
+
+[maryam.ahmed@cambriancollege.ca] 10:32:29
+Extended.
+
+[maryam.ahmed@cambriancollege.ca] 10:32:43
+For me, my audio is great.
+
+[maryam.ahmed@cambriancollege.ca] 10:32:50
+So sorry about that. How is it now?
+
+[Sa'id] 10:32:56
+Much better now.
+
+[maryam.ahmed@cambriancollege.ca] 10:32:58
+Her. So sorry.
+
+[maryam.ahmed@cambriancollege.ca] 10:33:01
+I left my headphone and I kept talking.
+
+[maryam.ahmed@cambriancollege.ca] 10:33:07
+Oh, terrible, that's So just to repeat what I have said, we are having two labs for this week.
+
+[maryam.ahmed@cambriancollege.ca] 10:33:15
+So one is on stylanography and the other one is recovering from the recycle bin.
+
+[maryam.ahmed@cambriancollege.ca] 10:33:22
+So for both labs, well, the screenshot to take is just to ensure that we .
+
+[maryam.ahmed@cambriancollege.ca] 10:33:29
+We certify the objectives. And for this uh what does it cost for this tagography we are working towards digography and alternative data streams and basically what we are trying to do is psychonography state analysis.
+
+[maryam.ahmed@cambriancollege.ca] 10:33:45
+Hide something in an object. And bring out hidden object.
+
+[maryam.ahmed@cambriancollege.ca] 10:33:52
+From an object. So these are actually are the main major things we were to do And we are working on the Windows operating system for this particular lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:34:02
+So in the other lab, which is for the recycle bin.
+
+[maryam.ahmed@cambriancollege.ca] 10:34:08
+Let me quickly show that to us.
+
+[maryam.ahmed@cambriancollege.ca] 10:34:20
+So for the recycling forensic
+
+[maryam.ahmed@cambriancollege.ca] 10:34:40
+So for this we are using a linux operating system and basically what we want to do here is to recover files from There's recycle bin.
+
+[maryam.ahmed@cambriancollege.ca] 10:34:53
+So I also mentioned that we have almost two hours for the two However, I have extended the submission date a little.
+
+[maryam.ahmed@cambriancollege.ca] 10:35:03
+True, I think Sunday for this lab. But the recycle bin one. So you can try to do the steganography first then you work on the recycle bin So I will be honed, I'll be here Until 2.30.
+
+[maryam.ahmed@cambriancollege.ca] 10:35:20
+So if you have questions on the lab or any anything you need to be clear on then kindly let me know.
+
+[maryam.ahmed@cambriancollege.ca] 10:35:34
+The instructions, as usual with Netlab are very straightforward. Yeah.
+
+[KAZEEM OGUNTADE] 10:35:38
+Yeah, high profile. Good.
+
+[KAZEEM OGUNTADE] 10:35:42
+Good afternoon. By Sunday, is it this Sunday or next week's Sunday?
+
+[maryam.ahmed@cambriancollege.ca] 10:35:44
+Good afternoon. No, next.
+
+[maryam.ahmed@cambriancollege.ca] 10:35:49
+Before the study break.
+
+[KAZEEM OGUNTADE] 10:35:53
+Okay. No problem.
+
+[maryam.ahmed@cambriancollege.ca] 10:35:55
+So you have about 10 days. 23rd. Yeah.
+
+[KAZEEM OGUNTADE] 10:35:58
+Okay, interesting. Thank you.
+
+[maryam.ahmed@cambriancollege.ca] 10:36:02
+Welcome.
+
+[Deepa Paudel] 10:36:17
+Professor, I have one question. When is a meet Tom?
+
+[maryam.ahmed@cambriancollege.ca] 10:36:24
+Your me term, let me see if we even have it.
+
+[maryam.ahmed@cambriancollege.ca] 10:36:33
+Let me do a quick… Definitely to be after the study break.
+
+[maryam.ahmed@cambriancollege.ca] 10:36:38
+That's if you have your one. I want to confirm if we have one for this class
+
+[Deepa Paudel] 10:36:41
+Mm-hmm.
+
+[Deepa Paudel] 10:36:54
+Okay, thank you so much.
+
+[maryam.ahmed@cambriancollege.ca] 10:36:56
+You're welcome.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:08
+Yeah, we don't have me time for this for this class so We only have an assignment which will be given.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:18
+Hopefully next week.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:46
+And would also have a second quiz We'll be having the second quiz next week.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:17
+None of it is due now. But lap 10 will be due, I think, on the 20th.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:24
+Of the night's lab. The one has takenography will be due on the 28th, which is the lap 10.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:30
+And the other one will be due on 23rd. So we have two deadlines, 28th and 23rd.
+
+[Deepa Paudel] 10:39:50
+So Professor Bird in the model there is like lab three assignments due on 19th february this wednesday i guess
+
+[maryam.ahmed@cambriancollege.ca] 10:39:58
+That will be the one we did last week. That would be the one.
+
+[Deepa Paudel] 10:40:03
+Is that? No, love three.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:05
+Lab 2, right? Lab 3.
+
+[Deepa Paudel] 10:40:11
+Yep.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:14
+Do Wayne?
+
+[Deepa Paudel] 10:40:15
+Do wednesday 19th February.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:18
+Okay, 19th, not 20th. Yeah, exactly.
+
+[KAZEEM OGUNTADE] 10:40:19
+So, Prof, maybe what happened is that, yes, maybe when you touched the other class, you're allowed to eat another lab.
+
+[KAZEEM OGUNTADE] 10:40:25
+To be open. Yeah.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:26
+No, night eight is still next week. I mean, that's why I said none is due now.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:31
+So instead of 20, I mentioned, so it is 19th. Do you guys? Yeah.
+
+[KAZEEM OGUNTADE] 10:40:35
+So…
+
+[maryam.ahmed@cambriancollege.ca] 10:40:40
+It's his 19th. He's due on the 19th and 23rd.
+
+[Deepa Paudel] 10:40:44
+Yep. So that 19th is the last 10, right? That still can grab you something.
+
+[Sa'id] 10:40:45
+So so just so
+
+[maryam.ahmed@cambriancollege.ca] 10:40:51
+Exactly, yeah. 19th is for steganography. And 23rd, 4.
+
+[Deepa Paudel] 10:40:52
+All right.
+
+[maryam.ahmed@cambriancollege.ca] 10:41:00
+Recycle bin. You're welcome.
+
+[Deepa Paudel] 10:41:01
+Yep, thank you.
+

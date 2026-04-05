@@ -1,0 +1,927 @@
+[maryam.ahmed@cambriancollege.ca] 10:12:55
+So we have to follow an accepted procedure to prepare a case. And lastly, briefly, we mentioned the chain of custody.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:03
+And what is the chain of custody?
+
+[maryam.ahmed@cambriancollege.ca] 10:13:11
+From the time you find it. Was add access to the evidence before, yes.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:25
+So it's a record. That keeps track of What is going on with that every day is handling that every day. So for this lab for today's lab, we'll definitely see how to prepare the chain of custody and the evidence forum.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:44
+So it's quite easy. Well, I mean, the way I'll do that. Yes?
+
+[maryam.ahmed@cambriancollege.ca] 10:13:48
+No, but it's next lab, so… Yeah, using Night's Lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:56
+No, you can do it in class. You can, you mean. You could.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:09
+No, it is not. You should, it is not, you must.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:14
+This is Canada, no strict rooms. We are still flexible. All right. So an overview of computer crime.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:22
+So you know the computer could contain information that help law enforcement either to determine the chain of events remember we've also mentioned last week that it could either be that the computer was only used as a tool The crime itself was not slighted on the computer right so it could either be that we just want to get information extract information to tell us the chain of events or possibly
+
+[maryam.ahmed@cambriancollege.ca] 10:14:48
+It's an evidence that could lead to… it's conviction.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:54
+And first mates. Should follow the proper procedure when acquiring the evidence, thou words standard right following ensuring that you follow all the necessary procedure because If these necessary procedures are not followed, I mean, we are insisting on this because
+
+[maryam.ahmed@cambriancollege.ca] 10:15:14
+As forensic experts, you are working on evidence. If you do not follow the necessary procedure, I mean, the whole evidence is gone.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:23
+So as much as it might… look at oh we are focusing on the technical aspects in cybersecurity in general, you need to know the law If you do not know the Lord guiding your security then the policies, the rules are the things guiding the technical aspect.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:46
+And another important thing is digital evidence can be easily altered.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:52
+And that's the more reason we have to a very, very protective of and digital evidence.
+
+[maryam.ahmed@cambriancollege.ca] 10:16:00
+So this is one of the things that makes digital forensic different from the general forensics.
+
+[maryam.ahmed@cambriancollege.ca] 10:16:09
+Any little alteration. In the evidence.
+
+[maryam.ahmed@cambriancollege.ca] 10:16:12
+Evaluates that evidence and there's just one way to keep track of the integrity of the evidence and that is
+
+[maryam.ahmed@cambriancollege.ca] 10:16:24
+Thank you. Keep the ash. Value of the evidence.
+
+[maryam.ahmed@cambriancollege.ca] 10:16:31
+First to generate the hash value of that evidence then we keep it then another important point which we'll still talk about is you do not carry out forensic on the original copy so you have to make copy which we'll also talk about later
+
+[maryam.ahmed@cambriancollege.ca] 10:16:48
+I just wanted to ask… What's… So what's the… I just wanted to get you guys to… I need some of the stress and importance of the chicken custody.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:06
+How great it is it has to be collected. Some other jurisdictions While that is also the paramount.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:15
+There is also the aspect of readiness. So even if it's not collected from August is very much to the keys.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:25
+It should be accepted because even the lower width I just want to know what is the Based on the… Yeah.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:42
+Based on the Dalbert standard. I think it might be… on the journeys as the gatekeeper to your discretion to determine despite you know some issues during collection how relevant it is to the case to determine if it is admissible so it's more on
+
+[maryam.ahmed@cambriancollege.ca] 10:18:06
+The judges use our discretion.
+
+[maryam.ahmed@cambriancollege.ca] 10:18:14
+Examining an overview of a company policy violation. So one of the reasons why we might need with computer investigation is when there is a violation in the company policy Possibly things like softening the internet sending personal emails using your personal email for
+
+[maryam.ahmed@cambriancollege.ca] 10:18:37
+Or possibly using the company's email for something personal then use a company computers for personal tasks so at times organizations would find out that's maybe what they are paying for their data and all that is getting too high and they discover that some
+
+[maryam.ahmed@cambriancollege.ca] 10:18:56
+Employees are using the data more than they should. In some organization, for example, they do not allow you to make a cause it could be some it is cold some it is video calls or anything right so if for any reason they see that you're using more than the expected
+
+[maryam.ahmed@cambriancollege.ca] 10:19:15
+That's a thing such they might have to go to their logs to some forensics.
+
+[maryam.ahmed@cambriancollege.ca] 10:19:22
+And find out who the corporate is so taking a systematic approach share the steps.
+
+[maryam.ahmed@cambriancollege.ca] 10:19:30
+For solving for problem solving. First is you make an initial assessment about the type of case you are investigating so understanding the nature of the case, what are the potential evidence that would be needed.
+
+[maryam.ahmed@cambriancollege.ca] 10:19:46
+Any other background information that might be needed for the particular case.
+
+[maryam.ahmed@cambriancollege.ca] 10:19:51
+Whether the case is something that might even still lead to a civil crime you know now we are looking at company policy but it could also be something that could lead to a civil crime. Then determine a preliminary design or approach to the case then you create a detailed
+
+[maryam.ahmed@cambriancollege.ca] 10:20:10
+Checklist so that will be a guide So to ensure that everything is covered.
+
+[maryam.ahmed@cambriancollege.ca] 10:20:17
+They determine the resources you need. By the time you have your checklist, you might need some tools, you might need some other resources. It could even be some training.
+
+[maryam.ahmed@cambriancollege.ca] 10:20:26
+You know, so… With this, you have to be able to list out what are the resources that are needed. You might also need more ants.
+
+[maryam.ahmed@cambriancollege.ca] 10:20:35
+You might need a thought-procy office maybe information from a third party so all these resources need to be listed then you obtain and copy and everyday disc.
+
+[maryam.ahmed@cambriancollege.ca] 10:20:46
+Then identifying And it's fight the risk.
+
+[maryam.ahmed@cambriancollege.ca] 10:20:52
+That you try to mitigate or minimize the risk. Those risks that are being able to if you can take them off you take them off the ones that need to be minimized you minimize They tested the design before you use it you have to test then analyze and recover the digital evidence
+
+[maryam.ahmed@cambriancollege.ca] 10:21:10
+Investigated that how you recover and complete the case reports the case critic the case is Same thing as we do in the Is it a choice for us?
+
+[maryam.ahmed@cambriancollege.ca] 10:21:25
+Critique the case is like a review. You know, we want to know what have i want to know about What steps do you think you would have done differently if you were to attend to this case again? Was there anything missing? Was there anything that
+
+[maryam.ahmed@cambriancollege.ca] 10:21:41
+Did excessively and excessively and I don't remember what you call this in It's the next response.
+
+[maryam.ahmed@cambriancollege.ca] 10:21:53
+After action review.
+
+[maryam.ahmed@cambriancollege.ca] 10:22:04
+Then we move on to assessing the case. Right? So that is the first step.
+
+[maryam.ahmed@cambriancollege.ca] 10:22:10
+You need to assess the case. So systematically outlined their case details.
+
+[maryam.ahmed@cambriancollege.ca] 10:22:17
+The situation the nature of the case, the specifics the uniqueness of that case.
+
+[maryam.ahmed@cambriancollege.ca] 10:22:24
+Then the type of evidence then we need to load the operating system very important i would also determine the tool that will be used in getting those information then known disk formats because yeah it could be a windows but if the disk format is
+
+[maryam.ahmed@cambriancollege.ca] 10:22:41
+Dealers and choosy fath 32 you know it's different from when it has the ncfs So you have to know the file format or the disk format, the location of everything.
+
+[maryam.ahmed@cambriancollege.ca] 10:22:54
+So all these are part of assessing the case the background information about the case Okay, where the data print, what kind of system are we accessing and all that so this would guide him planning.
+
+[maryam.ahmed@cambriancollege.ca] 10:23:09
+So based on these details, it will help in the type of every device you want to get the computer forensics tools special operating systems if necessary so all these then after assessing the case to help him plan indefinitely. So you plan your investigation
+
+[maryam.ahmed@cambriancollege.ca] 10:23:29
+In planning your investigation, you acquire the evidence. Complete an evidence form we'll do that today and establish a chain of custody.
+
+[maryam.ahmed@cambriancollege.ca] 10:23:41
+So you fill up the evidence form which gives you the detailed information about the evidence.
+
+[maryam.ahmed@cambriancollege.ca] 10:23:48
+So in case of a digital evidence it collects everything you know if you have a hard disk for example giving the caller, the serial number all the details has to be in the evidence front.
+
+[maryam.ahmed@cambriancollege.ca] 10:24:01
+Like the chain of custody that has to do with the personnel handling the everydays at each particular time.
+
+[maryam.ahmed@cambriancollege.ca] 10:24:10
+Then transport the evidence to the computer forensics lab. Because you might have collected and evidence in a particular location of course that's even always the case you've collected your evidence in a particular location then you need to move it to
+
+[maryam.ahmed@cambriancollege.ca] 10:24:28
+The forest ecosystem so there are steps to uh i think next week we'll talk about the method and labs when it comes to how to preserve this every day sticking it from one lab to another and putting it in the right bag ensuring that
+
+[maryam.ahmed@cambriancollege.ca] 10:24:44
+You know they are well protected in the box and all that so you secure your evidence in an approved secure container prepare a forensic workstation obtain the evidence from the secure container then the first thing you try to do when you get to your forensic club is
+
+[maryam.ahmed@cambriancollege.ca] 10:25:04
+Make a copy. Okay so you make a forensic copy of the evidence and return the original copy back into the container and put it in a box lock it up in a locker and just so process the copied evidence with the foresting tools
+
+[maryam.ahmed@cambriancollege.ca] 10:25:24
+So do not use a forensic tools on the original copy of the empties.
+
+[maryam.ahmed@cambriancollege.ca] 10:25:34
+An evidence custody firm we already talked about this so it helps us to document what has been done with the original evidence and its forensic copies.
+
+[maryam.ahmed@cambriancollege.ca] 10:25:45
+So there are two types we have the single epidemic firm that has just for each evidence there's one there's a sheet, there's a form and we have the multi-evidence form that's you could have so many evidences So this is a multi every day as you could see the item one two three up to 10 in this case you could have up to 10 evidences recorded here and the vendor name the model number and serial number
+
+[maryam.ahmed@cambriancollege.ca] 10:26:16
+Then we have the single evidence form. This is just… one evidence, the ID, description of evidence vendor name order number if this processed by this position of evidence date time
+
+[maryam.ahmed@cambriancollege.ca] 10:26:34
+Securing your evidence. You have to use the evidence box.
+
+[maryam.ahmed@cambriancollege.ca] 10:26:41
+To secure and cat load the evidence. Evidence is like hey you don't want it to break you don't want it tampered with then use computer safe products like your anti-static bags anesthetic parts and also where you're working on it, I don't know. Years back, we used to have it in our computer labs when you're working on computer you'd have this wrist
+
+[maryam.ahmed@cambriancollege.ca] 10:27:10
+Yes so this is just to avoid electrostatic that could destroy your evidence so use well padded containers and use everyday steep to seal all openings silver opening is your floppy disk city drives power supply or electrical
+
+[maryam.ahmed@cambriancollege.ca] 10:27:39
+So you have to write your initials on the tape to prove that the evidence has not been tampered with I consider computer specific temperature and humidity ranges.
+
+[maryam.ahmed@cambriancollege.ca] 10:27:52
+So in the case of eye tech. Investigations.
+
+[maryam.ahmed@cambriancollege.ca] 10:27:57
+So it's similar to what we have explained so you have to also have a procedure and informal checklist to cover all issues that are important to this particular case so there has to be a step-by-step process to follow during this investigation
+
+[maryam.ahmed@cambriancollege.ca] 10:28:18
+And the case intake and the assignment process has to define how the cases are received logged and assigned to the investigators.
+
+[maryam.ahmed@cambriancollege.ca] 10:28:26
+Then who is going to have how to handle that chain of course study and all that employee termination cases.
+
+[maryam.ahmed@cambriancollege.ca] 10:28:36
+This is one of them another major cases where we need i mean where we need where we have computer crimes in organizations.
+
+[maryam.ahmed@cambriancollege.ca] 10:28:46
+They are mostly dot. Right?
+
+[maryam.ahmed@cambriancollege.ca] 10:28:50
+Employees that possibly they terminated unexpectedly and all that so most of this investigative work for termination cases involves employee abuse of corporate assets.
+
+[maryam.ahmed@cambriancollege.ca] 10:29:03
+So internet type use investigation uh it could be that organizations internet frogs the server logs These are part of the The logs are part of the places you would get information and how possibly this employee was able to connect
+
+[maryam.ahmed@cambriancollege.ca] 10:29:19
+Into thee. Into the organization there's suspects computers ip address Suspect comes disk drive and your preferred computer forensic analysis tool so these are some of the things we need to decide on and on these cases this For example.
+
+[maryam.ahmed@cambriancollege.ca] 10:29:40
+We'll still talk about maybe when it comes to the case of interviewing this employee okay and this is where we would need the digital forensic experts.
+
+[maryam.ahmed@cambriancollege.ca] 10:29:54
+Someone who is just an investigator might not know the right questions to ask.
+
+[maryam.ahmed@cambriancollege.ca] 10:30:01
+Right. And my fear of all, he said he wasn't present in the office so possibly In fact, it was not in the country.
+
+[maryam.ahmed@cambriancollege.ca] 10:30:10
+When it happened. But you know you have a proxy server.
+
+[maryam.ahmed@cambriancollege.ca] 10:30:16
+Right? Somehow you know where to ask where to come in you know how to get this employee to say things that oh were you able to do anything outside the country were you able to log into the system you know but for someone who doesn't know that, oh, there's actually a way to log you know possibly
+
+[maryam.ahmed@cambriancollege.ca] 10:30:36
+Might just feel since it wasn't around during the incident and it means this person cannot be involved in such a case So these are places where we can come in. Then the computer's IP address My entire look into the log as well.
+
+[maryam.ahmed@cambriancollege.ca] 10:30:52
+The frozen server log and you start seeing the suspect's IP name.
+
+[maryam.ahmed@cambriancollege.ca] 10:30:58
+It makes sense, right? Then the suspects are disk drive is another thing that might be needed and your preferred forensic tool is what you personally need to carry out the forensic so some of the recommended steps here is you use the standard forensic analysis techniques and procedures
+
+[maryam.ahmed@cambriancollege.ca] 10:31:18
+Use the appropriate tools to extract all web page URL information. Contact the network firewall administrator and request it proxy server log.
+
+[maryam.ahmed@cambriancollege.ca] 10:31:28
+They compared the data recovered from forensic analysis to the process server load and continue analyzing that the disk drive.
+
+[maryam.ahmed@cambriancollege.ca] 10:31:42
+So some of the things that are needed where you want to make this investigation you need an electronic copy of the offending email that's in the case of an email email abuse, you need the electronic copy of the offending email. If available, the email server.
+
+[maryam.ahmed@cambriancollege.ca] 10:32:02
+Would also help the log records. So for email systems that store users messages on the central server access to the server is also needed access to the computer so that you can perform a forensic analysis on it and You have preferred forensic tool.
+
+[maryam.ahmed@cambriancollege.ca] 10:32:19
+And similar to what we the iTech the recommended steps you use the standard forensic analysis technique obtain an electronic copy of the email For web-based email investigation, you use tools like the FTK, which we'll be using later in our lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:32:36
+The keyword search option and examine the edit data all Then, Anthony Klein's Privileged investigations.
+
+[maryam.ahmed@cambriancollege.ca] 10:32:52
+So when When making an investigation under the attorney clutch investigation there are some things that we need to take care of.
+
+[maryam.ahmed@cambriancollege.ca] 10:33:03
+And one of its or one of the most important things is the confidentiality.
+
+[maryam.ahmed@cambriancollege.ca] 10:33:10
+Okay. So anything that's… has to do with alternate clients is just anything that has to do with the courts and So we should know that the confidentiality of such a thing is not an issue you discuss over a coffee table.
+
+[maryam.ahmed@cambriancollege.ca] 10:33:30
+You know it is… it has to be kept as it is.
+
+[maryam.ahmed@cambriancollege.ca] 10:33:34
+They print out for antonise At times, some of these attorneys do not want to hear that Yeah, our evidence is in the flash drive.
+
+[maryam.ahmed@cambriancollege.ca] 10:33:46
+Print it out where is it they want to read Okay, so I try to break it down you know in a way that they would understand So most of them prefer a printout. You need to pass through that educates many attorneys on how digital evidence can be viewed electronically.
+
+[maryam.ahmed@cambriancollege.ca] 10:34:06
+So you have to have to At times to even when you present it to like they might not still see lot of it's not really making much sense Yeah, so you have to still come down to explain why this is you know in a very very layman's time
+
+[maryam.ahmed@cambriancollege.ca] 10:34:24
+Time and somehow if you could somehow For example, if the Antony is doubting you know how are you able to access do you think someone who is not even in this country or in the same continent is able to
+
+[maryam.ahmed@cambriancollege.ca] 10:34:42
+Then tell him that, okay, don't worry, someone somewhere will access your phone now.
+
+[maryam.ahmed@cambriancollege.ca] 10:34:48
+So maybe by that he would believe that oh anything can happen okay so you can also encounter problems if you find that are in the form of binary files. There are some evidences that are always in binary forms So how do you explain that to the attorney?
+
+[maryam.ahmed@cambriancollege.ca] 10:35:08
+So when you have attorney-clic privilege investigation, the steps to take request a memorandum from the attorney directing you to start the investigation Then, request a list of keywords of interest know what interests they actually you know if you make your search of your investigation towards their interest, it makes more sense.
+
+[maryam.ahmed@cambriancollege.ca] 10:35:32
+You know then initiate the investigation and analysis for disk drive examinations, make two bit stream images using different tools Meaning, when you want to make your copies you need to make two copies So you'll be working on one but let the other one be like a backup.
+
+[maryam.ahmed@cambriancollege.ca] 10:35:57
+Okay but compare the ash signatures Definitely. We talked about the importance of having the harsh values So that would assure the integrity of your evidence.
+
+[maryam.ahmed@cambriancollege.ca] 10:36:11
+So the steps for conducting the ACP is to methodically examine every portion of the disk drive and extract all the data and run the keyword searches on allocated and unallocated disk space For Windows OS, few specialty tools to analyze
+
+[maryam.ahmed@cambriancollege.ca] 10:36:27
+And extract data from the registry. So we have the access data registry viewer and for binary data files such as catch drains locate the correct software product and for the unallocated data recovery, you use a tool that removes or replaces
+
+[maryam.ahmed@cambriancollege.ca] 10:36:44
+Non-principal data. So during our forensic labs, you would also see where the issue of the unallocated space comes in and how to retrieve that are from this unallocated space because most of the time when we delete those things goes to the unallocated place.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:05
+Okay so the deleted files goes to the ungated space. So we'll see how we can actually retrieve the data from Clair space.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:16
+So consolidate all recovered data from the evidence-based stream image into folders and sub folders and minimize written communications with the attorney.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:30
+Not a frequent, not deliverable. And any documentation written to the attorney must contain a header stating that it is privileged lego communication What products?
+
+[maryam.ahmed@cambriancollege.ca] 10:37:45
+The one that means.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:50
+So… All that good news. You need… to assist them i mean that's it's always like one of the most difficult area of fluorescent trying to make them understand Did that sound, you know.
+
+[maryam.ahmed@cambriancollege.ca] 10:38:08
+Is what they want to see is different from what you're presenting today.
+
+[maryam.ahmed@cambriancollege.ca] 10:38:12
+Right or possibly what they are used to. Though I believe things have really changed a lot now because almost everybody is IT inclined but yeah it used to be one of the most challenging place and you might still be surprised When you get on the field and you see some judges
+
+[maryam.ahmed@cambriancollege.ca] 10:38:30
+And while I thought everyone is IT inclined You know, so what you should be prepared for the worst and be ready to explain the data as much as possible so if you have difficulty complying with the directions and explain the problem.
+
+[maryam.ahmed@cambriancollege.ca] 10:38:46
+Owners keep an open line of verbal communication and We are communicating through email.
+
+[maryam.ahmed@cambriancollege.ca] 10:38:54
+It was like cruise ship.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:09
+I don't think you need to break it.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:16
+What?
+
+[maryam.ahmed@cambriancollege.ca] 10:39:22
+Is that a yes or a no? As in the quietness is… is quieting me.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:40
+Oh, are they still bay?
+
+[maryam.ahmed@cambriancollege.ca] 10:39:45
+I'm very quiet. All right. Let's go for 10 minutes break i know Thank you both.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:41
+Yeah, so welcome back. The next investigation I want to look at is the media leak.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:49
+Investigation that when there is a kind of when they've suspected a leak in what confidential information.
+
+[maryam.ahmed@cambriancollege.ca] 11:00:59
+Right? So how do you do that? The things you need to consider you examine the email examine the internet message boards Examine the proxy cerebral loads.
+
+[maryam.ahmed@cambriancollege.ca] 11:01:11
+Examine the known suspect workstations that might be some employees that you would look at that maybe the information could I've leaked through them and I examined all copies and phone records.
+
+[maryam.ahmed@cambriancollege.ca] 11:01:24
+Looking for calls to the media.
+
+[maryam.ahmed@cambriancollege.ca] 11:01:30
+So the steps to take you need to talk to the management privately and what you want to know from the management is to have a list of all the employees And who have the direct information, who have information to that
+
+[maryam.ahmed@cambriancollege.ca] 11:01:47
+Confidential data. So I identified the media source and that published the information Yeah, maybe the information was published by particular news.
+
+[maryam.ahmed@cambriancollege.ca] 11:02:00
+Or anything that you need to identify you might need to do something like a reverse engineering from the place it was published how did it get there you know trying to trace it back to the organization. Then you also reviewed the
+
+[maryam.ahmed@cambriancollege.ca] 11:02:18
+Company phone records, obtain a list of keywords related to the media league, perform keyword searches or proxy and emails.
+
+[maryam.ahmed@cambriancollege.ca] 11:02:25
+Servers. Discreetly conduct forensic discalculusations and analysis.
+
+[maryam.ahmed@cambriancollege.ca] 11:02:32
+Then from the forensic information you need to analyze all email correspondence So major thing you want to look at are media leaky investigations is all communication link.
+
+[maryam.ahmed@cambriancollege.ca] 11:02:46
+You know and one of the major communication link here is the email So you look at the email communication deleted emails the spam the email servers you know so to see if possibly there was any way this communication this information was
+
+[maryam.ahmed@cambriancollege.ca] 11:03:04
+Being transferred. Then you might also have to look at specifically You might have to look at specifically the information on the suspect's computer.
+
+[maryam.ahmed@cambriancollege.ca] 11:03:15
+So that is also very important. Then consolidate and review your findings periodically.
+
+[maryam.ahmed@cambriancollege.ca] 11:03:22
+And routinely report findings to many things. Whatever findings you have.
+
+[maryam.ahmed@cambriancollege.ca] 11:03:27
+Keep them in touch. Keep updating the management on your findings.
+
+[maryam.ahmed@cambriancollege.ca] 11:03:35
+Industrialized drainage irrigation.
+
+[maryam.ahmed@cambriancollege.ca] 11:03:40
+Is there a way to get others to grab the emails?
+
+[maryam.ahmed@cambriancollege.ca] 11:03:48
+From the trash. Yeah, if you have access to the email server load
+
+[maryam.ahmed@cambriancollege.ca] 11:04:01
+There's only trees. So if possibly you use the company email, every email is in the server.
+
+[maryam.ahmed@cambriancollege.ca] 11:04:11
+Even if they are so-called deleted. The government has bullying you. Everything is there.
+
+[maryam.ahmed@cambriancollege.ca] 11:04:18
+So that one is easily accessible. You can have it in itself.
+
+[maryam.ahmed@cambriancollege.ca] 11:04:25
+And in serious cases, yes. They could have access to even all these public emails that we use and yahoo the gmail and everything yes they could have access to the email service.
+
+[maryam.ahmed@cambriancollege.ca] 11:04:38
+When you need to be. Exactly. They must have the necessary search and seizure warning. Like MBI. Exactly.
+
+[maryam.ahmed@cambriancollege.ca] 11:04:52
+Yeah, we've had cases like that that people that even sent emails years ago Somehow, it retrieved it.
+
+[maryam.ahmed@cambriancollege.ca] 11:05:04
+So the staff needed, you will need the competing investigator who is responsible for disk forensic information which is what we are learning. The technology specialist who is knowledgeable of the suspected compromised technical data. Then we also need network specialists
+
+[maryam.ahmed@cambriancollege.ca] 11:05:23
+That's the person to perform the log analysis that looks into the traffic.
+
+[maryam.ahmed@cambriancollege.ca] 11:05:29
+Then the threat assessment specialist that would be the attorney you know they understand the crane do you understand what crime has been committed? Because also as an IT expert too some things might look like ordinary to you But in someone like the attorney that would let you know that no
+
+[maryam.ahmed@cambriancollege.ca] 11:05:49
+This is also beyond, I mean, you know, because for you you might feel, I know the person is just using another person's computer something no this is… beyond his rights. He has gone over its boundaries.
+
+[maryam.ahmed@cambriancollege.ca] 11:06:07
+As a 90 person you might not see what is wrong in someone being in the office and using their social media.
+
+[maryam.ahmed@cambriancollege.ca] 11:06:14
+I just love that. Yes. Right? But based on the company policies depending on The coping policy if anything states in the company policy that it is wrong, then that makes it wrong.
+
+[maryam.ahmed@cambriancollege.ca] 11:06:30
+It's like… So the guidelines.
+
+[maryam.ahmed@cambriancollege.ca] 11:06:35
+Determine whether this investigation involves a possible industrial espionage incident. And consult the corporate attorneys and the upper management. You tell me what information is needed to substitute the allocation and also generate a list of keywords.
+
+[maryam.ahmed@cambriancollege.ca] 11:06:56
+What are we asking for a list of keyword toys? It will help in our search.
+
+[maryam.ahmed@cambriancollege.ca] 11:07:05
+I mean, if you go to some people's computer, you won't even know where to start.
+
+[maryam.ahmed@cambriancollege.ca] 11:07:12
+So which file do you want to start for AC code?
+
+[maryam.ahmed@cambriancollege.ca] 11:07:16
+Which folder? Depending on what you said, probably direct this happens, right? Exactly. It could even be a single file.
+
+[maryam.ahmed@cambriancollege.ca] 11:07:27
+Imagine a picture that's steganography. They've attached some information into it.
+
+[maryam.ahmed@cambriancollege.ca] 11:07:35
+Okay and that picture is just maybe five kilobytes or something you know something very little. And it's just in another folder in another multiple folder and everything so before you could get into that but somehow when you use your search, it could help reduce, you know, streamline the
+
+[maryam.ahmed@cambriancollege.ca] 11:07:58
+The planning considerations determine suspect's location in relation to the vulnerable asset.
+
+[maryam.ahmed@cambriancollege.ca] 11:08:04
+And you have to study the suspect's work habits. Collect all incoming and outgoing phone calls.
+
+[maryam.ahmed@cambriancollege.ca] 11:08:14
+Gather all the personnel assigned to this investigation and you have to tell them about the plan. Everyone needs to be aware of what the plan is.
+
+[maryam.ahmed@cambriancollege.ca] 11:08:21
+And gather the resources to conduct the investigation there has to be surveillance.
+
+[maryam.ahmed@cambriancollege.ca] 11:08:34
+And if I do have the keyboard. That's something I used to do. Yeah, my friends, like.
+
+[maryam.ahmed@cambriancollege.ca] 11:08:48
+You might save it yet. You don't have the name of it.
+
+[maryam.ahmed@cambriancollege.ca] 11:08:56
+So what about if someone tries to isolate? I only know where their mind is.
+
+[maryam.ahmed@cambriancollege.ca] 11:09:04
+And Likovsky doesn't have a name. So how do I… out or something like that without the keyboard.
+
+[maryam.ahmed@cambriancollege.ca] 11:09:11
+Because 1,000 kilo. Yeah. But the fight in it could contain the foul in the form No, it's not really about the founding i mean the folder name.
+
+[maryam.ahmed@cambriancollege.ca] 11:09:26
+The contents. You know, if you do your sage.
+
+[maryam.ahmed@cambriancollege.ca] 11:09:33
+For example, if I search for something on my It brings anything that contains that it will not even be in the folder name so it's not just about the link but also in the content so it searches everything then at times…
+
+[maryam.ahmed@cambriancollege.ca] 11:09:52
+You know these are just like the initial steps Using keywords could also be a distraction.
+
+[maryam.ahmed@cambriancollege.ca] 11:10:02
+And taking you to the wrong file. It's something that, and I think investigations generally You might not be too specific on too specific when it's going to end.
+
+[maryam.ahmed@cambriancollege.ca] 11:10:14
+You only know that, okay, we've started but how soon is going to hint you do not know if you are lucky to hit it once bang It looks like, wow, finally.
+
+[maryam.ahmed@cambriancollege.ca] 11:10:31
+Yes, I know they were telling us that.
+
+[maryam.ahmed@cambriancollege.ca] 11:10:39
+Yeah, it's cool to see this go to. It took you. And of course, they also use the search.
+
+[maryam.ahmed@cambriancollege.ca] 11:10:49
+The keywords. So collect all log data from networks and email servers reports regularly to management and corporate attorneys. They review the investigation scope with management and corporate attorneys.
+
+[maryam.ahmed@cambriancollege.ca] 11:11:05
+Yeah, interviews and interrogations in high-tech investigations. I talked briefly about this.
+
+[maryam.ahmed@cambriancollege.ca] 11:11:11
+When you want to have an interview So this is usually conducted to collect information from a witness or suspect. There's a difference between interview and interrogation where you try to interrogate a suspect you are trying to make the suspect to confess.
+
+[maryam.ahmed@cambriancollege.ca] 11:11:33
+It's not just to get an information. But if you just want a general information, oh, did you know what happened how did it happen and that's an interview But interrogate you have to be more persistent you have to know how to twist your question because it's like
+
+[maryam.ahmed@cambriancollege.ca] 11:11:51
+You have unexpected result. But interview is an open ticket it's like an open thing you don't you know just want the person to give you more information about Whatever happened.
+
+[maryam.ahmed@cambriancollege.ca] 11:12:05
+The role as a computing investigator here is you help the investigator conduct the interview on what type of questions they need to ask.
+
+[maryam.ahmed@cambriancollege.ca] 11:12:15
+So you will help in directing them on what kind of questions and what the answers should be. So they know that if they are not getting these answers then they need to twists.
+
+[maryam.ahmed@cambriancollege.ca] 11:12:27
+I keep twisting. I'll keep twisting the question. So what are the ingredients for?
+
+[maryam.ahmed@cambriancollege.ca] 11:12:34
+A successful interview or interrogation You have to be patient.
+
+[maryam.ahmed@cambriancollege.ca] 11:12:40
+Investigation itself patience You're ready to spend time.
+
+[maryam.ahmed@cambriancollege.ca] 11:12:45
+So with the person you are interviewing you have also you have to also be patient they are repeating or rephrasing.
+
+[maryam.ahmed@cambriancollege.ca] 11:12:55
+Would also help when especially when the suspect is kind of reluctant in releasing information. So when you repeat the same question, when you try to rephrase and it could also help you know when the person is sincere or not
+
+[maryam.ahmed@cambriancollege.ca] 11:13:12
+When you rephrase, you should get the same answer. Right. But when you rephrase you start getting you know different things and so That gives you some signals. There have been ten issues.
+
+[maryam.ahmed@cambriancollege.ca] 11:13:28
+Spin persistence. You have to be very persistent Right? Guys, sure.
+
+[maryam.ahmed@cambriancollege.ca] 11:13:34
+Christmas. Understanding that our recovery workstations and software So our investigations should be done on a fluorescent cloud You could collect data from anywhere then you take it to forensic club. So what should your forensic workstations look like?
+
+[maryam.ahmed@cambriancollege.ca] 11:13:55
+It should be configured. Or your personal computer loaded with additional base and forensics software and this is also one of the ways Organizations.
+
+[maryam.ahmed@cambriancollege.ca] 11:14:08
+Identify some suspects. When they do a general scan on your computer.
+
+[maryam.ahmed@cambriancollege.ca] 11:14:16
+And define sulfuric tools in your computer.
+
+[maryam.ahmed@cambriancollege.ca] 11:14:22
+Some people see it as a great flag. I mean, an ordinary person should not have a forensic tool but if you have a forensic tool you could also be using it to hide some information And there's a way to scan and identify that tears that are starting through tools on social computing.
+
+[maryam.ahmed@cambriancollege.ca] 11:14:46
+So… forensic tool, one of the things you have to see is let the system be physically full for his sake.
+
+[maryam.ahmed@cambriancollege.ca] 11:14:56
+And it should be loaded with additional basophores avoid culturing the evidence. We have to use rights blocker devices. What's right blockers?
+
+[maryam.ahmed@cambriancollege.ca] 11:15:08
+Thank you.
+
+[maryam.ahmed@cambriancollege.ca] 11:15:13
+I saw it in your, I took defense notes.
+
+[maryam.ahmed@cambriancollege.ca] 11:15:30
+What? But before you finish the lab.
+
+[maryam.ahmed@cambriancollege.ca] 11:15:45
+But you don't go to them. You had moves?
+
+[maryam.ahmed@cambriancollege.ca] 11:15:53
+So the right blocker is something like this and you can connect it to your hard drive such that it prevents something to be written on the ad drag.
+
+[maryam.ahmed@cambriancollege.ca] 11:16:04
+So what it does is it does at least to ensure that nothing goes in.
+
+[maryam.ahmed@cambriancollege.ca] 11:16:10
+To your everyday device. So that right blocker is usually used as part of the devices to help in preserving our evidence.
+
+[maryam.ahmed@cambriancollege.ca] 11:16:21
+So it connects a hard drive in trusted read-only mode and that they are also Linux both cds that mount drives.
+
+[maryam.ahmed@cambriancollege.ca] 11:16:33
+Name Satan Hoff. Your computer for computer 36 so you need a workstation running Windows XP of the start then you need the right blocker Right blocker is fourth.
+
+[maryam.ahmed@cambriancollege.ca] 11:16:48
+To ensure Nothing goes through your EBITDA's drive. Then computer forensic accusation 2 we use this so many times in the lab ftq so like the FTK major then computer forensic analysis tool also the ftq there's also a certification on ftq
+
+[maryam.ahmed@cambriancollege.ca] 11:17:12
+Yeah, just looking dance. And the USB ports.
+
+[maryam.ahmed@cambriancollege.ca] 11:17:23
+And other useful items of course we need the nick which would obviously hold most of our computers we need as… more usb ports as possible the firewire 400 800 reports a a side card this digital tool. For the SESI data card flow we
+
+[maryam.ahmed@cambriancollege.ca] 11:17:44
+You might need to do forensic on an old system. So some of this whole system is discard.
+
+[maryam.ahmed@cambriancollege.ca] 11:17:52
+The discreditor tool, text editor tool graphics viewer program and are any other specialized tubing tool.
+
+[maryam.ahmed@cambriancollege.ca] 11:18:08
+Conducting an investigation. Gather resources.
+
+[maryam.ahmed@cambriancollege.ca] 11:18:13
+Identified in investigation plan some of the items that you might need the original storage media evidence goes to the firm we talked about that. If there's container There should always be a container where you keep your evidence and put in the locker then be streaming imaging tool
+
+[maryam.ahmed@cambriancollege.ca] 11:18:32
+You can also do that in the lab too because you don't just when we say we should copy our everydays it's not just the same way we copy and paste.
+
+[maryam.ahmed@cambriancollege.ca] 11:18:41
+So it has to be a bit by beats coupling so we have the speed stream imaging tool the forensic constitution to copy and examine your evidence to put evidence together.
+
+[maryam.ahmed@cambriancollege.ca] 11:18:58
+Avoid damaging the evidence by all means. Once every that is the end of it.
+
+[maryam.ahmed@cambriancollege.ca] 11:19:07
+That is the end of… find this.
+
+[maryam.ahmed@cambriancollege.ca] 11:19:11
+So you have to collect the evidence again. And unfortunately.
+
+[maryam.ahmed@cambriancollege.ca] 11:19:17
+It's not the same thing you want to collect. Something might have changed.
+
+[maryam.ahmed@cambriancollege.ca] 11:19:22
+So that is why the point of collection is really noted.
+
+[maryam.ahmed@cambriancollege.ca] 11:19:27
+You know it was collected on this date So, meet the item manager to interview fill out the evidence form have the item manager to sign place the evidence in a secure container completes the custody form.
+
+[maryam.ahmed@cambriancollege.ca] 11:19:46
+That's the chain of custody then carry the evidence to the lab forensics lab and create forensic copies.
+
+[maryam.ahmed@cambriancollege.ca] 11:19:54
+Okay at least two copies. You have the one you want to work on and you have another one as backup.
+
+[maryam.ahmed@cambriancollege.ca] 11:20:01
+If anything happens during forensic you don't need to go back to the original copy you can still work on the backup.
+
+[maryam.ahmed@cambriancollege.ca] 11:20:09
+They secure everything's bike, lock in the container. Then beat stream copies.
+
+[maryam.ahmed@cambriancollege.ca] 11:20:17
+So when we talk about the bit stream copy, that's the beats by bits copying of the original storage medium and it gives us the exact copy of the original disc.
+
+[maryam.ahmed@cambriancollege.ca] 11:20:29
+So this is definitely different from a simple backup and we have the bit stream image and this file containing the bitstream copy of all That's how only disk or partition.
+
+[maryam.ahmed@cambriancollege.ca] 11:20:45
+Here's the forensic copy. We have the original disc the image disk tender target disk.
+
+[maryam.ahmed@cambriancollege.ca] 11:20:53
+This would help us to have this an exact copy of the original disc.
+
+[maryam.ahmed@cambriancollege.ca] 11:20:59
+So at times what we always copy first is just an image of the original copy then you can now change this this image to the real file.
+
+[maryam.ahmed@cambriancollege.ca] 11:21:19
+Acquiring an image of a Desmond. Foster rule.
+
+[maryam.ahmed@cambriancollege.ca] 11:21:24
+Once it's the first rule, what do you think is the first rule?
+
+[maryam.ahmed@cambriancollege.ca] 11:21:44
+The first ruling image.
+
+[maryam.ahmed@cambriancollege.ca] 11:21:52
+We serve your evidence. Preserve your evidence.
+
+[maryam.ahmed@cambriancollege.ca] 11:21:58
+In fact, I would have still given marks for someone that said acquired a… Yeah.
+
+[maryam.ahmed@cambriancollege.ca] 11:22:08
+But preservative every day. Both have very, very important. Of course, without the warranty, you can't even start anything right But yes, preserve your evidence immediately No. And anything can easily happen on that every test because it is digital So the more reason we are emphasizing on preserving the evidence.
+
+[maryam.ahmed@cambriancollege.ca] 11:22:36
+Okay, it is digital. The confidentiality can easily be lost it is digital.
+
+[maryam.ahmed@cambriancollege.ca] 11:22:44
+The integrity can easily be lost. Okay, so… then conduct your analysis only on a copy of the data don't touch the original the only thing we do on the original after collection is to make copies and of course generate the ashley
+
+[maryam.ahmed@cambriancollege.ca] 11:23:07
+Make coffees, generate the arcade and make copies. So with that you can always be sure that you are having the exact copy.
+
+[maryam.ahmed@cambriancollege.ca] 11:23:19
+Completing the case at this point we've started a particular case and from assessing planning gathering the information gathering the information We're serving our everyday collecting and preserving our everydays so We've analyzed our evidence now.
+
+[maryam.ahmed@cambriancollege.ca] 11:23:40
+Want to give a final report. Great. So state what you did, what you found If possible, repeat the steps and ensure that you're having the same results.
+
+[maryam.ahmed@cambriancollege.ca] 11:23:53
+So it's not a result that was achieved by mistake. Oh, I didn't even know how I got to this no you have to be sure that yes Because this case put… It could free the criminal and unfortunately put an innocent person into
+
+[maryam.ahmed@cambriancollege.ca] 11:24:16
+And you know same person might become your suspect through your submission so you have to be sure that Yes, if you repeat it you are having the same thing and everything is done as it should be so If required, you use a report template and report should show conclusive evidence
+
+[maryam.ahmed@cambriancollege.ca] 11:24:35
+As the crime develops versus carrying out the crime or not.
+
+[maryam.ahmed@cambriancollege.ca] 11:24:41
+Then once a conclusive Yes, in some cases We do have inconclusive so that means will need further investigation.
+
+[maryam.ahmed@cambriancollege.ca] 11:24:57
+You just drop it to say i'm not sure sure oh we're not sure no it needs further investigation you know to be able to but usually what the report needs to give is suspected or did not commit a crime.
+
+[maryam.ahmed@cambriancollege.ca] 11:25:13
+Of our meeting company policy. Printing the case which is the same as Review. Lord, we review how could you improve your performance in the case is this something you should have done differently was the documentation as thorough as it could have been
+
+[maryam.ahmed@cambriancollege.ca] 11:25:30
+What feedback has been received from? The requesting source.
+
+[maryam.ahmed@cambriancollege.ca] 11:25:34
+And did you discover any new problem during the process? If so, what are they? And if you use new techniques during the case or during the siege.
+
+[maryam.ahmed@cambriancollege.ca] 11:25:46
+So… Lastly is Justine.
+
+[maryam.ahmed@cambriancollege.ca] 11:25:50
+Scenario. So this scenario was given of a particular organization is a large multinational company with a diverse workforce and a complex IT infrastructure. So recently, this company's IT department noticed a significant increase in network traffic.
+
+[maryam.ahmed@cambriancollege.ca] 11:26:08
+I suspected that employees were misusing coping resources for personal activities such as excessive internet browsing.
+
+[maryam.ahmed@cambriancollege.ca] 11:26:17
+Sending personal emails and using coping computers for non-work related tasks.
+
+[maryam.ahmed@cambriancollege.ca] 11:26:22
+As a result, the company decides to conduct a computer investigation together evidence and address the issue.
+
+[maryam.ahmed@cambriancollege.ca] 11:26:30
+So this issue was addressed using all these steps we mentioned, investigation.
+
+[maryam.ahmed@cambriancollege.ca] 11:26:37
+That is uh first uh The background information is what they have gotten assessing the case then you have a plan. So based on the plan to form a team an investigation team consisting of The computer forensic professional, a network specialist that would help them with the logs
+
+[maryam.ahmed@cambriancollege.ca] 11:26:57
+And analyze the log. And a legal advisor, more like the attorney right that would help in guiding them in that Lego issues then the team develops a comprehensive investigation plan outline the steps. They have a checklist and what are the resources that are required for
+
+[maryam.ahmed@cambriancollege.ca] 11:27:18
+To conduct the investigation and after that they have to move to the next step, which is gathering the evidence.
+
+[maryam.ahmed@cambriancollege.ca] 11:27:27
+Okay, so gathering the evidence The computer forensic professionals start by identifying the employees suspect of misusing our company resources based on network logs and reports. So from the network logs, they were able to identify the IPs with the ISUs.
+
+[maryam.ahmed@cambriancollege.ca] 11:27:48
+Ish. So with this, they were able to identify, okay, this hype belongs to this user.
+
+[maryam.ahmed@cambriancollege.ca] 11:27:53
+Just like I could belong to this user and Or maybe this room so they were able to identify that and they know where they want to work on.
+
+[maryam.ahmed@cambriancollege.ca] 11:28:03
+So the team interviews the IT manager to gather information about the network infrastructure, the proxy server logs, and any other relevant data sources.
+
+[maryam.ahmed@cambriancollege.ca] 11:28:14
+The computer forensic professional prepares the necessary equipment including a dedicated computer forensics workstation with specialized software and write blocker.
+
+[maryam.ahmed@cambriancollege.ca] 11:28:26
+Devices. So to ensure the preservation of that evidence.
+
+[maryam.ahmed@cambriancollege.ca] 11:28:30
+Nothing is written on the airports. And they also acquired the original storage media like the hard drives.
+
+[maryam.ahmed@cambriancollege.ca] 11:28:38
+Laptops or any things that they could get from the suspect So acquiring and analyzing the evidence, they acquire those evidences they analyzed and these copies are used to analyze to avoid tampering with the original evidence first before analyzing the evidence they have to make a copy they use the proper chain of custody procedure
+
+[maryam.ahmed@cambriancollege.ca] 11:29:04
+Show who is in charge of the original evidence at each time.
+
+[maryam.ahmed@cambriancollege.ca] 11:29:10
+So reporting and actions after everything has been analyzed then they were able to come up with a report, a detailed report Report.
+
+[maryam.ahmed@cambriancollege.ca] 11:29:20
+About the findings, the summary of the evidence analysis results and any policy violation.
+
+[maryam.ahmed@cambriancollege.ca] 11:29:27
+And a disreports is shared with the coupling money groups. So if you are giving any case to, you could just follow this stated steps and Yeah, but most of the time you work with a team so it's not really like…
+
+[maryam.ahmed@cambriancollege.ca] 11:29:46
+One man shoe. They want me to see him and move on with the team.
+
+[maryam.ahmed@cambriancollege.ca] 11:29:55
+It is. Post the…
+
+[maryam.ahmed@cambriancollege.ca] 11:30:02
+No, this has nothing to do for you.
+
+[maryam.ahmed@cambriancollege.ca] 11:30:15
+It does not seem to do me securing the perimeter. We talked about securing a perimeter or perimeter
+
+[maryam.ahmed@cambriancollege.ca] 11:30:28
+When we are talking about issue of possibly Zero trust, you know.
+
+[maryam.ahmed@cambriancollege.ca] 11:30:37
+And we're explaining that you know a physical perimeter but this is about your everydays But it's about our evidence which could be just a disk or a computer or a laptop.
+
+[maryam.ahmed@cambriancollege.ca] 11:30:55
+So that is what we are trying to preserve.
+
+[maryam.ahmed@cambriancollege.ca] 11:31:17
+So I know that question. Let's move on.
+
+[maryam.ahmed@cambriancollege.ca] 11:31:23
+And it's love. God.
+
+[maryam.ahmed@cambriancollege.ca] 11:32:14
+So…
+
+[maryam.ahmed@cambriancollege.ca] 11:32:19
+Amen.
+
+[maryam.ahmed@cambriancollege.ca] 11:32:40
+All right. So final night's Lab, same way, same class So we are doing… Yes, MDG forensics.
+
+[maryam.ahmed@cambriancollege.ca] 11:32:58
+And we are now starting with lab board. We are going to love three to one.
+
+[maryam.ahmed@cambriancollege.ca] 11:33:20
+She likes Indeed. What?
+
+[maryam.ahmed@cambriancollege.ca] 11:33:29
+You can still go about cheese. Thank you, Lord.
+
+[maryam.ahmed@cambriancollege.ca] 11:33:33
+It's the same way you got to this.
+
+[maryam.ahmed@cambriancollege.ca] 11:33:40
+He's not there?
+
+[maryam.ahmed@cambriancollege.ca] 11:33:48
+Okay. I need to increase the… So we are looking at a chain of custody.
+
+[maryam.ahmed@cambriancollege.ca] 11:34:20
+Okay. Yep.
+
+[maryam.ahmed@cambriancollege.ca] 11:34:32
+So I don't think I need to explain anything in its lab.
+
+[maryam.ahmed@cambriancollege.ca] 11:34:38
+Yeah. So, but we are using windows His widow S is our client and she just… I mean, one of the instructions I gave you?
+
+[maryam.ahmed@cambriancollege.ca] 11:34:51
+So we just would need to prepare our chain of custody and every day is firm so what we need for submission is you need to fill it up And once you fill it up.
+
+[maryam.ahmed@cambriancollege.ca] 11:35:04
+You'll need to take a picture. There's no way you could download it.
+
+[maryam.ahmed@cambriancollege.ca] 11:35:10
+So you need to take a picture and you need to take a picture Summit. Oh, yes.
+
+[maryam.ahmed@cambriancollege.ca] 11:35:19
+The chain of custody and… the evidence form. Okay.
+
+[maryam.ahmed@cambriancollege.ca] 11:35:50
+Jesus Christ.
+
+[maryam.ahmed@cambriancollege.ca] 11:36:04
+I couldn't be
+
+[maryam.ahmed@cambriancollege.ca] 11:36:10
+Lord Jesus Christ.
+
+[maryam.ahmed@cambriancollege.ca] 11:36:22
+Oh, damn. Evidence of visa they cannot dispose of courtesy.
+
+[maryam.ahmed@cambriancollege.ca] 11:36:30
+Is there any other individual? Evidence for… and the evidence. Yeah.
+
+[maryam.ahmed@cambriancollege.ca] 11:36:44
+You've lost in the evidence from full description of evidence about that. Yeah, the description of his name. You've seen it, right?
+
+[maryam.ahmed@cambriancollege.ca] 11:39:25
+No, make it document, please. I prefer you make a document and put in all the pictures.
+
+[maryam.ahmed@cambriancollege.ca] 11:39:31
+Yes, just like we did. And please don't forget the ID room.
+
+[maryam.ahmed@cambriancollege.ca] 11:39:39
+Anyway, this tonight's Heidi just the way we do it.
+
+[maryam.ahmed@cambriancollege.ca] 11:40:09
+Yeah, some of those requirements.
+
+[maryam.ahmed@cambriancollege.ca] 11:40:16
+I don't know.
+
+[maryam.ahmed@cambriancollege.ca] 11:41:03
+Absolutely.
+
+[maryam.ahmed@cambriancollege.ca] 11:41:54
+I think that's the step only.
+

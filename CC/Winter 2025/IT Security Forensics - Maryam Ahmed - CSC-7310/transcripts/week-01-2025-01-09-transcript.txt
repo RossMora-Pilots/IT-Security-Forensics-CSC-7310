@@ -1,0 +1,912 @@
+[maryam.ahmed@cambriancollege.ca] 09:37:25
+And privates. So the corporate is more of the private investigation well the learning first mates or the government's whom is the public Then explain the importance of maintaining professional conduct.
+
+[maryam.ahmed@cambriancollege.ca] 09:37:38
+And yeah for today's love we are not having a lab The love pool starts next week.
+
+[maryam.ahmed@cambriancollege.ca] 09:37:49
+Yep. Computer 46, where we talk about computer forensics is all about obtaining and analyzing digital information, investigating you know trying to look into an evidence it could be a civil criminal or administrative cases one thing that comes to mind when we have
+
+[maryam.ahmed@cambriancollege.ca] 09:38:14
+When we are talking about computer forensics is very similar to every other forensic except that it has to involve digital information.
+
+[maryam.ahmed@cambriancollege.ca] 09:38:22
+So the computer is evolved. Either the computer is the main theme is the may cry.
+
+[maryam.ahmed@cambriancollege.ca] 09:38:28
+You know, the crime itself was committed using the computer or possibly using the computer is a tool.
+
+[maryam.ahmed@cambriancollege.ca] 09:38:36
+And we need to make some forensic. For example, let's look at the case of a mother case.
+
+[maryam.ahmed@cambriancollege.ca] 09:38:41
+It's not like anyone would use a computer for monitoring but then there might have been some communication that could help us during that investigation that we need to do the forensic on the it could be on the mobile device it could also be
+
+[maryam.ahmed@cambriancollege.ca] 09:39:00
+Are on the system. And that's why in forensic you have to understand different platforms.
+
+[maryam.ahmed@cambriancollege.ca] 09:39:07
+Because it's all depends on the particular platform the person is using so it all started with the fbhai FBI computer analysis and reciprocity and this particular team was formed in 1984 to handle the growing number of cases that involved digital evidence.
+
+[maryam.ahmed@cambriancollege.ca] 09:39:28
+So around this time there were a lot of cases Before going, everything seems like not technical So the more technical things are more technical the more likely the crimes would also go towards that And good enough for us we are going into ai
+
+[maryam.ahmed@cambriancollege.ca] 09:39:47
+So we should also create looking at as cyber security towards AI right because as much as it's a tool is a positive tool that we should know that it would also be a tool that would be used to compromise people's system so this every high it all started with this uh they formed a particular team which is the computer analysis and the response team
+
+[maryam.ahmed@cambriancollege.ca] 09:40:11
+In 1984, of course, the FBI had been existing before then. So this team was formed specifically to handle digital evidence.
+
+[maryam.ahmed@cambriancollege.ca] 09:40:21
+And when you go to the every high website you might not have much information of course they don't really put they don't have a public-facing website however you could have some information about carts which is the computer analysis response team on this website
+
+[maryam.ahmed@cambriancollege.ca] 09:40:41
+So they only provide basic information about the agency's different departments, including the cut and you can also find information about their mission the capabilities the history of cards.
+
+[maryam.ahmed@cambriancollege.ca] 09:40:58
+Then, in the similar thing to what we have in the United States, which is the FBI cards.
+
+[maryam.ahmed@cambriancollege.ca] 09:41:04
+In canada we have the Royal Canadian mounted police the rcmp the rcmp is like the FBI.
+
+[maryam.ahmed@cambriancollege.ca] 09:41:15
+Then under this RCMP, they also have a team that works like art that deals with digital everyday sales So this team is the AC3. That's the National Cybercrime Coordination Unit And they are responsible for coordinating cybercrime investigations across Canada and they provide technical expertise
+
+[maryam.ahmed@cambriancollege.ca] 09:41:37
+They also train people so just like I behind cards too they also train people on dealing with digital evidence on how to deal with digital evidence.
+
+[maryam.ahmed@cambriancollege.ca] 09:41:50
+Now, this is one of the most basic law that we need to understand when it comes to computer forensics.
+
+[maryam.ahmed@cambriancollege.ca] 09:42:00
+Respecting everyone's right.
+
+[maryam.ahmed@cambriancollege.ca] 09:42:04
+Okay so the fourth amendments of the United States Constitution protects everyone's right to be secured in their person residence and property from such and seizure.
+
+[maryam.ahmed@cambriancollege.ca] 09:42:19
+So what this simply tells us is Before anyone could come to you based on the fourth amendment in the United States.
+
+[maryam.ahmed@cambriancollege.ca] 09:42:28
+Are for searching or possibly seizing a digital information then.
+
+[maryam.ahmed@cambriancollege.ca] 09:42:34
+They have to have a search warrant. Nobody could take up searching or seizure without a situarials.
+
+[maryam.ahmed@cambriancollege.ca] 09:42:44
+Okay so that is one's right. We need to know our right so it actually protects what It protects you and it gives you that freedom from unreasonable searches and seizures by the government Yeah, by the governments.
+
+[maryam.ahmed@cambriancollege.ca] 09:43:03
+So search warrants are required to conduct searches or seize properties.
+
+[maryam.ahmed@cambriancollege.ca] 09:43:09
+So likewise in canada we have section 8 So the fourth amendment is in the United States and in Canada we have Section 8. And Section 8 in the same way to guarantee that everyone has the right to be secure
+
+[maryam.ahmed@cambriancollege.ca] 09:43:22
+Against a reasonable sage procedure. Like the fourth hermit mainstream it protects the individuals from unreasonable searches or seizures by the government.
+
+[maryam.ahmed@cambriancollege.ca] 09:43:34
+And it requires that searches as seizures asked to be authorized.
+
+[maryam.ahmed@cambriancollege.ca] 09:43:40
+By law and they have to be reasonable in the circumstances. So this means that the law enforcement must ensure that they obtain a search warrant except of course in certain circumstances and not just obtain the search warrant it also have to specify on exactly what they are looking for and where exactly you need to search.
+
+[maryam.ahmed@cambriancollege.ca] 09:44:04
+Now as an IT forensic expert, why do we have to tell you all this?
+
+[maryam.ahmed@cambriancollege.ca] 09:44:10
+Lalters. Why do you think it's important to us?
+
+[maryam.ahmed@cambriancollege.ca] 09:44:19
+So that you show that you're not going outside the door.
+
+[maryam.ahmed@cambriancollege.ca] 09:44:25
+Because if you actually search something that you should not search or your friend just comes to you yeah you're a forensic expert. Could you help me with this computer and Do you have a satuaries on that?
+
+[maryam.ahmed@cambriancollege.ca] 09:44:40
+Okay, so the person is a police officer and he asked me to do it.
+
+[maryam.ahmed@cambriancollege.ca] 09:44:45
+You know, it's not enough. You have to have what's the situarantrite And you have to know what exactly, where exactly that specifies what you're searching for and where exactly you need to do the search because all this is all about
+
+[maryam.ahmed@cambriancollege.ca] 09:45:05
+It might bounce back tickets to also talk about the dowel brats If not, if things are not done properly.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:14
+Those evidences won't be accepted in the court of law. So it's more like the whole efforts has been wasted.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:25
+So you have to ensure that everything follows the right process.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:30
+And everything is done quickly. Now, let's look at some terms.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:38
+Computer forensics. It investigates data that can be retrieved from a computer's hardware disk.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:45
+Or other storage media. So it's a discipline that this week digital information and devices.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:53
+And it's all about retrieving information from the computer's hardware disk or other storage media and for network forensics It yields information about how a perpetrator or an attacker gained an access tree nature.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:12
+For network forensics usually what we are setting or what we want to look at is retrieving something like the logs okay because we want to understand how the attacker has been able to penetrate. So usually you might need the network forensics during intrusion
+
+[maryam.ahmed@cambriancollege.ca] 09:46:32
+Response. Irp.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:36
+Right? After containment eradication and everything we want to understand how was it happened how did it happen? How was the attacker able to So to be able to improve your security measures they need to do network forensics.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:55
+Then data recovery is recovering information that was deleted by mistake or lost during a power surge server crash.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:07
+What would be seen is when it comes to computer forensic and data recovery we might use the same method. In fact, we use the same method.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:16
+For forensics because all we need to do is we want to retrieve information but the only thing is the purpose is different.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:25
+In data recovery, the purpose is just okay i retrieve my information and that is all But in the case of forensics.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:33
+After retrieving, there are two folder processes. You need to analyze, you need to come up with Some facts.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:42
+Okay, so… we might have to use the same tool when it comes to information retrieval.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:50
+In computer forensics and data recovery.
+
+[maryam.ahmed@cambriancollege.ca] 09:47:58
+So the purpose of computer foreign currency is Ava to incriminate.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:07
+Or to petri. It is either you want to try to take yourself off decry or do you want to take someone off the crime or possibly put that person you know convince us that was an evidence to show that this person has done it so
+
+[maryam.ahmed@cambriancollege.ca] 09:48:25
+Task of recovering data that users have hidden or deleted. And using it as everyday so that means The criminals themselves possibly they know they have done something wrong And in the process, they felt the only way they could hide what has been done is what
+
+[maryam.ahmed@cambriancollege.ca] 09:48:47
+By deleting. Or hiding.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:51
+Those incriminating material and what you want to do is you want to bring it out and analyze and link it to the case. So disaster recovery so disaster recovery uses computer forensic techniques to retrieve information that clients have lost
+
+[maryam.ahmed@cambriancollege.ca] 09:49:08
+So very also similar to data recovery His theory is that Zoom is just no way.
+
+[maryam.ahmed@cambriancollege.ca] 09:49:15
+It's scheduled for January 14th. What? It's for January 14th. We have… eight people inside.
+
+[maryam.ahmed@cambriancollege.ca] 09:49:36
+Which link are they using?
+
+[Kazeem Oguntade] 09:49:39
+So the link on module is not working. The link on the dashboard is the one that is working.
+
+[Kazeem Oguntade] 09:49:46
+So the person is probably trying to join on from modu
+
+[maryam.ahmed@cambriancollege.ca] 09:49:51
+This link, I don't know if this.
+
+[Kazeem Oguntade] 09:49:54
+There are two links actually there's a link on module that is different from this one.
+
+[Kazeem Oguntade] 09:50:04
+This link is on our dashboard. But it's not our model.
+
+[maryam.ahmed@cambriancollege.ca] 09:50:09
+These ones should be working.
+
+[maryam.ahmed@cambriancollege.ca] 09:50:17
+You're saying this one is not correct. Yeah.
+
+[Kazeem Oguntade] 09:50:20
+Yeah, let's check the dashboard. The dashboard is fair.
+
+[maryam.ahmed@cambriancollege.ca] 09:50:23
+That's what both of them. This is the link that is correct.
+
+[maryam.ahmed@cambriancollege.ca] 09:50:36
+No dashboard will take me to my own dashboard yeah it will take me to my new dashboard.
+
+[maryam.ahmed@cambriancollege.ca] 09:50:47
+This link should be correct yeah they should just log in and Yeah, use this leak.
+
+[maryam.ahmed@cambriancollege.ca] 09:50:55
+Maybe someone is trying to i think there's another link here It's not spreading, but…
+
+[maryam.ahmed@cambriancollege.ca] 09:51:07
+Oh, this is the bad link. Is this a bad link?
+
+[maryam.ahmed@cambriancollege.ca] 09:51:13
+Now, which one did you use to get him?
+
+[maryam.ahmed@cambriancollege.ca] 09:51:22
+This one is the bad one. Yes.
+
+[maryam.ahmed@cambriancollege.ca] 09:51:34
+Brain is the good one. I think that's the one.
+
+[maryam.ahmed@cambriancollege.ca] 09:51:39
+So this one is the one, the blue one. This is the blue door here.
+
+[maryam.ahmed@cambriancollege.ca] 09:51:44
+Where did you get this? It's on the gas. Really? Yeah.
+
+[maryam.ahmed@cambriancollege.ca] 09:51:53
+Since you said it's the correct one, I believe you.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:00
+Because I want you to change this.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:12
+I don't think this is right.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:22
+This shouldn't be right.
+
+[Kazeem Oguntade] 09:52:23
+So what's happening is that when we log into model year there is a link that when we click on each of our courses there's a link There's a Zoom link that is on each of our courses.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:27
+Yeah.
+
+[Kazeem Oguntade] 09:52:34
+So the Zoom link on this course is actually not working.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:40
+Okay.
+
+[Kazeem Oguntade] 09:52:40
+The one that is working is when we now click on our dashboard to show all the activities that we have to do there's a Zoom link that is there for this course. That's the one that works.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:51
+Because this model… So can you help us pick the right one so that you can just correct this?
+
+[Kazeem Oguntade] 09:52:59
+Okay.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:59
+Yeah, that's what they posted, but I'm not sure if…
+
+[maryam.ahmed@cambriancollege.ca] 09:53:18
+Amen. I hope he unites me.
+
+[maryam.ahmed@cambriancollege.ca] 09:53:41
+Can you click invite? Yeah. He brought out a copy invite link.
+
+[maryam.ahmed@cambriancollege.ca] 09:53:50
+Okay, so…
+
+[maryam.ahmed@cambriancollege.ca] 09:54:09
+I hope this works. My book is worse.
+
+[maryam.ahmed@cambriancollege.ca] 09:54:57
+All right. So sorry about the break so As we see in the section four i mean the section The Fourth Amendment in the US floor is what actually protects the human Right, it gets unreasonable seizure.
+
+[maryam.ahmed@cambriancollege.ca] 09:55:17
+Or such. And the only way you can anyone could search or possibly seize is to have this necessary search warrant.
+
+[maryam.ahmed@cambriancollege.ca] 09:55:27
+And in Canada we have that has this section eight doing the same job of protecting everyone's right. And we defined the computer forensics, network forensics, data recovery disaster recovery, all likely to use the same type of tools except that
+
+[maryam.ahmed@cambriancollege.ca] 09:55:45
+The reason behind them is different And the purpose some once the information has been recovered that is the end. But for some we need to do more analysis like in the case of computer forensics they need to be more
+
+[maryam.ahmed@cambriancollege.ca] 09:56:02
+Work to be done. However, the good work as a team.
+
+[maryam.ahmed@cambriancollege.ca] 09:56:11
+So here is the investigation chart. And this is a framework that describes the three core components of the computer security investigations.
+
+[maryam.ahmed@cambriancollege.ca] 09:56:21
+And we have the vulnerability assessment. That's the process of identifying and analyzing the security vulnerabilities in an organization computer systems and network.
+
+[maryam.ahmed@cambriancollege.ca] 09:56:32
+And the goal here is to identify the weakness in the organization's security posture and to recommend the measures then we have the investigations and which is more like the main purpose that we have there the forensic to be done. So it involved the collection, the analysis and interpretation of the digital everything.
+
+[maryam.ahmed@cambriancollege.ca] 09:56:59
+Related to specific incidents And we have the intrusion response, which is another reason why we could need forensic.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:08
+So these three reasons are actually why we might need forensic, either for vulnerability assessment or for some investigations and it could also be part of intrusion response.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:25
+So the enterprise network environments these are the large corporate computer systems that include the spirit of formally independent systems And we talked about the vulnerability assessment and the risk management group what they do is they test and they try to verify the integrity of
+
+[maryam.ahmed@cambriancollege.ca] 09:57:46
+Standalone workstations and the network servers. So the people on this group where you have professionals on this group, they need to understand what is natural nutrition detection and incidental response.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:00
+So when you have people under this vulnerability assessment, they need to understand what they are looking for.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:08
+Because what they're looking for is the weakness in the system. So they need to understand when there is an when there's intrusion detection.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:16
+Monitoring the system, which is a major part of detection it has to be very strong.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:24
+And at the same time, they have to be able to recognize when they see that this is a weakness, this is a vulnerability.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:34
+Litigation. Regarding litigation that the legal process of proving guilt or innocence in court.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:47
+And that is why we need our everydays. Computer investigations group These are the people that manage the investigation and they conduct the forensic analysis of systems that are suspected of containing evidence related to an incident or related to a crime.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:08
+So ever it has to do with an incident that happened they want to analyze how did it happen What? When did it happen and all that other information They are still part of the criminal investigation group and when it has to do with a crime as well, we could also fall back on this particular group to do the analysis and
+
+[maryam.ahmed@cambriancollege.ca] 09:59:32
+Give us the results.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:37
+History of computer forensics.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:43
+So… all right it has a kind of a kind of a very short history compared to other areas of forensics because the whole IT itself It was like everything started booming around 80s.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:00
+So by the 1970s, electronic crimes were increasing, especially in the financial sector and most lawyer first made to emphasize they have no idea.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:11
+Of how to tackle this then like the 80s the pieces were not just with the experts it was more like almost an average person could try to have a PC, right? Then we started having different operating systems as well
+
+[maryam.ahmed@cambriancollege.ca] 10:00:30
+Like this corporate system During this period, the forensic tools were quite simple and the people that had this forensic tools were not just ordinary people it was more like the law enforcement that are connected to the government.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:49
+So it's like special tools prepared for those people to analyze i mean this… this digital information.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:01
+By mid-80s. We started having some tools been developed extra gold appeared on the market and it now became something of public you can just go to buy you can buy online and everything so it's recognize the file types and retrieve lost or deleted files
+
+[maryam.ahmed@cambriancollege.ca] 10:01:21
+Then we had didn't not discard it. Soon followed in 1987, Happel also produced the mac se Which is an exercise which is an external easy hard drive.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:41
+Glenn. By 1990s more tools were available.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:48
+International Association of Computer Investigative Specialists The state training on softer fourth forensic investigations, then IRS created a search warrant program.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:02
+Then we have expert witness for market touch, which was the first commercial GUI software for computer forensic so and um before and this shows that before now before these 90s those forensic tools with really used by experts.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:21
+Because they were not GUI based. Does more on command prompts.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:28
+If you want to retrieve a file type of course even the operating system even the operating system the disk operating system than the DOS. It's more on what the command prompts and that was how you will retrieve your files and everything so by end of 1980s
+
+[maryam.ahmed@cambriancollege.ca] 10:02:47
+We started having GUI computers and everything It was necessary that I they also have something like this and expert witness was the first commercial GUI software.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:01
+So now we have different forensic tools we have the eye look we have the encase we have the FTK. Most of these we'll be using It is available for public private use. We use the NKS.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:21
+Last year, we also used the E3. So there are so many tools that we could use and yeah get some answers on them.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:35
+Open source forensic tools. These are Linux based. We have the nopics, live CDs, LAX, Ubuntu saved And most of these are Linux based operating system like Kali Linux metersplatable and all that, they usually come with forensic tools.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:55
+So now some of them COVID, some have embedded tools that would help in forensics.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:02
+To retrieve lost files and documents. Laura's and resources.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:13
+So technology is evolving. As an explanation.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:19
+Case and our existing laws strategies can't keep up with those changes. And that's the more reason we have the case law. And what do we mean by the case law? The case law simply is what is being applied.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:33
+When you have a case that is different from what have been existing Okay, so you have of the people in the Lord.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:45
+The judge waiver. Has the right to use a similar case that has been in existence.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:52
+And compare it with what we have at hand so it allows lego council to use previous cases that are similar to the courage work because Just like we have zero day malware.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:06
+We also have 0D. Crimes right so when it happens what the law castle or the lego castle will do is they would actually take a similar case and use it. So each case is evaluated on its own merit and uses.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:24
+So developing crypto forensics resources, you must know more than one computing platform. And that is why in the content of our course.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:34
+We have to go through different operating systems. We have to look at Windows. We have to look at Linux. For instance.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:40
+Windows, for instance, Linux forensic in mobile phone we have to look at emails we have to you know we have to look at different platforms I mean, you might need to extract information from any part of this so and another thing of course that cannot be over emphasized is joining as many computer user groups as you can.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:07
+Network. Okay, so… As a forensic expert, you also need to get connected you need to talk to other forensic experts. Then computer technology investigators network debates this is one network you could join And it meets monthly to discuss problems that law enforcement and corporations face.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:33
+So we also have another group which is the high technology crime investigation association they exchange information about techniques that I really teach.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:43
+Two computer investigations and security. And this particular user group can be very helpful.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:51
+And build a network of computer forensic experts and other professionals and upside experts can provide detailed information you need to retrieve.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:01
+There's all information.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:09
+Public and private investigations. So when we talk about public investigations.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:18
+The investigations that are conducted by the government agencies and has to do with crime investigations with civilians, right? General civil cases.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:33
+Falls under the public investigations now when you talk about the corporates, that has to do specifically with organizations.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:41
+Private or cooperative investigations. So there are ways that We handle the two cases.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:48
+Now, in the times of public investigations, that is where your individual right is being respected.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:56
+The flood had been named the section 8 of search and seizure.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:02
+I've been respected when you are when you are when you are dealing with the government.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:07
+But when it comes to corporate or possibly the private then the corporate law overrides.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:20
+So if possibly you are using a system within your organization and they need to make a search or anything they don't need to present you a search warrant.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:32
+It is their property and they have the right to search.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:36
+So as long as it is part of the agreement and everything they So that's his…
+
+[maryam.ahmed@cambriancollege.ca] 10:08:50
+This is the Fourth Amendment. The rights of the people to be secure in their purses, houses, papers, and effects.
+
+[maryam.ahmed@cambriancollege.ca] 10:08:57
+Against her reasonable surgeries that seizures shall not be violated. And no warrant shall… issue but upon promo course supported by both for affirmation and particularly describing the place to be searched and the purses of things to be seized.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:17
+True. So that's Lloyd once again, OS4.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:23
+Public now for private or corporate investigations you're dealing with private companies non-law enforcement government agencies and lawyers and they are not directly governed.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:38
+By the criminal law or the Fourth Amendment or the section eight so these are not governed by that however they are governed by their own internal policies that define expected employee behavior and conduct I conduct in the workplace.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:55
+So the private corporate investigation also involves litigation dispute. What is litigation again?
+
+[maryam.ahmed@cambriancollege.ca] 10:10:08
+Proving someone is guilty or not, right? So also the corporate Investigation also involved a valuable to prove duty or not guilty.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:27
+So… Understanding law enforcement agency investigations.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:33
+In a criminal case, a suspect is tried for a criminal offense.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:38
+Such as butlery. Mother or molestation.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:43
+In these cases. The computer has just be used as a tool.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:50
+Okay, so there are times that these things this crime the crimes committed are non-IT.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:01
+Like, but… they've just been used as a tool to commit to scribes. So many states have had specific language to criminal codes.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:10
+To define crimes involving computers. Like the theft of computer data that has to do with the computer itself.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:20
+So you need to also look for those Right. Be sure that Possibly your search warrant or anything information you are holding specifies is it a computer related or something that has to do directly with the that involves the computer itself.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:47
+So…
+
+[maryam.ahmed@cambriancollege.ca] 10:11:52
+Criminal case follows three stages. The complaints, the investigation and the prosecution.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:02
+Every split starts with the complex stage. The victim of maybe the law enforcement complain with the courts.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:10
+Lay a complaint with the court alleging that the crime has been committed and after that the crime has been described, the nature of that alleged crime, and they also look at, you present some evidences. You can't just say crime has been committed and they say, oh.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:24
+Congrats, here is your situarant. No. You must have presented some evidences.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:31
+Oh this apparent at this time at this time at this time so based on what you have presented obviously you need more evidences.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:39
+To end that say this is why and this. So if saturant would be presented Then we can now move on to the next stage which is the investigation so during this investigation that is where we need The sage.
+
+[maryam.ahmed@cambriancollege.ca] 10:12:55
+The forensic analyze and everything that will be done. And the last stage will be the prosecution, either the person is guilty or not so the criminal case usually follow this through processes.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:16
+So a criminal case begins where someone finds evidence of an illegal hat.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:20
+Then you make a complaint of the accusing or supposition of act Then a police officer interviews the complaint and writes a report about the crime and police bloat.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:32
+Writes a record there's a document called the police blotter. It provides a record of clues to crimes that have been committed previously.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:40
+And investigators delegate, collect and process the information related to the complaint.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:46
+So here's an example of what police bloata is.
+
+[maryam.ahmed@cambriancollege.ca] 10:13:52
+So after building the case. The information is turned over to the prosecutor.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:01
+And there's going to be a strong statement, which is the feed of it, to support the fact evidence of the Christ unto.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:09
+You have the affidavit to be notarized under S1 rule. The judge must approve and such death and sign the search warrant before you can use it to collect information.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:22
+So we know what an affiliate looks like.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:31
+So for privates or corporate investigation, it usually involves within the organization and the company policies is what takes over in this case.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:42
+And corporate computer crimes could involve email harassment, falsification of data, gender and age discrimination, embezzlement.
+
+[maryam.ahmed@cambriancollege.ca] 10:14:51
+Sabotage and industrial spinach So… One way for the organization themselves Two, ensure that they've done their due diligence.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:04
+Is to ensure that everyone knows about the company policies.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:10
+People are aware of the company policy like ignorance shouldn't be the case. And one of the ways to get of this Israel. It has been published.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:23
+Okay, so they publish they have a copy of it maybe on their website on different things and different things they could send an email from time to time to let you know that, oh, here is our new policy. We've just updated the new policy. You really don't read it.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:39
+But they have done their own part. Then another way is what's displaying money banners Right.
+
+[maryam.ahmed@cambriancollege.ca] 10:15:48
+And you know what that also looks like. So that appears when the computer starts connect to the company Trinet's network and it affirms the end user that the organization reserves the rights to inspect your computer systems.
+
+[maryam.ahmed@cambriancollege.ca] 10:16:03
+A natural traffic at will. So.
+
+[maryam.ahmed@cambriancollege.ca] 10:16:07
+Here's an example of the US government's facility of what the burner looks like.
+
+[maryam.ahmed@cambriancollege.ca] 10:16:14
+You're about to access the United States government computer network that is intended for authorized users only.
+
+[maryam.ahmed@cambriancollege.ca] 10:16:21
+You should have no expectation of privacy. In use of this network.
+
+[maryam.ahmed@cambriancollege.ca] 10:16:26
+Use of this network constitutes concerns to monitoring retrieval and disclosure of any information stored within the network for any purpose, including criminal prosecution. So in this case, once you're using this network, there's no question of citron is an automatic.
+
+[maryam.ahmed@cambriancollege.ca] 10:16:46
+I mean, before you could use the system, you have to click ok So you've agreed that you've agreed your activities could be monitored.
+
+[maryam.ahmed@cambriancollege.ca] 10:16:58
+And they could retrieve any information if needed from your assistant.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:07
+So designating an authorized sequester is an important part of the corporate investigations.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:14
+And it ensures that investigations are conducted in a way that it is lego ethical and consistent with the company's policies.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:26
+Unauthorized to pressurize that individual that has the power to request and conduct investigations and is typically designated by executive money means. So… These are the people that have the power. I mean, they've been given the authority go ahead to search.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:47
+And the policy should be defined by the executive management and the grooves that should have direct authority to request cryptography escalations We have the corporate security investigations, we have corporate ethics office. They all play a role.
+
+[maryam.ahmed@cambriancollege.ca] 10:18:02
+During investigation we have the corporate equal employment opportunity office
+
+[maryam.ahmed@cambriancollege.ca] 10:18:37
+So we have corporate ethics office, corporate equal payments opportunity office internal audit team, the general counsel legal department so all these are part of the people who should take part in this Growth.
+
+[maryam.ahmed@cambriancollege.ca] 10:18:56
+So, type of situations that we could have incorporated, we've mentioned some of it It could be an email abuse.
+
+[maryam.ahmed@cambriancollege.ca] 10:19:04
+It could be internet abuse. Or no, you shouldn't use your internet until 2 p.m.
+
+[maryam.ahmed@cambriancollege.ca] 10:19:11
+But there's someone. I mean, you should not use the internet for social media Until 2 p.m. But there's someone who is always using it before 2 p.m.
+
+[maryam.ahmed@cambriancollege.ca] 10:19:22
+And we need to find out who's that person. Okay, so this could be part of what you want to make your findings on or possibly using the company's email For some illegal stuff.
+
+[maryam.ahmed@cambriancollege.ca] 10:19:36
+It could even not be something illegal it could be something legal by the government but for personnel which is against the organization's policy so we have to be able to distinguish between what is companies abuse are a problem and potential criminal problem like in the use of the email you might be doing something good
+
+[maryam.ahmed@cambriancollege.ca] 10:19:59
+It might not have anything against the public. But against the company's policy so this is and there are times that learning your findings.
+
+[maryam.ahmed@cambriancollege.ca] 10:20:11
+You might need to transfer it to transfer it the public investigation when you now notice that, oh, this person is a real criminal It's not just about breaking the company's policy, but it's also breaking the state rule.
+
+[maryam.ahmed@cambriancollege.ca] 10:20:33
+So most of the time, many company policies distinguish between the personal and company computer property.
+
+[maryam.ahmed@cambriancollege.ca] 10:20:40
+Under one area that is difficult is when you're using your laptop We are using your cell phone, your notebook and someone comes to you because you're using our network, I want to say to your computer, your personal computer.
+
+[maryam.ahmed@cambriancollege.ca] 10:20:56
+You said no. It depends. If you've clicked… No, if you've clicked OK.
+
+[maryam.ahmed@cambriancollege.ca] 10:21:05
+Just like we actually show host now, you might be using their network and something pops up that says that you are on our network and we have the right monitor.
+
+[maryam.ahmed@cambriancollege.ca] 10:21:17
+To search to do everything. So if you are on their network at that particular time then you might have, you're right.
+
+[maryam.ahmed@cambriancollege.ca] 10:21:28
+To sedge. And a safe policy is not to allow any personally owned devices to be connected to the company owned resources.
+
+[maryam.ahmed@cambriancollege.ca] 10:21:40
+However, we are also the same people calling for BYOD.
+
+[maryam.ahmed@cambriancollege.ca] 10:21:48
+Okay, so…
+
+[maryam.ahmed@cambriancollege.ca] 10:21:54
+All right. Let me give you a bit of break. So we can have, we are almost done. So just have like 10 minutes break What?
+
+[maryam.ahmed@cambriancollege.ca] 10:22:06
+We should finish.
+
+[maryam.ahmed@cambriancollege.ca] 10:22:15
+What? Yeah.
+
+[maryam.ahmed@cambriancollege.ca] 10:34:57
+Yeah, we'll come back. So just like every aspect of… cyber security.
+
+[maryam.ahmed@cambriancollege.ca] 10:35:06
+In forensic professional conduct is very important. Because you might be discovering so many things in the process.
+
+[maryam.ahmed@cambriancollege.ca] 10:35:18
+Right. We've had people are possibly I mean, it's not something You… You discourse.
+
+[maryam.ahmed@cambriancollege.ca] 10:35:32
+When you're working on… for a sick because yeah confidentiality is also very very important you need to you know your credibility has to be very very intact whatever point is you make should be reported to the management.
+
+[maryam.ahmed@cambriancollege.ca] 10:35:54
+And no other proceed. And also very, very objective Okay, so… you have to the morals the moral standards and everything should be at birth and maintain objectivity means you have to form and sustain unbiased opinion of your cases.
+
+[maryam.ahmed@cambriancollege.ca] 10:36:17
+You are making a findings. And from your findings.
+
+[maryam.ahmed@cambriancollege.ca] 10:36:23
+This person seems to be innocent. But because no How can this person be safe? It cannot just be You know, you kept on looking for why this person has to be guilty.
+
+[maryam.ahmed@cambriancollege.ca] 10:36:36
+You know it's a personal motive it's it's it's it's baseless. There are no facts.
+
+[maryam.ahmed@cambriancollege.ca] 10:36:42
+So you just keep looking for something keep on touching and touching and touching so this is not something that is expected and then confidentiality it has to be there and then in registers corporate case might also become a criminal case
+
+[maryam.ahmed@cambriancollege.ca] 10:37:00
+We've also found there was a case I read about of someone performing a forensic and it happens that it is framed yeah it's very his best friend's wife.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:16
+Work in that organization. And while he was carrying on the forensics He found out that the wife is cheating on them the best friend.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:31
+That is not his business. What?
+
+[maryam.ahmed@cambriancollege.ca] 10:37:40
+This is a nice big deal. First of all, it's not your business.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:45
+Even if he's your brother, not even a friend. I'm seeing a professional level. In fact, even if it's your own wife.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:59
+And you happen to be doing forensic, official forensic. You have to assume you've not seen anything. You will tell yourself you've not seen anything.
+
+[maryam.ahmed@cambriancollege.ca] 10:38:12
+Excuse me. That's what I'm saying.
+
+[maryam.ahmed@cambriancollege.ca] 10:38:25
+So after prosecution you now come back to… Yeah, I saw this to the domestic case. So it now becomes a domestic case. No, you can't use it. Where did you say it? There's nothing, you've not seen anything.
+
+[maryam.ahmed@cambriancollege.ca] 10:38:45
+So it now remains how you want to get your sex warrant.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:01
+Yes.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:12
+Yeah, the wife is always right. Yes. So you have to always… act like you never saw anything anyways. That's the thing.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:30
+Well yeah but honestly people have come through so many things in forensics. They've found out so many and they just have to act like it's Especially when that has nothing to do with your investigation.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:46
+You know, you saw some pictures you saw some pictures take your eyes off it.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:55
+Awesome. And the way you could get over this yeah we could say that some people are getting emotional, is to attend a lot of trainings.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:06
+Workshops and i would tell you you know when you speak to other professionals and they tell you how they've been able to handle some things make me feel wow okay so somehow
+
+[maryam.ahmed@cambriancollege.ca] 10:40:27
+Yes. That's…
+
+[maryam.ahmed@cambriancollege.ca] 10:40:51
+You can leave the job but not after you have seen. You don't get it. Nobody's completely just now.
+
+[maryam.ahmed@cambriancollege.ca] 10:41:12
+Exactly. That is it used to professionally is still against your… Don't feel like… Exactly.
+
+[maryam.ahmed@cambriancollege.ca] 10:41:38
+No reactions there. Yes. No, I mean, this one might not even be a family thing, you know, but you are working outside. Exactly. It's your company that was just employed. They don't know who is working. They don't know who is coming. And even you at times, you don't even know what they are bringing to you.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:07
+You might not have to go to the company physically they brought subsistence.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:12
+We need to carry out forensic on this system and it happens to be
+
+[maryam.ahmed@cambriancollege.ca] 10:42:19
+You know, so, but, yeah. Attending workshop's conferences, vendor courses would help us recommend all this. And membership in different professional organizations also had our credentials and achieve a high public and private standing and maintain honesty and integrity just put it as it is.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:50
+So applying the Daubert Standard to forensic evidence. The Dahlberg standard is all about pulling the right things.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:00
+Presenting your evidence insurance started from getting a search warrant preserving your evidence.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:08
+Following the rights matured to retrieve your evidence. If all these are not followed.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:15
+The judge has the right to reject Just every day okay so that tells us that every step has to be followed as it is so the dollar standard is a set of guidelines that is used by the United States Trail to determine the admissibility
+
+[maryam.ahmed@cambriancollege.ca] 10:43:34
+Of scientific and technical evidence. Including forensic cavities.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:40
+So this was established by the US Supreme Court in 1993 in the case of Dalbert.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:45
+Brussels barrel pharmaceutical. And since then, it's been adopted in so many States.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:55
+What? No, yours. What problems do you… What's happened in English? Yeah, which… in Europe. I know.
+
+[maryam.ahmed@cambriancollege.ca] 10:44:14
+Most of the time the standards used in the United States has been adopted in many countries.
+
+[maryam.ahmed@cambriancollege.ca] 10:44:21
+For example, when we talk about health We use HIPAA.
+
+[maryam.ahmed@cambriancollege.ca] 10:44:25
+Hipaa is not just it's majorly in the United States, but now it's been adopted by many countries This is a standard that has been adopted but for the double standard honestly i have no no idea as weight has been adopted and where it has brought
+
+[maryam.ahmed@cambriancollege.ca] 10:44:46
+So it's just used to determine the reliability of the evidence of the techniques that has been used.
+
+[maryam.ahmed@cambriancollege.ca] 10:44:58
+So…
+
+[maryam.ahmed@cambriancollege.ca] 10:45:04
+So here it says that here the trial judges would have like the gatekeepers the need to evaluate the reliability and relevance of the scientific evidence. How is this evidence relevant to the case at hand?
+
+[maryam.ahmed@cambriancollege.ca] 10:45:21
+And how was this evidence? How was it? Retrieved so they would look at everything and to determine if This evidence is admissible if it is acceptable.
+
+[maryam.ahmed@cambriancollege.ca] 10:45:36
+So the judges would evaluate the site validity, the methodology of the evidence.
+
+[maryam.ahmed@cambriancollege.ca] 10:45:41
+As well as the qualification of the expert witness presenting it and this is where integrity honesty everything comes in you know unbiased.
+
+[maryam.ahmed@cambriancollege.ca] 10:45:53
+Conflict of interest. So they would look at all this to look at it that okay this seems to be… like an evidence we could accept.
+
+[maryam.ahmed@cambriancollege.ca] 10:46:05
+So they have to decide the science and the expert question The judge should consider what is a basic theory and has it to be tested are there standards controlling the technique? Has the theory or technique been subjected to peer review
+
+[maryam.ahmed@cambriancollege.ca] 10:46:21
+And publication what is the known or potential error rates?
+
+[maryam.ahmed@cambriancollege.ca] 10:46:27
+Of that heavy days is is the general acceptance of the theory As the expert adequately encountered for accounted for alternative explanations as the expert unjustifiably extrapolated from an accepted premise to an unfounded conclusion.
+
+[maryam.ahmed@cambriancollege.ca] 10:46:46
+I could also observe that concerns over shaky evidence should be handled through vigorous cross-examination.
+
+[maryam.ahmed@cambriancollege.ca] 10:46:56
+Any evidence that seems… like not too sure then it would run that book for for the examination.
+
+[maryam.ahmed@cambriancollege.ca] 10:47:08
+Then in many states, scientific expert testimony is now subject to this Dowbert standard.
+
+[maryam.ahmed@cambriancollege.ca] 10:47:16
+So some people have their own standard as well. So you can help us make findings about Europe.
+
+[maryam.ahmed@cambriancollege.ca] 10:47:28
+Probably in Africa.
+
+[maryam.ahmed@cambriancollege.ca] 10:47:39
+So with this we come to the end of our first class.
+
+[maryam.ahmed@cambriancollege.ca] 10:47:44
+Somehow, I believe we have an idea of what forensic looks like what's like Just to prepare your mind mostly what we are using is tools tools, two.
+
+[maryam.ahmed@cambriancollege.ca] 10:47:57
+Retrieve information. But before we go to using tools, then we'll talk about how do we preserve our evidence? How do you keep your evidence safe? That is also another very important aspects. Go?
+
+[maryam.ahmed@cambriancollege.ca] 10:48:10
+Because if anything happens to your evidence. Case closed.
+
+[maryam.ahmed@cambriancollege.ca] 10:48:18
+Right? So preserving digital evidence is very important when it comes to computer forensic.
+
+[maryam.ahmed@cambriancollege.ca] 10:48:32
+We don't have lab one yet. Any question?
+
+[maryam.ahmed@cambriancollege.ca] 10:48:43
+Equalabria. Hallelua, you will use it, you know.
+
+[maryam.ahmed@cambriancollege.ca] 10:48:53
+If we don't start, no, next week, no. Next week what we should the brain is to prepare
+
+[maryam.ahmed@cambriancollege.ca] 10:49:02
+Is to see how to prepare the documents.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:11
+So…
+
+[maryam.ahmed@cambriancollege.ca] 10:49:19
+Because this document is what would show that this digital information.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:25
+Device was collected on this date I was handed over to another person's chain of custody.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:33
+So how do you prepare your chain of custody? So we'll just look at that Because that is also very pretend who had this good document at this particular time in everything so to make it stressful. So what does our chain of custody look like?
+
+[maryam.ahmed@cambriancollege.ca] 10:49:49
+It has to also describe the digital device.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:57
+Part of it.
+
+[maryam.ahmed@cambriancollege.ca] 10:50:13
+She'll see you next week.
+

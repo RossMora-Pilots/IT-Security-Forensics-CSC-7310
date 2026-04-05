@@ -1,0 +1,750 @@
+[maryam.ahmed@cambriancollege.ca] 09:44:42
+Examination and the laws related to email investigations are all we'll be discussing today.
+
+[maryam.ahmed@cambriancollege.ca] 09:44:49
+Oldie even works.
+
+[maryam.ahmed@cambriancollege.ca] 09:44:53
+The sender uses Emil Kleinz to send a message. Then the message travels to multiple mail servers just like we have in our network.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:05
+Your message moves from one router to another router to another router until it gets to the closest router that is the closer to the destination so the same way our message travels our email travels from series of our email servers so it goes from the
+
+[maryam.ahmed@cambriancollege.ca] 09:45:24
+Email clients. So from the client, it moves on to the next server which is closest to it.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:30
+Then from there it moves on to the next email server. The next email server until it gets to the email server that is closest to the destination. So the destination new server now stores the message.
+
+[maryam.ahmed@cambriancollege.ca] 09:45:45
+Once the destination mail server stores it. And the receiver is ready to read the message. The receiver would retrieve the message from the mail server.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:01
+This is what we have explained here is the sender sending the message to its own closest email server and this email server keeps sending it to the next email server next and next until Of course we're at the internet until it gets to the email server that is closer to the recipient
+
+[maryam.ahmed@cambriancollege.ca] 09:46:23
+And once it is there, it is stored in this particular email server until the recipient is ready to retrieve it and the recipient retrieve it from the email server.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:34
+So why do we need the forensics of an email and what are the information we could get when it comes to email frenzy.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:44
+So we know that At times, it might not be the crime itself might not be about the email.
+
+[maryam.ahmed@cambriancollege.ca] 09:46:52
+We might need some certain information that could help us It's a kind of communication which of course is widely used nowadays. So this communication channel is an important one that we need to get information from and it could give us a hint of what was going on and how possibly um
+
+[maryam.ahmed@cambriancollege.ca] 09:47:16
+The criminal might have communicated with their cohort and all that. So the email messages are the sender and recipient information is very important. The two people send a message their names via emails their email addresses the time at which this information was sent, the date it was sent you know so all these are part of the information. Then those were copied in the email
+
+[maryam.ahmed@cambriancollege.ca] 09:47:46
+And we are also interested in the content of the message. So aside from all these other information which we could get from the header including the IP addresses the emails the sender and recipient information and all that. We could get that from the email header
+
+[maryam.ahmed@cambriancollege.ca] 09:48:04
+But we also need uh what is it called the content of the communication so date and time, user information attachments If there are any attachments attached to either passwords, application logs that should evidence of spoofing so all these are things we could get information we could get from
+
+[maryam.ahmed@cambriancollege.ca] 09:48:24
+And email forensic. So the email protocols that we do have that works with our emails, we have the SMTP.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:34
+The SMTP is that protocol that works from the sender or the sender two the email server.
+
+[maryam.ahmed@cambriancollege.ca] 09:48:45
+It is used to send the email from a client, which is a sender, to the email server. And it also works between from one email server to another email server and this typically operates on port 35 minute by default
+
+[maryam.ahmed@cambriancollege.ca] 09:49:03
+The part that works, the port number for SMTP is port 25 and we also have the smtps which is the secure version of SMTP.
+
+[maryam.ahmed@cambriancollege.ca] 09:49:16
+So does SMTPS and it operates on for 65 So that protocol that works from the client or the sender to the first email server and also from one email server to another email server is the SMTP which is the simple mail transfer protocol
+
+[maryam.ahmed@cambriancollege.ca] 09:49:35
+And the next one that we have is the POP3. Post office protocol version 3.
+
+[maryam.ahmed@cambriancollege.ca] 09:49:42
+So this is used to retrieve the email. Okay we know that was, I mean, from our earlier explanation that most descenda sent the message you know the sender sent to the email server and it keeps on going until it gets to the destination email server so destination email server to retrieve from the receiver's end
+
+[maryam.ahmed@cambriancollege.ca] 09:50:06
+To receive the message from the destination server we use the pop tree that's the protocol that works in that process so we have pub tree or imap they actually work at the same place and puff tree is on pot one day and we have the secure one which is on pot 995
+
+[maryam.ahmed@cambriancollege.ca] 09:50:26
+So however, the main difference between hub three and for IMA, which is the internet message access protocol, is also working at the same point as POC3. They are supposed to receive the email or they are not to retrieve the email from the destination server so the major difference between these two, aside from the port numbers of course
+
+[maryam.ahmed@cambriancollege.ca] 09:50:50
+The port number for IMAP is 143 and the secure version is 993. So aside from these port numbers, for PUB3, it is designed such that it deletes the email on the server as soon as the user downloads the email.
+
+[maryam.ahmed@cambriancollege.ca] 09:51:07
+So that means once the user retrieves that email, then it is deleted from the server. But in IMAP, User views email on the server and they could decide whether they want to download the email and yes the email is still irrespective the email is still retained
+
+[maryam.ahmed@cambriancollege.ca] 09:51:30
+On day seven. I don't want to see like a… so here is just a tutorial information of that from the user to the first email server that we have we have the SMTP. And between each email server to another email server all traveling over the internet it is using smtp
+
+[maryam.ahmed@cambriancollege.ca] 09:51:53
+Simple meal transfer protocol and on to the last server. So this is the destination server so until the last server it is using smtp and for this guy for this user to retrieve the email it either uses the pulp tree or the eye map. And I mentioned that the main difference aside from the
+
+[maryam.ahmed@cambriancollege.ca] 09:52:17
+Well, aside from the port number between Pope 3 and IMAC is for POP3, Once this user retrieves the email from the server, then it is deleted that email will be deleted on the email server. But for IMAP, the user can decide whether to download or not.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:37
+So that message is still retained in the email server.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:47
+Faking emails.
+
+[maryam.ahmed@cambriancollege.ca] 09:52:58
+Fake emails spoofing anonymous email and valid emails. So for spoofing that is making an email appear to come from someone or someplace other than the real sender or location okay so you make the I mean, it's like replacing the real sender with something else. So the first machine to receive that message would have the original the real IP address.
+
+[maryam.ahmed@cambriancollege.ca] 09:53:29
+You know the first email server that read gets the message would have the real email address.
+
+[maryam.ahmed@cambriancollege.ca] 09:53:36
+And the ADA crunches both the faked hype and the real IP address. This is for spoofing. So it's just like having our having the real address but using something to to make it look like oh no it is like a redirection it is coming from this other address
+
+[maryam.ahmed@cambriancollege.ca] 09:53:57
+But in the header you would see the information about the real address and are the fake one.
+
+[maryam.ahmed@cambriancollege.ca] 09:54:04
+Therefore, anonymous remailing So this… Suspects sent an email message to her, Anunizer. Anunizer is like a soft tray and strips they are identifying information from message before forwarding it with anonymous So the difference between spoofing and anonymous emailing is this is the use of
+
+[maryam.ahmed@cambriancollege.ca] 09:54:28
+We've had class software tools to send a message as an anonymous. So you receive the message like the message is coming from anonymous it's not like faking or possibly are using another IP address or something So… to find out who sent remote email you need to examine the logs and this is maintained by the remiller or the anonymizer companies because the anonymizer company has the direct information of who sent them the email, right?
+
+[maryam.ahmed@cambriancollege.ca] 09:55:06
+So which, of course, they were the one who now replaced it with the anonymous mailing computer's IP.
+
+[maryam.ahmed@cambriancollege.ca] 09:55:15
+Then we have the valid emails. And valid emails appears as through as if the mail is from.
+
+[maryam.ahmed@cambriancollege.ca] 09:55:27
+A trusted source. Okay, so in this case, also similar to spoofing. For spoofing it doesn't really have to be like a trusted source it's just making you feel this is coming from someone else but invalid emails it's like a list of, oh, these are like the valid sources these are like the good sources I could replace with
+
+[maryam.ahmed@cambriancollege.ca] 09:55:52
+So the message content is suspicious and then the content of that message could have some url that points to malicious sites.
+
+[maryam.ahmed@cambriancollege.ca] 09:56:09
+Now, how do people fake an email? One of the easiest way to fake emails is using free public Wi-Fi.
+
+[maryam.ahmed@cambriancollege.ca] 09:56:20
+And why do you think is that? Why do you think using the public Wi-Fi could be a tool in faking an email?
+
+[maryam.ahmed@cambriancollege.ca] 09:56:34
+I just hold it?
+
+[maryam.ahmed@cambriancollege.ca] 09:56:49
+Anyone.
+
+[maryam.ahmed@cambriancollege.ca] 09:56:55
+Wow.
+
+[maryam.ahmed@cambriancollege.ca] 09:57:16
+So basically, when you're using a free Wi-Fi Most freeway fair are just using the DHCP. You come, you go you know i mean your ip address is just assigned to you properly i mean temporarily so you leave and you know it's not really trace symbol right so
+
+[maryam.ahmed@cambriancollege.ca] 09:57:39
+You know, you might never come to that particular location again. You might never use that particular place. And of course, when you want to fake and And he will like that, you must be using like a new created account
+
+[maryam.ahmed@cambriancollege.ca] 09:57:55
+And with all fake information, then you use the free public Wi-Fi. There's proof IP address and the MAC address and also sending the email through an analyzer through anonymous email account.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:11
+So the email message, component of an email we have the header that's where we have the addressing information the sender, the receiver people copied in the email and the date the time, so source and destination all this information is within the header
+
+[maryam.ahmed@cambriancollege.ca] 09:58:34
+Then we have the body of the email which is the content of the message And we have attachment which is more like an external data and more information and all this travels along with the message.
+
+[maryam.ahmed@cambriancollege.ca] 09:58:48
+So shares the message. For example, this is the body and here's an attachment there's a document that is attached to this email and here is the header. The header will see the toe from subject and Copy C.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:13
+So email adders.
+
+[maryam.ahmed@cambriancollege.ca] 09:59:19
+Email address the standard for the email And it's standard format for that is the RFC 2822 and then all email programs use the same email format. So either you're using gmail outlook, any other one Yahoo and all that so they are all using the same email format the more reason you would always see that okay they all have the toe from the subject and
+
+[maryam.ahmed@cambriancollege.ca] 09:59:49
+All the standard information you know and when you have an email from absolute on the Windows 10 PC, it could be read by another recipient using Hotmail on Android phone why is this because there is a standard excuse me let me try to close the drawer.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:44
+So it's easy irrespective of what email program you're using.
+
+[maryam.ahmed@cambriancollege.ca] 10:00:53
+What operating system you are using, we are still able to access all our emails because they all use the same standard, which is the rfc So the email editor keeps record of the messages joining networks and the new servers
+
+[maryam.ahmed@cambriancollege.ca] 10:01:12
+And each of the servers that it passes through. Also had information to the editor if we understand the concept of networking and how Messages are sent from one router to another they would understand the concept of how email server also has the information today that we call this process more like encapsulation and decapsulation
+
+[maryam.ahmed@cambriancollege.ca] 10:01:36
+You know, when a message is received by your router it's encapsulate.
+
+[maryam.ahmed@cambriancollege.ca] 10:01:42
+Okay, once it encapsulate so the process of encapsulating it with its own information is the encapsulation, then it forwards Then it's forward to the message. We need to get to the other one again, encapsulate, remove the whole information had his own information that okay
+
+[maryam.ahmed@cambriancollege.ca] 10:02:00
+Now I'm the new sender and forwarding to the next. So the same way the email server works.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:06
+Then each network device has an internet protocol IP address that helps us to identify the device and can be resolved to the in location address.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:19
+The standard we are using, which is the RFC 2822 for email It does. So from the field.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:29
+The email address must include i mean from field the from field is your the email is coming from this person you know and of course optionally the name of the sender but the email address of the sender is always like a must. Then the date field which is the local time and date when the message was written.
+
+[maryam.ahmed@cambriancollege.ca] 10:02:55
+The message heidi filled. Which is automatically generated field So that's few days.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:03
+Is automatically generated and of course told In reply to field the message id of the message that is a reply to.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:15
+The part of what we have for email ad fields, we have the tool, we have the subjects.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:23
+Cc or BCC we have the content type precedents received referees replied to, and sender. So these are all information we could find in our email server.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:37
+And find Microsoft help locators. You had to get the Microsoft Outlook head as we go to that.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:45
+Info then properties And that takes us to this page.
+
+[maryam.ahmed@cambriancollege.ca] 10:03:49
+So here is the adder information.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:00
+We have the header information right here. Then find your address you're going to select message encoding.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:09
+You have used Yahoo headers.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:15
+To 5GBL headers. We go to show original.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:22
+True original. And that brings us here.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:29
+So to view that Hotmail email headers we have a select the inbox from the main on the left then you right click the message which you want to view editors and select view message source.
+
+[maryam.ahmed@cambriancollege.ca] 10:04:44
+So this is similar to what we'll be having in our lab today and the full headers will appear in the new window And for the haphole for the haple male emulators open the apple meal and click on the message for which you want to view the headers
+
+[maryam.ahmed@cambriancollege.ca] 10:05:04
+Then go to the real menu and select message then link headers So the full industry have played the winter.
+
+[maryam.ahmed@cambriancollege.ca] 10:05:15
+Our email files you can download your email you know as safe. Remember, we always emphasize on backup For any reason, at least if the closest email server refills, then at least you'll be able to have inbacco and to back up here
+
+[maryam.ahmed@cambriancollege.ca] 10:05:36
+Your emails it comes in different else forwards, including the .pste for outlook we have the .oST for offline outlook storage we have dot mbx or dot dpx for Outlook express.mpx for eudura and .mi for we just come on through several email clients.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:00
+So for today's lab two we'll be looking into the parameters email examiner and basically we want to examine might not be using parabenia, but we'll be looking at a particular email examiner that would help us to examine the header of our email so this is exclusively for email forensics and it works in a very similar way with our
+
+[maryam.ahmed@cambriancollege.ca] 10:06:30
+Ftk and the Yankees. So if it is the forensic toolkit and in case So the evidence would be grouped by case.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:44
+So here's how to create a paraben case have created a case the case name and what you need to do.
+
+[maryam.ahmed@cambriancollege.ca] 10:06:59
+Here is additional information that could be added.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:08
+I knew evidences.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:18
+So tracing email.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:23
+You look at each print, throw it the email has passed. It's like trying to do more like a reverse engineering.
+
+[maryam.ahmed@cambriancollege.ca] 10:07:31
+Okay going back to where the email came from which is a destination server and moving back to who sent it to the destination server and you know moving backward in that way until it gets to the originating computer this is one uh i wouldn't say completely manually way
+
+[maryam.ahmed@cambriancollege.ca] 10:07:50
+Of getting a of tracing the email So examining the email servers usage through deleted emails retained by the server and we should know that The email servers also have retention policies. The more reason at times when you look through your
+
+[maryam.ahmed@cambriancollege.ca] 10:08:13
+Messages and you are trying to retrieve an email that was about 10 years ago 15 years ago, we find it hard to retrieve because most of them have a protection policy they have that after this particular period you need to
+
+[maryam.ahmed@cambriancollege.ca] 10:08:27
+Take those messages off. So that could also be a reason why one is not receiving
+
+[maryam.ahmed@cambriancollege.ca] 10:08:38
+What's one reason why you might not be able to retrieve that email after certain period so if if The retention policy says that the servers should keep the email for about five years if after 10 years they're trying to restrict that email it could be deleted it might be half it might be archived so it all depends
+
+[maryam.ahmed@cambriancollege.ca] 10:08:59
+You know on what the mutual policy looks like. Then the email lords.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:09
+The Lord's go name email so we have different laws here we have the fourth amendment to the united states constitution we have the electronic communications privacy act We have the canned palm hats. We have the 18 USC, the 252B. So I have an attachment on our
+
+[maryam.ahmed@cambriancollege.ca] 10:09:27
+Model that talks about some of these laws. You know on sending emails and all sorts of things the laws guiding.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:39
+It has regards to sending… sending an email.
+
+[maryam.ahmed@cambriancollege.ca] 10:09:45
+So, summary, we've been able to talk about the email clients and the servers, you know what the email clients are. The email clients are like they the sender and the receiver, the end user, right? And the servers are more like
+
+[maryam.ahmed@cambriancollege.ca] 10:10:02
+Through which what the email travels So the email headers is that point most important information that we need for 4ASIC where we have from two we have the date we have the subject we have generous information that does not
+
+[maryam.ahmed@cambriancollege.ca] 10:10:23
+Directly relates with the content then email tracing is about knowing how I mean, tracing your email back Backward.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:34
+Rust engineering. Then email server forensic examination So we do forensic examination which is what we'll be doing today too the intellos related to email investigations, we also mentioned some of the laws.
+
+[maryam.ahmed@cambriancollege.ca] 10:10:51
+So with this we've come to the hand of lecture for today. Questions?
+
+[maryam.ahmed@cambriancollege.ca] 10:11:13
+All right. So in the absence of any Christian, we could just go for.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:17
+Five minute break. They will come back for lunch. So you could finish as soon as possible.
+
+[maryam.ahmed@cambriancollege.ca] 10:11:26
+And let me know if you need a longer break. I'm almost here.
+
+[maryam.ahmed@cambriancollege.ca] 10:16:58
+What is going on where are the other students Laura Daniel.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:07
+Fee.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:15
+Let us.
+
+[maryam.ahmed@cambriancollege.ca] 10:17:28
+You, Michael. Michael has not been in class for some time.
+
+[maryam.ahmed@cambriancollege.ca] 10:18:42
+I'll see Laura. I don't relief.
+
+[maryam.ahmed@cambriancollege.ca] 10:18:48
+As soon as he traveled.
+
+[Hassan Adetola] 10:18:55
+Mark? No, you're traveling tomorrow.
+
+[maryam.ahmed@cambriancollege.ca] 10:18:56
+As Joseph had originally traveled. Tomorrow.
+
+[Hassan Adetola] 10:19:01
+Yeah, tomorrow.
+
+[maryam.ahmed@cambriancollege.ca] 10:19:07
+So that's in class today.
+
+[maryam.ahmed@cambriancollege.ca] 10:20:38
+Deliver my message to him.
+
+[maryam.ahmed@cambriancollege.ca] 10:20:57
+Finally, Daniel is here.
+
+[Daniel Quartey] 10:21:00
+Yeah, I've always been here.
+
+[maryam.ahmed@cambriancollege.ca] 10:21:03
+Oh you're not always here. He joined the, I don't know.
+
+[maryam.ahmed@cambriancollege.ca] 10:21:08
+What else is not here? Adi bola you used to join online we don't see him again at Betula the same thing for semester, he was always in class online.
+
+[maryam.ahmed@cambriancollege.ca] 10:21:23
+But now… Chances.
+
+[Hassan Adetola] 10:21:26
+Operating, since only. Okay, online.
+
+[Hassan Adetola] 10:21:33
+You want.
+
+[maryam.ahmed@cambriancollege.ca] 10:21:37
+You are not muted, that's son.
+
+[maryam.ahmed@cambriancollege.ca] 10:21:54
+Said 2 has joined online. Life is good.
+
+[maryam.ahmed@cambriancollege.ca] 10:22:03
+Angie. What?
+
+[Daniel Quartey] 10:22:03
+It's not our soul. There's no us.
+
+[maryam.ahmed@cambriancollege.ca] 10:22:12
+Hygiene joy. I've never seen him in class. Online physical i can't even… recognize him as one of my students
+
+[Sa'id] 10:22:23
+But I always come to class now.
+
+[maryam.ahmed@cambriancollege.ca] 10:22:29
+You guys have changed. I just hope IRCC doesn't ask me anything.
+
+[maryam.ahmed@cambriancollege.ca] 10:22:36
+Then i don't know, Rose is always in class. Like a zeros though it is online but she is consistent through queue makers who became… an online student solo resort study.
+
+[maryam.ahmed@cambriancollege.ca] 10:22:52
+And it was very serious physically in class then. For now i don't know who converted into online only.
+
+[maryam.ahmed@cambriancollege.ca] 10:23:02
+Christine has always been… What? The winter.
+
+[Chukwuemeka] 10:23:05
+The winter. Yes.
+
+[maryam.ahmed@cambriancollege.ca] 10:23:12
+I know the winter is something else. I didn't know what to say about it.
+
+[maryam.ahmed@cambriancollege.ca] 10:23:17
+At last week, this week is just… Kristen has been an online student consistent
+
+[maryam.ahmed@cambriancollege.ca] 10:23:30
+Shoma. On and off from day one.
+
+[maryam.ahmed@cambriancollege.ca] 10:23:38
+These are the comment I will say in case IRCC asked me so you shouldn't be surprised
+
+[maryam.ahmed@cambriancollege.ca] 10:23:48
+John's on and off. Michael. Since Michael started working with Daniel and Said, I knew there is a problem.
+
+[maryam.ahmed@cambriancollege.ca] 10:23:55
+So I'm not surprised.
+
+[maryam.ahmed@cambriancollege.ca] 10:24:07
+You people just die. You guys just infected the virus.
+
+[Sa'id] 10:24:07
+Were innocent or were innocent.
+
+[maryam.ahmed@cambriancollege.ca] 10:24:14
+So… Because it's very rare to Kazim is always present online
+
+[maryam.ahmed@cambriancollege.ca] 10:24:27
+If he is back from my break. You're welcome, ma'am.
+
+[Feyi] 10:24:35
+Prof. Good afternoon. We greet you.
+
+[Feyi] 10:24:42
+The host of me greets you.
+
+[maryam.ahmed@cambriancollege.ca] 10:24:47
+At this year, we are still expecting them.
+
+[Feyi] 10:24:51
+Down, do we? Who is this one? Who is this one
+
+[Daniel Quartey] 10:24:53
+We are still expecting it. I know it's not working.
+
+[Sa'id] 10:25:02
+We are still expecting, we are still expecting them.
+
+[maryam.ahmed@cambriancollege.ca] 10:25:07
+You. You too.
+
+[Daniel Quartey] 10:25:09
+Very soon. Very soon do I already.
+
+[maryam.ahmed@cambriancollege.ca] 10:25:11
+Let me know if I expect…
+
+[Daniel Quartey] 10:25:13
+We are all expecting.
+
+[Sa'id] 10:25:16
+Is a whole community, man.
+
+[maryam.ahmed@cambriancollege.ca] 10:25:20
+These are cyber security babies.
+
+[maryam.ahmed@cambriancollege.ca] 10:25:31
+Hrc 9+. It goes to the online students.
+
+[maryam.ahmed@cambriancollege.ca] 10:25:36
+But I've never seen that in class. I think she's fully online.
+
+[maryam.ahmed@cambriancollege.ca] 10:25:49
+All these people just got so affected by i don't know Is it the winter virus or Daniel Said virus
+
+[Daniel Quartey] 10:25:59
+It's Canada marrow zone.
+
+[maryam.ahmed@cambriancollege.ca] 10:26:04
+No.
+
+[Sa'id] 10:26:04
+Is the Canada virus, the pressure is getting weaker. With that.
+
+[Daniel Quartey] 10:26:07
+What's…
+
+[maryam.ahmed@cambriancollege.ca] 10:26:12
+You guys are advanced in the Canada virus. You should be more relaxed now.
+
+[Sa'id] 10:26:17
+It is now the thing is getting a bit more painful.
+
+[maryam.ahmed@cambriancollege.ca] 10:26:24
+Would be non-consistent, very consistent with all life.
+
+[maryam.ahmed@cambriancollege.ca] 10:26:32
+Deepak Padill. Consistent with image For class, no.
+
+[maryam.ahmed@cambriancollege.ca] 10:26:40
+After the class, she can send email. Yeah, I've not finished my assignment. Then I know.
+
+[maryam.ahmed@cambriancollege.ca] 10:26:50
+I don't know what to say. I reserved my comments.
+
+[maryam.ahmed@cambriancollege.ca] 10:26:59
+It was serious first semester, cycle semester is an advanced student
+
+[maryam.ahmed@cambriancollege.ca] 10:27:07
+Cesar, I don't know, Deepak. Carol Gill, never in the class. Never.
+
+[maryam.ahmed@cambriancollege.ca] 10:27:17
+Co. Pradeep. Never.
+
+[maryam.ahmed@cambriancollege.ca] 10:27:21
+Yeah.
+
+[maryam.ahmed@cambriancollege.ca] 10:27:35
+And so now you delivered my message to him
+
+[maryam.ahmed@cambriancollege.ca] 10:27:50
+Yeah, I noticed you're always attend online.
+
+[Hassan Adetola] 10:27:53
+Yes, I believe it should be online soon. It's coming online soon.
+
+[maryam.ahmed@cambriancollege.ca] 10:27:59
+All right.
+
+[maryam.ahmed@cambriancollege.ca] 10:28:06
+Same with him too. He was very serious first semester but now Anyways, it's good. I enjoyed the free moments.
+
+[maryam.ahmed@cambriancollege.ca] 10:28:24
+So let's quickly look at the lab. The lab is actually very easy and straightforward lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:28:33
+And on taking the screenshots, just take the screenshots to fulfill the objectives of the lab.
+
+[maryam.ahmed@cambriancollege.ca] 10:28:41
+So let me share.
+
+[maryam.ahmed@cambriancollege.ca] 10:28:55
+So we are looking at lap 12. Email analysis.
+
+[maryam.ahmed@cambriancollege.ca] 10:29:01
+And share from the content. Will be extracting and understanding an email header and they would pass this image either using in an email header analyzer so basically the screenshot I need here is just two or three One is to extract the email.
+
+[maryam.ahmed@cambriancollege.ca] 10:29:23
+What is it called? Extract the email editor. Then on the second one you can just use a kind of uh colored box to show the important parts you know manually to show the important part of this email editor and on the third part let me try to record this that if they will watch
+
+[maryam.ahmed@cambriancollege.ca] 10:29:47
+All right. So let me repeat myself. Not more than three screenshots The first screenshot is retrieving the email header.
+
+[maryam.ahmed@cambriancollege.ca] 10:29:59
+You've been able to retrieve the email editor which is very easy then the second part is identify the important part of this email editor using like a box you know a colored box to show that these are the important parts manually then we would also use the email analyzer to identify the important part of the
+
+[maryam.ahmed@cambriancollege.ca] 10:30:22
+Email header. So… and basically what we want to do
+
+[maryam.ahmed@cambriancollege.ca] 10:30:33
+Okay, so we would log in to our Kane.
+
+[maryam.ahmed@cambriancollege.ca] 10:30:49
+I know. The best is for me to…
+
+[maryam.ahmed@cambriancollege.ca] 10:30:57
+To download.
+
+[maryam.ahmed@cambriancollege.ca] 10:31:13
+So we log into the You derm.
+
+[maryam.ahmed@cambriancollege.ca] 10:31:21
+So we've been going to the internet then send the bird meal So to restream our meals and from that we want to identify the first email which is the deadline.
+
+[maryam.ahmed@cambriancollege.ca] 10:31:37
+On our inbox we have the deadline so looking at this email here is the content of the email here is part of the edar the from the subject the tool are all part of the header But that is not the full header so i don't need a screenshot of all this
+
+[maryam.ahmed@cambriancollege.ca] 10:31:59
+Okay then we move on. To generate that to open that email in another space so once you open it on another space then you click on this more you click on the more then you have users and you click on the view source and it opens the header
+
+[maryam.ahmed@cambriancollege.ca] 10:32:19
+So if you want you can save it but yeah Basically, if you can take a screenshot of this this is the first thing we want to see Then the second is to be able to identify the important part of this particular email header
+
+[maryam.ahmed@cambriancollege.ca] 10:32:36
+But if you save me the good thing you just open it with your editor so that you can edit it and show the important parts of the email address so you show the important part like the message id the from the toe the subject contact date because is one thing
+
+[maryam.ahmed@cambriancollege.ca] 10:32:55
+For you to retrieve an information is another thing for you to know what is relevant in this information okay so showing the important parts of this part of this email is important. And I think there's one more thing I would just add maybe
+
+[maryam.ahmed@cambriancollege.ca] 10:33:13
+Text in the submission box. So…
+
+[maryam.ahmed@cambriancollege.ca] 10:33:20
+Show all the person what you think is important here And after that, we are passing the email address with email header analyzer.
+
+[maryam.ahmed@cambriancollege.ca] 10:33:30
+And that is our UX term. So we go to system tools and you go to the UX term. That's the email analyzer we are using So… here you go to the… CD desktop, you want to go to this particular environment
+
+[maryam.ahmed@cambriancollege.ca] 10:33:50
+The analyzer environment so once you're in the analyzer environment then you use this command
+
+[maryam.ahmed@cambriancollege.ca] 10:33:59
+To open these uh the suburb.py so once that is open So… you can now go back to Europe.
+
+[maryam.ahmed@cambriancollege.ca] 10:34:14
+Your ex term and then… I mean to your new back address your lubak address You know, unless… You analyze this.
+
+[maryam.ahmed@cambriancollege.ca] 10:34:26
+By copying and pasting the header. So you just copy if you've not closed it before then you just copy and paste Copy from here and paste it in the analyze as a box and but it springs out what is important.
+
+[maryam.ahmed@cambriancollege.ca] 10:34:46
+At the end of time it indicates what is important here So this lab shouldn't take us up to maybe 30 minutes and We had done.
+
+[maryam.ahmed@cambriancollege.ca] 10:35:24
+So here is the… deadline, the email we are trying to access.
+
+[maryam.ahmed@cambriancollege.ca] 10:35:30
+We need to open it.
+
+[maryam.ahmed@cambriancollege.ca] 10:35:36
+Once you open it here we come to more view source.
+
+[maryam.ahmed@cambriancollege.ca] 10:35:40
+And you have your very first screenshot. So for this screenshot identify what you think is important from the editor so and yeah for you to be able to edit you might need to save you save the page as maybe a PDF so you can actually edit it
+
+[maryam.ahmed@cambriancollege.ca] 10:36:01
+So in the editing you just create a box on what you think is important here what part of these do you think is important from Okay. So… Possibly from the message ID and all that.
+
+[maryam.ahmed@cambriancollege.ca] 10:36:19
+Yeah, so once you identify that you are done with the first and the second screenshot. The third one is the UX term.
+
+[maryam.ahmed@cambriancollege.ca] 10:36:33
+And she's using ding. System tools
+
+[maryam.ahmed@cambriancollege.ca] 10:36:49
+That we need to go to CD text or print. Followed the path.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:05
+From the past.
+
+[maryam.ahmed@cambriancollege.ca] 10:37:17
+Okay, desktop. Emilater and Eliza, Mr.
+
+[maryam.ahmed@cambriancollege.ca] 10:38:00
+Amen.
+
+[maryam.ahmed@cambriancollege.ca] 10:38:35
+Give me a suspend you.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:09
+Let's go to desktop.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:21
+And then Eliza. Muster it.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:30
+Okay, slash MHA.
+
+[maryam.ahmed@cambriancollege.ca] 10:39:45
+Okay, so list, launch a list purchase in there. So now we want to use the server.py
+
+[maryam.ahmed@cambriancollege.ca] 10:39:57
+Python to use Python to run it.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:49
+There shouldn't be a slush.
+
+[maryam.ahmed@cambriancollege.ca] 10:40:58
+So while this is on, they become…
+
+[maryam.ahmed@cambriancollege.ca] 10:41:06
+To the chrome. Go to the low back.
+
+[maryam.ahmed@cambriancollege.ca] 10:41:30
+Meal head analyzer. And while this is opening you could just copy what we have as our header here
+
+[maryam.ahmed@cambriancollege.ca] 10:41:52
+Yeah, so this service you just want to copy it to the new place Copy.
+
+[maryam.ahmed@cambriancollege.ca] 10:42:03
+I'll put it in a fryer for… Yeah, he's tier.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:17
+We pray for you.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:32
+Scorpion I see you.
+
+[maryam.ahmed@cambriancollege.ca] 10:43:52
+Oh, sorry. I need to highlight first.
+
+[maryam.ahmed@cambriancollege.ca] 10:44:02
+So they didn't compete. Nice of Peeps.
+
+[maryam.ahmed@cambriancollege.ca] 10:44:07
+Yeah. And on a license.
+
+[maryam.ahmed@cambriancollege.ca] 10:45:39
+So after the analysis it brings out the important part, which is the main function of this I mean, hey, there are noises.
+
+[maryam.ahmed@cambriancollege.ca] 10:45:50
+And that will be the last screenshots that will be taken.
+
+[maryam.ahmed@cambriancollege.ca] 10:45:59
+So let's not bring all this information out.
+
+[maryam.ahmed@cambriancollege.ca] 10:46:20
+Let's ticketless smoke.
+
+[maryam.ahmed@cambriancollege.ca] 10:46:39
+The recording would be So you can probably see also from the recording
+
+[maryam.ahmed@cambriancollege.ca] 10:46:52
+And if you want it written, you can also write it down now so that you don't forget three screenshots write it somewhere three screenshots.
+
+[maryam.ahmed@cambriancollege.ca] 10:47:05
+The first turn is to generate the header
+
+[maryam.ahmed@cambriancollege.ca] 10:47:11
+Second one.
+
+[maryam.ahmed@cambriancollege.ca] 10:47:18
+These two. Sure, the important part of the ADR.
+
+[maryam.ahmed@cambriancollege.ca] 10:47:24
+And the third one. Basically just follow the objectives and the last one is to use the email analyzer to show the important part of the header.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:05
+Yeah, so this is what we are expecting in the last screenshots so you might have multiple screenshots to show this I mean, but basically yes i want to see what the outcome of your analyzer.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:27
+So and that is it.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:34
+Like I said, this recording will definitely be uploaded if at all you need it while you're doing yours and to remind you of what needs to be done.
+
+[maryam.ahmed@cambriancollege.ca] 10:49:52
+In a Christian. Yeah, we'll come. Thanks for coming, Litz.
+
+[maryam.ahmed@cambriancollege.ca] 10:50:38
+So that marks the end of today's class. If we do not have any questions and yeah next week is our break
+
+[maryam.ahmed@cambriancollege.ca] 10:50:50
+Having our study break for next week. Enjoy your study break.
+
+[maryam.ahmed@cambriancollege.ca] 10:50:56
+And after that we resume in two weeks.
+
+[maryam.ahmed@cambriancollege.ca] 10:51:36
+I didn't really Johnny Mercy.
+
