@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IT Security Forensics Portfolio — Ross Moravec</title>
+    <style>
+        :root {
+            --bg: #0d1117;
+            --card: #161b22;
+            --border: #30363d;
+            --text: #c9d1d9;
+            --heading: #f0f6fc;
+            --accent: #58a6ff;
+            --green: #3fb950;
+            --badge-bg: #1f2937;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif;
+            background: var(--bg);
+            color: var(--text);
+            line-height: 1.6;
+        }
+        .container { max-width: 960px; margin: 0 auto; padding: 2rem 1.5rem; }
+
+        /* Hero */
+        .hero {
+            text-align: center;
+            padding: 3rem 0 2rem;
+            border-bottom: 1px solid var(--border);
+            margin-bottom: 2rem;
+        }
+        .hero h1 { color: var(--heading); font-size: 2.2rem; margin-bottom: 0.5rem; }
+        .hero .subtitle { color: var(--accent); font-size: 1.1rem; margin-bottom: 1rem; }
+        .hero .meta { color: #8b949e; font-size: 0.9rem; }
+        .hero .cta {
+            display: inline-block;
+            margin-top: 1.5rem;
+            padding: 0.75rem 2rem;
+            background: var(--accent);
+            color: var(--bg);
+            text-decoration: none;
+            border-radius: 6px;
+            font-weight: 600;
+            transition: opacity 0.2s;
+        }
+        .hero .cta:hover { opacity: 0.85; }
+
+        /* Stats */
+        .stats {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .stat {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.25rem;
+            text-align: center;
+        }
+        .stat .number { font-size: 2rem; font-weight: 700; color: var(--green); }
+        .stat .label { font-size: 0.85rem; color: #8b949e; margin-top: 0.25rem; }
+
+        /* Sections */
+        h2 {
+            color: var(--heading);
+            font-size: 1.5rem;
+            margin: 2rem 0 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        /* Skills */
+        .skills { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-bottom: 1.5rem; }
+        .skill {
+            background: var(--badge-bg);
+            border: 1px solid var(--border);
+            border-radius: 20px;
+            padding: 0.35rem 0.85rem;
+            font-size: 0.85rem;
+            color: var(--accent);
+        }
+
+        /* Cards */
+        .cards {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+        .card {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 1.25rem;
+        }
+        .card h3 { color: var(--heading); font-size: 1.1rem; margin-bottom: 0.5rem; }
+        .card p { font-size: 0.9rem; }
+        .card a { color: var(--accent); text-decoration: none; }
+        .card a:hover { text-decoration: underline; }
+
+        /* Tools */
+        .tools {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 0.75rem;
+            margin-bottom: 2rem;
+        }
+        .tool {
+            background: var(--card);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            padding: 0.75rem 1rem;
+            font-size: 0.9rem;
+        }
+        .tool strong { color: var(--heading); }
+
+        /* Footer */
+        footer {
+            border-top: 1px solid var(--border);
+            padding-top: 1.5rem;
+            margin-top: 2rem;
+            text-align: center;
+            color: #8b949e;
+            font-size: 0.85rem;
+        }
+        footer a { color: var(--accent); text-decoration: none; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <h1>IT Security Forensics Portfolio</h1>
+            <div class="subtitle">CSC-7310 · Cambrian College · Winter 2025</div>
+            <div class="meta">Ross Moravec · Postgraduate Cybersecurity Certificate</div>
+            <a class="cta" href="CC/Winter%202025/IT%20Security%20Forensics%20-%20Maryam%20Ahmed%20-%20CSC-7310/README.md">View Course Portfolio →</a>
+        </div>
+
+        <div class="stats">
+            <div class="stat">
+                <div class="number">7/7</div>
+                <div class="label">Labs Completed</div>
+            </div>
+            <div class="stat">
+                <div class="number">48</div>
+                <div class="label">Evidence Screenshots</div>
+            </div>
+            <div class="stat">
+                <div class="number">4</div>
+                <div class="label">Forensic Scripts</div>
+            </div>
+            <div class="stat">
+                <div class="number">10</div>
+                <div class="label">Workflow Diagrams</div>
+            </div>
+            <div class="stat">
+                <div class="number">5</div>
+                <div class="label">CI Pipelines</div>
+            </div>
+        </div>
+
+        <h2>Key Skills</h2>
+        <div class="skills">
+            <span class="skill">Chain of Custody</span>
+            <span class="skill">Forensic Imaging (FTK Imager)</span>
+            <span class="skill">Hash Verification</span>
+            <span class="skill">Windows Registry Forensics</span>
+            <span class="skill">Recycle Bin Analysis</span>
+            <span class="skill">Steganography Detection</span>
+            <span class="skill">Mobile Forensics</span>
+            <span class="skill">Log Analysis &amp; SIEM</span>
+            <span class="skill">Timeline Reconstruction</span>
+            <span class="skill">Expert Report Writing</span>
+            <span class="skill">Python Automation</span>
+            <span class="skill">PowerShell Scripting</span>
+            <span class="skill">NIST SP 800-86</span>
+            <span class="skill">ISO/IEC 27037</span>
+        </div>
+
+        <h2>Highlights</h2>
+        <div class="cards">
+            <div class="card">
+                <h3>Final Project</h3>
+                <p>Multi-phase Windows forensic investigation covering case intake through expert reporting. 7 phases, real methodology.</p>
+                <p><a href="CC/Winter%202025/IT%20Security%20Forensics%20-%20Maryam%20Ahmed%20-%20CSC-7310/FINAL_PROJECT_FORENSIC_INVESTIGATION.md">Read the investigation →</a></p>
+            </div>
+            <div class="card">
+                <h3>Lab Portfolio</h3>
+                <p>7 NDG Forensics v2 labs with methodology, specific findings, Mermaid workflow diagrams, and evidence screenshots.</p>
+                <p><a href="CC/Winter%202025/IT%20Security%20Forensics%20-%20Maryam%20Ahmed%20-%20CSC-7310/assignments/README.md">Browse labs →</a></p>
+            </div>
+            <div class="card">
+                <h3>Forensic Scripts</h3>
+                <p>Production-grade tools: Recycle Bin parser (Python), registry extractor (Bash), event log timeline (PowerShell), hash verifier.</p>
+                <p><a href="CC/Winter%202025/IT%20Security%20Forensics%20-%20Maryam%20Ahmed%20-%20CSC-7310/SCRIPTS_README.md">View scripts →</a></p>
+            </div>
+            <div class="card">
+                <h3>Learning Reflection</h3>
+                <p>How this course maps to SOC Analyst, DFIR Consultant, and Incident Responder roles. Interview-ready skills list.</p>
+                <p><a href="CC/Winter%202025/IT%20Security%20Forensics%20-%20Maryam%20Ahmed%20-%20CSC-7310/LEARNING_REFLECTION.md">Read reflection →</a></p>
+            </div>
+        </div>
+
+        <h2>Tools Used</h2>
+        <div class="tools">
+            <div class="tool"><strong>FTK Imager 4.7.3</strong> — Acquisition &amp; verification</div>
+            <div class="tool"><strong>Autopsy / Sleuth Kit</strong> — File system analysis</div>
+            <div class="tool"><strong>Magnet AXIOM</strong> — Artifact carving</div>
+            <div class="tool"><strong>RegRipper 3.0</strong> — Registry analysis</div>
+            <div class="tool"><strong>Wireshark</strong> — Packet analysis</div>
+            <div class="tool"><strong>YARA</strong> — Pattern matching rules</div>
+        </div>
+
+        <h2>Investigation Workflow</h2>
+        <p style="text-align:center; margin: 1rem 0; font-size: 0.95rem;">
+            <strong style="color: var(--heading);">Legal Authority</strong>
+            <span style="color: #8b949e;"> → </span>
+            <strong style="color: var(--heading);">Chain of Custody</strong>
+            <span style="color: #8b949e;"> → </span>
+            <strong style="color: var(--heading);">Forensic Imaging</strong>
+            <span style="color: #8b949e;"> → </span>
+            <strong style="color: var(--heading);">Analysis</strong>
+            <span style="color: #8b949e;"> → </span>
+            <strong style="color: var(--heading);">Correlation</strong>
+            <span style="color: #8b949e;"> → </span>
+            <strong style="color: var(--heading);">Expert Report</strong>
+        </p>
+
+        <footer>
+            <p>© 2025 Ross Moravec · <a href="https://github.com/RossMora">GitHub</a> · <a href="https://linkedin.com/in/rossmoravec">LinkedIn</a></p>
+            <p>Postgraduate Cybersecurity Certificate · Cambrian College, Sudbury, Ontario</p>
+        </footer>
+    </div>
+</body>
+</html>

@@ -31,54 +31,17 @@
 
 ## Key Achievements
 
-**Quantified Results (Winter 2025, CSC-7310):**
-
 | Metric | Value |
 |---|---|
-| Weeks of instruction completed | 11 of 12 (Week 3 cancelled) |
-| NDG Forensics labs completed | **7 of 7** (100%) |
-| Major investigations delivered | **1** (Project 1 — Windows forensic case) |
-| Lectures attended & transcribed | 8 (approximately 16 hours of instruction) |
-| Student submission size archived | 68 MB across 8 deliverables |
-| Forensic tools hands-on | FTK Imager, Magnet AXIOM, NDG virtual labs |
+| Labs completed | **7 / 7** (NDG Forensics v2) |
+| Major investigation | **1** (Windows forensic case — Project 1) |
+| Forensic tools used | FTK Imager 4.7.3, Autopsy, Magnet AXIOM |
+| Scripts authored | **4** (Python, Bash, PowerShell) |
+| Evidence screenshots | **48** indexed and captioned |
 
-**Investigation Lifecycle Covered End-to-End:**
+**Investigation lifecycle covered end-to-end:** Legal authority → Chain of custody → Forensic imaging → File system analysis → Artifact extraction → Timeline reconstruction → Expert report.
 
-Legal authority (4th Amendment / Section 8) → Chain of custody → Forensic imaging (bit-for-bit, hash-verified) → File system analysis (FAT, NTFS, ext3/4) → Artifact extraction (registry, recycle bin, email, mobile) → Timeline reconstruction (logs, event correlation) → Expert report.
-
----
-
-## Skills Demonstrated
-
-**Digital Forensics & Incident Response (DFIR):**
-
-- Chain-of-custody documentation and evidence handling under ACLD/ASCLD lab-certification standards
-- Forensic image acquisition with FTK Imager (bit-stream, write-blocked, hash-verified MD5/SHA-256)
-- File system forensics across FAT16/32, NTFS, ext3/ext4 (MFT, $I30, slack space, unallocated)
-- Windows Registry forensics (SAM, SYSTEM, SOFTWARE, NTUSER.DAT hives; ShellBags, UserAssist, RunMRU)
-- Recycle Bin forensics ($Recycle.Bin, $I/$R files, deleted file recovery)
-- Steganography detection and extraction (LSB, EOF injection, header analysis)
-- Email header analysis (SMTP, POP3, IMAP, MAPI; sender spoofing, message tracking)
-- Mobile device forensics (iOS/Android acquisition, app data extraction, SQLite artifacts)
-- Network forensics and PCAP analysis (TCP/UDP reconstruction, protocol artifacts)
-- Log analysis and timeline reconstruction (Windows Event Logs, Syslog, Apache access logs)
-- Expert report writing (fact-finding → correlation → legally-defensible conclusions)
-
-**Legal & Professional:**
-
-- U.S. 4th Amendment / Canadian Charter Section 8 search-and-seizure framework
-- ASCLD-Lab / ISO 17025 lab certification requirements
-- Professional conduct expectations for forensic practitioners
-- Civil vs. criminal vs. administrative case typing
-
-**Tools Hands-On:**
-
-- **Exterro FTK Imager 4.7.3** — forensic image acquisition, verification, logical export
-- **Magnet AXIOM** — multi-platform artifact carving and timeline analysis
-- **NDG Online Cybersecurity Labs** — NISGTC Forensics v2 curriculum
-- **Autopsy / Sleuth Kit** (conceptual, via NDG labs)
-- **Volatility** (memory forensics, conceptual)
-- **Wireshark** (PCAP analysis, conceptual + Week 11 deep-dive)
+For the detailed skills matrix, tools list, and lab-by-lab breakdown, see the **[Course README](CC/Winter%202025/IT%20Security%20Forensics%20-%20Maryam%20Ahmed%20-%20CSC-7310/README.md)**.
 
 ---
 

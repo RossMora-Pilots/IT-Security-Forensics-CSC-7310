@@ -257,6 +257,32 @@ The project is positioned at Week 8 (not Week 12) because **integration is the t
 
 ---
 
+## Cumulative Learning Outcomes
+
+After 12 weeks, the course delivered a complete forensic practitioner foundation:
+
+1. **Legal-technical integration.** Every forensic action begins with legal authority and ends with a defensible report. Technical skill without legal compliance is wasted effort.
+2. **Tool-agnostic methodology.** The investigation lifecycle (intake → imaging → analysis → correlation → report) is constant regardless of whether you use FTK, Autopsy, AXIOM, or command-line tools.
+3. **Multi-source correlation is the capstone skill.** No single artifact tells the full story. Registry + Event Logs + Recycle Bin + MFT + network captures must be cross-referenced to build a defensible timeline.
+4. **Evidence integrity is non-negotiable.** Hash verification, write-blocking, and chain-of-custody documentation are not optional steps — they are prerequisites for every subsequent analysis.
+5. **The report is the product.** A forensic investigation's value is measured by the clarity and defensibility of its final report, not by the sophistication of the analysis tools used.
+
+> *"Forensics is a legal-technical discipline. The technical work is worthless if the legal process is flawed."* — synthesized from Week 1–2 instruction.
+
+---
+
+## Instructor Insights
+
+Selected quotes from Dr. Maryam Ahmed that shaped the course philosophy:
+
+> *"As forensic experts, you are working on evidence. If you do not follow the necessary procedure, I mean, the whole evidence is gone."* — Week 2
+
+> *"The more experience you have, the more you collaborate with other people who have better experience, the more you are involved in workshops — it would always help in deductive reasoning."* — Week 4
+
+> *"I've experienced a firsthand case of people having a backup on the same site. That is not a backup — it's something else. Your off-site backup is just very potent."* — Week 11
+
+---
+
 ## Related
 
 - **[Lab Index](assignments/README.md)** — per-lab methodology, findings, tools

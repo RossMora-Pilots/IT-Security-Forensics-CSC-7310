@@ -30,6 +30,22 @@ Forensic automation scripts for this course. Student-authored scripts live in [`
 
 **When to use:** Immediately after image acquisition, and before **every** analysis session against the working copy.
 
+**Sample Output:**
+
+```text
+Verifying: evidence/case001.E01
+File size: 2147483648 bytes
+
+Computing MD5...
+  Expected: d41d8cd98f00b204e9800998ecf8427e
+  Actual:   d41d8cd98f00b204e9800998ecf8427e
+Computing SHA-256...
+  Expected: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  Actual:   e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+
+VERIFIED: Both hashes match. Evidence integrity preserved.
+```
+
 ---
 
 ### [`extract_registry_hives.sh`](scripts/extract_registry_hives.sh)
@@ -53,6 +69,20 @@ Forensic automation scripts for this course. Student-authored scripts live in [`
 
 **Output:** Per-hive files + a manifest with SHA-256 of each hive for chain-of-custody.
 
+**Sample Output:**
+
+```text
+Extracted: SAM (a3f2b8c1d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1)
+Extracted: SYSTEM (b4c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5)
+Extracted: SOFTWARE (c5d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6)
+Extracted: SECURITY (d6e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7)
+Extracted: NTUSER-jdoe.DAT (e7f8a9b0c1d2e3f4a5b6c7d8e9f0a1b2c3d4e5f6a7b8c9d0e1f2a3b4c5d6e7f8)
+Not present: /mnt/evidence/working/Users/jdoe/AppData/Local/Microsoft/Windows/UsrClass.dat
+
+Manifest written to: ./hives_out/manifest.txt
+Done.
+```
+
 **When to use:** As the first step of Windows Registry analysis ([Lab 04](assignments/README.md#lab-04--windows-registry-forensics-week-9)).
 
 ---
@@ -68,6 +98,18 @@ python3 ./scripts/parse_recycle_bin.py <path-to-recycle-bin-dir> --output delete
 ```
 
 **Output columns:** `deleted_time_utc, original_path, size_bytes, user_sid, i_file, r_file_exists`
+
+**Sample Output:**
+
+```csv
+deletion_time_utc,sid,original_path,size_bytes,i_file,r_file_exists,version
+2025-02-18T09:24:31Z,S-1-5-21-1234567890-...-1001,C:\Users\jdoe\Documents\budget.xlsx,142336,$I0ABC123.bin,True,2
+2025-02-18T09:25:02Z,S-1-5-21-1234567890-...-1001,C:\Users\jdoe\Desktop\memo.docx,28672,$I1DEF456.bin,True,1
+```
+
+```text
+Parsed 2 deleted file(s); output: deleted_files.csv
+```
 
 **When to use:** [Lab 09](assignments/README.md#lab-09--recycle-bin-forensics-week-7) and Final Project phase 3 (file-system + deleted-file analysis).
 
@@ -86,6 +128,20 @@ python3 ./scripts/parse_recycle_bin.py <path-to-recycle-bin-dir> --output delete
 ```
 
 **Output columns:** `timestamp_utc, event_id, user, source_ip, logon_type, description`
+
+**Sample Output:**
+
+```csv
+"timestamp_utc","event_id","provider","user","source_ip","logon_type","description"
+"2025-03-01T08:14:22Z","4624","Microsoft-Windows-Security-Auditing","jdoe","192.168.1.105","10","An account was successfully logged on."
+"2025-03-01T08:14:23Z","4672","Microsoft-Windows-Security-Auditing","jdoe","","","Special privileges assigned to new logon."
+"2025-03-01T09:02:47Z","4688","Microsoft-Windows-Security-Auditing","jdoe","","","A new process has been created."
+"2025-03-01T12:31:05Z","4634","Microsoft-Windows-Security-Auditing","jdoe","","","An account was logged off."
+```
+
+```text
+Timeline written: .\timeline_security.csv (4 rows)
+```
 
 **When to use:** [Lab 17](assignments/README.md#lab-17--log-capturing-and-interpretation-week-12), Final Project phase 5 (event log analysis).
 

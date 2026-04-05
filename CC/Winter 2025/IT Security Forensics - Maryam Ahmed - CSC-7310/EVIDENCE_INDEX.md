@@ -117,7 +117,7 @@ Source: [Lab-17-Log-Capturing-Submission.docx](assignments/Lab-17-Log-Capturing-
 
 ---
 
-## Final Project Evidence · 6 screenshots
+## Final Project Evidence · 2 screenshots
 
 Source: Project planning and solution documents in [`project/`](project/)
 
@@ -125,12 +125,8 @@ Source: Project planning and solution documents in [`project/`](project/)
 |---|------|---------|
 | 1 | ![thumb](screenshots/project_plan_1.png) | **Investigation Plan — Phase Overview** — Project planning document outlining the forensic investigation methodology, phases, and deliverables. |
 | 2 | ![thumb](screenshots/project_plan_2.png) | **Investigation Plan — Tool & Timeline Matrix** — Continuation of the project plan detailing tool selection, timeline milestones, and evidence handling procedures. |
-| 3 | ![thumb](screenshots/project_solution1_1.png) | *Solution 1 placeholder (1 KB) — original document contained minimal embedded imagery.* |
-| 4 | ![thumb](screenshots/project_solution1_2.png) | *Solution 1 placeholder (1 KB) — original document contained minimal embedded imagery.* |
-| 5 | ![thumb](screenshots/project_solution2_1.png) | *Solution 2 placeholder (1 KB) — original document contained minimal embedded imagery.* |
-| 6 | ![thumb](screenshots/project_solution2_2.png) | *Solution 2 placeholder (1 KB) — original document contained minimal embedded imagery.* |
 
-> **Note:** The project solution DOCX files (101 MB combined) contain the majority of evidence screenshots inline. The extracted placeholder images above are document structure artifacts, not forensic evidence. See the [Final Project write-up](FINAL_PROJECT_FORENSIC_INVESTIGATION.md) for full context.
+> **Note:** The project solution DOCX files (101 MB combined) contain detailed analysis inline. See the PDF conversions in [`project/pdf/`](project/pdf/) for browser-viewable versions, or the [Final Project write-up](FINAL_PROJECT_FORENSIC_INVESTIGATION.md) for the synthesized investigation report.
 
 ---
 
@@ -138,10 +134,9 @@ Source: Project planning and solution documents in [`project/`](project/)
 
 | Metric | Count |
 |--------|-------|
-| Total screenshots | **52** |
+| Total screenshots | **48** |
 | Lab evidence screenshots | **46** |
 | Project planning screenshots | **2** |
-| Project placeholder images | **4** |
 | Labs with evidence | **7 / 7** |
 | Most-documented lab | Lab 04 — Registry Forensics (**17** screenshots) |
 

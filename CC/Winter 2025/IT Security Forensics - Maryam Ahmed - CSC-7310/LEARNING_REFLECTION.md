@@ -151,9 +151,37 @@ flowchart TD
 
 ## Career Next Steps
 
-- **Short term** (next 3 months): Complete Autopsy certification (free), practice 3 publicly-available CTF forensic challenges.
-- **Medium term** (6–12 months): GCFE (GIAC Certified Forensic Examiner) or CHFI (EC-Council CHFI) — whichever aligns with target employers.
-- **Long term** (1–3 years): GCFA (GIAC Certified Forensic Analyst) or CCFP (Certified Cyber Forensics Professional) as career-progression credentials.
+**Certification Pathway:**
+
+```mermaid
+flowchart LR
+    A[Current<br/>Cambrian Graduate] --> B[Near-Term<br/>6 months]
+    B --> C[Mid-Term<br/>1–2 years]
+    C --> D[Senior<br/>3–5 years]
+
+    B -.- B1[Autopsy Cert — free]
+    B -.- B2[ACE — AccessData Certified Examiner]
+    B -.- B3[CHFI — EC-Council Hacking Forensic Investigator]
+    C -.- C1[GCFE — GIAC Certified Forensic Examiner]
+    C -.- C2[EnCE — EnCase Certified Examiner]
+    D -.- D1[GCFA — GIAC Certified Forensic Analyst]
+    D -.- D2[CCFP — Certified Cyber Forensics Professional]
+    D -.- D3[GNFA — GIAC Network Forensic Analyst]
+```
+
+| Certification | Body | Focus | Prerequisites |
+|---------------|------|-------|--------------|
+| **ACE** | AccessData / Exterro | FTK-based forensic examination | None — ideal entry point |
+| **CHFI** | EC-Council | Holistic forensic investigation methodology | 2 yrs infosec experience (or training) |
+| **GCFE** | GIAC / SANS | Windows forensic analysis (FOR500) | None — exam-based |
+| **EnCE** | OpenText (formerly Guidance) | EnCase forensic suite proficiency | 64 hrs training or 12 months experience |
+| **GCFA** | GIAC / SANS | Advanced forensic analysis (FOR508) | None — exam-based; best with GCFE first |
+| **CCFP** | (ISC)² | Multi-domain forensic management | 3 yrs experience in 3 of 6 domains |
+| **GNFA** | GIAC / SANS | Network forensics and packet analysis | None — exam-based |
+
+- **Short term** (next 3 months): Complete Autopsy certification (free), practice 3 publicly-available CTF forensic challenges, obtain ACE certification.
+- **Medium term** (6–12 months): GCFE (GIAC Certified Forensic Examiner) or CHFI (EC-Council) — whichever aligns with target employers.
+- **Long term** (1–3 years): GCFA (GIAC Certified Forensic Analyst) + EnCE for tool-specific credentialing, then CCFP for management-track positioning.
 
 ---
 

@@ -6,17 +6,57 @@ on:
   workflow_dispatch:
 
 jobs:
-  ci-default:
-    name: ci/default
+  lint:
+    name: ci/lint
     runs-on: ubuntu-latest
     concurrency:
-      group: ci-${{ github.ref }}
+      group: ci-lint-${{ github.ref }}
       cancel-in-progress: true
     steps:
       - uses: actions/checkout@v4
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
-          python-version: '3.x'
-      - name: Sanity
-        run: python -V && echo "CI baseline is healthy"
+          python-version: '3.12'
+      - name: Install linting tools
+        run: pip install flake8
+      - name: Flake8 — Python lint
+        run: |
+          flake8 "CC/Winter 2025/IT Security Forensics - Maryam Ahmed - CSC-7310/scripts/" \
+            --max-line-length 120 --count --show-source --statistics
+
+  test:
+    name: ci/test
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ci-test-${{ github.ref }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Install test tools
+        run: pip install pytest
+      - name: Pytest — forensic script tests
+        run: |
+          cd "CC/Winter 2025/IT Security Forensics - Maryam Ahmed - CSC-7310/scripts"
+          python -m pytest test_parse_recycle_bin.py -v --tb=short
+
+  import-check:
+    name: ci/import-check
+    runs-on: ubuntu-latest
+    concurrency:
+      group: ci-import-${{ github.ref }}
+      cancel-in-progress: true
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - name: Verify all Python scripts import cleanly
+        run: |
+          cd "CC/Winter 2025/IT Security Forensics - Maryam Ahmed - CSC-7310/scripts"
+          python -c "import parse_recycle_bin; print('parse_recycle_bin.py imports OK')"

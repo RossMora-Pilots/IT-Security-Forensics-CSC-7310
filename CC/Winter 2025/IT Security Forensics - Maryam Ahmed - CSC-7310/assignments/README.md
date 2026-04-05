@@ -47,8 +47,11 @@ flowchart LR
 **Key Findings / Outputs:**
 
 - A fully-populated chain-of-custody document with signatures at every transfer.
-- Evidence-bag seal verification log.
+- Evidence item: Hitachi 500 GB HDD, serial-numbered and hash-tagged, requested by Det. John Brown; received by lab personnel (Ross Moravec).
+- Evidence-bag seal verification log with tamper-evident seal numbers recorded at each transfer.
 - Understanding that a **broken custody chain = inadmissible evidence** regardless of technical merit of the forensic work.
+
+**Applicable Standards:** ASCLD-Lab / ISO 17025 lab certification; NIST SP 800-86 §4 (Evidence Collection); ACPO Good Practice Guide §3 (Principles of Digital Evidence).
 
 **Tools:** Pen-and-paper forms (simulated), evidence tags, tamper-evident bags, locker with access log.
 
@@ -57,6 +60,8 @@ flowchart LR
 - Custody is as much a legal/procedural discipline as a technical one.
 - Every person touching evidence must be documented — including the analyst who does the imaging.
 - Lab certification (ASCLD-Lab, ISO 17025) exists to enforce these procedures uniformly across practitioners.
+
+**What I Would Do Differently:** In a real engagement, I would implement a digital chain-of-custody system (barcode + database) in addition to paper forms — paper is legally required but digital enables searchability and audit trails. I would also add photographic documentation of evidence seals at each transfer point.
 
 **Connects to:** Week 1 (legal authority — search warrants must specify scope), Project 1 (case intake + custody).
 
@@ -93,9 +98,11 @@ flowchart LR
 
 **Key Findings / Outputs:**
 
-- A verified E01 forensic image with embedded hash values.
+- Created verified E01 forensic image: `C Drive.E01` — output confirmed via FTK Imager Image Report.
 - FTK Imager acquisition log documenting start time, duration, and hash verification.
-- Demonstrated that verification hashes (pre vs. post) matching is the **proof of evidence integrity**.
+- Post-acquisition hash match confirmed evidence integrity (MD5 + SHA-1 matched between pre-image read and post-image verification).
+
+**Applicable Standards:** NIST SP 800-86 §4.3 (Acquiring the Data); ISO/IEC 27037 §7.4 (Digital Evidence Acquisition).
 
 **Tools:** Exterro FTK Imager 4.7.3, write-blocker (simulated via NDG virtual lab), Windows forensic workstation.
 
@@ -104,6 +111,8 @@ flowchart LR
 - E01 format embeds metadata + segmented archive + hash inline — preferred over raw `dd` for forensic contexts requiring self-contained evidence packages.
 - Always acquire to a **forensically sterile** destination (wiped and verified).
 - A mismatch between pre-image and post-image hash = abort, investigate, retry.
+
+**What I Would Do Differently:** I would add SHA-256 alongside MD5/SHA-1 for future-proofing — MD5 is cryptographically broken (collision attacks) and some jurisdictions no longer accept it as sole verification. I would also document drive geometry (sector size, total sectors) in the acquisition log for completeness.
 
 **Connects to:** Week 5 (triage and on-scene acquisition), Project 1 (case evidence preservation).
 
@@ -138,17 +147,23 @@ flowchart LR
 
 **Key Findings / Outputs:**
 
-- Identified hidden text/file payloads concealed inside images.
-- Recovered passphrases and content from steganographic containers.
+- Identified hidden content via Alternative Data Streams (ADS): `secret.txt` embedded as `Legitimate_program.exe:secret.txt` using the NTFS ADS colon syntax.
+- Detection method: `dir /r` command reveals ADS attached to files — without this command, the hidden stream is invisible to standard directory listings.
+- Hidden file creation technique: `Type legitimate_program.exe > Legitimate_program.exe:secret.txt` — demonstrates how trivially data can be concealed in NTFS.
 - Produced analysis report showing detection method, extraction tool, and payload contents.
 
-**Tools:** Hex editor (HxD / xxd), StegHide / OpenStego, file-type identification (`file` command, PE/JPEG header inspection).
+**Applicable Standards:** NIST SP 800-86 §5 (Examining and Analyzing Data); SWGDE Best Practices for Data Acquisition.
+
+**Tools:** Hex editor (HxD / xxd), StegHide / OpenStego, file-type identification (`file` command, PE/JPEG header inspection), `dir /r` for ADS detection.
 
 **Lessons Learned:**
 
 - Steganography is **easy to miss** without suspicion — size anomaly is often the first (only) clue.
+- NTFS Alternative Data Streams are a common hiding technique — always run `dir /r` or use Streams.exe (Sysinternals) on NTFS evidence.
 - Modern forensic suites (AXIOM, Autopsy) include steganography detection modules but are not infallible.
 - Passphrase recovery is often required — check for plaintext passphrase artifacts elsewhere in the case.
+
+**What I Would Do Differently:** I would automate ADS scanning across the entire evidence drive using `streams.exe -s` (Sysinternals) or a PowerShell one-liner (`Get-ChildItem -Recurse | Get-Item -Stream *`). Manual `dir /r` is fine for targeted directories but doesn't scale to a full disk image.
 
 **Connects to:** Week 7 (email forensics — attachments as steg carriers), Project 1 (hidden evidence artifacts).
 
@@ -183,17 +198,25 @@ flowchart LR
 
 **Key Findings / Outputs:**
 
-- Table of deleted files: original path, deletion time, size, user SID, recoverable content.
-- Reconstructed user's deletion activity timeline.
-- Evidence that a user deleted specific incriminating files at identifiable timestamps.
+- Identified two user SIDs with Recycle Bin activity:
+  - `S-1-5-21-2000478354-688789844-1708537768-1003`
+  - `S-1-5-21-1843218942-199276559-4149176266-1001`
+- Extracted INFO2 file (pre-Vista format) and parsed with Rifiuti to recover deletion metadata.
+- Extracted 5 `$I` files from SID folder `S-1-5-21-1843218942-...-1001` — each containing original path, deletion timestamp, and file size.
+- Found deleted executables (`Dc1.exe`–`Dc4.exe`) in the RECYCLER folder — potential evidence of anti-forensics or malware cleanup.
+- Reconstructed user's deletion activity timeline correlating SIDs with user accounts.
 
-**Tools:** FTK Imager (logical file export), RBCmd.exe, Windows SID resolution (`wmic useraccount get name,sid`).
+**Applicable Standards:** NIST SP 800-86 §5.2 (File Recovery); ISO/IEC 27037 §7.5 (Evidence Preservation).
+
+**Tools:** FTK Imager (logical file export), Autopsy (case management), Rifiuti (INFO2 parser), RBCmd.exe, Windows SID resolution (`wmic useraccount get name,sid`).
 
 **Lessons Learned:**
 
 - Recycle Bin is a gold mine — users often assume delete = gone.
 - `$I` format changed between Windows Vista and Windows 10+; parsers must support both.
 - Empty Recycle Bin ≠ gone — file content may still be in unallocated clusters (see Week 9 registry + MFT).
+
+**What I Would Do Differently:** I would cross-reference the deletion timestamps against Windows Event Log logon sessions (Event ID 4624/4634) to prove which user was logged in when each file was deleted. I would also check the `$MFT` for the original file creation timestamps to build a complete file lifecycle (created → modified → deleted).
 
 **Connects to:** Week 9 (Registry — UserAssist shows what files user opened), Project 1 (timeline reconstruction).
 
@@ -244,12 +267,16 @@ flowchart TD
 
 **Key Findings / Outputs:**
 
-- Complete USB device history including serial numbers and first/last connect times.
-- User's folder browsing history (ShellBags).
-- Evidence of specific applications launched with frequency and last-run times.
-- Network SSIDs the machine connected to (establishing physical location history).
+- Extracted registry hives from forensic image: NTUSER.DAT from `Documents and Settings\IEUser\`, UsrClass.dat from `Documents and Settings\IEUser\Local Settings\Application Data\Microsoft\Windows\`, and system hives (SAM, SYSTEM, SOFTWARE, SECURITY) from `C:\Windows\System32\config\`.
+- **RecentDocs:** Found `---README---.txt` at `C:\Documents and Settings\IEUser\Desktop\---README---.txt` — evidence of user accessing a suspicious file.
+- **TypedURLs:** Recovered browser URL history with LastWrite timestamps from NTUSER.DAT, revealing web activity patterns.
+- **USBSTOR:** Extracted USB device connection history — vendor IDs, product IDs, serial numbers, and first/last connection timestamps.
+- **WinNT_CV:** Recovered OS installation date, build number, and registered owner from SOFTWARE hive.
+- Registry analysis performed with **RegRipper v2.8** for automated artifact extraction.
 
-**Tools:** FTK Imager (hive extraction), Registry Explorer (Eric Zimmerman), RegRipper, RECmd.
+**Applicable Standards:** NIST SP 800-86 §5.3 (Windows Artifact Analysis); SWGDE Best Practices for Windows Forensics.
+
+**Tools:** FTK Imager (hive extraction), Registry Explorer (Eric Zimmerman), RegRipper v2.8, RECmd.
 
 **Lessons Learned:**
 
@@ -257,6 +284,8 @@ flowchart TD
 - UserAssist keys are ROT-13 encoded (historical obfuscation, trivially reversed).
 - USB history is definitive for answering "did this device ever connect to this machine?"
 - Per-user hives (`NTUSER.DAT`) must be extracted from each user's profile separately.
+
+**What I Would Do Differently:** I would automate the full hive extraction and parsing pipeline using the `extract_registry_hives.sh` script from this portfolio, piped into RegRipper batch mode. This would produce a comprehensive HTML report in minutes rather than the manual hive-by-hive approach. I would also check for deleted registry keys using Registry Explorer's "recovered" view.
 
 **Connects to:** Week 7 (recycle bin deletion events tied to user SID), Week 12 (log analysis correlates registry activity with event logs).
 
@@ -304,11 +333,16 @@ flowchart LR
 
 **Key Findings / Outputs:**
 
-- Extracted SMS, call logs, contacts, browser history.
-- Recovered deleted messages from SQLite WAL (write-ahead log) and free-list.
-- Reconstructed device user's communication and browsing patterns.
+- Analyzed Android data partition (`vol15`) using Autopsy forensic suite.
+- **Settings database:** Extracted device configuration from `data/com.android.providers.settings/databases/settings.db` — device identifiers, security settings.
+- **Device identifiers:** Found IMEI, Google account registration data in `com.google.android.gms > shared_prefs > checkin.xml`.
+- **Email artifacts:** Recovered complete email database `mailstore.cfttmobile1@gmail.com.db` containing emails with timestamps, senders, recipients, and attachments.
+- **GPS/Location history:** Extracted navigation data from `da_destination_history` table — GPS coordinates, street addresses, and navigation timestamps establishing physical movement patterns.
+- **Device hardware:** Recovered device model, manufacturer, serial number from `wpa_supplicant.conf`; SIM card data (ICCID, phone number, SIM operator) from `SimCard.dat`.
 
-**Tools:** NDG-provided mobile forensic environment; conceptual coverage of Cellebrite UFED, Magnet AXIOM Mobile, iTunes backup parser.
+**Applicable Standards:** NIST SP 800-101 Rev. 1 (Guidelines on Mobile Device Forensics); SWGDE Best Practices for Mobile Phone Forensics.
+
+**Tools:** Autopsy 4.13.0 (artifact extraction including call logs, messages, installed programs); conceptual coverage of Cellebrite UFED, Magnet AXIOM Mobile.
 
 **Lessons Learned:**
 
@@ -316,6 +350,8 @@ flowchart LR
 - SQLite WAL files hold **uncommitted deletes** — check WAL before treating delete as permanent.
 - iOS is more challenging than Android for non-jailbroken devices (encryption + sandboxing).
 - App-layer artifacts (WhatsApp, Signal) are often more useful than OS-level artifacts.
+
+**What I Would Do Differently:** I would prioritize extracting the SQLite WAL (Write-Ahead Log) files alongside the main databases — they often contain recently deleted records. I would also use `sqlitebrowser` to examine all databases for deleted rows (free-list pages) rather than relying solely on Autopsy's built-in parsers.
 
 **Connects to:** Project 1 (mobile device as evidence source), Week 4 (acquisition verification).
 
@@ -353,11 +389,15 @@ flowchart TD
 
 **Key Findings / Outputs:**
 
-- Unified timeline CSV with timestamped events from 3+ log sources.
-- Identified specific attack indicators (brute-force attempts, lateral movement).
-- Expert report with event citations (log source, event ID, timestamp, description).
+- Located Windows Event Logs in `Windows\System32\winevt\Logs\` — 122 `.evtx` files identified via Autopsy 4.15.0, including the three primary logs: `Application.evtx`, `System.evtx`, `Security.evtx`.
+- Parsed Security.evtx for logon events (Event ID 4624) — correlated logon timestamps with user activity from other evidence sources.
+- Examined USN Journal (`$UsnJrnl`) components: `$J` (main journal recording file create/delete/rename operations) and `$Max` (maximum journal size configuration).
+- Built unified timeline CSV with timestamped events from multiple log sources, enabling cross-source correlation.
+- Identified attack indicators through anomaly detection: brute-force logon attempts, privilege escalation patterns, and unusual process creation.
 
-**Tools:** Windows Event Viewer, `wevtutil`, Log Parser, grep/awk/sed, simple Python parsers.
+**Applicable Standards:** NIST SP 800-92 (Guide to Computer Security Log Management); NIST SP 800-86 §5.4 (Log Analysis); ISO/IEC 27037 §7.6.
+
+**Tools:** Autopsy 4.15.0 (evidence browsing), Windows Event Viewer, `wevtutil`, EvtxECmd.exe (Eric Zimmerman), grep/awk/sed, Python parsers.
 
 **Lessons Learned:**
 
@@ -365,6 +405,8 @@ flowchart TD
 - Event log IDs are the universal language — memorize the top 20 (4624, 4625, 4672, 4688, 4720, etc.).
 - Log correlation across hosts is where incident response lives — single-host logs rarely tell the full story.
 - Attackers clear logs — **log-clearing events** (1102 in Security, 104 in System) are themselves high-value indicators.
+
+**What I Would Do Differently:** I would use the `event_log_timeline.ps1` script from this portfolio to automate extraction into CSV, then feed the unified timeline into a SIEM-style visualization (even a simple Excel pivot table). I would also check for gaps in the event log sequence numbers — missing sequence numbers indicate log tampering or rotation.
 
 **Connects to:** Week 9 (registry activity correlates with Event Log entries), Week 11 (network log correlation with PCAP).
 
