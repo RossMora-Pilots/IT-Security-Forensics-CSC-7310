@@ -50,6 +50,43 @@ A 12-week forensics course covers an enormous surface area. I had to make choice
 
 ## How This Course Maps to Employment Roles
 
+```mermaid
+flowchart TD
+    subgraph Course Skills
+        REG[Registry Forensics<br/>Week 9]
+        LOG[Log Analysis<br/>Week 12]
+        TL[Timeline Reconstruction<br/>Week 8 Project]
+        COC[Chain of Custody<br/>Week 2]
+        IMG[Image Acquisition<br/>Week 4]
+        RPT[Expert Reporting<br/>All Weeks]
+        TRI[Forensic Triage<br/>Week 5]
+        NET[Network Forensics<br/>Week 11]
+        MOB[Mobile Forensics<br/>Week 10]
+        LEG[Legal Framework<br/>Week 1]
+        EMAIL[Email Forensics<br/>Week 7]
+    end
+
+    subgraph Roles
+        SOC[SOC Analyst<br/>Tier 2/3]
+        DFIR[DFIR Consultant]
+        IR[Incident Responder]
+        CORP[Corporate<br/>Investigator]
+    end
+
+    REG --> SOC
+    LOG --> SOC
+    TL --> SOC
+    COC --> DFIR
+    IMG --> DFIR
+    RPT --> DFIR
+    TRI --> IR
+    NET --> IR
+    MOB --> IR
+    LEG --> CORP
+    EMAIL --> CORP
+    COC --> CORP
+```
+
 ### SOC Analyst (Tier 2/3)
 
 - **Registry forensics (Week 9)** — triage alerts by pulling user-activity artifacts from the suspect machine's registry.

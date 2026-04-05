@@ -1,13 +1,10 @@
 # IT Security Forensics — CSC-7310
 
-![Portfolio CI](https://github.com/<owner>/<repo>/actions/workflows/portfolio-ci.yml/badge.svg)
+![Portfolio CI](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/portfolio-ci.yml/badge.svg)
 
 > **Course portfolio** — Postgraduate Cybersecurity Certificate, Cambrian College (Winter 2025).
 > Instructor: **Dr. Maryam Ahmed**. Student: Ross Moravec (A00322717).
 > 11 weeks of instruction · 7 completed labs · 1 major investigation project.
-
-<!-- PORTFOLIO: BADGES START -->
-<!-- PORTFOLIO: BADGES END -->
 
 ---
 
@@ -67,7 +64,6 @@ Full narrative: **[WEEKLY_SUMMARY.md](WEEKLY_SUMMARY.md)**
 
 ---
 
-<!-- PORTFOLIO: QUICK_START START -->
 ## 🎯 How to Review This Portfolio
 
 **5 minutes** — Scan the [Key Achievements](#-key-achievements) table above and the [Lab Index](assignments/README.md).
@@ -75,27 +71,13 @@ Full narrative: **[WEEKLY_SUMMARY.md](WEEKLY_SUMMARY.md)**
 **15 minutes** — Open the [Final Project](FINAL_PROJECT_FORENSIC_INVESTIGATION.md) and read Phase 1 (case intake) through Phase 4 (expert report).
 
 **30 minutes** — Read 3 labs side-by-side:
+
 - [Lab 21 Chain of Custody](assignments/README.md#lab-21--chain-of-custody-week-2) (procedural rigor)
 - [Lab 04 Registry Forensics](assignments/README.md#lab-04--windows-registry-forensics-week-9) (technical depth)
 - [Lab 17 Log Analysis](assignments/README.md#lab-17--log-capturing-and-interpretation-week-12) (timeline reconstruction)
-<!-- PORTFOLIO: QUICK_START END -->
 
 ---
 
-<!-- PORTFOLIO: ACHIEVEMENTS START -->
-## 📊 Quantified Results
-
-- Weeks of instruction: **11 of 12** (Week 3 cancelled)
-- NDG Forensics v2 labs: **7 of 7** completed
-- Major investigations: **1** (Windows forensic case, Week 8)
-- Lecture transcripts archived: **8** (~16 hours)
-- Student submission archive: **68 MB** across 8 deliverables
-- Primary toolchain: **FTK Imager**, **Magnet AXIOM**, **NDG virtual labs**
-<!-- PORTFOLIO: ACHIEVEMENTS END -->
-
----
-
-<!-- PORTFOLIO: NAVIGATION START -->
 ## 📁 Navigation
 
 - **Labs (7)** → [`assignments/`](assignments/) — NDG instruction PDFs paired with student submission DOCX files
@@ -105,11 +87,9 @@ Full narrative: **[WEEKLY_SUMMARY.md](WEEKLY_SUMMARY.md)**
 - **Scripts** → [`scripts/`](scripts/) + [SCRIPTS_README.md](SCRIPTS_README.md)
 - **Transcripts** → [`transcripts/`](transcripts/) — 8 lecture transcripts (plain text)
 - **Learning Reflection** → [LEARNING_REFLECTION.md](LEARNING_REFLECTION.md) — Course → career mapping
-<!-- PORTFOLIO: NAVIGATION END -->
 
 ---
 
-<!-- PORTFOLIO: SKILLS START -->
 ## 🛠️ Skills Matrix
 
 **Technical Forensics:**
@@ -140,7 +120,6 @@ Full narrative: **[WEEKLY_SUMMARY.md](WEEKLY_SUMMARY.md)**
 - **Autopsy / Sleuth Kit** — file-system carving (NDG labs)
 - **Volatility Framework** — memory analysis (lecture content)
 - **Wireshark** — PCAP analysis (Week 11)
-<!-- PORTFOLIO: SKILLS END -->
 
 ---
 

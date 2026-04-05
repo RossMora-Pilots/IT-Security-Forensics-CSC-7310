@@ -1,10 +1,10 @@
 # 408-Forensics — IT Security Forensics (CSC-7310) Portfolio
 
-[![CI](https://github.com/<owner>/<repo>/actions/workflows/ci.yml/badge.svg)](https://github.com/<owner>/<repo>/actions/workflows/ci.yml)
-[![Portfolio CI](https://github.com/<owner>/<repo>/actions/workflows/portfolio-ci.yml/badge.svg)](https://github.com/<owner>/<repo>/actions/workflows/portfolio-ci.yml)
-[![Markdown Lint](https://github.com/<owner>/<repo>/actions/workflows/markdownlint.yml/badge.svg)](https://github.com/<owner>/<repo>/actions/workflows/markdownlint.yml)
-[![Gitleaks](https://github.com/<owner>/<repo>/actions/workflows/gitleaks.yml/badge.svg)](https://github.com/<owner>/<repo>/actions/workflows/gitleaks.yml)
-[![PM Evidence](https://github.com/<owner>/<repo>/actions/workflows/pm-evidence.yml/badge.svg)](https://github.com/<owner>/<repo>/actions/workflows/pm-evidence.yml)
+[![CI](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/ci.yml/badge.svg)](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/ci.yml)
+[![Portfolio CI](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/portfolio-ci.yml/badge.svg)](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/portfolio-ci.yml)
+[![Markdown Lint](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/markdownlint.yml/badge.svg)](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/markdownlint.yml)
+[![Gitleaks](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/gitleaks.yml/badge.svg)](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/gitleaks.yml)
+[![PM Evidence](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/pm-evidence.yml/badge.svg)](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/pm-evidence.yml)
 
 > Public portfolio of digital forensics coursework from the **Postgraduate Cybersecurity Certificate** at **Cambrian College, Sudbury, Ontario**. Winter 2025. Instructor: **Dr. Maryam Ahmed**.
 
@@ -173,4 +173,5 @@ This course is one of **11 courses** in the program. Related course portfolios i
 - **Author:** Ross Moravec
 - **Program:** Postgraduate Cybersecurity Certificate, Cambrian College (graduating 2025)
 - **Focus areas:** DFIR, SOC analysis, infrastructure security, forensic automation
-- **GitHub:** @RossMora
+- **GitHub:** [@RossMora](https://github.com/RossMora)
+- **LinkedIn:** [linkedin.com/in/rossmoravec](https://linkedin.com/in/rossmoravec)

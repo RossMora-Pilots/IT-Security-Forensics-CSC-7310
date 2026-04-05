@@ -240,13 +240,16 @@ No lecture or lab this week.
 
 The course follows a deliberate progression:
 
-```
-Legal Foundation (W1)
-  → Procedure (W2: Custody)
-    → Infrastructure (W4-W5: Lab + Triage)
-      → Technical Skills (W6-W10: File systems, artifacts, mobile)
-        → Correlation (W11-W12: Network + Log Analysis)
-          → Integration (W8 Project: end-to-end case)
+```mermaid
+flowchart TD
+    W1[Week 1<br/>Legal Foundation] --> W2[Week 2<br/>Chain of Custody]
+    W2 --> W4[Weeks 4–5<br/>Lab Setup · Triage · Tools]
+    W4 --> W6[Weeks 6–7<br/>File Systems · Steg · Email · Recycle Bin]
+    W6 --> W8[Week 8<br/>Windows Forensics + <b>Project 1</b>]
+    W8 --> W9[Weeks 9–10<br/>Registry Deep-Dive · Mobile]
+    W9 --> W11[Weeks 11–12<br/>Network · Log Analysis · IR]
+
+    style W8 fill:#2d6a4f,stroke:#1b4332,color:#ffffff
 ```
 
 The project is positioned at Week 8 (not Week 12) because **integration is the teacher** — only by running a complete case can students realize what they don't yet know, creating receptivity for Weeks 9–12's deeper technical content.

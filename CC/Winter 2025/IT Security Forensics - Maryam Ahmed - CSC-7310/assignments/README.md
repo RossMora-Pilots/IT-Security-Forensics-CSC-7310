@@ -23,6 +23,16 @@ Seven NDG Forensics v2 labs completed over Winter 2025. Each lab pairs:
 
 **Objective:** Demonstrate the complete lifecycle of evidence custody from first response through courtroom admissibility. Document every transfer, every access, every handoff in accordance with ASCLD-Lab standards.
 
+```mermaid
+flowchart LR
+    A[First Response<br/>Scene Arrival] --> B[Evidence Seizure<br/>Tag · Serial · Photo]
+    B --> C[Packaging<br/>Tamper-Evident Bag]
+    C --> D[Transport<br/>Signed Transfer Log]
+    D --> E[Lab Intake<br/>Locker + Access Log]
+    E --> F[Analyst Handoff<br/>Custody Form Signed]
+    F --> G[Return / Court<br/>Sealed for Production]
+```
+
 **Methodology:**
 
 1. Simulated intake of a seized workstation from a company policy violation.
@@ -51,6 +61,16 @@ Seven NDG Forensics v2 labs completed over Winter 2025. Each lab pairs:
 ## Lab 01 — Creating a Forensic Image (Week 4)
 
 **Objective:** Acquire a bit-for-bit forensic image from a target drive using FTK Imager, verify integrity via hashing, and preserve the original evidence unaltered.
+
+```mermaid
+flowchart LR
+    A[Source Drive<br/>Write-Blocked] --> B[FTK Imager<br/>Create Disk Image]
+    B --> C[E01 Output<br/>Compressed + Metadata]
+    C --> D[Hash Compute<br/>MD5 + SHA-1]
+    D --> E{Hashes<br/>Match?}
+    E -- Yes --> F[✅ Verified Image<br/>Ready for Analysis]
+    E -- No --> G[❌ Abort<br/>Investigate + Retry]
+```
 
 **Methodology:**
 
@@ -83,6 +103,17 @@ Seven NDG Forensics v2 labs completed over Winter 2025. Each lab pairs:
 
 **Objective:** Detect and extract hidden payloads concealed within carrier files (images, audio, documents) using LSB-substitution, header-appending, and metadata-embedding techniques.
 
+```mermaid
+flowchart LR
+    A[Suspect File<br/>Size Anomaly?] --> B[Hex Inspection<br/>Header · Footer · Chunks]
+    B --> C[Steg Tool<br/>StegHide / OpenStego]
+    C --> D{Payload<br/>Found?}
+    D -- Yes --> E[Extract Payload<br/>Document Contents]
+    D -- No --> F[Hash Compare<br/>vs. Known-Clean]
+    F --> G[Report<br/>Detection Method + Findings]
+    E --> G
+```
+
 **Methodology:**
 
 1. Examine suspected carrier files for size anomalies (file larger than expected for dimensions/format).
@@ -112,6 +143,16 @@ Seven NDG Forensics v2 labs completed over Winter 2025. Each lab pairs:
 ## Lab 09 — Recycle Bin Forensics (Week 7)
 
 **Objective:** Recover deleted files from the Windows Recycle Bin (`$Recycle.Bin`), parse `$I` and `$R` metadata files, and reconstruct the deletion timeline.
+
+```mermaid
+flowchart LR
+    A[Forensic Image<br/>Read-Only Mount] --> B["Navigate<br/>$Recycle.Bin\\&lt;SID&gt;"]
+    B --> C["Parse $I Files<br/>Path · Timestamp · Size"]
+    B --> D["Export $R Files<br/>Actual Content"]
+    C --> E[Deletion Timeline<br/>Per-User Activity]
+    D --> E
+    E --> F[Correlate<br/>with Logon Sessions]
+```
 
 **Methodology:**
 
@@ -143,6 +184,21 @@ Seven NDG Forensics v2 labs completed over Winter 2025. Each lab pairs:
 ## Lab 04 — Windows Registry Forensics (Week 9)
 
 **Objective:** Extract and interpret forensic artifacts from Windows Registry hives to establish user activity, installed software, network history, and USB device connection history.
+
+```mermaid
+flowchart TD
+    A[Forensic Image] --> B[Extract Hives<br/>SAM · SYSTEM · SOFTWARE · NTUSER.DAT]
+    B --> C[ShellBags<br/>Folder Browsing]
+    B --> D[UserAssist<br/>App Launches]
+    B --> E[USBSTOR<br/>USB Device History]
+    B --> F[NetworkList<br/>Wi-Fi SSIDs]
+    B --> G[RecentDocs<br/>Opened Files]
+    C --> H[User Activity Timeline]
+    D --> H
+    E --> H
+    F --> H
+    G --> H
+```
 
 **Methodology:**
 
@@ -186,6 +242,19 @@ Seven NDG Forensics v2 labs completed over Winter 2025. Each lab pairs:
 
 **Objective:** Perform forensic acquisition and analysis of a mobile device (iOS or Android), extract app data, and reconstruct user activity.
 
+```mermaid
+flowchart LR
+    A[Device ID<br/>iOS / Android] --> B{Acquisition<br/>Method}
+    B -- Logical --> C[iTunes / ADB<br/>Backup]
+    B -- File System --> D[Jailbreak / Root<br/>Full FS]
+    B -- Physical --> E[Chip-Off / JTAG<br/>Bit-Stream]
+    C --> F[Parse Artifacts<br/>SMS · Calls · Browser · Apps]
+    D --> F
+    E --> F
+    F --> G[SQLite + WAL<br/>Recover Deleted]
+    G --> H[Activity Narrative]
+```
+
 **Methodology:**
 
 1. Identify device platform (iOS version / Android version).
@@ -225,6 +294,16 @@ Seven NDG Forensics v2 labs completed over Winter 2025. Each lab pairs:
 ## Lab 17 — Log Capturing and Interpretation (Week 12)
 
 **Objective:** Collect, parse, and correlate logs from multiple sources (Windows Event Logs, syslog, application logs) to reconstruct an incident timeline suitable for an expert report.
+
+```mermaid
+flowchart TD
+    A[Security.evtx<br/>Logon · Object Access] --> D[Normalize<br/>Timestamp + Format]
+    B[System.evtx<br/>Services · Drivers] --> D
+    C[Application Logs<br/>Web · Firewall · Syslog] --> D
+    D --> E[Unified Timeline<br/>CSV / JSON]
+    E --> F[Anomaly Detection<br/>Brute Force · Lateral Movement]
+    F --> G[Incident Narrative<br/>Event Citations + Timestamps]
+```
 
 **Methodology:**
 

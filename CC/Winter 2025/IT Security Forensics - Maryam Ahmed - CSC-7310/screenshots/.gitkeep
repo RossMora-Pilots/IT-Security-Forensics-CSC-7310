@@ -1,7 +1,0 @@
-# Screenshots directory
-#
-# Populate with lab-evidence PNG/JPG files following naming convention:
-#   wkNN_<topic>_<index>.png    e.g., wk02_chain_of_custody_1.png
-#   ScreenshotN_<short-desc>.png  e.g., Screenshot1_FTKImager.png
-#
-# Captions belong in EVIDENCE_INDEX.md
