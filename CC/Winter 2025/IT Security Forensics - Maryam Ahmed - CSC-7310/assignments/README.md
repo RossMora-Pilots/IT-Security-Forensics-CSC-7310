@@ -33,6 +33,10 @@ flowchart LR
     F --> G[Return / Court<br/>Sealed for Production]
 ```
 
+**Key Evidence:**
+
+![Evidence Intake Form — fraud case intake documenting Hitachi 500 GB HDD with hash values, Det. John Brown requesting, Ross Moravec as lab personnel](../screenshots/wk02_lab21_1.png)
+
 **Methodology:**
 
 1. Simulated intake of a seized workstation from a company policy violation.
@@ -71,6 +75,12 @@ flowchart LR
     E -- Yes --> F[✅ Verified Image<br/>Ready for Analysis]
     E -- No --> G[❌ Abort<br/>Investigate + Retry]
 ```
+
+**Key Evidence:**
+
+![FTK Imager 4.3.0.18 — E01 forensic image creation dialog with case metadata configured](../screenshots/wk04_lab01_1.png)
+
+![Post-acquisition hash verification — MD5 and SHA-1 match confirms forensic integrity](../screenshots/wk04_lab01_3.png)
 
 **Methodology:**
 
@@ -114,6 +124,10 @@ flowchart LR
     E --> G
 ```
 
+**Key Evidence:**
+
+![HxD hex editor reveals hidden plaintext "THIS IS MY SECRET MESSAGE" appended after JPEG EOF marker in PlanC.jpg, with IrfanView showing the carrier image](../screenshots/wk06_lab10_1.png)
+
 **Methodology:**
 
 1. Examine suspected carrier files for size anomalies (file larger than expected for dimensions/format).
@@ -153,6 +167,10 @@ flowchart LR
     D --> E
     E --> F[Correlate<br/>with Logon Sessions]
 ```
+
+**Key Evidence:**
+
+![Autopsy browsing RECYCLER SID folder with Dc1–Dc4.exe and INFO2 file; terminal running rifiuti to parse pre-Vista Recycle Bin metadata](../screenshots/wk07_lab09_4.png)
 
 **Methodology:**
 
@@ -199,6 +217,12 @@ flowchart TD
     F --> H
     G --> H
 ```
+
+**Key Evidence:**
+
+![FTK Imager browsing NTFS file system structure with registry hive files visible for extraction](../screenshots/wk09_lab04_1.png)
+
+![UserAssist registry entries (ROT-13 decoded) revealing GUI application launch history with execution counts](../screenshots/wk09_lab04_8.png)
 
 **Methodology:**
 
@@ -255,6 +279,12 @@ flowchart LR
     G --> H[Activity Narrative]
 ```
 
+**Key Evidence:**
+
+![Autopsy 4.13.0 browsing Android app data — com.android.providers.settings databases for forensic extraction](../screenshots/wk10_lab16_1.png)
+
+![Google Mobile Services shared_prefs — Checkin.xml containing device identifiers and GMS registration data](../screenshots/wk10_lab16_3.png)
+
 **Methodology:**
 
 1. Identify device platform (iOS version / Android version).
@@ -304,6 +334,10 @@ flowchart TD
     E --> F[Anomaly Detection<br/>Brute Force · Lateral Movement]
     F --> G[Incident Narrative<br/>Event Citations + Timestamps]
 ```
+
+**Key Evidence:**
+
+![Autopsy 4.15.0 browsing winevt/Logs directory — 122 event log files including Application.evtx, Security.evtx, System.evtx](../screenshots/wk12_lab17_1.png)
 
 **Methodology:**
 

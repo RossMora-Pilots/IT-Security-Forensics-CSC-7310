@@ -53,6 +53,8 @@ flowchart TD
 
 **Deliverable:** Chain-of-custody form and case-scope document.
 
+![Investigation Plan — Phase overview outlining forensic methodology, phases, and deliverables](screenshots/project_plan_1.png)
+
 ---
 
 ## Phase 2 — Image Verification & Working Copy
@@ -64,6 +66,8 @@ flowchart TD
 - Mounted image with FTK Imager as logical file system for browsing.
 
 **Deliverable:** Image verification log with MD5/SHA-256 values.
+
+![Investigation Plan — Tool & timeline matrix detailing tool selection and evidence handling procedures](screenshots/project_plan_2.png)
 
 ---
 

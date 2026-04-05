@@ -21,10 +21,10 @@ This pilot tracks the end-to-end creation of a public, employer-facing GitHub po
 
 ## Next
 
+- [x] Populate `screenshots/` with annotated lab evidence (52 captures extracted from DOCX submissions)
+- [x] Add Mermaid diagrams for each lab's investigation workflow
 - [ ] Convert student DOCX submissions to PDF (docx-to-pdf workflow)
-- [ ] Populate `screenshots/` with annotated lab evidence (30+ captures)
 - [ ] Expand forensic script library (Python + PowerShell triage helpers)
-- [ ] Add Mermaid diagrams for each lab's investigation workflow
 - [ ] Add repo topics: `digital-forensics`, `dfir`, `incident-response`, `cambrian-college`
 - [ ] Add Issue/PR templates and contribution notes
 
