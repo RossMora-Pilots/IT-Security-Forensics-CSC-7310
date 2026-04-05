@@ -1,6 +1,6 @@
 # Learning Reflection — IT Security Forensics (CSC-7310)
 
-*Ross Moravec · Postgraduate Cybersecurity Certificate, Cambrian College · Winter 2025*
+Ross Moravec · Postgraduate Cybersecurity Certificate, Cambrian College · Winter 2025
 
 ---
 

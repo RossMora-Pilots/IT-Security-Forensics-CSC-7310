@@ -81,6 +81,7 @@ flowchart TD
 - Correlated deletion timestamps with user logon sessions.
 
 **Finding examples (from the lab pattern):**
+
 - Multiple sensitive documents deleted minutes before a known logoff.
 - Timestamps in `$I` files aligned with logoff events in Security.evtx.
 
@@ -101,6 +102,7 @@ Extracted and analyzed the following hives:
 | `UsrClass.dat` | ShellBags (folders browsed) |
 
 **Finding patterns:**
+
 - USB device serials captured with first-seen and last-seen timestamps.
 - UserAssist entries show what GUI programs the user launched and when.
 - ShellBags preserve browse history for folders the user opened (including deleted folders).
@@ -119,6 +121,7 @@ Parsed these `.evtx` files:
 - **Application.evtx** — crashes (1000), application installs, Defender events.
 
 **Correlation checks:**
+
 - Every file-deletion timestamp ↔ nearest logon session ↔ UserAssist app launch.
 - Any log-clearing events (1102 / 104) flagged as anti-forensics indicators.
 - USB plug events from registry correlated with file-copy indicators in security log.
@@ -131,7 +134,7 @@ Parsed these `.evtx` files:
 
 Produced a unified CSV/spreadsheet timeline containing:
 
-```
+```text
 Timestamp (UTC)  | Source          | Event ID | User     | Description
 2025-01-15 09:14 | Security.evtx   | 4624     | jdoe     | Interactive logon from workstation
 2025-01-15 09:18 | USBSTOR         | n/a      | SYSTEM   | USB SanDisk SN:20240615 first connected
@@ -140,7 +143,7 @@ Timestamp (UTC)  | Source          | Event ID | User     | Description
 2025-01-15 09:25 | Security.evtx   | 4634     | jdoe     | Logoff
 ```
 
-*(Illustrative format — actual timeline populated from live case data.)*
+Illustrative format — actual timeline populated from live case data.
 
 ---
 

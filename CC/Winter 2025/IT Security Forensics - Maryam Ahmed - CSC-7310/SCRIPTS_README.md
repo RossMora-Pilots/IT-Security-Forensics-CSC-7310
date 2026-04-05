@@ -97,7 +97,7 @@ Reference scripts from forensic open-source community. Not authored by the stude
 
 ### RBCmd.exe (Eric Zimmerman)
 
-**Source:** https://ericzimmerman.github.io/
+**Source:** <https://ericzimmerman.github.io/>
 
 **Purpose:** Parse `$I` files from Windows `$Recycle.Bin`.
 
@@ -109,7 +109,7 @@ RBCmd.exe -d "C:\evidence\mounted\$Recycle.Bin" --csv recycle_bin_output.csv
 
 ### RECmd.exe (Eric Zimmerman)
 
-**Source:** https://ericzimmerman.github.io/
+**Source:** <https://ericzimmerman.github.io/>
 
 **Purpose:** Registry browsing and batch-plugin execution.
 
@@ -121,7 +121,7 @@ RECmd.exe -d "C:\evidence\hives" --bn "BatchExamples\Kroll_Batch.reb" --csv regi
 
 ### RegRipper (Harlan Carvey)
 
-**Source:** https://github.com/keydet89/RegRipper3.0
+**Source:** <https://github.com/keydet89/RegRipper3.0>
 
 **Purpose:** Plugin-based registry analysis — over 300 plugins for specific artifacts.
 
@@ -151,9 +151,9 @@ Invoke-ScriptAnalyzer -Path .\scripts\
 |---|---|---|
 | `md5sum`, `sha256sum` | Hash verification | Built into Linux/macOS/WSL |
 | `CertUtil` | Windows-native hash utility | Built into Windows |
-| Python 3.10+ | Custom parsers | https://www.python.org/ |
-| PowerShell 7+ | Event log scripts | https://github.com/PowerShell/PowerShell |
-| Eric Zimmerman tools | Reference parsers | https://ericzimmerman.github.io/ |
+| Python 3.10+ | Custom parsers | <https://www.python.org/> |
+| PowerShell 7+ | Event log scripts | <https://github.com/PowerShell/PowerShell> |
+| Eric Zimmerman tools | Reference parsers | <https://ericzimmerman.github.io/> |
 
 ---
 

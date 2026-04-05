@@ -4,7 +4,7 @@ External tools referenced in labs and the final project. Not authored by the stu
 
 ## Eric Zimmerman's Tools
 
-**Source:** https://ericzimmerman.github.io/ · **License:** MIT
+**Source:** <https://ericzimmerman.github.io/> · **License:** MIT
 
 | Tool | Purpose | Used In |
 |---|---|---|
@@ -16,18 +16,19 @@ External tools referenced in labs and the final project. Not authored by the stu
 
 ## RegRipper 3.0
 
-**Source:** https://github.com/keydet89/RegRipper3.0 · **Author:** Harlan Carvey
+**Source:** <https://github.com/keydet89/RegRipper3.0> · **Author:** Harlan Carvey
 
 Plugin-based registry analysis. 300+ plugins covering most Windows artifacts.
 
 **Usage:**
+
 ```bash
 perl rip.pl -r NTUSER.DAT -f ntuser > ntuser_output.txt
 ```
 
 ## Autopsy (The Sleuth Kit)
 
-**Source:** https://www.autopsy.com/ · **License:** Apache 2.0
+**Source:** <https://www.autopsy.com/> · **License:** Apache 2.0
 
 GUI forensic analysis platform. Free alternative to EnCase/X-Ways.
 

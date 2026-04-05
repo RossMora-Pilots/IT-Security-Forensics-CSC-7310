@@ -84,6 +84,7 @@ No lecture or lab this week.
 - Framework for proper forensic procedure: plan → acquire → verify → analyze → report.
 
 **Tools introduced:**
+
 - [FTK Imager 4.7.3 (Exterro)](https://www.exterro.com/ftk-product-downloads/ftk-imager-4-7-3-81)
 - [Magnet AXIOM (Magnet Forensics)](https://www.magnetforensics.com/products/magnet-axiom/)
 

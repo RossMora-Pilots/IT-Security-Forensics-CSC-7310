@@ -104,7 +104,7 @@ Now/Next/Later tracking shows project management discipline.
 
 ### 2.1 🔴 CRITICAL: Zero Screenshots / Visual Evidence
 
-**Impact: High — fundamentally undermines credibility for a forensics portfolio**
+**Impact:** High — fundamentally undermines credibility for a forensics portfolio
 
 The `screenshots/` directory contains only a `.gitkeep` file. The
 `EVIDENCE_INDEX.md` lists expected screenshots for every week but every single
@@ -131,7 +131,7 @@ improvement.
 All five CI badges in `README.md` use `<owner>/<repo>` instead of actual GitHub
 URLs:
 
-```
+```text
 https://github.com/<owner>/<repo>/actions/workflows/ci.yml/badge.svg
 ```
 
@@ -255,26 +255,26 @@ visual content to be competitive.
 
 **Medium Priority (would differentiate from other candidates):**
 
-4. **Skills radar/spider chart** — Show relative proficiency across forensic
+1. **Skills radar/spider chart** — Show relative proficiency across forensic
    domains (imaging, registry, network, mobile, log analysis, legal framework)
 
-5. **Course progression timeline** — A visual Gantt-style chart showing which
+2. **Course progression timeline** — A visual Gantt-style chart showing which
    weeks covered which topics and when labs/projects were submitted
 
-6. **Tool proficiency matrix** — Visual grid showing which tools were used in
+3. **Tool proficiency matrix** — Visual grid showing which tools were used in
    which labs (expand the current text-only skill matrix)
 
-7. **Investigation pipeline diagram per lab** — Show where each lab sits in the
+4. **Investigation pipeline diagram per lab** — Show where each lab sits in the
    overall forensic workflow (intake → imaging → analysis → reporting)
 
 **Nice-to-Have (polish items):**
 
-8. **Hash verification flowchart** — Visual decision tree for the
+1. **Hash verification flowchart** — Visual decision tree for the
    verify_image_hash.sh script logic
-9. **Evidence flow diagram** — Show how evidence moves from seizure through
+2. **Evidence flow diagram** — Show how evidence moves from seizure through
    analysis to court
-10. **Career mapping diagram** — Visualize the Learning Reflection's role-mapping
-    section (which skills → which roles)
+3. **Career mapping diagram** — Visualize the Learning Reflection's role-mapping
+   section (which skills → which roles)
 
 ---
 
@@ -285,7 +285,7 @@ visual content to be competitive.
 The markdown lab write-ups in `assignments/README.md` are **excellent summaries**
 that follow a consistent template:
 
-```
+```text
 Objective → Methodology (numbered steps) → Key Findings → Tools → Lessons Learned → Connects to
 ```
 
@@ -575,7 +575,7 @@ The following improvements have been implemented since the initial assessment:
 
 ### Revised Rating
 
-**Post-remediation rating: A− (Professional-grade portfolio with minor gaps)**
+Post-remediation rating: **A−** (Professional-grade portfolio with minor gaps)
 
 The critical visual evidence gap has been fully resolved. The portfolio now contains 52 captioned screenshots embedded across lab write-ups and the evidence index, 9 Mermaid workflow diagrams, and corrected badge URLs. The remaining gap (DOCX-only submissions without PDF alternatives) is a polish item that does not materially affect employer evaluation.
 
