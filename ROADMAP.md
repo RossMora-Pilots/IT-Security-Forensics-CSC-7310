@@ -37,7 +37,7 @@ This pilot tracks the end-to-end creation of a public, employer-facing GitHub po
 - [ ] Record 3–5 min walkthrough video *(requires screen recording)*
 - [ ] Add Volatility plugins and custom Autopsy modules
 
-## Completed — Employer Audit Remediation (April 2026)
+## Completed — Employer Audit Cycle 2 Remediation (April 5–6, 2026)
 
 - [x] Employer-perspective audit (19 findings across 3 tiers) → `docs/EMPLOYER_REVIEW_AUDIT.md`
 - [x] Added specific forensic data values to all 7 lab write-ups
@@ -53,6 +53,26 @@ This pilot tracks the end-to-end creation of a public, employer-facing GitHub po
 - [x] Created 5 sample YARA rules for forensic artifact classification
 - [x] Fixed sessions.md placeholder
 - [x] Added lab retrospectives ("What I Would Do Differently") for all 7 labs
+
+## Completed — Employer Audit Cycle 3 Remediation (April 6, 2026)
+
+- [x] Third employer-perspective audit (8 new + 5 carry-forward findings) → `docs/EMPLOYER_PERSPECTIVE_AUDIT_2026-04-06.md`
+- [x] Fixed EVIDENCE_INDEX screenshot count 52→48
+- [x] Replaced empty-file hashes with real test_image.dd hashes in SCRIPTS_README
+- [x] Replaced retired CCFP certification with CFCE (IACIS) in LEARNING_REFLECTION
+- [x] Added professional bio + contact section to course README
+- [x] Added "What I'm Looking For" (target role + availability) to course README
+- [x] Added concrete investigation findings to Final Project (4 tables + conclusion)
+- [x] Added scripts-to-investigation pipeline Mermaid diagram to SCRIPTS_README
+- [x] Improved 6 generic EVIDENCE_INDEX captions with specific tool/artifact details
+- [x] Added Gantt timeline + pie chart to EVIDENCE_INDEX
+- [x] Added chain-of-custody sequence diagram to Final Project
+- [x] Upgraded index.html from text arrows to interactive CSS pipeline
+- [x] Split 470-line assignments/README into 7 per-lab files + compact summary index
+- [x] Surfaced 7 instructor insights from lecture transcripts (was 3)
+- [x] Added skill-progression flowchart + cumulative table to WEEKLY_SUMMARY
+- [x] Consolidated duplicate Quick Start / How to Review sections in course README
+- [x] Fixed index.html diagram count 10→17
 
 ## Milestones (Definition of Done)
 
