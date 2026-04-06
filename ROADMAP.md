@@ -21,19 +21,38 @@ This pilot tracks the end-to-end creation of a public, employer-facing GitHub po
 
 ## Next
 
-- [x] Populate `screenshots/` with annotated lab evidence (52 captures extracted from DOCX submissions)
+- [x] Populate `screenshots/` with annotated lab evidence (48 verified captures from DOCX submissions)
 - [x] Add Mermaid diagrams for each lab's investigation workflow
 - [x] Convert student DOCX submissions to PDF (LibreOffice headless conversion)
-- [ ] Expand forensic script library (Python + PowerShell triage helpers)
-- [ ] Add repo topics: `digital-forensics`, `dfir`, `incident-response`, `cambrian-college`
-- [ ] Add Issue/PR templates and contribution notes
+- [x] Expand forensic script library (Python + PowerShell triage helpers)
+- [ ] Add repo topics: `digital-forensics`, `dfir`, `incident-response`, `cambrian-college` *(requires GitHub UI)*
+- [x] Add Issue/PR templates and contribution notes (CONTRIBUTING.md expanded)
 
 ## Later
 
-- [ ] Optional GitHub Pages portfolio landing page
+- [x] GitHub Pages portfolio landing page (`index.html`)
 - [ ] Integrate with program-level portfolio index (403 policies, 404 comm, 405 mobile, 406 cloud, 407 tooldev, 409 ethical, 410 malware)
-- [ ] Add sample forensic artifacts (sanitized .dd image, .pcap, memory dump) for reproducible labs
-- [ ] Add YARA rules, Volatility plugins, and custom Autopsy modules referenced in labs
+- [x] Add sample forensic artifacts (synthetic $I files, test disk image in `sample_data/`)
+- [x] Add YARA rules referenced in labs (`scripts-extra/forensic_indicators.yar`)
+- [ ] Record 3–5 min walkthrough video *(requires screen recording)*
+- [ ] Add Volatility plugins and custom Autopsy modules
+
+## Completed — Employer Audit Remediation (April 2026)
+
+- [x] Employer-perspective audit (19 findings across 3 tiers) → `docs/EMPLOYER_REVIEW_AUDIT.md`
+- [x] Added specific forensic data values to all 7 lab write-ups
+- [x] Rewrote CI pipeline from placeholder to 3-job lint/test/import-check
+- [x] Added sample output blocks to SCRIPTS_README for all 4 scripts
+- [x] Removed 4 placeholder screenshots; verified 48 real screenshots
+- [x] Deduplicated root vs. course README content
+- [x] Created synthetic evidence demo kit with pytest tests (12 tests, 100% pass)
+- [x] Added forensic standard references (NIST SP 800-86, ISO 27037, SWGDE)
+- [x] Expanded CONTRIBUTING.md to 139-line contributor guide
+- [x] Added cumulative learning outcomes and instructor insights to WEEKLY_SUMMARY
+- [x] Added certification pathway Mermaid diagram to LEARNING_REFLECTION
+- [x] Created 5 sample YARA rules for forensic artifact classification
+- [x] Fixed sessions.md placeholder
+- [x] Added lab retrospectives ("What I Would Do Differently") for all 7 labs
 
 ## Milestones (Definition of Done)
 
