@@ -8,12 +8,28 @@
 
 ---
 
+## About Me
+
+Ross Moravec — cybersecurity postgraduate candidate with a background in IT infrastructure and a focus on digital forensics and incident response. This portfolio documents hands-on forensic investigation skills developed through Cambrian College's Cybersecurity Certificate program (Winter 2025), including evidence handling, Windows artifact analysis, scripting automation, and expert report writing.
+
+📧 [rossmoravec@email.com](mailto:rossmoravec@email.com) · 🔗 [LinkedIn](https://linkedin.com/in/rossmoravec) · 💻 [GitHub](https://github.com/RossMora)
+
+---
+
+## What I'm Looking For
+
+**Target role:** Junior DFIR Analyst, SOC Analyst (Tier 2), or Corporate IT Investigator — ideally in an environment where I can apply Windows forensic skills while growing into memory forensics and incident response. Available immediately upon program completion (April 2025).
+
+---
+
 ## 🚀 Quick Start for Hiring Managers
 
-**5 minutes** → Read [Key Achievements](#-key-achievements) and browse the [Lab Index](assignments/README.md).
-**15 minutes** → Read the [Final Project write-up](FINAL_PROJECT_FORENSIC_INVESTIGATION.md) and skim [Weeks 1–12 summaries](WEEKLY_SUMMARY.md).
-**30 minutes** → Open three labs that interest you most; read each lab's methodology → findings → tool output → lessons learned.
-**60 minutes** → Read the [Learning Reflection](LEARNING_REFLECTION.md) to see how this course maps to **SOC Analyst**, **DFIR Consultant**, and **Incident Responder** roles.
+| Time Budget | What to Read |
+|---|---|
+| **5 minutes** | [Key Achievements](#-key-achievements) below + browse the [Lab Index](assignments/README.md) |
+| **15 minutes** | [Final Project write-up](FINAL_PROJECT_FORENSIC_INVESTIGATION.md) + skim [Weeks 1–12 summaries](WEEKLY_SUMMARY.md) |
+| **30 minutes** | Open three labs: [Lab 21 Chain of Custody](assignments/README.md#lab-21--chain-of-custody-week-2) (procedural rigor) · [Lab 04 Registry](assignments/README.md#lab-04--windows-registry-forensics-week-9) (technical depth) · [Lab 17 Log Analysis](assignments/README.md#lab-17--log-capturing-and-interpretation-week-12) (timeline reconstruction) |
+| **60 minutes** | [Learning Reflection](LEARNING_REFLECTION.md) — how this course maps to **SOC Analyst**, **DFIR Consultant**, and **Incident Responder** roles |
 
 ---
 
@@ -61,20 +77,6 @@
 | 12 | Mar 31 | Log Capturing & Interpretation (Final) | [Lab 17 ✓](assignments/README.md#lab-17--log-capturing-and-interpretation-week-12) |
 
 Full narrative: **[WEEKLY_SUMMARY.md](WEEKLY_SUMMARY.md)**
-
----
-
-## 🎯 How to Review This Portfolio
-
-**5 minutes** — Scan the [Key Achievements](#-key-achievements) table above and the [Lab Index](assignments/README.md).
-
-**15 minutes** — Open the [Final Project](FINAL_PROJECT_FORENSIC_INVESTIGATION.md) and read Phase 1 (case intake) through Phase 4 (expert report).
-
-**30 minutes** — Read 3 labs side-by-side:
-
-- [Lab 21 Chain of Custody](assignments/README.md#lab-21--chain-of-custody-week-2) (procedural rigor)
-- [Lab 04 Registry Forensics](assignments/README.md#lab-04--windows-registry-forensics-week-9) (technical depth)
-- [Lab 17 Log Analysis](assignments/README.md#lab-17--log-capturing-and-interpretation-week-12) (timeline reconstruction)
 
 ---
 

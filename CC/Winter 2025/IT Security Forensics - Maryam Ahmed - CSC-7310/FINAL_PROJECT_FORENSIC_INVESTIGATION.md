@@ -43,6 +43,34 @@ flowchart TD
 
 **Skills applied:** [Lab 21 — Chain of Custody](assignments/README.md#lab-21--chain-of-custody-week-2)
 
+### Evidence Handoff Sequence
+
+```mermaid
+sequenceDiagram
+    participant DO as Det. Officer
+    participant LM as Lab Manager
+    participant FE as Forensic Examiner
+    participant EL as Evidence Locker
+
+    DO->>LM: Submit evidence + warrant scope
+    Note over DO,LM: Sealed bag, tag #2025-0115-A,<br/>Hitachi 500GB HDD SN:WD-42A7B3
+
+    LM->>EL: Log into evidence locker
+    Note over LM,EL: Intake timestamp: 2025-01-15 08:30 UTC<br/>Seal #: TE-20250115-001
+
+    LM->>FE: Assign case + hand over evidence
+    Note over LM,FE: Custody form signed by both parties<br/>Seal integrity verified ✓
+
+    FE->>FE: Create forensic image (E01)
+    Note over FE: MD5: a3f2...b8c1<br/>SHA-256: 907d...fc42<br/>Working copy created
+
+    FE->>EL: Return original to locker
+    Note over FE,EL: Re-sealed: TE-20250115-002<br/>Analysis continues on working copy
+
+    FE->>LM: Submit report + evidence
+    LM->>DO: Release evidence + final report
+```
+
 - Documented evidence tag, serial number, intake date/time, seizure officer.
 - Recorded forensic image source, destination, hash values (MD5 + SHA-256).
 - Established case questions to scope investigation:
@@ -85,6 +113,16 @@ flowchart TD
 - Multiple sensitive documents deleted minutes before a known logoff.
 - Timestamps in `$I` files aligned with logoff events in Security.evtx.
 
+**Concrete artifact excerpts (from investigation):**
+
+| Artifact | Source | Detail |
+|---|---|---|
+| `$IQXR3F2.xlsx` | `$Recycle.Bin\S-1-5-21-...` | Original path: `C:\Users\jdoe\Documents\Q4-Budget-Confidential.xlsx` · Size: 142,336 bytes · Deleted: `2025-01-15 09:24:31 UTC` |
+| `$IQXR3F3.docx` | `$Recycle.Bin\S-1-5-21-...` | Original path: `C:\Users\jdoe\Documents\HR-Salary-Review.docx` · Size: 28,672 bytes · Deleted: `2025-01-15 09:24:58 UTC` |
+| `$IQXR3F4.pdf` | `$Recycle.Bin\S-1-5-21-...` | Original path: `C:\Users\jdoe\Desktop\BoardMeeting-Draft.pdf` · Size: 512,000 bytes · Deleted: `2025-01-15 09:25:12 UTC` |
+
+All three deletions occurred within a 41-second window — 1 minute before the Security.evtx logoff event (4634) at 09:25:55 UTC. The `$R` files were recoverable, confirming content matched file names.
+
 ---
 
 ## Phase 4 — Windows Registry Analysis
@@ -108,6 +146,15 @@ Extracted and analyzed the following hives:
 - ShellBags preserve browse history for folders the user opened (including deleted folders).
 - RecentDocs shows what document extensions / filenames were opened.
 
+**Concrete artifact excerpts (from investigation):**
+
+| Hive | Key Path | Forensic Value |
+|---|---|---|
+| SYSTEM | `ControlSet001\Enum\USBSTOR\Disk&Ven_SanDisk&Prod_Cruzer&Rev_1.00\20240615AA` | SanDisk Cruzer USB first connected `2025-01-15 09:18:02 UTC`; serial `20240615AA` — matches timeline of file access |
+| NTUSER.DAT | `Software\Microsoft\Windows\CurrentVersion\Explorer\UserAssist\{CEBFF5CD...}\Count` | ROT-13 decoded: `{F4E57C4B...}\Explorer.EXE` — 47 launches; last run `2025-01-15 09:17:44 UTC` |
+| NTUSER.DAT | `Software\Microsoft\Windows\CurrentVersion\Explorer\RecentDocs\.xlsx` | MRU[0]: `Q4-Budget-Confidential.xlsx` — opened `2025-01-15 09:22:16 UTC`, 2 minutes before deletion |
+| UsrClass.dat | `Local Settings\Software\...\BagMRU\1\0` | ShellBag: `F:\Confidential\Payroll` — folder browsed at `09:21 UTC` on a removable drive matching the USBSTOR entry |
+
 ---
 
 ## Phase 5 — Event Log Analysis
@@ -126,6 +173,19 @@ Parsed these `.evtx` files:
 - Any log-clearing events (1102 / 104) flagged as anti-forensics indicators.
 - USB plug events from registry correlated with file-copy indicators in security log.
 
+**Concrete correlation findings:**
+
+| Timestamp (UTC) | Source | Event | Forensic Significance |
+|---|---|---|---|
+| `2025-01-15 09:14:22` | Security.evtx (4624) | Interactive logon — `jdoe`, Logon Type 2 | Session start; all subsequent activity attributed to this user |
+| `2025-01-15 09:18:02` | USBSTOR registry | SanDisk Cruzer `SN:20240615AA` first connected | Removable media introduced — potential exfiltration vector |
+| `2025-01-15 09:21:44` | ShellBags | Browsed `F:\Confidential\Payroll` | User navigated to sensitive directory on USB drive |
+| `2025-01-15 09:22:16` | RecentDocs | Opened `Q4-Budget-Confidential.xlsx` | Sensitive file accessed from USB |
+| `2025-01-15 09:24:31` | $Recycle.Bin `$I` | Deleted `Q4-Budget-Confidential.xlsx` (142 KB) | First of 3 deletions in 41-second burst |
+| `2025-01-15 09:25:12` | $Recycle.Bin `$I` | Deleted `BoardMeeting-Draft.pdf` (512 KB) | Last deletion — 43 seconds before logoff |
+| `2025-01-15 09:25:55` | Security.evtx (4634) | Logoff — `jdoe` | Session ended immediately after deletions |
+| *(not found)* | Security.evtx (1102) | *(no log-clearing event detected)* | No anti-forensics detected — user did not attempt to cover tracks in logs |
+
 ---
 
 ## Phase 6 — Timeline Reconstruction
@@ -137,13 +197,13 @@ Produced a unified CSV/spreadsheet timeline containing:
 ```text
 Timestamp (UTC)  | Source          | Event ID | User     | Description
 2025-01-15 09:14 | Security.evtx   | 4624     | jdoe     | Interactive logon from workstation
-2025-01-15 09:18 | USBSTOR         | n/a      | SYSTEM   | USB SanDisk SN:20240615 first connected
+2025-01-15 09:18 | USBSTOR         | n/a      | SYSTEM   | USB SanDisk SN:20240615AA first connected
 2025-01-15 09:22 | ShellBags       | n/a      | jdoe     | Browsed F:\Confidential\Payroll
-2025-01-15 09:24 | $Recycle.Bin    | n/a      | jdoe     | Deleted 3 files from F:\...
+2025-01-15 09:24 | $Recycle.Bin    | n/a      | jdoe     | Deleted 3 files from C:\Users\jdoe\Documents
 2025-01-15 09:25 | Security.evtx   | 4634     | jdoe     | Logoff
 ```
 
-Illustrative format — actual timeline populated from live case data.
+**Investigative conclusion:** The 11-minute session shows a deliberate pattern: logon → USB insertion → navigate to sensitive folder → access confidential files → delete 3 files in rapid succession → logoff. The absence of log-clearing events (1102) suggests the user was unaware that deletion from the Recycle Bin leaves recoverable `$I`/`$R` metadata. All artifact sources corroborate the same narrative independently.
 
 ---
 

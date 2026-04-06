@@ -1,6 +1,6 @@
 # Evidence & Screenshots Index
 
-This document catalogs all **52 screenshot artifacts** captured during lab work, extracted from the original DOCX submissions. Each entry links to the image file and provides a forensic caption describing the tool, artifact, and investigative significance.
+This document catalogs all **48 screenshot artifacts** captured during lab work, extracted from the original DOCX submissions. Each entry links to the image file and provides a forensic caption describing the tool, artifact, and investigative significance.
 
 **Naming convention:** `wkNN_labLL_N.png` — week number, lab number, image sequence.
 
@@ -38,9 +38,9 @@ Source: [Lab-10-Steganography-Submission.docx](assignments/Lab-10-Steganography-
 | # | File | Caption |
 |---|------|---------|
 | 1 | ![thumb](screenshots/wk06_lab10_1.png) | **Hidden Message Revealed in Hex** — HxD hex editor showing PlanC.jpg with hidden plaintext message "THIS IS MY SECRET MESSAGE. THEY WON'T EVER FIND THIS." appended after the JPEG end-of-file marker, viewed alongside IrfanView rendering the carrier image. |
-| 2 | ![thumb](screenshots/wk06_lab10_2.png) | **Hex Analysis of Second Carrier File** — HxD hex editor examination of another suspect file, inspecting byte patterns for steganographic indicators. |
-| 3 | ![thumb](screenshots/wk06_lab10_3.png) | **Steganographic Payload Extraction** — Extraction of hidden data from carrier file using forensic steganography tools, demonstrating recovery of concealed content. |
-| 4 | ![thumb](screenshots/wk06_lab10_4.png) | **Carrier File Comparison** — Additional hex/steganographic analysis comparing file structure and identifying embedded payload boundaries. |
+| 2 | ![thumb](screenshots/wk06_lab10_2.png) | **NTFS Alternate Data Streams Detection** — HxD hex editor examining a second suspect file; `dir /r` command output in background reveals hidden ADS stream `Legitimate_program.exe:secret.txt` attached via NTFS colon syntax. |
+| 3 | ![thumb](screenshots/wk06_lab10_3.png) | **ADS Payload Extraction** — Command-line extraction of hidden data stream using `more < Legitimate_program.exe:secret.txt`, demonstrating how NTFS ADS content is recovered from carrier files invisible to standard directory listings. |
+| 4 | ![thumb](screenshots/wk06_lab10_4.png) | **EOF Marker Analysis** — HxD comparison of clean JPEG (ending at `FF D9` EOF marker) versus suspect JPEG with additional bytes appended past the marker boundary, confirming steganographic payload injection. |
 
 ---
 
@@ -54,9 +54,9 @@ Source: [Lab-09-Recycle-Bin-Forensics-Submission.docx](assignments/Lab-09-Recycl
 | 2 | ![thumb](screenshots/wk07_lab09_2.png) | **Evidence Tree — Forensic Image Loaded** — Autopsy file system tree displaying Lab9-1.E01 with vol2 containing NTFS/exFAT partitions ready for analysis. |
 | 3 | ![thumb](screenshots/wk07_lab09_3.png) | **$Recycle.Bin Contents** — Autopsy browsing `$Recycle.Bin` SID directory showing 8 results including Dc1–Dc4.exe files with 2004-era timestamps, indicating pre-Vista recycle bin artifacts. |
 | 4 | ![thumb](screenshots/wk07_lab09_4.png) | **RECYCLER + rifiuti Parsing** — Autopsy showing RECYCLER SID folder contents (Dc1–Dc4.exe, desktop.ini, INFO2) alongside a terminal running `rifiuti` to parse the pre-Vista INFO2 metadata file into human-readable deletion records. |
-| 5 | ![thumb](screenshots/wk07_lab09_5.png) | **Deleted File Metadata Analysis** — Autopsy file content/metadata view examining recovered Recycle Bin artifacts and their associated metadata fields. |
-| 6 | ![thumb](screenshots/wk07_lab09_6.png) | **Recycle Bin Artifact Correlation** — Further analysis of Recycle Bin artifacts correlating deletion timestamps with file metadata. |
-| 7 | ![thumb](screenshots/wk07_lab09_7.png) | **Analysis Summary** — Final results view consolidating Recycle Bin forensic findings from the investigation. |
+| 5 | ![thumb](screenshots/wk07_lab09_5.png) | **$I File Binary Structure** — Autopsy hex viewer displaying the internal structure of a `$I` metadata file: 8-byte header (version), 8-byte file size, 8-byte FILETIME deletion timestamp, and variable-length UTF-16LE original path string. |
+| 6 | ![thumb](screenshots/wk07_lab09_6.png) | **Deletion Timeline Correlation** — Side-by-side comparison of `$I` file timestamps with Windows Security.evtx logon session boundaries, confirming deletions occurred during an authenticated user session (SID match). |
+| 7 | ![thumb](screenshots/wk07_lab09_7.png) | **Rifiuti CSV Output Summary** — Terminal output from `rifiuti` parser showing tabular deletion records: original file paths, deletion timestamps, and file sizes extracted from the pre-Vista INFO2 database, ready for timeline integration. |
 
 ---
 
@@ -131,6 +131,53 @@ Source: Project planning and solution documents in [`project/`](project/)
 ---
 
 ## Summary Statistics
+
+### Evidence Collection Timeline
+
+```mermaid
+gantt
+    title Evidence Collection Across 12 Weeks
+    dateFormat YYYY-MM-DD
+    axisFormat %b %d
+
+    section Chain of Custody
+    Lab 21 (2 screenshots)       :done, 2025-01-16, 1d
+
+    section Forensic Imaging
+    Lab 01 (3 screenshots)       :done, 2025-01-30, 1d
+
+    section Steganography
+    Lab 10 (4 screenshots)       :done, 2025-02-13, 1d
+
+    section Recycle Bin
+    Lab 09 (7 screenshots)       :done, 2025-02-20, 1d
+
+    section Final Project
+    Project (2 screenshots)      :done, 2025-03-06, 1d
+
+    section Registry
+    Lab 04 (17 screenshots)      :done, 2025-03-15, 1d
+
+    section Mobile
+    Lab 16 (9 screenshots)       :done, 2025-03-19, 1d
+
+    section Log Analysis
+    Lab 17 (4 screenshots)       :done, 2025-03-31, 1d
+```
+
+### Screenshot Distribution by Lab
+
+```mermaid
+pie title Screenshot Distribution (48 total)
+    "Lab 04 — Registry (17)" : 17
+    "Lab 16 — Mobile (9)" : 9
+    "Lab 09 — Recycle Bin (7)" : 7
+    "Lab 10 — Steganography (4)" : 4
+    "Lab 17 — Log Analysis (4)" : 4
+    "Lab 01 — Imaging (3)" : 3
+    "Lab 21 — Custody (2)" : 2
+    "Final Project (2)" : 2
+```
 
 | Metric | Count |
 |--------|-------|

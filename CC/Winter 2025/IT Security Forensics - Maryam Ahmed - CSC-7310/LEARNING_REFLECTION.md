@@ -165,7 +165,7 @@ flowchart LR
     C -.- C1[GCFE — GIAC Certified Forensic Examiner]
     C -.- C2[EnCE — EnCase Certified Examiner]
     D -.- D1[GCFA — GIAC Certified Forensic Analyst]
-    D -.- D2[CCFP — Certified Cyber Forensics Professional]
+    D -.- D2[CFCE — Certified Forensic Computer Examiner]
     D -.- D3[GNFA — GIAC Network Forensic Analyst]
 ```
 
@@ -176,12 +176,12 @@ flowchart LR
 | **GCFE** | GIAC / SANS | Windows forensic analysis (FOR500) | None — exam-based |
 | **EnCE** | OpenText (formerly Guidance) | EnCase forensic suite proficiency | 64 hrs training or 12 months experience |
 | **GCFA** | GIAC / SANS | Advanced forensic analysis (FOR508) | None — exam-based; best with GCFE first |
-| **CCFP** | (ISC)² | Multi-domain forensic management | 3 yrs experience in 3 of 6 domains |
+| **CFCE** | IACIS (Int'l Assoc. of Computer Investigative Specialists) | Full-spectrum forensic examination — peer-reviewed practical + written exam | 1 yr experience; IACIS training course |
 | **GNFA** | GIAC / SANS | Network forensics and packet analysis | None — exam-based |
 
 - **Short term** (next 3 months): Complete Autopsy certification (free), practice 3 publicly-available CTF forensic challenges, obtain ACE certification.
 - **Medium term** (6–12 months): GCFE (GIAC Certified Forensic Examiner) or CHFI (EC-Council) — whichever aligns with target employers.
-- **Long term** (1–3 years): GCFA (GIAC Certified Forensic Analyst) + EnCE for tool-specific credentialing, then CCFP for management-track positioning.
+- **Long term** (1–3 years): GCFA (GIAC Certified Forensic Analyst) + EnCE for tool-specific credentialing, then CFCE (IACIS) for peer-reviewed forensic certification. *(Note: The (ISC)² CCFP was retired in 2021; CFCE is the current equivalent for experienced examiners.)*
 
 ---
 

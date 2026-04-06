@@ -155,7 +155,9 @@ No lecture or lab this week.
 
 ## Week 9 — Windows Registry Deep-Dive
 
-**Date:** March 15, 2025 (no lecture; continuation of Week 8)
+**Date:** March 15, 2025 (no live lecture; asynchronous lab continuation from Week 8)
+
+**Source material:** NDG Lab 04 instructions + Week 8 lecture on Windows Registry structure.
 
 **Topics:**
 
@@ -182,6 +184,8 @@ No lecture or lab this week.
 ## Week 10 — Mobile Forensics
 
 **Date:** March 19, 2025 (asynchronous — lab only)
+
+**Source material:** NDG Lab 16 instructions + supplementary readings on NIST SP 800-101 mobile forensics guidelines.
 
 **Topics:**
 
@@ -222,6 +226,8 @@ No lecture or lab this week.
 
 **Date:** March 31, 2025 (asynchronous — lab only)
 
+**Source material:** NDG Lab 17 instructions + Week 11 lecture on network forensics and IR workflow.
+
 **Topics:**
 
 - System log sources: Windows Event Logs, Syslog (Linux/Unix), application logs (Apache, IIS), security appliance logs.
@@ -259,6 +265,72 @@ The project is positioned at Week 8 (not Week 12) because **integration is the t
 
 ## Cumulative Learning Outcomes
 
+### Skill Progression by Week
+
+```mermaid
+flowchart LR
+    subgraph "Weeks 1–2: Foundation"
+        S1[Legal Framework]
+        S2[Chain of Custody]
+    end
+
+    subgraph "Weeks 4–5: Acquisition"
+        S3[Forensic Imaging]
+        S4[Hash Verification]
+        S5[Forensic Triage]
+    end
+
+    subgraph "Weeks 6–7: Artifact Analysis"
+        S6[File System Analysis]
+        S7[Steganography Detection]
+        S8[Email Forensics]
+        S9[Recycle Bin Forensics]
+    end
+
+    subgraph "Week 8: Integration"
+        S10[Multi-phase Investigation]
+        S11[Expert Report Writing]
+    end
+
+    subgraph "Weeks 9–10: Advanced"
+        S12[Registry Deep-Dive]
+        S13[Mobile Forensics]
+    end
+
+    subgraph "Weeks 11–12: Capstone"
+        S14[Network Forensics]
+        S15[Log Analysis]
+        S16[Timeline Reconstruction]
+        S17[Incident Response]
+    end
+
+    S1 --> S3
+    S2 --> S3
+    S3 --> S6
+    S4 --> S6
+    S5 --> S6
+    S6 --> S10
+    S7 --> S10
+    S8 --> S10
+    S9 --> S10
+    S10 --> S12
+    S11 --> S12
+    S12 --> S14
+    S13 --> S14
+    S14 --> S16
+    S15 --> S16
+    S16 --> S17
+```
+
+| Week | Cumulative Skills | New Capabilities Added |
+|---|---|---|
+| 1–2 | 2 | Legal authority, evidence lifecycle |
+| 4–5 | 5 | Imaging, hashing, on-scene triage |
+| 6–7 | 9 | File systems, steganography, email, Recycle Bin |
+| 8 | 11 | End-to-end investigation, expert reporting |
+| 9–10 | 13 | Registry deep-dive, mobile acquisition |
+| 11–12 | 17 | Network, logs, timeline reconstruction, IR |
+
 After 12 weeks, the course delivered a complete forensic practitioner foundation:
 
 1. **Legal-technical integration.** Every forensic action begins with legal authority and ends with a defensible report. Technical skill without legal compliance is wasted effort.
@@ -278,6 +350,14 @@ Selected quotes from Dr. Maryam Ahmed that shaped the course philosophy:
 > *"As forensic experts, you are working on evidence. If you do not follow the necessary procedure, I mean, the whole evidence is gone."* — Week 2
 
 > *"The more experience you have, the more you collaborate with other people who have better experience, the more you are involved in workshops — it would always help in deductive reasoning."* — Week 4
+
+> *"If they do not match — even if just one thing doesn't match — it shows that something has been altered. If anything is altered in the document, the hashes definitely wouldn't match."* — Week 5, on hash verification
+
+> *"The lock should be given equal safety measures just as the evidence itself. Keep it in an anti-static bag — very important, because digital devices can easily get corrupted."* — Week 5, on physical evidence preservation
+
+> *"There's always this fight between recovery and forensic. In forensic, you want to preserve the evidence. Recovery is like, 'I need to restore the system back to how it used to be.' If you recover the system, don't expect that you can perform forensic on a recovered system."* — Week 11, on the IR dilemma
+
+> *"Failure to preserve the forensic information would prevent the IT team from effectively evaluating the cause of the incident. You won't have evidence to modify company policies or reduce risk."* — Week 11, on the strategic value of forensics
 
 > *"I've experienced a firsthand case of people having a backup on the same site. That is not a backup — it's something else. Your off-site backup is just very potent."* — Week 11
 

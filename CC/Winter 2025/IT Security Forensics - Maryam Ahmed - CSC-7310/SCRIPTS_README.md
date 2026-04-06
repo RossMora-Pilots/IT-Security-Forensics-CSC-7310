@@ -8,6 +8,24 @@ Forensic automation scripts for this course. Student-authored scripts live in [`
 
 ## Student-Created Scripts (`scripts/`)
 
+### Where Each Script Fits in the Investigation Pipeline
+
+```mermaid
+flowchart LR
+    A[Evidence Seized] --> B[verify_image_hash.sh<br/>Integrity check]
+    B --> C[extract_registry_hives.sh<br/>Hive extraction + SHA-256 manifest]
+    C --> D[parse_recycle_bin.py<br/>Deleted file recovery + CSV]
+    C --> E[event_log_timeline.ps1<br/>Security/System log → timeline CSV]
+    D --> F[Timeline Reconstruction<br/>Cross-source correlation]
+    E --> F
+    F --> G[Expert Report]
+
+    style B fill:#1f6feb,stroke:#1f6feb,color:#fff
+    style C fill:#1f6feb,stroke:#1f6feb,color:#fff
+    style D fill:#1f6feb,stroke:#1f6feb,color:#fff
+    style E fill:#1f6feb,stroke:#1f6feb,color:#fff
+```
+
 ### [`verify_image_hash.sh`](scripts/verify_image_hash.sh)
 
 **Purpose:** Verify the MD5 and SHA-256 of a forensic image against an expected value (from the acquisition log).
@@ -22,8 +40,8 @@ Forensic automation scripts for this course. Student-authored scripts live in [`
 
 ```bash
 ./scripts/verify_image_hash.sh evidence/case001.E01 \
-    d41d8cd98f00b204e9800998ecf8427e \
-    e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+    cffd56d3f3e9b19aad7f973f5611ef38 \
+    907d13db2bb9181d4d82f5b9ed322d33444e6c0073b650ace8b1dcaba28fc421
 ```
 
 **Exit codes:** `0` = both hashes match, `1` = hash mismatch (evidence compromised), `2` = tool error.
@@ -37,11 +55,11 @@ Verifying: evidence/case001.E01
 File size: 2147483648 bytes
 
 Computing MD5...
-  Expected: d41d8cd98f00b204e9800998ecf8427e
-  Actual:   d41d8cd98f00b204e9800998ecf8427e
+  Expected: cffd56d3f3e9b19aad7f973f5611ef38
+  Actual:   cffd56d3f3e9b19aad7f973f5611ef38
 Computing SHA-256...
-  Expected: e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
-  Actual:   e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855
+  Expected: 907d13db2bb9181d4d82f5b9ed322d33444e6c0073b650ace8b1dcaba28fc421
+  Actual:   907d13db2bb9181d4d82f5b9ed322d33444e6c0073b650ace8b1dcaba28fc421
 
 VERIFIED: Both hashes match. Evidence integrity preserved.
 ```
@@ -186,6 +204,12 @@ RECmd.exe -d "C:\evidence\hives" --bn "BatchExamples\Kroll_Batch.reb" --csv regi
 ## Validation / Linting
 
 Scripts in `scripts/` pass [ShellCheck](https://www.shellcheck.net/) validation via the [Portfolio CI workflow](../../../.github/workflows/portfolio-ci.yml).
+
+**Unit tests:** The Recycle Bin parser includes a comprehensive pytest suite ([`test_parse_recycle_bin.py`](scripts/test_parse_recycle_bin.py)) with 10 test cases covering both Vista and Win10+ binary formats, malformed input handling, and CSV output validation. Run with:
+
+```bash
+pytest scripts/test_parse_recycle_bin.py -v
+```
 
 Run locally:
 
