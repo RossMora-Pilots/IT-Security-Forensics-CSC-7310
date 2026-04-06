@@ -4,9 +4,9 @@ permissions:
   pull-requests: read
 on:
   push:
-    branches: [ main ]
+    branches: [ main, master ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, master ]
 jobs:
   gitleaks:
     runs-on: ubuntu-latest

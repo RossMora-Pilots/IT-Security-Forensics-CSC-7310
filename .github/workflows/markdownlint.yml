@@ -1,9 +1,9 @@
 name: Markdown Lint
 on:
   push:
-    branches: [ main ]
+    branches: [ main, master ]
   pull_request:
-    branches: [ main ]
+    branches: [ main, master ]
 jobs:
   markdownlint:
     runs-on: ubuntu-latest
