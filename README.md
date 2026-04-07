@@ -137,4 +137,4 @@ This course is one of **11 courses** in the program. Related course portfolios i
 - **Program:** Postgraduate Cybersecurity Certificate, Cambrian College (graduating 2025)
 - **Focus areas:** DFIR, SOC analysis, infrastructure security, forensic automation
 - **GitHub:** [@RossMora](https://github.com/RossMora)
-- **LinkedIn:** [linkedin.com/in/rossmoravec](https://linkedin.com/in/rossmoravec)
+- **LinkedIn:** [linkedin.com/in/ross-moravec](https://linkedin.com/in/ross-moravec)

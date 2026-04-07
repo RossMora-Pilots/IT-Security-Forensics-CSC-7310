@@ -12,7 +12,7 @@
 
 Ross Moravec — cybersecurity postgraduate candidate with a background in IT infrastructure and a focus on digital forensics and incident response. This portfolio documents hands-on forensic investigation skills developed through Cambrian College's Cybersecurity Certificate program (Winter 2025), including evidence handling, Windows artifact analysis, scripting automation, and expert report writing.
 
-📧 [rossmoravec@email.com](mailto:rossmoravec@email.com) · 🔗 [LinkedIn](https://linkedin.com/in/rossmoravec) · 💻 [GitHub](https://github.com/RossMora)
+📧 [rossmoravec@email.com](mailto:rossmoravec@email.com) · 🔗 [LinkedIn](https://linkedin.com/in/ross-moravec) · 💻 [GitHub](https://github.com/RossMora)
 
 ---
 
