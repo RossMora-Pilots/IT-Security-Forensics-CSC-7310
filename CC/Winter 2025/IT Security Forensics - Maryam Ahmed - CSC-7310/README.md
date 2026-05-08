@@ -1,6 +1,6 @@
 # IT Security Forensics — CSC-7310
 
-![Portfolio CI](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/portfolio-ci.yml/badge.svg)
+![Portfolio CI](https://github.com/RossMora-Pilots/IT-Security-Forensics-CSC-7310/actions/workflows/portfolio-ci.yml/badge.svg)
 
 > **Course portfolio** — Postgraduate Cybersecurity Certificate, Cambrian College (Winter 2025).
 > Instructor: **Dr. Maryam Ahmed**. Student: Ross Moravec (A00322717).

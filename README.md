@@ -1,10 +1,10 @@
 # 408-Forensics — IT Security Forensics (CSC-7310) Portfolio
 
-[![CI](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/ci.yml/badge.svg)](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/ci.yml)
-[![Portfolio CI](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/portfolio-ci.yml/badge.svg)](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/portfolio-ci.yml)
-[![Markdown Lint](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/markdownlint.yml/badge.svg)](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/markdownlint.yml)
-[![Gitleaks](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/gitleaks.yml/badge.svg)](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/gitleaks.yml)
-[![PM Evidence](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/pm-evidence.yml/badge.svg)](https://github.com/RossMora/408-forensics-csc7310-cambrian/actions/workflows/pm-evidence.yml)
+[![CI](https://github.com/RossMora-Pilots/IT-Security-Forensics-CSC-7310/actions/workflows/ci.yml/badge.svg)](https://github.com/RossMora-Pilots/IT-Security-Forensics-CSC-7310/actions/workflows/ci.yml)
+[![Portfolio CI](https://github.com/RossMora-Pilots/IT-Security-Forensics-CSC-7310/actions/workflows/portfolio-ci.yml/badge.svg)](https://github.com/RossMora-Pilots/IT-Security-Forensics-CSC-7310/actions/workflows/portfolio-ci.yml)
+[![Markdown Lint](https://github.com/RossMora-Pilots/IT-Security-Forensics-CSC-7310/actions/workflows/markdownlint.yml/badge.svg)](https://github.com/RossMora-Pilots/IT-Security-Forensics-CSC-7310/actions/workflows/markdownlint.yml)
+[![Gitleaks](https://github.com/RossMora-Pilots/IT-Security-Forensics-CSC-7310/actions/workflows/gitleaks.yml/badge.svg)](https://github.com/RossMora-Pilots/IT-Security-Forensics-CSC-7310/actions/workflows/gitleaks.yml)
+[![PM Evidence](https://github.com/RossMora-Pilots/IT-Security-Forensics-CSC-7310/actions/workflows/pm-evidence.yml/badge.svg)](https://github.com/RossMora-Pilots/IT-Security-Forensics-CSC-7310/actions/workflows/pm-evidence.yml)
 
 > Public portfolio of digital forensics coursework from the **Postgraduate Cybersecurity Certificate** at **Cambrian College, Sudbury, Ontario**. Winter 2025. Instructor: **Dr. Maryam Ahmed**.
 
