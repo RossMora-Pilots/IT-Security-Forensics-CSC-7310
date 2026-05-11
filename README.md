@@ -10,6 +10,9 @@
 
 ---
 
+> 📧 [ross@moravec.dev](mailto:ross@moravec.dev) · 🔗 [LinkedIn /in/rossmoravec](https://www.linkedin.com/in/rossmoravec/) · 📁 [Portfolio Umbrella](https://github.com/RossMora-Pilots/cybersecurity-postgraduate-certificate-cambrian-college-ontario)
+
+
 ## 🚀 Quick Start for Hiring Managers
 
 **If you have 5 minutes:**
